@@ -2,7 +2,7 @@ import java.io.File;
 
 import org.apache.maven.plugin.testing.AbstractMojoTestCase;
 import org.apache.maven.project.MavenProject;
-import org.github.based2.maven.plugin.securityChecker.MavenSecurityChecker;
+import org.github.based2.maven.plugin.checker.Checker;
 import org.junit.Test;
 import org.mockito.Mockito;
 import org.sonatype.aether.RepositorySystemSession;
@@ -10,10 +10,10 @@ import org.sonatype.aether.repository.LocalRepository;
 
 // http://trac.fazend.com/rexsl/browser/rexsl/branches/ticket3/rexsl/rexsl-maven-plugin/src/test/java/com/rexsl/maven/CheckMojoTest.java?rev=34
 
-public final class MavenSecurityCheckerTest extends AbstractMojoTestCase {
+public final class CheckerTest extends AbstractMojoTestCase {
 	    @Test
 	    public void testMojoGoal() throws Exception {
-	        final MavenSecurityChecker mojo = this.mojo();
+	        final Checker mojo = this.mojo();
 	        mojo.execute();
 	    }
 
@@ -22,13 +22,13 @@ public final class MavenSecurityCheckerTest extends AbstractMojoTestCase {
 	     * @return The MOJO just created
 	     * @throws Exception If something goes wrong inside
 	     */
-	    private MavenSecurityChecker mojo() throws Exception {
+	    private Checker mojo() throws Exception {
 	    	File pom = getTestFile( "src/test/resources/pom1.xml" );
 	        assertNotNull( pom );
 	        assertTrue( pom.exists() );
 	        
 	        
-	        final MavenSecurityChecker mojo = new MavenSecurityChecker();
+	        final Checker mojo = new Checker();
 	        final MavenProject project = Mockito.mock(MavenProject.class);
 	        Mockito.doReturn(new File(".")).when(project).getBasedir();
 	        //Mockito.doReturn("war").when(project).getPackaging();

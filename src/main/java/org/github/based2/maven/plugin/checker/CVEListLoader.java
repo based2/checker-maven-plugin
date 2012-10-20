@@ -9,8 +9,8 @@ import java.util.Map;
 import org.apache.maven.plugin.logging.Log;
 import org.codehaus.plexus.logging.console.ConsoleLogger;
 import org.codehaus.plexus.util.FastMap;
-import org.github.based2.maven.plugin.securityChecker.data.FixInfo;
-import org.github.based2.maven.plugin.securityChecker.data.Info;
+import org.github.based2.maven.plugin.checker.data.FixInfo;
+import org.github.based2.maven.plugin.checker.data.Info;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.core.JsonParser;
