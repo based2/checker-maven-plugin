@@ -1,5 +1,9 @@
 package org.github.based2.maven.plugin.checker;
 
+import com.fasterxml.jackson.core.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Field;
@@ -7,25 +11,25 @@ import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.maven.plugin.logging.Log;
-
-import com.fasterxml.jackson.core.JsonFactory;
-import com.fasterxml.jackson.core.JsonParseException;
-import com.fasterxml.jackson.core.JsonParser;
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.core.JsonToken;
-
+/**
+ * Json reader tool using JSON token and supporting array auto-loading.
+ *
+ * TODO tests cases
+ * TODO Should be in com.fasterxml.jackson.core ;-)
+ */
 public class JsonReader {
-  private static Log LOG = null;
+  private static Logger LOG = LoggerFactory.getLogger(JsonReader.class);
+
   private JsonParser jp;
   private JsonToken token;
   private String _contextMessage = "context name:";
+  private boolean isDebug = true;
+  private boolean isExitOnError = true;
 
   private String _contextValue = "";
   private Object _contextObject;
 
   public JsonReader(File file) {
-    LOG = new MockLog();
     JsonFactory f = new JsonFactory();
     f.enable(JsonParser.Feature.ALLOW_COMMENTS);
     try {
@@ -37,27 +41,31 @@ public class JsonReader {
     }
   }
 
+   public JsonReader(File file, boolean isDebug, boolean isExitOnError) {
+       this(file);
+       isDebug=isDebug;
+       isExitOnError=isExitOnError;
+    }
+
   public JsonToken next() throws JsonParseException, IOException {
-    token = nextTokenDebug();
-    return token;
+     if (isDebug) {
+        token = nextTokenDebug();
+        return token;
+     } else {
+         return jp.nextToken();
+     }
   }
 
   private void setContextMessage(String contextMessage) {
-
     _contextMessage = contextMessage;
-
   }
 
   void setContexValue(String contextValue) {
-
     _contextValue = contextValue;
-
   }
 
   private void setValue(Object objectLoaded, String attribute, Object value) {
-
     try {
-
       Field field = objectLoaded.getClass().getField(attribute);
 
       try {
@@ -71,19 +79,12 @@ public class JsonReader {
         System.exit(0);
 
       } catch (IllegalAccessException e) {
-
         LOG.error("", e);
-
         System.exit(0);
-
       }
-
       // LOG.debug(attribute + ":" + getter);
-
     } catch (NoSuchFieldException e) {
-
       LOG.error("", e);
-
       LOG.error("List of methods for "
           + objectLoaded.getClass().getCanonicalName() + ":");
 
@@ -94,23 +95,24 @@ public class JsonReader {
         // TODO remove getters
 
         for (int i = 0; i < m.length; i++)
-
           LOG.error(m[i].toString());
-
       } catch (Throwable e2) {
-
-        LOG.error(e2);
-
+        LOG.error("",e2);
         System.exit(0);
-
       }
-
-      System.exit(0);
-
     }
-
   }
 
+    /**
+   * set current token value to the attribute of the current ContextObject (setContextObject)
+   * @param attribute
+   * @throws JsonParseException
+   * @throws IOException
+   * @throws SecurityException
+   * @throws NoSuchFieldException
+   * @throws IllegalArgumentException
+   * @throws IllegalAccessException
+   */
   void set(final String attribute) throws JsonParseException, IOException,
       SecurityException, NoSuchFieldException, IllegalArgumentException,
       IllegalAccessException {
@@ -120,7 +122,9 @@ public class JsonReader {
     if (!attribute.equals(jp.getCurrentName())) {
       LOG.error("Missing mandatory attribute '" + attribute + "', "
           + _contextMessage + _contextValue);
-      System.exit(0);
+     if (isExitOnError)  {
+         System.exit(0);
+     }
     }
 
     setValue(this._contextObject, attribute, jp.getText());
@@ -143,6 +147,16 @@ public class JsonReader {
 
   }
 
+    /**
+     * set current token value: an array, to the attribute of the current ContextObject (setContextObject)
+     * @param attribute
+     * @throws JsonParseException
+     * @throws IOException
+     * @throws SecurityException
+     * @throws NoSuchFieldException
+     * @throws IllegalArgumentException
+     * @throws IllegalAccessException
+     */
   void setArray(final String attribute) throws JsonParseException, IOException,
       SecurityException, NoSuchFieldException, IllegalArgumentException,
       IllegalAccessException {
@@ -186,8 +200,7 @@ public class JsonReader {
   }
 
   // http://www.ngdata.com/site/blog/63-ng.html
-  List setRecordsArray(Class clazz, final String attribute,
-      String[] recordColumn) throws JsonParseException,
+  List setRecordsArray(Class clazz, final String attribute, String[] recordColumn) throws JsonParseException,
       JsonProcessingException, IOException {
 
     JsonToken current = JsonToken.START_ARRAY;

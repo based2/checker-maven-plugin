@@ -1,13 +1,25 @@
 package org.github.based2.maven.plugin.checker;
 
 // http://www.devdaily.com/java/edu/pj/pj010011
-import java.io.BufferedReader;
-import java.io.DataInputStream;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import org.apache.maven.plugin.AbstractMojo;
+import org.apache.maven.plugin.MojoExecutionException;
+import org.apache.maven.plugin.logging.Log;
+import org.apache.maven.project.MavenProject;
+import org.github.based2.maven.plugin.checker.data.FixInfo;
+import org.github.based2.maven.plugin.checker.data.Info;
+import org.sonatype.aether.RepositorySystem;
+import org.sonatype.aether.RepositorySystemSession;
+import org.sonatype.aether.artifact.Artifact;
+import org.sonatype.aether.collection.CollectRequest;
+import org.sonatype.aether.graph.Dependency;
+import org.sonatype.aether.graph.DependencyNode;
+import org.sonatype.aether.repository.RemoteRepository;
+import org.sonatype.aether.resolution.DependencyRequest;
+import org.sonatype.aether.util.artifact.DefaultArtifact;
+import org.sonatype.aether.util.artifact.JavaScopes;
+import org.sonatype.aether.util.graph.PreorderNodeListGenerator;
+
+import java.io.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -20,34 +32,8 @@ import java.util.Map;
 //import org.apache.maven.artifact.resolver.filter.ArtifactFilter;
 //import org.apache.maven.artifact.resolver.filter.ScopeArtifactFilter;
 //import org.apache.maven.artifact.versioning.ArtifactVersion;
-import org.sonatype.aether.RepositorySystem;
-import org.sonatype.aether.RepositorySystemSession;
-import org.sonatype.aether.util.artifact.DefaultArtifact;
-import org.sonatype.aether.util.artifact.JavaScopes;
-import org.sonatype.aether.util.filter.DependencyFilterUtils;
-import org.sonatype.aether.util.graph.PreorderNodeListGenerator;
-import org.apache.maven.execution.MavenSession;
-import org.apache.maven.plugin.AbstractMojo;
-import org.apache.maven.plugin.BuildPluginManager;
-import org.apache.maven.plugin.MojoExecutionException;
-import org.apache.maven.plugin.logging.Log;
-import org.apache.maven.project.MavenProject;
 //import org.apache.maven.repository.legacy.metadata.ArtifactMetadataSource;
-import org.apache.maven.repository.internal.MavenRepositorySystemSession;
-import org.github.based2.maven.plugin.checker.data.FixInfo;
-import org.github.based2.maven.plugin.checker.data.Info;
-import org.sonatype.aether.graph.Dependency;
-import org.sonatype.aether.graph.DependencyFilter;
-import org.sonatype.aether.graph.DependencyNode;
-import org.sonatype.aether.repository.ArtifactRepository;
-import org.sonatype.aether.repository.RemoteRepository;
 //import org.twdata.maven.mojoexecutor.MojoExecutor;
-import org.sonatype.aether.repository.LocalRepository;
-import org.sonatype.aether.resolution.ArtifactResult;
-import org.sonatype.aether.resolution.DependencyRequest;
-import org.sonatype.aether.resolution.DependencyResolutionException;
-import org.sonatype.aether.artifact.Artifact;
-import org.sonatype.aether.collection.CollectRequest;
 
 // https://github.com/TimMoore/mojo-executor/blob/master/mojo-executor/src/test/java/org/twdata/maven/mojoexecutor/MojoExecutorTest.java
 /**
@@ -153,7 +139,7 @@ public class Checker extends AbstractMojo {
 	 */
 	private File javaCVEList;
 
-	private final static String JAVA_CVE_URL = "https://github.com/based2/checker-maven-plugin/data/java_cve.json";
+	private final static String JAVA_CVE_URL = "https://github.com/based2/checker-maven-plugin/src/main/resources/java_cve.json";
 	private final static String JAVA_CVE_FILE = "java_cve.json";
 	// TODO put it on the maven repository M2_HOME
 
@@ -234,6 +220,29 @@ public class Checker extends AbstractMojo {
 
 		return ret;
 	}
+
+    /**
+     // https://github.com/TimMoore/mojo-executor/blob/master/mojo-executor/src/main/java/org/twdata/maven/mojoexecutor/MojoExecutor.java
+     public void loadMavenDependencyTree() {
+     try {
+     MojoExecutor.executeMojo(MojoExecutor.plugin(
+     MojoExecutor.groupId("org.apache.maven.plugins"),
+     MojoExecutor.artifactId("maven-dependency-plugin"),
+     MojoExecutor.version("2.4")), MojoExecutor.goal("tree"), MojoExecutor
+     .configuration(MojoExecutor.element(
+     MojoExecutor.name("outputDirectory"),
+     "${project.build.directory}/target/dependency_tree.txt")),
+     MojoExecutor.executionEnvironment(project, session, pluginManager));
+     } catch (MojoExecutionException e) {
+     LOG.error("", e);
+     }
+
+     Map<String, Integer> dependencies = new TreeMap<String, Integer>();
+
+     // http://maven.apache.org/plugins/maven-dependency-plugin/xref/index.html
+     // DependencyNode rootNode
+     }
+     */
 
 	private Artifact getProjectArtifact() {
 		// @TODO There must be a better way!

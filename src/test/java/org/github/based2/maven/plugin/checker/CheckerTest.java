@@ -1,12 +1,13 @@
-import java.io.File;
+package org.github.based2.maven.plugin.checker;
 
 import org.apache.maven.plugin.testing.AbstractMojoTestCase;
 import org.apache.maven.project.MavenProject;
-import org.github.based2.maven.plugin.checker.Checker;
 import org.junit.Test;
 import org.mockito.Mockito;
 import org.sonatype.aether.RepositorySystemSession;
 import org.sonatype.aether.repository.LocalRepository;
+
+import java.io.File;
 
 // http://trac.fazend.com/rexsl/browser/rexsl/branches/ticket3/rexsl/rexsl-maven-plugin/src/test/java/com/rexsl/maven/CheckMojoTest.java?rev=34
 
@@ -25,8 +26,7 @@ public final class CheckerTest extends AbstractMojoTestCase {
 	    private Checker mojo() throws Exception {
 	    	File pom = getTestFile( "src/test/resources/pom1.xml" );
 	        assertNotNull( pom );
-	        assertTrue( pom.exists() );
-	        
+	        assertTrue(pom.exists());
 	        
 	        final Checker mojo = new Checker();
 	        final MavenProject project = Mockito.mock(MavenProject.class);
