@@ -1,0 +1,17 @@
+TODO
+
+fix CompareVersionTests debugger
+fix relative read of json file in test
+fix dependency read  : Checker main.  GetArtifact
+fix and impl version comparisons
+tests...
+
+add licenses files and headers: FDL, ASLv2
+add test case on a simple project as a module
+add parameters for filtering the list: EOL, os:android...
+
+
+http://maven.apache.org/shared/maven-dependency-analyzer/
+http://maven.apache.org/plugins/maven-dependency-plugin/
+http://maven.apache.org/shared/maven-shared-utils/
+http://maven.apache.org/pom/asf/

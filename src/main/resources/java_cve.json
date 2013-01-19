@@ -6,6 +6,69 @@ Copyright (C)  2012  Basile Chandesris.
     with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.
     A copy of the license is included in the section entitled
     "GNU Free Documentation License".
+
+    TODO add:
+
+        https://jira.terracotta.org/jira/browse/QTZ-43
+         http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-3821
+         http://lucene.472066.n3.nabble.com/jira-Created-SOLR-74-Cross-site-scripting-vulnerabilities-td508803.htmls
+             http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-3821
+
+             http://lucene.472066.n3.nabble.com/jira-Created-SOLR-74-Cross-site-scripting-vulnerabilities-td508803.htmls
+
+             https://issues.apache.org/jira/browse/SOLR-1031
+             https://groups.google.com/forum/#!topic/ajax-solr/ELR8_M4d-uE
+
+             https://bugzilla.redhat.com/show_bug.cgi?id=783898
+             http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-0079
+             http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2010-4444
+
+             http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-1554
+             http://old.nabble.com/Re:--DSECRG--Sun-Glassfish-Multiple-Security-Vulnerabilities-p23002524.html
+
+http://cert.europa.eu/static/SecurityAdvisories/CERT-EU-SA2012-0058.txt   - oracle
+
+             http://cuthbert.sixgun.org/fab/blog/2011/minecraft-vulnerability 21 April, 2011
+
+             http://seclists.org/bugtraq/2012/Apr/133
+             http://seclists.org/bugtraq/2012/Apr/203
+
+             http://lists.forgerock.org/pipermail/openam/2011-July/002434.html
+
+             http://www.reddit.com/r/netsec/comments/syqki/eclipse_projects_autobuild_on_import_executes/ eclipse,vul,autobuild,makefile
+               http://www.cvedetails.com/vulnerability-list/vendor_id-2114/product_id-12592/Liferay-Portal.html
+                              http://stackoverflow.com/questions/398179/findbugs-not-finding-potential-sql-injection-vulnerability
+                              https://issues.apache.org/jira/browse/SHINDIG-906 vul,shindig
+                              http://www.securityfocus.com/bid/17270 2006,blazix,vul
+                              http://xforce.iss.net/xforce/xfdb/49213 tomcat,vul,2009
+                              http://jira.pentaho.com/browse/BISERVER-6244 pentaho,vul,201106
+                              http://www.exploit-db.com/exploits/15918/ vul,openfire,2010
+                              http://cve.mitre.org/cgi-bin/cvename.cgi?name=2012-1243 android,vul,twitrocker2
+                              http://www.xssed.com/mirror/54931/ vul,jahia,2008 - http://www.securityfocus.com/bid/5684 2002
+                              https://issues.onehippo.com/browse/HSTTWO-1514 hippo cms,2011,vul
+                              http://www.mail-archive.com/dspace-tech@lists.sourceforge.net/msg12809.html vul,dspace,201012
+                              http://www.cvedetails.com/vulnerability-list/cvssscoremin-9/cvssscoremax-10/vulnerabilities.html
+                              http://osdir.com/ml/bugtraq.security/2012-04/ vul,source
+                              http://mail-archives.apache.org/mod_mbox/portals-jetspeed-dev/200703.mbox/%3C45E8A22A.3050404@douma.nu%3E jetsepeed,vul
+                              https://blogs.reucon.com/srt/vulnerability-in-apacheds-1-5-10878/ vul,apacheds,ldap
+                              http://www.securiteam.com/securitynews/5YP0E15FFQ.html vul,javamail,1.3.2,2005
+                              http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2007-6059
+                              http://camel.apache.org/camel-272-release.html xss,vul,camel
+                              http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-0026 vul,2009,jackrabbit
+                              http://maven.40175.n5.nabble.com/Nexus-2-0-4-Released-td5666139.html vul,xss,nexus
+
+                                http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-4404
+                                http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-1322 
+                               http://www.cvedetails.com/vulnerability-list/vendor_id-45/cvssscoremin-7/cvssscoremax-7.99/Apache.html
+                               http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-1019
+                               https://jira.kuali.org/browse/KULRICE-2920 kuali rice > rice 1.0 - Fix XSS vulnerability in question framework.d
+                               https://jira.springsource.org/browse/SEC-1285 minor vulnerability in BasicProcessingFilter
+                              https://jira.exoplatform.org/browse/JCR-403 exo jcr > 1.8 1.9 - 2008 - Access manager vulnerability
+
+             
+
+
+
 */
 [{"name": "2012-02-02-tapestry TAP5-1779",
 "level": "MEDIUM",
@@ -118,13 +181,13 @@ Copyright (C)  2012  Basile Chandesris.
 "ifs":[{"impact":   "org.apache.tomcat:catalina:5.5.x", "fix":"5.5.35"}],
 "docs": ["http://tomcat.apache.org/security-5.html#Fixed_in_Apache_Tomcat_5.5.35"]
 },
-{"name":     "2012-openms-19jan",
+{"name":     "2012-01-19-openms",
 "level":     "MEDIUM",
 "description": "remote cross-site scripting (XSS) in OpenNMS before 1.8.17 and 1.10.0",
 "ifs":[{"impact":   "*opennms:1.2.4", "fix": "1.8.17|1.10.0"}],
 "docs": ["http://osvdb.org/show/osvdb/78454"]
 },
-{"name":     "2012-play-4jan",
+{"name":     "2012-01_04-Play!",
 "level":     "MEDIUM",
 "description": "Play 1.2.4 vulnerable to hash collision attack",
 "ifs":[{"impact":   "org.playframework:1.2.4", "fix": " "}],
@@ -207,7 +270,7 @@ Copyright (C)  2012  Basile Chandesris.
 "ifs":[{"impact": "org.springframework:spring-core:3.5.x", "fix": "2.5.6.SEC03|2.5.7.SR02"},
 {"impact": "org.springframework:spring-core:3.0.x", "fix": "3.0.6.RELEASE"},
 {"impact": "org.springframework:spring-security:2.0.x", "fix": "DL 2.0.7.RELEASE"}],
-"docs": ["http://www.springsource.com/security/cve-2011-2894", "http://www.springsource.com/security/spring-framework", "http://www.cvedetails.com/cve/CVE-2011-2894/", "http://static.springsource.org/spring-security/site/downloads.html", "http://wouter.coekaerts.be/2011/spring-vulnerabilities"]
+"docs": ["http://www.springsource.com/security/cve-2011-2894", "http://www.springsource.com/security/spring-framework", "http://www.cvedetails.com/cve/CVE-2011-2894/", "http://static.springsource.org/spring-security/site/downloads.html", "http://wouter.coekaerts.be/2011/spring-vulnerabilities", "http://news.ycombinator.com/item?id=5081852"]
 },
 {"name": "CVE-2011-2712 CVE-2012-1089",
 "level": "MEDIUM",
@@ -262,6 +325,12 @@ Copyright (C)  2012  Basile Chandesris.
 "description": "CSRF, Classpath directory traversal, XSS",
 "ifs": [{"impact":  "com.vaadin", "fix": "6.6.7" }],
 "docs": ["http://wouter.coekaerts.be/2011/vaadin-vulnerabilities"]
+},
+{"name": "2010-11-01-jasig-cas",
+"level": "HIGH",
+"description": "Upgrade to latest Spring Security release which fixes security vulnerability.",
+"ifs": [{"impact": "org.jasig.cas:?:3.4.3", "fix":"3.4.3.1" }],
+"docs": ["https://issues.jasig.org/browse/CAS-917"]
 },
 {"name": "CVE-2010-3863",
 "level": "HIGH",

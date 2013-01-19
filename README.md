@@ -3,17 +3,29 @@
  Analyzes your Java Maven Project dependencies for security issues and technical debts (CVE/EOL/+).
 
 * [Crowdsourcing Security Brief of Sonatype](http://www.sonatype.com/people/2012/03/todays-security-brief-application-security-is-widely-neglected-by-some-surprising-companies/)
-* [Current JavaTM CVE/EOL JSON list](https://github.com/based2/checker-maven-plugin/src/main/resources/java_cve.json)
+* [Current JavaTM CVE/EOL JSON list](https://github.com/based2/checker-maven-plugin/blob/master/src/main/resources/java_cve.json)
 
 ## Sources: Net and ...
 
 * (http://cert.europa.eu/cert/newsletter/en/latest_Security%20Bulletins_.html)
 * (https://cassandra.cerias.purdue.edu/CVE_changes/)
 * (http://osvdb.org/browse/by_disclosure_date)
+** (http://osvdb.org/search?page=2&search[text_type]=alltext&search[vuln_title]=Java)
 * (http://osdir.com/ml/bugtraq.security/)
+* (https://cassandra.cerias.purdue.edu/CVE_changes/)
 * (https://www.us-cert.gov/cas/bulletins/)
+* (http://www.cert.org.cn/publish/english/115/index.html)
+* (http://www.jpcert.or.jp/english/)
+* (http://cert.europa.eu/cert/filteredition/en/CERT-LatestNews.html)
 * (https://www.buerger-cert.de/archive)
 * (http://www.certa.ssi.gouv.fr/)
+* (https://www.cert.be/pro/advisories/software/java)
+* (http://www.govcert.nl/english/service-provision/knowledge-and-publications/factsheets)
+* (https://www.circl.lu/)
+
+
+* (http://www.oracle.com/technetwork/topics/security/alerts-086861.html)
+* (https://blogs.oracle.com/sunsecurity/)
 
 * (http://mvnrepository.com/)
 
@@ -265,5 +277,5 @@ prefix of `ghSite`.
     any folders that begin with an underscore.
 
 # Licenses
-* [GNU General Public License](http://www.gnu.org/licenses/gpl.html)
+* [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 * [GNU Free Documentation License](http://www.gnu.org/licenses/fdl.html)
