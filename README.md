@@ -7,7 +7,7 @@
 
 ## Sources: Net and ...
 
-* (http://cert.europa.eu/cert/newsletter/en/latest_Security%20Bulletins_.html)
+
 * (https://cassandra.cerias.purdue.edu/CVE_changes/)
 * (http://osvdb.org/browse/by_disclosure_date)
 ** (http://osvdb.org/search?page=2&search[text_type]=alltext&search[vuln_title]=Java)
@@ -16,12 +16,18 @@
 * (https://www.us-cert.gov/cas/bulletins/)
 * (http://www.cert.org.cn/publish/english/115/index.html)
 * (http://www.jpcert.or.jp/english/)
-* (http://cert.europa.eu/cert/filteredition/en/CERT-LatestNews.html)
+* (http://cert.europa.eu/cert/newsletter/en/latest_Security%20Bulletins_.html)
+** (http://cert.europa.eu/cert/filteredition/en/CERT-LatestNews.html)
 * (https://www.buerger-cert.de/archive)
 * (http://www.certa.ssi.gouv.fr/)
 * (https://www.cert.be/pro/advisories/software/java)
 * (http://www.govcert.nl/english/service-provision/knowledge-and-publications/factsheets)
 * (https://www.circl.lu/)
+* (http://www.cert.ee/)
+* (https://www.cert.dk/)
+* (http://www.cert.se/)
+* (http://www.cert.fi/en/reports.html)
+
 
 
 * (http://www.oracle.com/technetwork/topics/security/alerts-086861.html)

@@ -16,7 +16,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.0</version>
+                <version>3.1</version>
                 <configuration>
                     <source>1.6</source>
                     <target>1.6</target>
@@ -32,7 +32,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
               <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
-                <version>2.9</version>
+                <version>2.9.1</version>
               </plugin>
               <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -45,7 +45,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
              <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-report-plugin</artifactId>
-                <version>2.13</version>
+                <version>2.15</version>
               </plugin>
               <plugin>
                 <groupId>org.codehaus.mojo</groupId>
@@ -220,11 +220,11 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
         <url>http://twdata-m2-repository.googlecode.com/svn/</url>
     </repository>
  </repositories>
-  
     <properties>
+
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
          <maven.version>3.0.4</maven.version>
-        <slf4j-release-version>1.7.2</slf4j-release-version>
+        <slf4j-release-version>1.7.5</slf4j-release-version>
     </properties>
 
 </project>
