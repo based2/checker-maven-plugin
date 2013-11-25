@@ -212,7 +212,7 @@
                 <artifactId>maven-securityChecker-plugin</artifactId>
                 <version>0.0.1-SNAPSHOT</version>
                 <configuration>
-                	<javaCVEList>H:\chandba\projects\maven-securityChecker-plugin\data\java_cve.json</javaCVEList>
+                	<javaCVEList>${basedir}/data/java_cve.json</javaCVEList>
                 </configuration>
               </plugin>
             <plugin>
