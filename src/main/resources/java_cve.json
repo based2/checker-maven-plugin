@@ -7,10 +7,11 @@ Copyright (C)  2012  Basile Chandesris.
     A copy of the license is included in the section entitled
     "GNU Free Documentation License".
 
-    TODO add:
+TODO
+====
+lists
 
-===
-list http://www.cvedetails.com/vulnerability-list/cvssscoremin-9/cvssscoremax-10/vulnerabilities.html
+http://www.cvedetails.com/vulnerability-list/cvssscoremin-9/cvssscoremax-10/vulnerabilities.html
 
 http://osvdb.org/browse/by_disclosure_date
 http://www.sonarsource.org/sonar-to-identify-security-vulnerabilities/
