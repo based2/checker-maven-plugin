@@ -177,8 +177,20 @@ https://jira.kuali.org/browse/KULRICE-2920 kuali rice > rice 1.0 - Fix XSS vulne
 https://jira.springsource.org/browse/SEC-1285 minor vulnerability in BasicProcessingFilter
 https://jira.exoplatform.org/browse/JCR-403 exo jcr > 1.8 1.9 - 2008 - Access manager vulnerability
 
+
+http://sourceforge.net/mailarchive/forum.php?thread_name=100F37D3A283C749B712FC0923D7AB5B08C825BA%40glamsg58.europe.jacobs.com&forum_name=geoserver-devel
+http://www.securityfocus.com/bid/56408
+http://archives.neohapsis.com/archives/fulldisclosure/current/0011.html spring
+http://jira.codehaus.org/browse/JETTY-1004
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=527571
 */
 [
+{"name": "CVE-2013-6397",
+"level": "HIGH",
+"description": "Directory traversal when loading XSL stylesheets and Velocity templates",
+"ifs":[{"impact": "org.apache.solr", "fix": ""}],
+"docs": ["https://bugzilla.redhat.com/show_bug.cgi?id=1035062","http://www.agarri.fr/kom/archives/2013/11/27/compromising_an_unreachable_solr_server_with_cve-2013-6397/index.html"]
+},
 {"name": "2013-11-13-tiles TILES-351",
 "level": "HIGH",
 "description": "EL expressions in JSP using some Tiles JSP tags are evaluated twice. Remote server context exposure.",
@@ -232,11 +244,35 @@ https://jira.exoplatform.org/browse/JCR-403 exo jcr > 1.8 1.9 - 2008 - Access ma
 "ifs":[{"impact": "org.apache.struts:struts2-core", "fix": "2.3.15.2"}],
 "docs": ["http://seclists.org/fulldisclosure/2013/Sep/133"]
 },
+{"name": "2013-08-21-jasypt",
+"level": "HIGH",
+"description": "Standard random number generators do not provide a sufficient amount of entropy when used for security purposes. Attackers can brute force the output of pseudorandom number generators such as rand()",
+"ifs":[{"impact": "org.jasypt:jasypt", "fix": "1.9.1"}],
+"docs": ["http://sourceforge.net/p/jasypt/bugs/23/"]
+},
+{"name": "CVE-2013-1768",
+"level": "HIGH",
+"description": "The BrokerFactory functionality in Apache OpenJPA 1.x before 1.2.3 and 2.x before 2.2.2 creates local executable JSP files containing logging trace data produced during deserialization of certain crafted OpenJPA objects, which makes it easier for remote attackers to execute arbitrary code by creating a serialized object and leveraging improperly secured server programs. ",
+"ifs":[{"impact": "org.apache.openjpa", "fix": "1.2.3,2.2.2"}],
+"docs": ["http://archives.neohapsis.com/archives/fulldisclosure/2013-06/0099.html","http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1768","http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=716937"]
+},
+{"name": "2013-06-11-syncope",
+"level": "HIGH",
+"description": "The SyncopeUser.generateToken() function generates a token using the RandomStringUtils class. This class uses the normal java random class, which uses the current time in milliseconds as seed.",
+"ifs":[{"impact": "org.apache.syncope", "fix": "1.1.2,1.2.0"}],
+"docs": ["https://issues.apache.org/jira/browse/SYNCOPE-374"]
+},
 {"name": "2013-05-27-solr",
 "level": "MEDIUM",
 "description": "Apache Solr contains a flaw that allows a reflected cross-site scripting (XSS) attack. This flaw exists because the application does not validate input passed via the 'Can Not Find' error message upon submission to the JettySolrRunner.java script. This may allow an attacker to create a specially crafted request that would execute arbitrary script code in a user's browser within the trust relationship between their browser and the server.",
 "ifs":[{"impact": "org.apache.solr", "fix": "? Open"}],
 "docs": ["https://issues.apache.org/jira/browse/SOLR-4861"]
+},
+{"name": "CVE-2013-0248",
+"level": "LOW",
+"description": "Commons FileUpload provides file upload capability for Servlets and web applications. During the upload process, FileUpload may (depending on configuration) save the uploaded file temporarily on disk. By default this will be in the system wide tmp directory. Because the temporary files have predictable file names and are stored in a publicly writeable location they are vulnerable to a TOCTOU attack.",
+"ifs":[{"impact": "commons-fileupload:commons-fileupload", "fix": "1.3"}],
+"docs": ["http://seclists.org/fulldisclosure/2013/Mar/76","http://markmail.org/message/xwbtukcaqikfjb32","http://www.ubuntu.com/usn/usn-2029-1/"]
 },
 {"name": "2013-03-17-h2",
 "level": "MEDIUM",
