@@ -183,6 +183,40 @@ http://www.securityfocus.com/bid/56408
 http://archives.neohapsis.com/archives/fulldisclosure/current/0011.html spring
 http://jira.codehaus.org/browse/JETTY-1004
 http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=527571
+
+
+http://www.cvedetails.com/vulnerability-list/vendor_id-2375/product_id-4143/year-2004/Snipsnap-Snipsnap.html
+ 1 	CVE-2004-1470 			Http R.Spl. 	2004-12-31 	2008-09-05
+5.0
+	None 	Remote 	Low 	Not required 	None 	Partial 	None
+CRLF injection vulnerability in SnipSnap 0.5.2a, and other versions before 1.0b1, allows remote attackers to perform HTTP Response Splitting attacks to modify expected HTML content from the server.
+
+
+http://code.google.com/p/gitblit/issues/detail?id=62
+
+ Feb 9, 2012
+
+From the gitblit forum:
+
+Gitblit accept url like
+http://example.com/gitblit/;jsessionid=8EB3144A6XXXXXXXXX
+and jsessionid doesn't change when user login.
+So session fixation seems to be possible.
+
+http://en.wikipedia.org/wiki/Session_fixation
+     Fixed in v0.9.1
+
+http://www.cvedetails.com/vulnerability-list/vendor_id-3885/Xwiki.html
+
+http://avalon.apache.org/closed.html EOL
+http://excalibur.apache.org/framework/ org.apache.avalon
+
+http://javolution.org/ EOL
+May 6, 2007: Javolution 5.0  => 6.0
+Deprecated release.
+org.javolution</groupId>
+<artifactId>javolution-core-java
+
 */
 [
 {"name": "CVE-2013-6397",
