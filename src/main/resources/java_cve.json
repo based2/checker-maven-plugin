@@ -46,6 +46,8 @@ http://osvdb.org/show/osvdb/83316 JOGL JOAL
 
 http://news.ycombinator.com/item?id=5037904 java,vul
 
+https://bugs.mageia.org/show_bug.cgi?id=6011
+
 http://cert.europa.eu/cert/newsletter/en/latest_Security%20Bulletins_.html
 http://osdir.com/ml/bugtraq.security/2012-04/ vul,source
 https://cassandra.cerias.purdue.edu/CVE_changes/
@@ -219,6 +221,12 @@ org.javolution</groupId>
 
 */
 [
+"name": "2013-12-22",
+"level": "WARNING",
+"description": "XStream "Remote Code Execution exploit on code from 'Standard way to serialize and deserialize Objects with XStream'",
+"ifs":[{"impact": "com.thoughtworks.xstream:xstream", "fix": ""}],
+"docs": ["http://blog.diniscruz.com/2013/12/xstream-remote-code-execution-exploit.html"]
+},
 {"name": "CVE-2013-6397",
 "level": "HIGH",
 "description": "Directory traversal when loading XSL stylesheets and Velocity templates",
@@ -372,6 +380,19 @@ org.javolution</groupId>
 "ifs":[{"impact":   "com.gmail.zbnetium:1.12.20110409.1", "fix": " ", "os":"android"}],
 "docs": ["http://www.cvedetails.com/cve/CVE-2012-1483/","http://www4.comp.polyu.edu.hk/~appsec/bugs/CVE-2012-1483-vulnerability-in-MessageForwarder.html"]
 },
+{"name": "EOL-2012-0930",
+"level": "HIGH",
+"description": "End of life for Apache Tomcat 5.5.x",
+"ifs":[{"impact": "org.apache.tomcat:catalina:5.5.x", "fix": "6.0.35|7.0.26"}],
+"docs": ["http://tomcat.apache.org/tomcat-55-eol.html"]
+},
+{"name": "CVE-2012-0803",
+"level": "MEDIUM",
+"description": "Apache CXF: improper validation of UsernameToken policies",
+"ifs":[{"impact": "org.apache.cxf:?:[2.4.5]", "fix":"2.4.6"},
+{"impact": "org.apache.cxf:?:[2.5.1]", "fix": "2.5.2"}],
+"docs": ["https://access.redhat.com/security/cve/CVE-2012-0803","http://osdir.com/ml/users-cxf-apache/2012-02/msg00175.html","http://marc.info/?l=bugtraq&m=130583021727954"]
+},
 {"name": "CVE-2012-0803",
 "level": "HIGH",
 "description": "CXF does not validate a WS-Security UsernameToken received as part of the security header of a SOAP request against a WS-SP UsernameToken policy.",
@@ -406,18 +427,11 @@ org.javolution</groupId>
 "ifs":[{"impact": "org.apache.struts:struts2-core:2.x", "fix": "2.3.1"}],
 "docs": ["https://issues.apache.org/jira/browse/WW-3668","http://www.cvedetails.com/cve/CVE-2012-0391/","http://osvdb.org/show/osvdb/80547"]
 },
-{"name": "CVE-2012-0803",
-"level": "MEDIUM",
-"description": "Apache CXF: improper validation of UsernameToken policies",
-"ifs":[{"impact": "org.apache.cxf:?:[2.4.5]", "fix":"2.4.6"},
-{"impact": "org.apache.cxf:?:[2.5.1]", "fix": "2.5.2"}],
-"docs": ["https://access.redhat.com/security/cve/CVE-2012-0803","http://osdir.com/ml/users-cxf-apache/2012-02/msg00175.html","http://marc.info/?l=bugtraq&m=130583021727954"]
-},
-{"name": "EOL-2012-0930",
+{"name": "CVE-2012-0213",
 "level": "HIGH",
-"description": "End of life for Apache Tomcat 5.5.x",
-"ifs":[{"impact": "org.apache.tomcat:catalina:5.5.x", "fix": "6.0.35|7.0.26"}],
-"docs": ["http://tomcat.apache.org/tomcat-55-eol.html"]
+"description": "The UnhandledDataStructure function in hwpf/model/UnhandledDataStructure.java in Apache POI 3.8 and earlier allows remote attackers to cause a denial of service (OutOfMemoryError exception and possibly JVM destabilization) via a crafted length value in a Channel Definition Format (CDF) or Compound File Binary Format (CFBF) document.",
+"ifs":[{"impact": "org.apache.poi:poi:=<3.8", "fix": "3.9"}],
+"docs": ["https://bugzilla.redhat.com/show_bug.cgi?id=799078","http://www.debian.org/security/2012/dsa-2468","https://bugs.mageia.org/show_bug.cgi?id=6011"]
 },
 {"name": "CVE-2012-0022",
 "level": "HIGH",
