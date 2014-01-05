@@ -121,8 +121,6 @@ http://cve.mitre.org/cgi-bin/cvename.cgi?name=2012-5641
 http://packetstormsecurity.com/files/119530/Apache-CouchDB-1.0.3-1.1.1-1.2.0-Information-Disclosure.html
 http://support.springsource.com/security/springsource-all
 
-CVE-2012-5055 http://support.springsource.com/security/cve-2012-5055
-
 https://jira.terracotta.org/jira/browse/QTZ-43
 http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-3821
 http://lucene.472066.n3.nabble.com/jira-Created-SOLR-74-Cross-site-scripting-vulnerabilities-td508803.htmls
@@ -225,6 +223,8 @@ http://jira.ow2.org/browse/LEMONLDAP-372
 http://www.cvedetails.com/cve/CVE-2006-2806/ james,apache
 http://www.cvedetails.com/cve/CVE-2004-2650/
 
+https://access.redhat.com/site/documentation/en-US/JBoss_Enterprise_Application_Platform/4.2/html/Release_Notes_CP09/Issues-fixed-in-this-release.html
+
 http://www.cvedetails.com/cve/CVE-2013-6407/
 http://osvdb.org/show/osvdb/101169
 http://osvdb.org/show/osvdb/101187
@@ -238,6 +238,32 @@ http://osvdb.org/show/osvdb/98460
 http://osvdb.org/show/osvdb/98462
 http://osvdb.org/show/osvdb/98524
 http://osvdb.org/show/osvdb/98562 Oracle Java JDK / JRE / JRockit Cryptographic Key Classes Private Key Information Disclosure
+
+http://i8jesus.com/?p=255 antisamy org.owasp.antisamy:antisamy 1.5.3
+http://lists.owasp.org/pipermail/owasp-antisamy/2013-September/000549.html
+
+http://www.cvedetails.com/cve/CVE-2008-1285/ jsf
+https://groups.google.com/forum/#!topic/adf-methodology/S0Rlu3Ad4oQ
+
+http://tiles.apache.org/framework/security/security-bulletin-1.html
+http://www.securityfocus.com/bid/34657  CVE-2009-1275
+
+http://support.f5.com/kb/en-us/solutions/public/14000/300/sol14371.html apache axis CVE-2012-5784
+https://issues.apache.org/jira/browse/AXIS-2883
+https://bugzilla.redhat.com/show_bug.cgi?id=873252
+https://bugs.mageia.org/show_bug.cgi?id=8936
+
+http://www.cvedetails.com/cve/CVE-2013-2160/ Apache-CXF.html
+https://cxf.apache.org/security-advisories.data/CVE-2013-2160.txt.asc
+
+CVE-2012-5055 http://support.springsource.com/security/cve-2012-5055
+
+http://www.securityfocus.com/archive/1/528177 spring  CVE-2013-4152
+http://seclists.org/fulldisclosure/2013/Nov/14
+http://docs.spring.io/spring/docs/3.2.6.RELEASE/changelog.txt * fixed minor issue with prior fix for CVE 2010-1622 (SPR-11098)
+
+https://github.com/jeremylong/DependencyCheck
+http://stackoverflow.com/questions/10675804/are-hibernate-queries-vulnerable-to-sql-injection
 
 */
 [
@@ -293,6 +319,12 @@ http://osvdb.org/show/osvdb/98562 Oracle Java JDK / JRE / JRockit Cryptographic 
 "ifs":[{"impact": "org.restlet", "fix": "2.1.4"}],
 "docs": ["http://www.cvedetails.com/cve/CVE-2013-4221/","https://bugzilla.redhat.com/show_bug.cgi?id=995275"]
 },
+{"name": "CVE-2013-4002",
+"level": "HIGH",
+"description": "The Apache Xerces-J XML parser is vulnerable to a denial of service attack, triggered by malformed XML data. The malformed data causes the XML parser to consume CPU resource for several minutes before the data is eventually rejected. This behavior can be used to launch a denial of service attack against any Java server application which processes XML data supplied by remote users.",
+"ifs":[{"impact": "", "fix": "Xerces-J 2.10.0"}],
+"docs": ["http://www-01.ibm.com/support/docview.wss?uid=swg21654683","http://apache-xml-project.6118.n7.nabble.com/Need-Help-on-XML-Vulnerabilty-of-Apache-Xerces-Java-td2127.html"]
+},
 {"name": "2013-09-21-Play!",
 "level": "HIGH",
 "description": "Play Framework contains an XXE (Xml eXternal Entity) injection flaw that is triggered during the parsing of XML data. The issue is due to an incorrectly configured XML parser accepting XML external entities from an untrusted source. By sending specially crafted XML data, a remote attacker can potentially gain access to sensitive information.",
@@ -323,7 +355,7 @@ http://osvdb.org/show/osvdb/98562 Oracle Java JDK / JRE / JRockit Cryptographic 
 "description": "Javadoc HTML pages that were created by Javadoc 7 Update 21 and before, 6 Update 45 and before, 5.0 Update 45 and before, JavaFX 2.2.21 and before contain a frame injection vulnerability that could allow an attacker to replace a Javadoc web page frame with a malicious page.",
 "ifs":[{"impact": "java5 java6 java7 javadoc", "fix": "Java upgrade and/or javadoc tool fix: JavadocUpdaterTool / maven-javadoc-plugin 1.9.1"},
 {"impact": "org.apache.maven.plugins:maven-javadoc-plugin", "fix": "1.9.1"}],
-"docs": ["http://www.oracle.com/technetwork/topics/security/javacpujun2013-1899847.html","http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1768","http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=716937","https://github.com/AdoptOpenJDK/JavadocUpdaterTool","http://jira.codehaus.org/browse/MJAVADOC-370","https://issues.apache.org/jira/browse/CAMEL-6490","http://jira.xwiki.org/browse/XCOMMONS-488","http://mail-archives.apache.org/mod_mbox/maven-announce/201306.mbox/%3CCAPoyBqQCDrfov7pG1fEujTMmKQfpKx1t4Xq8baWhV4JvMeDSzw@mail.gmail.com%3E"]
+"docs": ["http://www.oracle.com/technetwork/topics/security/javacpujun2013-1899847.html","http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1768","http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=716937","https://github.com/AdoptOpenJDK/JavadocUpdaterTool","http://jira.codehaus.org/browse/MJAVADOC-370","https://issues.apache.org/jira/browse/CAMEL-6490","http://jira.xwiki.org/browse/XCOMMONS-488","http://mail-archives.apache.org/mod_mbox/maven-announce/201306.mbox/%3CCAPoyBqQCDrfov7pG1fEujTMmKQfpKx1t4Xq8baWhV4JvMeDSzw@mail.gmail.com%3E","http://struts.1045723.n5.nabble.com/SECURITY-Frame-injection-vulnerability-in-published-Javadoc-td5712854.html"]
 },
 {"name": "2013-06-11-syncope",
 "level": "HIGH",
