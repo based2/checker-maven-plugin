@@ -34,18 +34,13 @@ public class CVEListLoaderTest extends TestCase {
         }
 
         try {
-            // Map<String, FixInfo> m = cll.run(new
-            // File("src/main/resources/data/java_cve.json"));
-            // Map<String, FixInfo> m = cll
-            // .run(new File(
-            // "W:\\git\\checker-maven-plugin\\src\\main\\resources\\java_cve.json"));
+            // Map<String, FixInfo> m = cll.run(new File("src/main/resources/data/java_cve.json"));
+            // Map<String, FixInfo> m = cll.run(new File(
             // TODO use classloader to load the file
-            //File f = new File("/Users/based/Documents/PERSO/JAVA/PROJETS/maven-securityChecker-plugin2/src/main/resources/java_cve.json");
-            File f = new File("../../../../../../../resources/java_cve.json");
+           File f = new File("../../../../../../../resources/java_cve.json");
             if (!f.exists()) {
                 // f.canRead()
-
-                LOG.error("File not found:"+f.getPath());
+                LOG.error("File not found:" + f.getPath());
             } else  {
                 Map<String, FixInfo> m = cll.run(f);
                 for (String impact : m.keySet()) {

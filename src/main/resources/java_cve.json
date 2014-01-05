@@ -219,9 +219,29 @@ Deprecated release.
 org.javolution</groupId>
 <artifactId>javolution-core-java
 
+http://jira.ow2.org/browse/WEBLAB-405?page=com.atlassian.jira.plugin.ext.bamboo%3Abamboo-build-results-tabpanel
+http://jira.ow2.org/browse/LEMONLDAP-372
+
+http://www.cvedetails.com/cve/CVE-2006-2806/ james,apache
+http://www.cvedetails.com/cve/CVE-2004-2650/
+
+http://www.cvedetails.com/cve/CVE-2013-6407/
+http://osvdb.org/show/osvdb/101169
+http://osvdb.org/show/osvdb/101187
+http://osvdb.org/show/osvdb/101114
+http://osvdb.org/show/osvdb/100657
+http://osvdb.org/show/osvdb/100367
+http://osvdb.org/show/osvdb/99375
+http://osvdb.org/show/osvdb/99047
+http://osvdb.org/show/osvdb/100378 http://osvdb.org/show/osvdb/100379
+http://osvdb.org/show/osvdb/98460
+http://osvdb.org/show/osvdb/98462
+http://osvdb.org/show/osvdb/98524
+http://osvdb.org/show/osvdb/98562 Oracle Java JDK / JRE / JRockit Cryptographic Key Classes Private Key Information Disclosure
+
 */
 [
-"name": "2013-12-22",
+{"name": "2013-12-22",
 "level": "WARNING",
 "description": "XStream "Remote Code Execution exploit on code from 'Standard way to serialize and deserialize Objects with XStream'",
 "ifs":[{"impact": "com.thoughtworks.xstream:xstream", "fix": ""}],
@@ -294,9 +314,16 @@ org.javolution</groupId>
 },
 {"name": "CVE-2013-1768",
 "level": "HIGH",
-"description": "The BrokerFactory functionality in Apache OpenJPA 1.x before 1.2.3 and 2.x before 2.2.2 creates local executable JSP files containing logging trace data produced during deserialization of certain crafted OpenJPA objects, which makes it easier for remote attackers to execute arbitrary code by creating a serialized object and leveraging improperly secured server programs. ",
+"description": "The BrokerFactory functionality in Apache OpenJPA 1.x before 1.2.3 and 2.x before 2.2.2 creates local executable JSP files containing logging trace data produced during deserialization of certain crafted OpenJPA objects, which makes it easier for remote attackers to execute arbitrary code by creating a serialized object and leveraging improperly secured server programs.",
 "ifs":[{"impact": "org.apache.openjpa", "fix": "1.2.3,2.2.2"}],
 "docs": ["http://archives.neohapsis.com/archives/fulldisclosure/2013-06/0099.html","http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1768","http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=716937"]
+},
+{"name": "CVE-2013-1571",
+"level": "MEDIUM",
+"description": "Javadoc HTML pages that were created by Javadoc 7 Update 21 and before, 6 Update 45 and before, 5.0 Update 45 and before, JavaFX 2.2.21 and before contain a frame injection vulnerability that could allow an attacker to replace a Javadoc web page frame with a malicious page.",
+"ifs":[{"impact": "java5 java6 java7 javadoc", "fix": "Java upgrade and/or javadoc tool fix: JavadocUpdaterTool / maven-javadoc-plugin 1.9.1"},
+{"impact": "org.apache.maven.plugins:maven-javadoc-plugin", "fix": "1.9.1"}],
+"docs": ["http://www.oracle.com/technetwork/topics/security/javacpujun2013-1899847.html","http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1768","http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=716937","https://github.com/AdoptOpenJDK/JavadocUpdaterTool","http://jira.codehaus.org/browse/MJAVADOC-370","https://issues.apache.org/jira/browse/CAMEL-6490","http://jira.xwiki.org/browse/XCOMMONS-488","http://mail-archives.apache.org/mod_mbox/maven-announce/201306.mbox/%3CCAPoyBqQCDrfov7pG1fEujTMmKQfpKx1t4Xq8baWhV4JvMeDSzw@mail.gmail.com%3E"]
 },
 {"name": "2013-06-11-syncope",
 "level": "HIGH",
@@ -321,6 +348,14 @@ org.javolution</groupId>
 "description": "H2 Database Engine contains a flaw in the TCP server. This issue is due to the application failing to properly enforce client access rights. This may allow a remote attacker to overwrite arbitrary properties.",
 "ifs":[{"impact": "com.h2database", "fix": "1.3.171"}],
 "docs": ["http://osvdb.org/show/osvdb/91463"]
+},
+{"name": "CVE-2012-2098",
+"level": "MEDIUM",
+"description": "Algorithmic complexity vulnerability in the sorting algorithms in bzip2 compressing stream (BZip2CompressorOutputStream) in Apache Commons Compress before 1.4.1 allows remote attackers to cause a denial of service (CPU consumption) via a file with many repeating inputs.",
+"ifs":[{"impact": "commons:compress|org.apache.compress", "fix": "1.4.1"},
+{"impact": "org.apache.ant", "fix": "1.8.4"},
+{"impact": "org.apache.tika", "fix": "1.2"}],
+"docs": ["http://mail-archives.apache.org/mod_mbox/ant-user/201205.mbox/%3C87ipfnvvxr.fsf@v35516.1blu.de%3E","https://issues.apache.org/jira/browse/TIKA-932"]
 },
 {"name": "2012-02-02-tapestry TAP5-1779",
 "level": "MEDIUM",
@@ -350,7 +385,7 @@ org.javolution</groupId>
 {"name": "CVE-2012-1621",
 "level": "MEDIUM",
 "description": "Apache OFBiz information disclosure vulnerability.",
-"ifs":[{"impact":   "*ofbiz", "fix": "1.3.8"}],
+"ifs":[{"impact": "*ofbiz", "fix": "1.3.8"}],
 "docs": ["http://mail-archives.apache.org/mod_mbox/ofbiz-dev/201204.mbox/%3CA126EDA0-06A5-4B67-8CDD-FC5F5AABA147@apache.org%3E"]
 },
 {"name": "CVE-2012-1574",
