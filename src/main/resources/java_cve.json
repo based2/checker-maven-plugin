@@ -412,7 +412,7 @@ http://osvdb.org/show/osvdb/98562 Oracle Java JDK / JRE / JRockit Cryptographic 
 {"name": "CVE-2012-1483",
 "level": "HIGH",
 "description": "Unspecified vulnerability in the Message Forwarder (com.gmail.zbnetium) application 1.12.20110409.1 for Android has unknown impact and attack vectors.",
-"ifs":[{"impact":   "com.gmail.zbnetium:1.12.20110409.1", "fix": " ", "os":"android"}],
+"ifs":[{"impact": "com.gmail.zbnetium:1.12.20110409.1", "fix": " ", "os":"android"}],
 "docs": ["http://www.cvedetails.com/cve/CVE-2012-1483/","http://www4.comp.polyu.edu.hk/~appsec/bugs/CVE-2012-1483-vulnerability-in-MessageForwarder.html"]
 },
 {"name": "EOL-2012-0930",
