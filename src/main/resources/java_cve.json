@@ -132,6 +132,7 @@ http://lucene.472066.n3.nabble.com/jira-Created-SOLR-74-Cross-site-scripting-vul
 
 https://issues.apache.org/jira/browse/SOLR-1031
 https://groups.google.com/forum/#!topic/ajax-solr/ELR8_M4d-uE
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=731113
 
 https://bugzilla.redhat.com/show_bug.cgi?id=783898
 http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-0079
@@ -278,6 +279,9 @@ https://issues.apache.org/jira/browse/OFBIZ-1959 2010
 http://www.securityfocus.com/bid/50218 vul, java rhino js
 http://schierlm.users.sourceforge.net/CVE-2011-3544.html
 
+http://osvdb.org/97778
+https://code.google.com/p/javamelody/issues/detail?id=346
+
 */
 [
 {"name": "2013-12-22",
@@ -366,7 +370,7 @@ http://schierlm.users.sourceforge.net/CVE-2011-3544.html
 {"name": "CVE-2013-1571",
 "level": "MEDIUM",
 "description": "Javadoc HTML pages that were created by Javadoc 7 Update 21 and before, 6 Update 45 and before, 5.0 Update 45 and before, JavaFX 2.2.21 and before contain a frame injection vulnerability that could allow an attacker to replace a Javadoc web page frame with a malicious page.",
-"ifs":[{"impact": "java5 java6 java7 javadoc", "fix": "Java upgrade and/or javadoc tool fix: JavadocUpdaterTool / maven-javadoc-plugin 1.9.1"},
+"ifs":[{"impact": "java5 java6 java7 javadoc", "fix": "Java upgrade and/or javadoc tool fix: JavadocUpdaterTool / maven-javadoc-plugin 2.9.1"},
 {"impact": "org.apache.maven.plugins:maven-javadoc-plugin", "fix": "1.9.1"}],
 "docs": ["http://www.oracle.com/technetwork/topics/security/javacpujun2013-1899847.html","http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1768","http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=716937","https://github.com/AdoptOpenJDK/JavadocUpdaterTool","http://jira.codehaus.org/browse/MJAVADOC-370","https://issues.apache.org/jira/browse/CAMEL-6490","http://jira.xwiki.org/browse/XCOMMONS-488","http://mail-archives.apache.org/mod_mbox/maven-announce/201306.mbox/%3CCAPoyBqQCDrfov7pG1fEujTMmKQfpKx1t4Xq8baWhV4JvMeDSzw@mail.gmail.com%3E","http://struts.1045723.n5.nabble.com/SECURITY-Frame-injection-vulnerability-in-published-Javadoc-td5712854.html"]
 },
