@@ -29,6 +29,7 @@ http://markmail.org/search/?q=list%3Aorg.apache.announce/#query:list%3Aorg.apach
 http://www.kb.cert.org/vuls/id/625617
 
 http://i8jesus.com/?p=102 jforum
+http://jforum.net/ http://osvdb.org/show/osvdb/101438 vul,java
 
 http://osvdb.org/show/osvdb/79991 freemaker > 2.3.19
 
@@ -64,6 +65,7 @@ http://osvdb.org/show/osvdb/78573 vul,tomcat
 
 http://osvdb.org/show/osvdb/78716 atlasian
 
+http://struts.apache.org/release/2.2.x/docs/version-notes-221.html
 http://osvdb.org/show/osvdb/78276 vul,struts
 
 http://osvdb.org/show/osvdb/78108 vul,struts
@@ -264,6 +266,17 @@ http://docs.spring.io/spring/docs/3.2.6.RELEASE/changelog.txt * fixed minor issu
 
 https://github.com/jeremylong/DependencyCheck
 http://stackoverflow.com/questions/10675804/are-hibernate-queries-vulnerable-to-sql-injection
+
+http://apache-tapestry-mailing-list-archives.1045711.n5.nabble.com/Vulnerability-Scanners-td5503278.html
+https://issues.apache.org/jira/browse/TAP5-1057 TAP5-1442
+http://apache-tapestry-mailing-list-archives.1045711.n5.nabble.com/XSS-vulnerability-in-calendar-component-td2433878.html
+
+https://issues.apache.org/jira/browse/HBASE-5598
+
+https://issues.apache.org/jira/browse/OFBIZ-1959 2010
+
+http://www.securityfocus.com/bid/50218 vul, java rhino js
+http://schierlm.users.sourceforge.net/CVE-2011-3544.html
 
 */
 [
@@ -733,7 +746,7 @@ http://stackoverflow.com/questions/10675804/are-hibernate-queries-vulnerable-to-
 "level": "MEDIUM",
 "description":"XMLScanner.java in Apache Xerces2 Java, as used in Sun Java Runtime Environment (JRE) in JDK and JRE 6 before Update 15 and JDK and JRE 5.0 before Update 20, and in other products, allows remote attackers to cause a denial of service (infinite loop and application hang) via malformed XML input, as demonstrated by the Codenomicon XML fuzzing framework.",
 "ifs": [{"impact": "xerces:xercesImpl:2.9.1", "fix": "2.10.0"}],
-"docs": ["http://www.cvedetails.com/cve/CVE-2009-2625/","http://xerces.apache.org/xerces2-j/install.html"]
+"docs": ["http://www.cvedetails.com/cve/CVE-2009-2625/","http://xerces.apache.org/xerces2-j/install.html","https://issues.apache.org/jira/browse/XERCESJ-1412"]
 },
 {"name": "CVE-2011-2526",
 "level": "MEDIUM",
