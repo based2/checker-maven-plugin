@@ -282,6 +282,22 @@ http://schierlm.users.sourceforge.net/CVE-2011-3544.html
 http://osvdb.org/97778
 https://code.google.com/p/javamelody/issues/detail?id=346
 
+https://www.projectforge.org/jira/browse/PF-485
+http://www.projectforge.org/pf-en/News
+http://www.cvedetails.com/cve/CVE-2013-7250/
+http://www.cvedetails.com/cve/CVE-2013-7251/
+http://www.cvedetails.com/cve/CVE-2011-5269/
+https://issues.apache.org/jira/browse/WW-3264
+https://confluence.atlassian.com/display/JIRA/JIRA+Security+Advisory+2012-08-28
+
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=423435 CVE-2007-1858: insecure default SSL cipher configuration in Apache Tomcat
+
+http://jira.grails.org/browse/WEBSITE-268
+
+http://www.scip.ch/en/?vuldb.10702
+http://osvdb.org/show/osvdb/98460
+http://www.cvedetails.com/cve/CVE-2013-5816/
+
 */
 [
 {"name": "2013-12-22",
