@@ -298,6 +298,81 @@ http://www.scip.ch/en/?vuldb.10702
 http://osvdb.org/show/osvdb/98460
 http://www.cvedetails.com/cve/CVE-2013-5816/
 
+https://github.com/apache/roller/commit/e7cae713115677906436086e8c39f3e641a609c4
+https://github.com/apache/roller/commit/de93d37061ddb3ca61b8ca9b922c8cd61a67d3bf
+
+https://bugs.mageia.org/show_bug.cgi?id=6011
+
+https://bugzilla.redhat.com/show_bug.cgi?id=799078
+http://www.cvedetails.com/cve/CVE-2012-0213/
+https://tools.codice.org/jira/browse/DDF-81
+
+https://www.rapid7.com/db/vulnerabilities/jre-vuln-cve-2013-2430
+
+http://mail-archives.apache.org/mod_mbox/hadoop-general/201308.mbox/%3CCA+4052kX8oqCeWFYeQ46LhrpYunE0vMu5Bmw-OidN9DPQMzzfw@mail.gmail.com%3E CVE-2013-2192: Apache Hadoop Man in the Middle Vulnerability
+
+
+
+http://commons.apache.org/proper/commons-betwixt/betwixt-0.8/docs/index.html Not Found
+http://osvdb.org/88475 com.ibm.icu:icu4j 3.2 2004-11-19
+   http://bugs.icu-project.org/trac/ticket/3825
+    ICU4J 4.0 resolve the issue underlying CVE-2008-1036 http://icu-project.org/download/4.0.html
+    http://www-01.ibm.com/support/docview.wss?uid=swg1PM53904
+
+    https://lists.fedoraproject.org/pipermail/java-sig-commits/2013-March/009353.html
+
+
+    http://osvdb.org/95378 2013-06-30 antlr ->4.1
+      https://github.com/antlr/antlr4/issues/300
+
+      http://vigilance.fr/vulnerabilities/Apache-log4j-537000
+        http://apache-logging.6191.n7.nabble.com/DO-NOT-REPLY-Bug-50323-New-Vulnerability-in-NTEventLogAppender-td15519.html
+
+      http://mail-archives.apache.org/mod_mbox/tomcat-announce/201109.mbox/%3C4E805D2E.8010401@apache.org%3E CVE-2011-1184 Apache Tomcat - Multiple weaknesses in HTTP DIGEST authentication
+      http://www.securityfocus.com/bid/58073 Apache Commons HttpClient CVE-2012-5783 SSL Certificate Validation Security Bypass Vulnerability
+
+      http://support.novell.com/security/cve/CVE-2012-0022.html tomcat CVE-2012-0022
+      http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-2186 commons fileupload
+
+      https://jawr.java.net/security issue => Version 3.2 released
+
+      http://www.rapid7.com/db/modules/exploit/multi/browser/java_jre17_jaxws CVE-2012-5076
+      https://bugzilla.redhat.com/show_bug.cgi?id=1018972  CVE-2013-5820 OpenJDK: insufficient security checks (JAXWS, 8017505)
+      http://www.cvedetails.com/cve/CVE-2011-3553/
+
+      http://commons.apache.org/proper/commons-validator/changes-report.html - oro EOL dependency removed => 1.4
+
+      https://issues.jboss.org/browse/ESB-1487?_sscc=t Fuse ESB ->3.4
+
+      https://issues.apache.org/jira/browse/AXIOM-407 Woodstox 3.2.x is no longer maintained: EOL => 4.1
+        woodstox:wstx
+
+        http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-2035
+        http://www.redhat.com/archives/rhsa-announce/2013-December/msg00004.html
+        https://github.com/jline/jline2/issues/85
+        https://github.com/jruby/jruby/issues/732
+
+<reporting>
+<plugins>
+<plugin>
+<groupId>org.codehaus.mojo</groupId>
+<artifactId>versions-maven-plugin</artifactId>
+<version>2.1</version>
+<reportSets>
+<reportSet>
+<reports>
+<report>dependency-updates-report</report>
+<report>plugin-updates-report</report>
+<report>property-updates-report</report>
+</reports>
+</reportSet>
+</reportSets>
+</reporting>
+
+https://www.owasp.org/images/7/70/ASDC12-The_Unfortunate_Reality_of_Insecure_Libraries.pdf
+http://code.google.com/p/six-oval/
+http://juliusdavies.ca/2013/j.emse/bertillonage/
+
 */
 [
 {"name": "2013-12-22",
@@ -579,7 +654,7 @@ http://www.cvedetails.com/cve/CVE-2013-5816/
 "level": "HIGH",
 "description": "Jetty 8.1.0.RC2 and earlier computes hash values for form parameters without restricting the ability to trigger hash collisions predictably, which allows remote attackers to cause a denial of service (CPU consumption) by sending many crafted parameters.",
 "ifs":[{"impact": "org.mortbay.jetty:?:8.1.0.RC2", "fix": "8.1.0.RC4"}],
-"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-5034,http://geronimo.apache.org/security-reports.html,http://mail-archives.apache.org/mod_mbox/servicemix-users/201202.mbox/%3CCAJUL34MNyiS8PqLyLQ2Z2+Am9E-tQu6_L=ATKEgqvc6a4KebhQ@mail.gmail.com%3E"]
+"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-5034,http://geronimo.apache.org/security-reports.html,http://mail-archives.apache.org/mod_mbox/servicemix-users/201202.mbox/%3CCAJUL34MNyiS8PqLyLQ2Z2+Am9E-tQu6_L=ATKEgqvc6a4KebhQ@mail.gmail.com%3E","http://servicemix.396122.n5.nabble.com/Servicemix-3-x-Geronimo-Dependency-CVE-2011-5034-td5443711.html"]
 },
 {"name": "CVE-2011-4905",
 "level": "HIGH",
