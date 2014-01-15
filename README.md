@@ -28,7 +28,7 @@
 * (http://www.cert.se/)
 * (http://www.cert.fi/en/reports.html)
 * (http://www.securitepublique.gc.ca/cnt/rsrcs/cybr-ctr/index-fra.aspx)
-
+* (https://www.cert.fi/en/reports.html)
 
 
 * (http://www.oracle.com/technetwork/topics/security/alerts-086861.html)

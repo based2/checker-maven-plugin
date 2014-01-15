@@ -373,6 +373,46 @@ https://www.owasp.org/images/7/70/ASDC12-The_Unfortunate_Reality_of_Insecure_Lib
 http://code.google.com/p/six-oval/
 http://juliusdavies.ca/2013/j.emse/bertillonage/
 
+http://apache-xml-project.6118.n7.nabble.com/Re-IMPORTANT-Vulnerability-issue-CVE-2009-2625-td2673.html xerces2.10.0
+http://vigilance.fr/vulnerability/Apache-Xerces2-Java-Java-JRE-JDK-OpenJDK-memory-corruption-via-XML-8925
+https://lists.debian.org/debian-security-announce/2010/msg00021.html http://comments.gmane.org/gmane.text.xml.xerces-j.user/5147
+https://bugzilla.redhat.com/show_bug.cgi?id=824075
+
+http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html   java 7u51
+http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html#AppendixJAVA
+http://www.oracle.com/technetwork/java/javase/jdk7-relnotes-418459.html
+
+ http://www.onehippo.org/binaries/content/assets/connect/library/about/hippo-cms-7.6-fixed-issues.txt
+HSTTWO-1514] XSS vulnerability in SearchResult class of site-toolkit-core
+ https://bugzilla.redhat.com/show_bug.cgi?format=multiple&id=984057 geronimo CVE-2013-1777
+
+  <!--
+PLEASE NOTE: We changed the MX4JSystemManager to NoopSystemManager
+because of the vulnerability described here:
+http://issues.apache.org/bugzilla/show_bug.cgi?id=17241
+Furthermore, commenting out the whole block you get an exception:
+org.apache.avalon.framework.service.ServiceException: Unable to provide
+implementation for org.apache.avalon.phoenix.interfaces.SystemManager
+(Role='org.apache.avalon.phoenix.interfaces.SystemManager')]
+-->
+
+http://svn.codehaus.org/xplanner/trunk/leere/ext/jetty-4.2.21/VERSION.TXT
+Jetty-4.1.1 - 30 September 2002
++ Fixed client scripting vulnerability with jasper2.
+
+http://www.apache.org/dist/tika/CHANGES-1.4.txt Release 0.3 - 03/09/2009
+  * Tika now disables the loading of all external entities in XML files
+   that it parses as input documents. This improves security and avoids
+   problems with potentially broken references. (TIKA-185)
+
+http://hc.apache.org/httpclient-3.x/ EOL
+
+http://osvdb.org/92997 common codec  -> 1.4 (https://issues.apache.org/jira/browse/CODEC-70)
+
+https://github.com/olukas/pro-grade Java Security Policy with denying rules
+
+http://seclists.org/fulldisclosure/2014/Jan/59 spring,vul (Spring OXM, Spring MVC) -> 3.0.6.RELEASE-10
+
 */
 [
 {"name": "2013-12-22",
