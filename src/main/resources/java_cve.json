@@ -7,9 +7,7 @@ Copyright (C)  2012-2014  Basile Chandesris.
     A copy of the license is included in the section entitled
     "GNU Free Documentation License".
 
-TODO
-====
-lists
+Lists
 
 http://www.cvedetails.com/vulnerability-list/cvssscoremin-9/cvssscoremax-10/vulnerabilities.html
 http://cert.europa.eu/cert/newsletter/en/latest_Security%20Bulletins_.html
@@ -20,12 +18,12 @@ http://osdir.com/ml/bugtraq.security/2012-04/ vul,source
 https://cassandra.cerias.purdue.edu/CVE_changes/
 http://vigilance.fr/?action=1135154048&langue=1
 
-articles
+Articles
 https://www.owasp.org/index.php/OWASP_Dependency_Check
 https://www.owasp.org/images/7/70/ASDC12-The_Unfortunate_Reality_of_Insecure_Libraries.pdf
 http://www.esecurityplanet.com/trends/article.php/3735216/Feel-Vulnerable-Time-for-Vulnerability-Management-Tools.htm
 
-tools
+Tools
 
 mvn dependency:tree
 mvn versions:display-dependency-updates
@@ -55,7 +53,7 @@ http://juliusdavies.ca/2013/j.emse/bertillonage/
 https://github.com/olukas/pro-grade Java Security Policy with denying rules
 https://github.com/victims
 
-versions
+Version Systems
 
 https://github.com/netty/netty/issues/1269
 
@@ -90,8 +88,6 @@ http://osvdb.org/show/osvdb/83316 JOGL JOAL
 http://news.ycombinator.com/item?id=5037904 java,vul
 
 https://bugs.mageia.org/show_bug.cgi?id=6011
-
-
 
 
 http://www.contextis.co.uk/research/blog/dirtydisks/ cloud,rackspace,hosting,vulnerability,20120424,netsec,news
@@ -306,7 +302,7 @@ http://www.securityfocus.com/archive/1/528177 spring  CVE-2013-4152
 http://seclists.org/fulldisclosure/2013/Nov/14
 http://docs.spring.io/spring/docs/3.2.6.RELEASE/changelog.txt * fixed minor issue with prior fix for CVE 2010-1622 (SPR-11098)
 
-https://github.com/jeremylong/DependencyCheck
+
 http://stackoverflow.com/questions/10675804/are-hibernate-queries-vulnerable-to-sql-injection
 
 http://apache-tapestry-mailing-list-archives.1045711.n5.nabble.com/Vulnerability-Scanners-td5503278.html
@@ -422,30 +418,6 @@ http://www.apache.org/dist/tika/CHANGES-1.4.txt Release 0.3 - 03/09/2009
 
 http://hc.apache.org/httpclient-3.x/ EOL
 
-http://osvdb.org/92997 common codec  -> 1.4 (https://issues.apache.org/jira/browse/CODEC-70)
-
-http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html   java 7u51
-http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html#AppendixJAVA
-http://www.oracle.com/technetwork/java/javase/jdk7-relnotes-418459.html
-https://code.google.com/p/guava-libraries/issues/detail?id=1635
-
-
-https://www.apache.org/dist/httpcomponents/httpclient/RELEASE_NOTES-4.3.x.txt
-http://www.debian.org/security/2014/dsa-2842 lib spring CVE-2013-4152 Spring OXM, Spring MVC -> 3.0.6.RELEASE-10
-https://issues.apache.org/jira/browse/WSS/fixforversion/12325595 wss4j -> 1.6.14
-
-http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2067  Apache Tomcat
-http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2071 -> 6.0.37 / 7.0.40
-
-http://www.cvedetails.com/cve/CVE-2013-7315/ spring vul 3.2.4 4.0.0.M2
-http://www.cvedetails.com/cve/CVE-2013-6429/
-
-http://www.corrspt.com/blog/2014/01/18/tale-vps-hacked/ JBOSS CVE-2013-4810
-http://blog.imperva.com/2013/11/threat-advisory-a-jboss-as-exploit-web-shell-code-injection.html
-
-http://www.cvedetails.com/cve/CVE-2013-2192/ apache hadoop
-http://www.cvedetails.com/cve/CVE-2013-2185/ apache tomcat
-
 http://community.jaspersoft.com/jasperreports-library/issues/4882 jasper
 
 http://secunia.com/community/advisories/10064
@@ -467,17 +439,31 @@ https://issues.apache.org/jira/browse/AMQ-4115
 CVE-2013-1879 https://issues.apache.org/jira/browse/AMQ-4397
 CVE-2013-3060 https://access.redhat.com/security/cve/CVE-2013-3060 5.8.0
 
-http://www.securityfocus.com/bid/62584 Apache Struts CVE-2013-4310 Security Bypass Vulnerability
+ http://osvdb.org/92997 common codec  -> 1.4 (https://issues.apache.org/jira/browse/CODEC-70)
 
+ https://www.apache.org/dist/httpcomponents/httpclient/RELEASE_NOTES-4.3.x.txt
+
+ https://issues.apache.org/jira/browse/WSS/fixforversion/12325595 wss4j -> 1.6.14
+
+ http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2067  Apache Tomcat
+ http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2071 -> 6.0.37 / 7.0.40
+
+ http://www.cvedetails.com/cve/CVE-2013-7315/ spring vul 3.2.4 4.0.0.M2
+ http://www.cvedetails.com/cve/CVE-2013-6429/
+
+ http://www.corrspt.com/blog/2014/01/18/tale-vps-hacked/ JBOSS CVE-2013-4810
+ http://blog.imperva.com/2013/11/threat-advisory-a-jboss-as-exploit-web-shell-code-injection.html
+
+ http://www.cvedetails.com/cve/CVE-2013-2192/ apache hadoop
+ http://www.cvedetails.com/cve/CVE-2013-2185/ apache tomcat
+
+http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html   java 7u51
+http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html#AppendixJAVA
+http://www.oracle.com/technetwork/java/javase/jdk7-relnotes-418459.html
+https://code.google.com/p/guava-libraries/issues/detail?id=1635
 
 */
 [
-{"name": "2014-01",
-"level": "?",
-"description": "",
-"ifs":[{"impact": "Spring OXM, Spring MVC", "fix": "3.0.6.RELEASE-10"}],
-"docs": ["http://seclists.org/fulldisclosure/2014/Jan/59"]
-},
 {"name": "2013-12-22",
 "level": "WARNING",
 "description": "XStream "Remote Code Execution exploit on code from 'Standard way to serialize and deserialize Objects with XStream'",
@@ -522,13 +508,19 @@ http://www.securityfocus.com/bid/62584 Apache Struts CVE-2013-4310 Security Bypa
 "level": "HIGH",
 "description": "S2-018 - Broken Access Control Vulnerability in Apache Struts2 to be solved with version 2.3.15.1 but that version contains a bug which breaks support for 'action:' prefix.",
 "ifs":[{"impact": "org.apache.struts:struts2-core", "fix": "2.3.15.3"}],
-"docs": ["http://struts.apache.org/release/2.3.x/docs/version-notes-23153.html","http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4310","http://osvdb.org/show/osvdb/98445","http://seclists.org/fulldisclosure/2013/Oct/96"]
+"docs": ["http://struts.apache.org/release/2.3.x/docs/version-notes-23153.html","http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4310","http://osvdb.org/show/osvdb/98445","http://seclists.org/fulldisclosure/2013/Oct/96","http://www.securityfocus.com/bid/62584"]
 },
 {"name": "CVE-2013-4221",
 "level": "HIGH",
 "description": "The default configuration of the ObjectRepresentation class in Restlet before 2.1.4 deserializes objects from untrusted sources using the Java XMLDecoder, which allows remote attackers to execute arbitrary Java code via crafted XML.",
 "ifs":[{"impact": "org.restlet", "fix": "2.1.4"}],
 "docs": ["http://www.cvedetails.com/cve/CVE-2013-4221/","https://bugzilla.redhat.com/show_bug.cgi?id=995275"]
+},
+{"name": "CVE-2013-4152",
+"level": "?",
+"description": "",
+"ifs":[{"impact": "Spring OXM, Spring MVC", "fix": "3.0.6.RELEASE-10"}],
+"docs": ["http://seclists.org/fulldisclosure/2014/Jan/59","http://www.debian.org/security/2014/dsa-2842"]
 },
 {"name": "CVE-2013-4002",
 "level": "HIGH",
