@@ -18,6 +18,9 @@ http://osdir.com/ml/bugtraq.security/2012-04/ vul,source
 https://cassandra.cerias.purdue.edu/CVE_changes/
 http://vigilance.fr/?action=1135154048&langue=1
 
+https://support.springsource.com/security_alerts
+https://support.springsource.com/eol
+
 Articles
 https://www.owasp.org/index.php/OWASP_Dependency_Check
 https://www.owasp.org/images/7/70/ASDC12-The_Unfortunate_Reality_of_Insecure_Libraries.pdf
@@ -425,6 +428,11 @@ http://cocoon.10839.n7.nabble.com/Fwd-SECURITY-Frame-injection-vulnerability-in-
 https://issues.apache.org/jira/browse/COCOON-487
 http://www.cirt.net/Apache%20Cocoon%20Path%20Disclosure
 
+http://www.osvdb.org/show/osvdb/95750
+http://jira.codehaus.org/browse/GEOT-1999 2008-09-03 ->  2.5.2, 2.6-M0
+
+http://telussecuritylabs.com/threats/show/TSL20120907-03 CVE-2011-4605 JBoss
+
 CVE-2012-6092
 
 https://issues.apache.org/jira/browse/AMQ-4115
@@ -459,11 +467,38 @@ CVE-2013-3060 https://access.redhat.com/security/cve/CVE-2013-3060 5.8.0
 
 http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html   java 7u51
 http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html#AppendixJAVA
+http://www.scip.ch/en/?vuldb.11879 CVE-2014-0422 JNDI -> LDAP?
+http://www.zerodayinitiative.com/advisories/ZDI-13-244/ CVE-2013-5817
 http://www.oracle.com/technetwork/java/javase/jdk7-relnotes-418459.html
 https://code.google.com/p/guava-libraries/issues/detail?id=1635
 
 http://developer.berlios.de/forum/forum.php?forum_id=39216 java vul
 http://stackoverflow.com/questions/19119751/java-keytool-the-security-of-generated-keys-with-java-in-general
+
+http://seclists.org/fulldisclosure/2014/Jan/192 java cloud
+
+EOL-2013-06-31  Pivotal announces End-of-Life on Commercial Support for ActiveMQ 5.4
+EOL-2013-07-30 SpringSource announces End Of Life on Commercial Support for Groovy 1.7 and Grails 1.3
+EOL-2013-01-31 SpringSource announces End Of Life on Commercial Support for Spring Roo 1.0
+EOL-2013-01-31 SpringSource announces End Of Life on Commercial Support for some Spring projects
+* Spring Framework 2.5
+* Spring Security 2.0
+* Spring Web Flow 2.0
+* Spring LDAP 1.2
+EOL-2013-01-31 SpringSource announces End Of Life on Commercial Support for Apache ActiveMQ 5.3
+EOL-2013-01-31 SpringSource announces End Of Life on Commercial Support for Grails 1.2
+EOL-2012-09-30 Tomcat 5.5 End of Life
+EOL-2012-06-30 SpringSource announces End Of Life for Spring Web Services 1.5
+EOL-2012-05-31 SpringSource announces End Of Life on Commercial Support for some Apache Projects
+  * Apache Axis, Apache Axis2, Apache Cayenne, Apache Geronimo, Apache James, Apache OpenJPA, Apache Roller
+  * Apache ServiceMix, Apache Struts, Apache Xalan
+EOL-2011-11-30 SpringSource announces End Of Life on Commercial Support for Apache ActiveMQ 5.2
+EOL-2011-10-31 SpringSource announces End Of Life on Commercial Support for Spring Web Flow 1.0
+EOL-2011-09-31 SpringSource announces End Of Life on Commercial Support for Apache ActiveMQ 5.1
+EOL-2011-08-31 SpringSource announces End Of Life for Spring Batch 1.1, Spring DM 1.1
+EOL-2011-07-31 SpringSource announces end of life for Spring Batch 1.0, Spring DM 1.0, Spring IDE 2.0, Spring Web Services 1.0
+EOL-2011-06-30 SpringSource announces end of life for Tomcat 4.1.x
+EOL-2009-06-02 Covalent announces end of life support for Tomcat 5.0.x
 
 */
 [
