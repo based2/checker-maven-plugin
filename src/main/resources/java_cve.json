@@ -500,6 +500,14 @@ EOL-2011-07-31 SpringSource announces end of life for Spring Batch 1.0, Spring D
 EOL-2011-06-30 SpringSource announces end of life for Tomcat 4.1.x
 EOL-2009-06-02 Covalent announces end of life support for Tomcat 5.0.x
 
+http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/%3C52F373FC.9030907%40apache.org%3E
+
+
+https://forum.hibernate.org/viewtopic.php?p=2454336
+https://issues.apache.org/jira/browse/TAP5-1005
+https://plus.google.com/+googleguava/posts/ZAhULZfxUhm Guava 16.0.1 released
+http://seclists.org/fulldisclosure/2014/Feb/38 CVE-2013-2055 Apache Wicket information disclosure vulnerability
+
 */
 [
 {"name": "2013-12-22",
