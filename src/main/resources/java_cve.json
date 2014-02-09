@@ -509,6 +509,20 @@ http://seclists.org/fulldisclosure/2014/Feb/38 CVE-2013-2055 Apache Wicket infor
 http://code.google.com/p/mybatis/issues/detail?id=683
 http://www.hpenterprisesecurity.com/vulncat/en/vulncat/java/sql_injection_ibatis_data_map.html
 
+http://osvdb.org/show/osvdb/102880  2014-01-28 Apache Axis2
+http://osvdb.org/show/osvdb/102273  2014-01-16 InMobi Ad SDK
+http://osvdb.org/show/osvdb/102786 2014-01-07 Apache Santuario
+http://osvdb.org/show/osvdb/99549
+http://osvdb.org/show/osvdb/97408
+http://osvdb.org/show/osvdb/98243 2013-08-21 Restlet
+http://osvdb.org/show/osvdb/95405 CVE-2013-2251 Struts
+http://osvdb.org/show/osvdb/95386 CVE-2013-4112 JGroups
+http://osvdb.org/show/osvdb/94505 2013-06-05 dotCMS
+http://osvdb.org/show/osvdb/95503 2013-02-14 openCms
+http://osvdb.org/show/osvdb/95502
+http://osvdb.org/show/osvdb/102541  2012-10-07 Grizzly
+
+http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Ciphersuite Timing Analysis Plaintext Recovery Cryptanalysis Attack
 */
 [
 {"name": "CVE-2014-0050",
@@ -524,7 +538,7 @@ http://www.hpenterprisesecurity.com/vulncat/en/vulncat/java/sql_injection_ibatis
 "level": "WARNING",
 "description": "XStream "Remote Code Execution exploit on code from 'Standard way to serialize and deserialize Objects with XStream'",
 "ifs":[{"impact": "com.thoughtworks.xstream:xstream", "fix": ""}],
-"docs": ["http://blog.diniscruz.com/2013/12/xstream-remote-code-execution-exploit.html"]
+"docs": ["http://blog.diniscruz.com/2013/12/xstream-remote-code-execution-exploit.html","http://osvdb.org/show/osvdb/102252"]
 },
 {"name": "CVE-2013-6397",
 "level": "HIGH",
@@ -558,7 +572,7 @@ http://www.hpenterprisesecurity.com/vulncat/en/vulncat/java/sql_injection_ibatis
 {"impact": "org.apache.camel:camel:?:2.10.x", "fix": "2.10.7"},
 {"impact": "org.apache.camel:camel:?:2.11.x", "fix": "2.11.2"},
 {"impact": "org.apache.camel:camel:?:2.12.0", "fix": "2.12.1"}],
-"docs": ["http://www.cvedetails.com/cve/CVE-2013-4330/","http://camel.apache.org/security-advisories.data/CVE-2013-4330.txt.asc?version=1&modificationDate=1380535446943"]
+"docs": ["http://www.cvedetails.com/cve/CVE-2013-4330/","http://camel.apache.org/security-advisories.data/CVE-2013-4330.txt.asc?version=1&modificationDate=1380535446943","http://osvdb.org/show/osvdb/97941"]
 },
 {"name": "CVE-2013-4310 CVE-2013-4316 2013-10-14-struts2",
 "level": "HIGH",
@@ -582,7 +596,7 @@ http://www.hpenterprisesecurity.com/vulncat/en/vulncat/java/sql_injection_ibatis
 "level": "HIGH",
 "description": "The Apache Xerces-J XML parser is vulnerable to a denial of service attack, triggered by malformed XML data. The malformed data causes the XML parser to consume CPU resource for several minutes before the data is eventually rejected. This behavior can be used to launch a denial of service attack against any Java server application which processes XML data supplied by remote users.",
 "ifs":[{"impact": "", "fix": "Xerces-J 2.10.0"}],
-"docs": ["http://www-01.ibm.com/support/docview.wss?uid=swg21654683","http://apache-xml-project.6118.n7.nabble.com/Need-Help-on-XML-Vulnerabilty-of-Apache-Xerces-Java-td2127.html"]
+"docs": ["http://www-01.ibm.com/support/docview.wss?uid=swg21654683","http://apache-xml-project.6118.n7.nabble.com/Need-Help-on-XML-Vulnerabilty-of-Apache-Xerces-Java-td2127.html","http://osvdb.org/show/osvdb/95418"]
 },
 {"name": "2013-09-21-Play!",
 "level": "HIGH",
