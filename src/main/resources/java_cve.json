@@ -28,6 +28,11 @@ http://www.esecurityplanet.com/trends/article.php/3735216/Feel-Vulnerable-Time-f
 
 Tools
 
+http://jeremylong.github.io/DependencyCheck/dependency-check-maven/usage.html
+https://groups.google.com/forum/?fromgroups#!forum/dependency-check
+http://jeremylong.github.io/DependencyCheck/suppression.html
+https://github.com/jeremylong/DependencyCheck/blob/master/dependency-check-core/src/main/java/org/owasp/dependencycheck/utils/DependencyVersion.java
+
 mvn dependency:tree
 mvn versions:display-dependency-updates
 
@@ -59,6 +64,11 @@ https://github.com/victims
 Version Systems
 
 https://github.com/netty/netty/issues/1269
+http://www.javacodegeeks.com/2014/02/version-numbering-scheme-yet-another-approach.html?ModPagespeed=noscript
+
+Others
+
+https://github.com/simmel/SecurerString
 
 ===
 
@@ -504,6 +514,8 @@ http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/%3C52F373FC.90
 https://forum.hibernate.org/viewtopic.php?p=2454336
 https://issues.apache.org/jira/browse/TAP5-1005
 https://plus.google.com/+googleguava/posts/ZAhULZfxUhm Guava 16.0.1 released
+https://issues.apache.org/jira/browse/JCLOUDS-427 Upgrading JDK from 1.7.0_45 to 1.7.0_51 causes problems when searching for interface implementations
+
 http://seclists.org/fulldisclosure/2014/Feb/38 CVE-2013-2055 Apache Wicket information disclosure vulnerability
 
 http://code.google.com/p/mybatis/issues/detail?id=683
@@ -521,6 +533,13 @@ http://osvdb.org/show/osvdb/94505 2013-06-05 dotCMS
 http://osvdb.org/show/osvdb/95503 2013-02-14 openCms
 http://osvdb.org/show/osvdb/95502
 http://osvdb.org/show/osvdb/102541  2012-10-07 Grizzly
+http://osvdb.org/show/osvdb/95694  CVE-2013-3300   2013-07-25 scala lift
+
+http://www.securityfocus.com/bid/63224/info xml4j CVE-2013-5372
+https://access.redhat.com/security/cve/CVE-2014-1202 SOAP UI  CVE-2014-1202
+
+http://esme.apache.org/ EOL
+http://attic.apache.org/
 
 http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Ciphersuite Timing Analysis Plaintext Recovery Cryptanalysis Attack
 */
@@ -532,7 +551,7 @@ http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Cipher
 {"impact": "Apache Tomcat 8.0.0-RC1", "fix": "8.0.2"},
 {"impact": "Apache Tomcat 7", "fix": "7.0.51"}
 ],
-"docs": ["http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://markmail.org/message/kpfl7ax4el2owb3o","http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser"]
+"docs": ["http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://markmail.org/message/kpfl7ax4el2owb3o","http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://blog.spiderlabs.com/2014/02/cve-2014-0050-exploit-with-boundaries-loops-without-boundaries.html"]
 },
 {"name": "2013-12-22",
 "level": "WARNING",
