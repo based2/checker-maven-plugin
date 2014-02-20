@@ -378,7 +378,6 @@ http://mail-archives.apache.org/mod_mbox/tomcat-announce/201109.mbox/%3C4E805D2E
 http://www.securityfocus.com/bid/58073 Apache Commons HttpClient CVE-2012-5783 SSL Certificate Validation Security Bypass Vulnerability
 
 http://support.novell.com/security/cve/CVE-2012-0022.html tomcat CVE-2012-0022
-http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-2186 commons fileupload
 
 https://jawr.java.net/security issue => Version 3.2 released
 
@@ -541,17 +540,30 @@ https://access.redhat.com/security/cve/CVE-2014-1202 SOAP UI  CVE-2014-1202
 http://esme.apache.org/ EOL
 http://attic.apache.org/
 
+http://www.scip.ch/fr/?vuldb.12291 struts CVE-2012-0394
+http://www.scip.ch/fr/?vuldb.12128 java ibm sametime
+
+https://issues.apache.org/jira/browse/TAP5-2291
+http://apache-tapestry-mailing-list-archives.1045711.n5.nabble.com/Tapestry-with-Jetty-behind-https-frontend-td5725854.html#a5725896 Tomcat 7.0.52(51)      Fix CVE-2014-0050
+
+http://ofbiz.apache.org/download.html ofbiz CVE
+http://www.securityfocus.com/bid/60186/info Apache Tomcat CVE-2013-1976 Insecure Temporary File Handling Vulnerability
+
+http://osvdb.org/show/osvdb/103352 vul,restlet
+http://www.xwiki.org/xwiki/bin/view/ReleaseNotes/ReleaseNotesXWiki541 upload fix
+http://maven.40175.n5.nabble.com/End-of-Life-Apache-Maven-2-x-td5785222.html EOL maven xxxx2.x
+
 http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Ciphersuite Timing Analysis Plaintext Recovery Cryptanalysis Attack
 */
 [
 {"name": "CVE-2014-0050",
-"level": "MEDIUM",
-"description": "It is possible to craft a malformed Content-Type header for a multipart request that causes Apache Commons FileUpload to enter an infinite loop. A malicious user could, therefore, craft a malformed request that triggered a denial of service",
-"ifs":[{"impact": "org.pache.commons.fileupload", "fix": "1.3.1"},
-{"impact": "Apache Tomcat 8.0.0-RC1", "fix": "8.0.2"},
-{"impact": "Apache Tomcat 7", "fix": "7.0.51"}
-],
-"docs": ["http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://markmail.org/message/kpfl7ax4el2owb3o","http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://blog.spiderlabs.com/2014/02/cve-2014-0050-exploit-with-boundaries-loops-without-boundaries.html"]
+  "level": "MEDIUM",
+  "description": "It is possible to craft a malformed Content-Type header for a multipart request that causes Apache Commons FileUpload to enter an infinite loop. A malicious user could, therefore, craft a malformed request that triggered a denial of service",
+  "ifs":[{"impact": "org.apache.commons.fileupload", "fix": "1.3.1"},
+  {"impact": "org.apache.tomcat:8.0.0-RC1", "fix": "8.0.3"},
+  {"impact": "org.apache.tomcat:7.x", "fix": "7.0.51 _"}
+  ],
+"docs": ["http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://markmail.org/message/kpfl7ax4el2owb3o","http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://blog.spiderlabs.com/2014/02/cve-2014-0050-exploit-with-boundaries-loops-without-boundaries.html","https://bugs.mageia.org/show_bug.cgi?id=12653","http://lwn.net/Articles/571431/","https://www.jpcert.or.jp/english/at/2014/at140007.html","http://serverfault.com/questions/573821/apache-how-to-limit-content-type-header-length-to-avoid-cve-2014-0050"]
 },
 {"name": "2013-12-22",
 "level": "WARNING",
@@ -574,7 +586,7 @@ http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Cipher
 {"name": "2013-10-24-tomcat5.5",
 "level": "HIGH",
 "description": "Apache Tomcat contains a flaw as HTTP requests do not require multiple steps, explicit confirmation, or a unique token when performing certain sensitive actions. By tricking a user into following a specially crafted link, a context-dependent attacker can perform a Cross-Site Request Forgery (CSRF / XSRF) attack causing the victim to undeploy an existing application, deploy a new application, stop an application, or start an application.",
-"ifs":[{"impact": "org.apache.tomcat", "fix": "5.5.26"}],
+"ifs":[{"impact": "org.apache.tomcat", "fix": "5.5.26 -> EOL-2012-0930 Tomcat 6/7"}],
 "docs": ["http://www.webapp-security.com/wp-content/uploads/2013/11/Apache-Tomcat-5.5.25-CSRF-Vulnerabilities.txt","http://osvdb.org/show/osvdb/99375"]
 },
 {"name": "CVE-2013-5679",
@@ -635,6 +647,12 @@ http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Cipher
 "description": "Standard random number generators do not provide a sufficient amount of entropy when used for security purposes. Attackers can brute force the output of pseudorandom number generators such as rand()",
 "ifs":[{"impact": "org.jasypt:jasypt", "fix": "1.9.1"}],
 "docs": ["http://sourceforge.net/p/jasypt/bugs/23/"]
+},
+{"name": "CVE-2013-2186",
+  "level": "HIGH",
+  "description": "The DiskFileItem class in Apache Commons FileUpload, as used in Red Hat JBoss BRMS 5.3.1; JBoss Portal 4.3 CP07, 5.2.2, and 6.0.0; and Red Hat JBoss Web Server 1.0.2 allows remote attackers to write to arbitrary files via a NULL byte in a file name in a serialized instance.",
+  "ifs":[{"impact": "org.apache.commons.fileupload", "fix": "1.3.1"}],
+"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-2186","http://xforce.iss.net/xforce/xfdb/88133"]
 },
 {"name": "CVE-2013-1768",
 "level": "HIGH",
@@ -742,7 +760,7 @@ http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Cipher
 {"name": "EOL-2012-0930",
 "level": "HIGH",
 "description": "End of life for Apache Tomcat 5.5.x",
-"ifs":[{"impact": "org.apache.tomcat:catalina:5.5.x", "fix": "6.0.35|7.0.26"}],
+"ifs":[{"impact": "org.apache.tomcat:catalina:5.5.x", "fix": "6.0.39|7.0.51 _"}],
 "docs": ["http://tomcat.apache.org/tomcat-55-eol.html"]
 },
 {"name": "CVE-2012-0803",
