@@ -60,6 +60,7 @@ http://code.google.com/p/six-oval/
 http://juliusdavies.ca/2013/j.emse/bertillonage/
 https://github.com/olukas/pro-grade Java Security Policy with denying rules
 https://github.com/victims
+https://staff.aist.go.jp/nakamura-akihito/six/vuln/index.html
 
 Version Systems
 
@@ -539,6 +540,7 @@ https://access.redhat.com/security/cve/CVE-2014-1202 SOAP UI  CVE-2014-1202
 
 http://esme.apache.org/ EOL
 http://attic.apache.org/
+http://commons.apache.org/dormant.html
 
 http://www.scip.ch/fr/?vuldb.12291 struts CVE-2012-0394
 http://www.scip.ch/fr/?vuldb.12128 java ibm sametime
@@ -553,6 +555,29 @@ http://osvdb.org/show/osvdb/103352 vul,restlet
 http://www.xwiki.org/xwiki/bin/view/ReleaseNotes/ReleaseNotesXWiki541 upload fix
 http://maven.40175.n5.nabble.com/End-of-Life-Apache-Maven-2-x-td5785222.html EOL maven xxxx2.x
 
+http://www.securityfocus.com/bid/26070 Apache Tomcat WebDav Remote Information Disclosure Vulnerability
+http://www.securityfocus.com/bid/46164 Apache Tomcat NIO Connector Denial of Service Vulnerability
+
+http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/%3CCALvzYd-mcX-YJsP1N3wK7wWkgGg_i_5%2B-wMq%3D%3DNU2OMK7yKcvA%40mail.gmail.com%3E CVE-2014-0002 and CVE-2014-0003 - Apache Camel critical disclosure vulnerability
+http://www.securityfocus.com/bid/59798 Apache Tomcat CVE-2013-2071 Information Disclosure Vulnerability
+http://www.securityfocus.com/bid/60846 Apache Santuario XML Security for JAVA XML Signature CVE-2013-2172 Security Bypass Vulnerability
+http://www.securityfocus.com/bid/61951 Spring Framework CVE-2013-4152 Multiple XML External Entity Injection Vulnerabilities
+http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0033 MEDIUM
+
+org/apache/catalina/connector/CoyoteAdapter.java in Apache Tomcat 6.0.33 through 6.0.37 does not consider the disableURLRewriting setting when handling a session ID in a URL, which allows remote attackers to conduct session fixation attacks via a crafted URL.
+http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0058 LOW
+The security audit functionality in Red Hat JBoss Enterprise Application Platform (EAP) 6.x before 6.2.1 logs request parameters in plaintext, which might allow local users to obtain passwords by reading the log files.
+
+http://blog.h3xstream.com/2014/02/jira-path-traversal-explained.html
+
+http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-4580
+Multiple cross-site scripting (XSS) vulnerabilities in Red Hat JBoss Enterprise Portal Platform before 5.2.0 allow remote attackers to inject arbitrary web script or HTML via unspecified vectors.
+
+http://vigilance.fr/vulnerabilite/TLS-DTLS-obtention-d-information-en-mode-CBC-Lucky-13-12374
+http://vigilance.fr/vulnerabilite/Bouncy-Castle-JCE-timing-attack-9349
+--
+http://www.securityfocus.com/bid/58318/info International Components for Unicode CVE-2013-0900 Unspecified Race Condition Vulnerability
+http://www.securityfocus.com/bid/58335 OpenFabrics ibutils Insecure Temporary File Creation Vulnerability - infiniband
 http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Ciphersuite Timing Analysis Plaintext Recovery Cryptanalysis Attack
 */
 [
@@ -561,9 +586,9 @@ http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Cipher
   "description": "It is possible to craft a malformed Content-Type header for a multipart request that causes Apache Commons FileUpload to enter an infinite loop. A malicious user could, therefore, craft a malformed request that triggered a denial of service",
   "ifs":[{"impact": "org.apache.commons.fileupload", "fix": "1.3.1"},
   {"impact": "org.apache.tomcat:8.0.0-RC1", "fix": "8.0.3"},
-  {"impact": "org.apache.tomcat:7.x", "fix": "7.0.51 _"}
+  {"impact": "org.apache.tomcat:7.x", "fix": "7.0.52"}
   ],
-"docs": ["http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://markmail.org/message/kpfl7ax4el2owb3o","http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://blog.spiderlabs.com/2014/02/cve-2014-0050-exploit-with-boundaries-loops-without-boundaries.html","https://bugs.mageia.org/show_bug.cgi?id=12653","http://lwn.net/Articles/571431/","https://www.jpcert.or.jp/english/at/2014/at140007.html","http://serverfault.com/questions/573821/apache-how-to-limit-content-type-header-length-to-avoid-cve-2014-0050"]
+"docs": ["http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://markmail.org/message/kpfl7ax4el2owb3o","http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://blog.spiderlabs.com/2014/02/cve-2014-0050-exploit-with-boundaries-loops-without-boundaries.html","https://bugs.mageia.org/show_bug.cgi?id=12653","http://lwn.net/Articles/571431/","https://www.jpcert.or.jp/english/at/2014/at140007.html","http://serverfault.com/questions/573821/apache-how-to-limit-content-type-header-length-to-avoid-cve-2014-0050","https://issues.apache.org/jira/browse/TAP5-2295"]
 },
 {"name": "2013-12-22",
 "level": "WARNING",
