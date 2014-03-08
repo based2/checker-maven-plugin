@@ -70,6 +70,7 @@ http://www.javacodegeeks.com/2014/02/version-numbering-scheme-yet-another-approa
 Others
 
 https://github.com/simmel/SecurerString
+http://tersesystems.com/2014/03/02/monkeypatching-java-classes/
 
 ===
 
@@ -570,22 +571,53 @@ The security audit functionality in Red Hat JBoss Enterprise Application Platfor
 
 http://blog.h3xstream.com/2014/02/jira-path-traversal-explained.html
 
+http://www.securityfocus.com/bid/64125 JBoss Enterprise Application Platform CVE-2013-2133 Authorization Security Bypass Vulnerability
+http://www.securityfocus.com/bid/63864 Jenkins Subversion Plugin CVE-2013-6372 Credentials Disclosure Vulnerabi
+http://www.securityfocus.com/bid/63863 Jenkins Build Failure Analyzer Plugin CVE-2013-6374 Unspecified HTML Injection Vulnerability
+http://www.securityfocus.com/bid/63584 OWASP Java Encoder Cross Site Scripting Filter Security Bypass Vulnerability
+http://www.securityfocus.com/bid/51200 Apache Tomcat Hash Collision Denial Of Service Vulnerability CVE-2011-4858
+http://www.securityfocus.com/bid/55309 IBM WebSphere Application Server Administrative Access Security Bypass Vulnerability CVE-2012-3325
+http://www.securityfocus.com/bid/63986 Jahia xCM 'About Me' Field HTML Injection Vulnerability CVE-2013-3920 CVE-2013-4617
+http://www.securityfocus.com/bid/63970 Jetty NTFS Remote Security Bypass Vulnerability Versions prior to Jetty 9.0.6.v20130930 are vulnerable.
+http://www.securityfocus.com/bid/62903 Apache Sling 'deepGetOrCreateNode()' Function Denial Of Service Vulnerability CVE-2013-2254
+
 http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-4580
 Multiple cross-site scripting (XSS) vulnerabilities in Red Hat JBoss Enterprise Portal Platform before 5.2.0 allow remote attackers to inject arbitrary web script or HTML via unspecified vectors.
 
 http://vigilance.fr/vulnerabilite/TLS-DTLS-obtention-d-information-en-mode-CBC-Lucky-13-12374
 http://vigilance.fr/vulnerabilite/Bouncy-Castle-JCE-timing-attack-9349
+
+https://groups.google.com/forum/#!msg/spray-user/snR1lojX3vU/--aMyhhmy3wJ spray vulnerability
+http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-3300 scala json/JsonParser.scala in Lift before 2.5
+http://www.cvedetails.com/cve/CVE-2013-3300/
+http://www.playframework.com/changelog Play 2.1.5 Released 20 September 2013 Vulnerabilities fixed 20130920-XmlExternalEntity XML External Entity exploit
+
+http://www.javacodegeeks.com/2013/08/getting-application-security-vulnerabilities-fixed.html?ModPagespeed=noscript
+16 Jan 2014 ... Anecdotally, we have found that this is a vulnerability in finagle servers, that if a client established a connection and then quickly hangs up, that
+
+http://www.cvedetails.com/cve/CVE-2014-0626/ The (1) JSAFE and (2) JSSE APIs in EMC RSA BSAFE SSL-J 5.x before 5.1.3 and 6.x before 6.0.2 make it easier for remote attackers to bypass intended cryptographic protection mechanisms by triggering application-data processing during the TLS handshake, a time at which the data is both unencrypted and unauthenticated.
+http://www.cvedetails.com/cve/CVE-2014-0627/ The SSLEngine API implementation in EMC RSA BSAFE SSL-J 5.x before 5.1.3 and 6.x before 6.0.2 allows remote attackers to trigger the selection of a weak cipher suite by using the wrap method during a certain incomplete-handshake state.
+https://community.emc.com/thread/168186
+
+http://seclists.org/fulldisclosure/2014/Mar/22 Apache Shiro 1.2.3 Released - Security Advisory CVE-2014-0074
+http://mail-archives.apache.org/mod_mbox/shiro-dev/201403.mbox/%3CCAH9eYVrCp8pGXJiZM2F-9-h2z-hk+gGSk5GkhLs_wf-E_DVQ5Q@mail.gmail.com%3E
+https://issues.apache.org/jira/browse/SHIRO-460
+
+http://seclists.org/fulldisclosure/2014/Mar/44 [ANN] Struts 2.3.16.1 GA release available - security fix
+
+http://mail.openjdk.java.net/pipermail/lambda-dev/2014-March/011940.html java8
 --
 http://www.securityfocus.com/bid/58318/info International Components for Unicode CVE-2013-0900 Unspecified Race Condition Vulnerability
 http://www.securityfocus.com/bid/58335 OpenFabrics ibutils Insecure Temporary File Creation Vulnerability - infiniband
 http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Ciphersuite Timing Analysis Plaintext Recovery Cryptanalysis Attack
+
 */
 [
 {"name": "CVE-2014-0050",
   "level": "MEDIUM",
   "description": "It is possible to craft a malformed Content-Type header for a multipart request that causes Apache Commons FileUpload to enter an infinite loop. A malicious user could, therefore, craft a malformed request that triggered a denial of service",
   "ifs":[{"impact": "org.apache.commons.fileupload", "fix": "1.3.1"},
-  {"impact": "org.apache.tomcat:8.0.0-RC1", "fix": "8.0.3"},
+  {"impact": "org.apache.tomcat:8.x", "fix": "8.0.3"},
   {"impact": "org.apache.tomcat:7.x", "fix": "7.0.52"}
   ],
 "docs": ["http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://markmail.org/message/kpfl7ax4el2owb3o","http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://blog.spiderlabs.com/2014/02/cve-2014-0050-exploit-with-boundaries-loops-without-boundaries.html","https://bugs.mageia.org/show_bug.cgi?id=12653","http://lwn.net/Articles/571431/","https://www.jpcert.or.jp/english/at/2014/at140007.html","http://serverfault.com/questions/573821/apache-how-to-limit-content-type-header-length-to-avoid-cve-2014-0050","https://issues.apache.org/jira/browse/TAP5-2295"]
