@@ -1,8 +1,13 @@
 package org.github.based2.maven.plugin.checker;
 
 import junit.framework.TestCase;
+import org.github.based2.maven.plugin.checker.version.CompareVersions;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 public class CompareVersionsTest extends TestCase {
+    private static Logger logger = LoggerFactory.getLogger(CompareVersionsTest.class);
+
     // sementic versioning
 
     // versionImpacted / others , true if inferior or equal version
@@ -47,16 +52,23 @@ public class CompareVersionsTest extends TestCase {
             { "3.6.10.SEC01", "3.6.10.SEC02", true },
             { "3.6.10-alpha-1", "3.6.10-alpha-2", true },
             { "3.6.10-alpha-12", "3.6.10-alpha-20", true },
-            { "3.6.10-alpha-12", "3.6.10-beta-1", true }
+            { "3.6.10-alpha-12", "3.6.10-beta-1", true },
+            { "3.6.10-beta-1", "3.6.10-beta-2", true },
+            { "3.6.10-beta-2", "3.6.10-beta-3", true },
+            { "3.6.10-beta-3", "3.6.10-beta-11", true },
+            { "3.6.10-beta-3", "3.6.10", true },
+            { "0.0.1-SNAPSHOT", "0.0.1", true},
             };
 
     public void testReleaseIsInferiorOrEqual() {
         CompareVersions cv = new CompareVersions();
         for (Object[] comp : comparisons) {
+           // logger.error(""+comp[0]+ " ? =< "+comp[1]);
             System.out.println(""+comp[0]+ " ? =< "+comp[1]);
             assertEquals(comp[2],
                     cv.releaseIsInferiorOrEqual((String) comp[0],
-                            (String) comp[1]));
+                            (String) comp[1])
+            );
         }
     }
 

@@ -8,6 +8,7 @@ import org.apache.maven.plugin.logging.Log;
 import org.apache.maven.project.MavenProject;
 import org.github.based2.maven.plugin.checker.data.FixInfo;
 import org.github.based2.maven.plugin.checker.data.Info;
+import org.github.based2.maven.plugin.checker.version.CompareVersions;
 import org.sonatype.aether.RepositorySystem;
 import org.sonatype.aether.RepositorySystemSession;
 import org.sonatype.aether.artifact.Artifact;

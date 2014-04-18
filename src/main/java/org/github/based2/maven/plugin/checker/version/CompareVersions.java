@@ -1,4 +1,4 @@
-package org.github.based2.maven.plugin.checker;
+package org.github.based2.maven.plugin.checker.version;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -10,7 +10,17 @@ public class CompareVersions {
 
     private static Logger logger = LoggerFactory.getLogger(CompareVersions.class);
 
-    CompareVersions() {
+    private int majorReference;
+    private int minorReference;
+    private int minusReference;
+    private String dateReference;
+
+    private int majorCandidate;
+    private int minorCandidate;
+    private int minusCandidate;
+    private String dateCandidate;
+
+    public CompareVersions() {
     }
 
     public static boolean releaseIsInferiorOrEqual(String reference, String value) {
@@ -62,7 +72,6 @@ public class CompareVersions {
         return false;
     }
 
-
     private static int FALSE = 0;
     private static int TRUE = 1;
     private static int DO_NOTHING = 2;
@@ -79,18 +88,16 @@ public class CompareVersions {
     {
         logger.debug("ref:"+ref + " val:"+ val + " valueLevel:"+ valueLevel + " i:" + i);
         if (isStrictLevelCheck) {
-            if (ref < val)
-            return TRUE;
+            if (ref < val) return TRUE;
         }
         // TODO check for non integer conversion 1a.2b .... and number >
         if (!isStrictLevelCheck) {
-            if (ref > val)
-            return FALSE;
+            if (ref > val) return FALSE;
         }
         if (valueLevel == i) {
-            if (ref == val)
-            return TRUE;
+            if (ref == val) return TRUE;
         }
+        logger.error("Failed to compare: ref:"+ref + " val:"+ val + " valueLevel:"+ valueLevel + " i:" + i );
         return DO_NOTHING;
     }
 
