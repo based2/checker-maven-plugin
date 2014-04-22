@@ -122,65 +122,66 @@ http://www.cvedetails.com/cve/CVE-2013-2192/ apache hadoop
 http://osvdb.org/show/osvdb/78903 vul,cxf
 http://camel.apache.org/camel-272-release.html xss,vul,camel
 
- http://struts.apache.org/release/2.2.x/docs/version-notes-221.html
- http://osvdb.org/show/osvdb/78276 vul,struts
- http://osvdb.org/show/osvdb/78108 vul,struts
- http://osvdb.org/show/osvdb/78109 vul,struts
- http://osvdb.org/show/osvdb/78993 vul,struts
- http://osvdb.org/show/osvdb/78990 vul,struts
- http://www.scip.ch/fr/?vuldb.12291 struts CVE-2012-0394
- http://osvdb.org/show/osvdb/95405 CVE-2013-2251 Struts
- http://seclists.org/fulldisclosure/2014/Mar/44 [ANN] Struts 2.3.16.1 GA release available - security fix
+http://struts.apache.org/release/2.2.x/docs/version-notes-221.html
+http://osvdb.org/show/osvdb/78276 vul,struts
+http://osvdb.org/show/osvdb/78108 vul,struts
+http://osvdb.org/show/osvdb/78109 vul,struts
+http://osvdb.org/show/osvdb/78993 vul,struts
+http://osvdb.org/show/osvdb/78990 vul,struts
+http://www.scip.ch/fr/?vuldb.12291 struts CVE-2012-0394
+http://osvdb.org/show/osvdb/95405 CVE-2013-2251 Struts
+http://seclists.org/fulldisclosure/2014/Mar/44 [ANN] Struts 2.3.16.1 GA release available - security fix
+http://seclists.org/fulldisclosure/2014/Apr/250 vul,struts
 
- http://packetstormsecurity.com/files/119530/Apache-CouchDB-1.0.3-1.1.1-1.2.0-Information-Disclosure.html
+http://packetstormsecurity.com/files/119530/Apache-CouchDB-1.0.3-1.1.1-1.2.0-Information-Disclosure.html
 
- http://lucene.472066.n3.nabble.com/jira-Created-SOLR-74-Cross-site-scripting-vulnerabilities-td508803.htmls
- http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-3821
+http://lucene.472066.n3.nabble.com/jira-Created-SOLR-74-Cross-site-scripting-vulnerabilities-td508803.htmls
+http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-3821
 
- http://lucene.472066.n3.nabble.com/jira-Created-SOLR-74-Cross-site-scripting-vulnerabilities-td508803.htmls
+http://lucene.472066.n3.nabble.com/jira-Created-SOLR-74-Cross-site-scripting-vulnerabilities-td508803.htmls
 
- https://issues.apache.org/jira/browse/SOLR-1031
- https://groups.google.com/forum/#!topic/ajax-solr/ELR8_M4d-uE
- http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=731113
+https://issues.apache.org/jira/browse/SOLR-1031
+https://groups.google.com/forum/#!topic/ajax-solr/ELR8_M4d-uE
+http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=731113
 
- http://tiles.apache.org/framework/security/security-bulletin-1.html
- http://www.securityfocus.com/bid/34657  CVE-2009-1275
+http://tiles.apache.org/framework/security/security-bulletin-1.html
+http://www.securityfocus.com/bid/34657  CVE-2009-1275
 
- http://support.f5.com/kb/en-us/solutions/public/14000/300/sol14371.html apache axis CVE-2012-5784
- https://issues.apache.org/jira/browse/AXIS-2883
+http://support.f5.com/kb/en-us/solutions/public/14000/300/sol14371.html apache axis CVE-2012-5784
+https://issues.apache.org/jira/browse/AXIS-2883
 
- http://osvdb.org/show/osvdb/83682 sling > 2.1.2
- http://www.securityfocus.com/bid/62903 Apache Sling 'deepGetOrCreateNode()' Function Denial Of Service Vulnerability CVE-2013-2254
+http://osvdb.org/show/osvdb/83682 sling > 2.1.2
+http://www.securityfocus.com/bid/62903 Apache Sling 'deepGetOrCreateNode()' Function Denial Of Service Vulnerability CVE-2013-2254
 
- https://issues.apache.org/jira/browse/SHINDIG-906 vul,shindig
+https://issues.apache.org/jira/browse/SHINDIG-906 vul,shindig
 
-  http://osvdb.org/show/osvdb/79002 vul,myface
+ http://osvdb.org/show/osvdb/79002 vul,myface
     http://osvdb.org/show/osvdb/103373 Mojarra contains a flaw in JavaServer Faces (JSF2) that allows a reflected cross-site scripting (XSS) attack. This flaw exists because the program does not validate input to outputText tags or EL expressions before returning it to users. This may allow a context-dependent attacker to create a specially crafted request that would execute arbitrary script code in a user's browser session within the trust relationship between their browser and the server.
 
- https://bugzilla.redhat.com/show_bug.cgi?format=multiple&id=984057 geronimo CVE-2013-1777
+https://bugzilla.redhat.com/show_bug.cgi?format=multiple&id=984057 geronimo CVE-2013-1777
 
-  http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/%3C52F373FC.9030907%40apache.org%3E
-  https://issues.apache.org/jira/browse/TAP5-1005
+http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/%3C52F373FC.9030907%40apache.org%3E
+https://issues.apache.org/jira/browse/TAP5-1005
 
 
 http://www.securityfocus.com/bid/60846 Apache Santuario XML Security for JAVA XML Signature CVE-2013-2172 Security Bypass Vulnerability
 
 
- http://ofbiz.apache.org/download.html#vulnerabilities
- http://osvdb.org/show/osvdb/81196 vul,ofbiz http://mail-archives.apache.org/mod_mbox/ofbiz-dev/201204.mbox/%3CA126EDA0-06A5-4B67-8CDD-FC5F5AABA147@apache.org%3E
+http://ofbiz.apache.org/download.html#vulnerabilities
+http://osvdb.org/show/osvdb/81196 vul,ofbiz http://mail-archives.apache.org/mod_mbox/ofbiz-dev/201204.mbox/%3CA126EDA0-06A5-4B67-8CDD-FC5F5AABA147@apache.org%3E
 
- https://blogs.reucon.com/srt/vulnerability-in-apacheds-1-5-10878/ vul,apacheds,ldap
- http://mail-archives.apache.org/mod_mbox/portals-jetspeed-dev/200703.mbox/%3C45E8A22A.3050404@douma.nu%3E jetsepeed,vul
+https://blogs.reucon.com/srt/vulnerability-in-apacheds-1-5-10878/ vul,apacheds,ldap
+http://mail-archives.apache.org/mod_mbox/portals-jetspeed-dev/200703.mbox/%3C45E8A22A.3050404@douma.nu%3E jetsepeed,vul
 
- http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-0026 vul,2009,jackrabbit
- http://www.cvedetails.com/cve/CVE-2006-2806/ james,apache
- http://www.cvedetails.com/cve/CVE-2004-2650/
+http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-0026 vul,2009,jackrabbit
+http://www.cvedetails.com/cve/CVE-2006-2806/ james,apache
+http://www.cvedetails.com/cve/CVE-2004-2650/
 
- http://avalon.apache.org/closed.html EOL
- http://excalibur.apache.org/framework/ org.apache.avalon
+http://avalon.apache.org/closed.html EOL
+http://excalibur.apache.org/framework/ org.apache.avalon
 
-  https://issues.apache.org/jira/browse/OFBIZ-1959 2010
-  http://ofbiz.apache.org/download.html ofbiz CVE
+https://issues.apache.org/jira/browse/OFBIZ-1959 2010
+http://ofbiz.apache.org/download.html ofbiz CVE
 
 https://github.com/apache/roller/commit/e7cae713115677906436086e8c39f3e641a609c4
 https://github.com/apache/roller/commit/de93d37061ddb3ca61b8ca9b922c8cd61a67d3bf
@@ -341,6 +342,8 @@ https://issues.jasig.org/browse/CAS-1064
 http://jasig.275507.n4.nabble.com/cross-site-scripting-vulnerability-td1570360.html
 http://jasig.275507.n4.nabble.com/CAS-3-5-2-1-and-3-4-12-1-Security-Releases-td4662444.html
 
+http://vigilance.fr/vulnerabilite/Bouncy-Castle-contournement-de-TLS-Server-client-auth-14610
+
 
 Framework, major tools builder
 
@@ -375,6 +378,10 @@ org.javolution</groupId>
 
 http://jira.codehaus.org/browse/GROOVY-6210
 
+http://hal.inria.fr/inria-00322138 osgi
+http://vmkit.llvm.org/publications/osgi_dsn.html
+
+
 - scala
  https://play.lighthouseapp.com/projects/57987/tickets/1353-play-124-vulnerable-to-hash-collision-attack vul,play
  https://groups.google.com/forum/#!msg/spray-user/snR1lojX3vU/--aMyhhmy3wJ spray vulnerability
@@ -391,8 +398,10 @@ Jetty-4.1.1 - 30 September 2002
 + Fixed client scripting vulnerability with jasper2.
 
 http://telussecuritylabs.com/threats/show/TSL20120907-03 CVE-2011-4605 JBoss
-  http://www.corrspt.com/blog/2014/01/18/tale-vps-hacked/ JBOSS CVE-2013-4810
-  http://blog.imperva.com/2013/11/threat-advisory-a-jboss-as-exploit-web-shell-code-injection.html
+http://www.corrspt.com/blog/2014/01/18/tale-vps-hacked/ JBOSS CVE-2013-4810
+http://blog.imperva.com/2013/11/threat-advisory-a-jboss-as-exploit-web-shell-code-injection.html
+
+http://osvdb.org/show/osvdb/106020 jboss
 
 http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-1554
 http://old.nabble.com/Re:--DSECRG--Sun-Glassfish-Multiple-Security-Vulnerabilities-p23002524.html
@@ -669,6 +678,9 @@ http://markmail.org/message/xdedidxfyjsf3jkc [SECURITY] CVE-2014-0111 Apache Syn
 16 Jan 2014 ... Anecdotally, we have found that this is a vulnerability in finagle servers, that if a client established a connection and then quickly hangs up, that
 
 http://mail.openjdk.java.net/pipermail/lambda-dev/2014-March/011940.html java8
+
+http://www.oracle.com/technetwork/topics/security/cpuapr2014-1972952.html#AppendixJAVA
+
 
 --
 http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Ciphersuite Timing Analysis Plaintext Recovery Cryptanalysis Attack
