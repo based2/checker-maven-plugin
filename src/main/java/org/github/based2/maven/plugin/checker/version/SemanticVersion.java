@@ -1,6 +1,5 @@
 package org.github.based2.maven.plugin.checker.version;
 
-import com.sun.tools.javac.resources.version;
 import org.codehaus.plexus.util.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,7 +32,7 @@ public class SemanticVersion
     private String separator;
 
     private final static String[] SEPARATORS = {".","-","_","#","°","*"};
-    private final static String[] FLAGS_ORDER ={"alpha","beta","m", "rc", "final", "ga", "sec"};
+    private final static String[] FLAGS_ORDER = {"alpha","beta","m", "rc", "final", "ga", "sec"};
 
     private final static int FALSE = 0;
     private final static int TRUE = 1;
@@ -180,6 +179,7 @@ public class SemanticVersion
 
         if (this.major<version.major) return true;
         if (this.major==version.major) return isTrue(isInferiorOrEqual(this.majorString, version.majorString, FLAGS_ORDER));
+        return false;
     }
 
 }

@@ -6,9 +6,9 @@ import org.slf4j.LoggerFactory;
 // recheck with http://maven.40175.n5.nabble.com/how-exactly-does-maven-compare-versions-td45310.html
 // http://mojo.codehaus.org/versions-maven-plugin/version-rules.html
 
-public class CompareVersions {
+public class VersionComparator {
 
-    private static Logger logger = LoggerFactory.getLogger(CompareVersions.class);
+    private static Logger logger = LoggerFactory.getLogger(VersionComparator.class);
 
     private int majorReference;
     private int minorReference;
@@ -20,7 +20,7 @@ public class CompareVersions {
     private int minusCandidate;
     private String dateCandidate;
 
-    public CompareVersions() {
+    public VersionComparator() {
     }
 
     public static boolean releaseIsInferiorOrEqual(String reference, String value) {

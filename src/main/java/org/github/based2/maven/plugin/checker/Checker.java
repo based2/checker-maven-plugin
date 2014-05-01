@@ -8,7 +8,7 @@ import org.apache.maven.plugin.logging.Log;
 import org.apache.maven.project.MavenProject;
 import org.github.based2.maven.plugin.checker.data.FixInfo;
 import org.github.based2.maven.plugin.checker.data.Info;
-import org.github.based2.maven.plugin.checker.version.CompareVersions;
+import org.github.based2.maven.plugin.checker.version.VersionComparator;
 import org.sonatype.aether.RepositorySystem;
 import org.sonatype.aether.RepositorySystemSession;
 import org.sonatype.aether.artifact.Artifact;
@@ -488,7 +488,7 @@ public class Checker extends AbstractMojo
                                 // Must match exactly +
                                 impactSplit[2] = impactSplit[2].substring(1,
                                         impactSplit[2].length() - 2);
-                                if (CompareVersions.releaseIsInferiorOrEqual(
+                                if (VersionComparator.releaseIsInferiorOrEqual(
                                         arts[2], impactSplit[2], true)
                                         && (!isFixSubVersion(impact, arts[2],
                                         artifact,
@@ -498,7 +498,7 @@ public class Checker extends AbstractMojo
                                     impacted.add(impacts.get(impact));
                                 }
                             } else {
-                                if ((CompareVersions.releaseIsInferiorOrEqual(
+                                if ((VersionComparator.releaseIsInferiorOrEqual(
                                         arts[2], impactSplit[2], false))
                                         && (!isFixSubVersion(impact, arts[2],
                                         artifact,

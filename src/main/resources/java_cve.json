@@ -675,12 +675,16 @@ http://osvdb.org/show/osvdb/105385 drools vul
 http://www.cvedetails.com/cve/CVE-2013-4636/
 http://markmail.org/message/xdedidxfyjsf3jkc [SECURITY] CVE-2014-0111 Apache Syncope
 
+http://www.cvedetails.com/cve/CVE-2014-2858/ pivotal grails
+http://www.cvedetails.com/cve/CVE-2012-0032/ Red Hat JBoss Operations Network (JON)
+http://www.cvedetails.com/cve/CVE-2013-2033/ CloudBees Jenkins
+https://access.redhat.com/security/cve/CVE-2014-2746 Tigase
+
 16 Jan 2014 ... Anecdotally, we have found that this is a vulnerability in finagle servers, that if a client established a connection and then quickly hangs up, that
 
 http://mail.openjdk.java.net/pipermail/lambda-dev/2014-March/011940.html java8
 
 http://www.oracle.com/technetwork/topics/security/cpuapr2014-1972952.html#AppendixJAVA
-
 
 --
 http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Ciphersuite Timing Analysis Plaintext Recovery Cryptanalysis Attack
