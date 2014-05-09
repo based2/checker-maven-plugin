@@ -1,5 +1,6 @@
 package org.github.based2.maven.plugin.checker;
 
+import org.github.based2.maven.plugin.checker.version.SemanticVersionComparator;
 import org.github.based2.maven.plugin.checker.version.VersionComparator;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -83,7 +84,8 @@ public class CompareVersionsTestCase {
     @Test
     public void testReleaseIsInferiorOrEqual() {
 
-        assertEquals(expected, versionComparator.releaseIsInferiorOrEqual(v1, v2));
+        assertEquals(expected, SemanticVersionComparator.compare(v1, v2));
+       // assertEquals(expected, versionComparator.releaseIsInferiorOrEqual(v1, v2));
     }
 
 }

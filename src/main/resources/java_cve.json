@@ -272,10 +272,23 @@ http://seclists.org/oss-sec/2014/q1/649
 http://www.debian.org/security/2014/dsa-2886
 http://vigilance.fr/vulnerabilite/Xalan-Java-vulnerabilites-de-FEATURE-SECURE-PROCESSING-14468
 https://issues.apache.org/jira/browse/XALANJ-2435
+http://osvdb.org/show/osvdb/104928 Apache Xalan-Java (XalanJ2)
+http://osvdb.org/show/osvdb/104942 Apache Xalan-Java (XalanJ2)
+http://osvdb.org/show/osvdb/104927 Apache Xalan-Java (XalanJ2)
+http://seclists.org/oss-sec/2014/q1/649 oCERT-2014-002
+http://www.ocert.org/advisories/ocert-2014-002.html
+https://issues.apache.org/jira/browse/XALANJ-2435
+
+http://ftp.uni-bayreuth.de/netsoftware/apache/xalan/xalan-j/
 
 http://mail-archives.apache.org/mod_mbox/www-announce/201404.mbox/%3C833AEE81-D6D3-485D-A568-45567BBD48CD%40apache.org%3E archiva
 http://mail-archives.apache.org/mod_mbox/www-announce/201404.mbox/%3CA6832E37-6DF3-4738-B96B-133362F67049%40apache.org%3E
 
+http://vigilance.fr/vulnerabilite/Xalan-Java-vulnerabilites-de-FEATURE-SECURE-PROCESSING-14468
+http://www.debian.org/security/2014/dsa-2886
+https://access.redhat.com/security/cve/CVE-2014-2067 jenkins CVE-2014-2067 Moderate
+
+Netty  -> 7.19
 
 Others-
 
@@ -527,7 +540,6 @@ http://cve.mitre.org/cgi-bin/cvename.cgi?name=2013-0177
 http://seclists.org/fulldisclosure/2013/Jan/148
 
 http://osvdb.org/show/osvdb/89453
-
 http://osvdb.org/show/osvdb/89293
 
 http://cve.mitre.org/cgi-bin/cvename.cgi?name=2012-5641
@@ -631,7 +643,6 @@ implementation for org.apache.avalon.phoenix.interfaces.SystemManager
 http://community.jaspersoft.com/jasperreports-library/issues/4882 jasper
 CVE-2012-6092
 
-
 http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html   java 7u51
 http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html#AppendixJAVA
 
@@ -686,6 +697,21 @@ http://mail.openjdk.java.net/pipermail/lambda-dev/2014-March/011940.html java8
 
 http://www.oracle.com/technetwork/topics/security/cpuapr2014-1972952.html#AppendixJAVA
 
+http://www.cvedetails.com/cve/CVE-2014-0942/
+http://www.cvedetails.com/cve/CVE-2014-0942/
+http://osvdb.org/show/osvdb/106477
+http://vigilance.fr/vulnerabilite/Openfire-Cross-Site-Scripting-de-Admin-Console-14696
+http://markmail.org/message/bl4w4ziixu2t7ea4 [ANN][SECURITY] Struts 1 - CVE-2014-0114 -Mitigation Advice Available, Possible RCE Impact
+http://www.debian.org/security/2014/dsa-2912 openjdk6
+http://struts.apache.org/announce.html
+http://www.cert.ssi.gouv.fr/site/CERTFR-2014-ALE-004/index.html
+http://blog.fuseyism.com/index.php/2014/04/16/security-icedtea-2-4-7-for-openjdk-7-released/
+http://blog.fuseyism.com/index.php/2014/04/15/security-icedtea-1-13-3-for-openjdk-6-released/
+http://osvdb.org/show/osvdb/106279 jruby
+
+http://playframework.com/changelog vul,play,Netty WebSocket denial of service vulnerability
+http://netty.io/news/2014/04/30/release-day.html
+
 --
 http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Ciphersuite Timing Analysis Plaintext Recovery Cryptanalysis Attack
 
@@ -708,7 +734,7 @@ http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Cipher
 },
 {"name": "2013-12-22",
 "level": "WARNING",
-"description": "XStream "Remote Code Execution exploit on code from 'Standard way to serialize and deserialize Objects with XStream'",
+"description": "XStream Remote Code Execution exploit on code from 'Standard way to serialize and deserialize Objects with XStream'",
 "ifs":[{"impact": "com.thoughtworks.xstream:xstream", "fix": ""}],
 "docs": ["http://blog.diniscruz.com/2013/12/xstream-remote-code-execution-exploit.html","http://osvdb.org/show/osvdb/102252"]
 },
@@ -738,7 +764,7 @@ http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Cipher
 },
 {"name": "CVE-2013-4330",
 "level": "MEDIUM",
-"description": "Apache Camel before 2.9.7, 2.10.0 before 2.10.7, 2.11.0 before 2.11.2, and 2.12.0 allows remote attackers to execute arbitrary simple language expressions by including "$simple{}" in a CamelFileName message header to a (1) FILE or (2) FTP producer.",
+"description": "Apache Camel before 2.9.7, 2.10.0 before 2.10.7, 2.11.0 before 2.11.2, and 2.12.0 allows remote attackers to execute arbitrary simple language expressions by including '$simple{}' in a CamelFileName message header to a (1) FILE or (2) FTP producer.",
 "ifs":[{"impact": "org.apache.camel:camel", "fix": "2.13.0"},
 {"impact": "org.apache.camel:camel:?:2.9.x", "fix": "2.9.8"},
 {"impact": "org.apache.camel:camel:?:2.10.x", "fix": "2.10.7"},

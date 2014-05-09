@@ -16,7 +16,12 @@ import org.slf4j.LoggerFactory;
  */
 public class SemanticVersion
 {
-    private static Logger logger = LoggerFactory.getLogger(SemanticVersion.class);
+    private final static Logger LOG = LoggerFactory.getLogger(SemanticVersion.class);
+
+    private final static int MAJOR_1 = 1;
+    private final static int MINOR_2 = 2;
+    private final static int MICRO_3 = 3; // PATCH
+    private final static int QUALIFIER_4 = 4;
 
     private int major = -1;
     private String majorString = null;
@@ -31,33 +36,35 @@ public class SemanticVersion
 
     private String separator;
 
-    private final static String[] SEPARATORS = {".","-","_","#","°","*"};
+    private final static String[] SEPARATORS = {".","-","_","#",";",",","\t","|","*","°"};
     private final static String[] FLAGS_ORDER = {"alpha","beta","m", "rc", "final", "ga", "sec"};
 
     private final static int FALSE = 0;
     private final static int TRUE = 1;
     private final static int EQUALS = 2;
 
-    public void SemanticVersion(String signature) {
+    public SemanticVersion(String signature) {
         if (signature==null) return;
         for (String separator : SEPARATORS) {
             if ((separate(StringUtils.strip(signature), separator))) return;
         }
-        logger.error("Failed to load version:"+signature);
+        LOG.error("Failed to load version:"+signature);
     }
 
     private boolean separate(String signature, String separator){
         try {
             String[] version = signature.split(separator);
             if (version.length>0) {
-                inject(version[0], this.major, this.majorString);
+                inject(version[0], MAJOR_1);
                 if (version.length>1) {
-                    inject(version[1], this.minor, this.minorString);
+                    inject(version[1], MINOR_2);
                     if (version.length>2) {
-                        inject(version[2], this.micro, this.microString);
+                        inject(version[2], MICRO_3);
                     }
                 }
                 return true;
+            } else {
+                inject(signature, MAJOR_1);
             }
         } catch (Exception e){
         }
@@ -68,14 +75,12 @@ public class SemanticVersion
         boolean isNext = false;
         for (String sep : SEPARATORS) {
             if (isNext) return separator;
-            if (sep.equals(separator)) {
-                 isNext=true;
-            }
+            if (sep.equals(separator)) isNext=true;
         }
         return separator;
     }
 
-    private void inject(String source, int target, String strTarget) {
+    private void inject(String source, int target) {
         source = StringUtils.strip(source);
         if (StringUtils.isBlank(source)) return;
         target = toInt(source);
@@ -85,9 +90,9 @@ public class SemanticVersion
             if (pos!=-1) {
                 target = toInt(source.substring(0, pos));
                 if (target==-1) {
-                    strTarget = source;
+                    set(target, source);
                 } else {
-                    strTarget = source.substring(pos, source.length()-1).toLowerCase();
+                    String strTarget = source.substring(pos, source.length()-1).toLowerCase();
                     if (!StringUtils.isAlpha(strTarget)) {
                         if (strTarget.startsWith(separator+"v")) { // date detected v20141231
                             this.timestamp=toInt(strTarget.substring(2));
@@ -98,11 +103,15 @@ public class SemanticVersion
                             //qualifierString // consecutiveAlpha
                             //qualifier
                         }
+                    } else {
+                        set(target, strTarget);
                     }
                 }
             } else {
-                strTarget = source;
+                set(target, source);
             }
+        } else {
+            set(target, source);
         }
     }
 
@@ -162,6 +171,26 @@ public class SemanticVersion
         if (index1 < index2) return TRUE;
         if (index1 == index2) return EQUALS; // todo for -1
         return FALSE;
+    }
+
+    public void set(int target, int value) {
+        switch (target){
+            case MAJOR_1: this.major = value; break;
+            case MINOR_2: this.minor = value; break;
+            case MICRO_3: this.micro = value; break;
+            case QUALIFIER_4: this.qualifier = value; break;
+            default: LOG.error("target not found" + target + " for value:" + value);
+        }
+    }
+
+    public void set(int target, String value) {
+        switch (target) {
+            case MAJOR_1: this.majorString = value; break;
+            case MINOR_2: this.minorString = value; break;
+            case MICRO_3: this.microString = value; break;
+            case QUALIFIER_4: this.qualifierString = value; break;
+             default: LOG.error("target not found" + target + " for value:" + value);
+        }
     }
 
     public boolean isInferiorOrEqual(SemanticVersion version) {

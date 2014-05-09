@@ -24,7 +24,7 @@ public final class CheckerTest extends AbstractMojoTestCase {
 	     * @throws Exception If something goes wrong inside
 	     */
 	    private Checker mojo() throws Exception {
-	    	File pom = getTestFile( "src/test/resources/pom1.xml" );
+	    	File pom = getTestFile( "src/test/resources/pom.xml" );
 	        assertNotNull( pom );
 	        assertTrue(pom.exists());
 	        

@@ -76,8 +76,8 @@ public class CVEListLoader {
         while (token != JsonToken.END_OBJECT) {
           Info info = new Info();
           jr.setContextObject(info);
-          jr.setContexValue(latestName + "(latest record)");
-          LOG.debug(latestName + "(latest record)");
+          jr.setContexValue(latestName);
+          LOG.debug(latestName + " record");
           jr.set(Info.NAME);
           LOG.debug(Info.NAME + ":" + info.getName());
           jr.setContexValue(info.getName());
@@ -96,24 +96,23 @@ public class CVEListLoader {
 
           jr.setArray(Info.DOCS);
           LOG.debug(Info.DOCS + ":" + this.print(info.getDocs()));
-          LOG.error("dd");
+          LOG.debug("dd>");
           for (FixInfo fi : fixs) {
-            LOG.error("fi");
+            LOG.debug("fi>"+info);
             fi.setInfo(info);
-            LOG.error("info set");
-            if (fi.getImpact() == null)
-              break;
+            LOG.debug("info set");
+            if (fi.getImpact() == null) break;
             impacts.put(fi.getImpact(), fi);
-            LOG.error("impact");
+            LOG.debug("impact"+fi.getImpact());
           }
           latestName = info.getName();
-          LOG.debug("name");
+          LOG.debug("name:"+latestName);
           jr.next();
           jr.next();
         }
-        LOG.error("end docs");
+        LOG.error("<end docs");
       }
-      LOG.error("end info");
+      LOG.error("<end info");
     } catch (JsonParseException e) {
       LOG.error("", e);
     } catch (IOException e) {

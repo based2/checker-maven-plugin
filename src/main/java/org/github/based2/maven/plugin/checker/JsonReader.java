@@ -16,6 +16,7 @@ import java.util.List;
  * <p/>
  * TODO tests cases
  * TODO Should be in com.fasterxml.jackson.core ;-)
+ * todo check  JsonReader.java uses or overrides a deprecated API Recompile with -Xlint:deprecation for details.
  */
 public class JsonReader
 {
@@ -204,7 +205,6 @@ public class JsonReader
     List setRecordsArray(Class clazz, final String attribute, String[] recordColumn) throws JsonParseException,
             JsonProcessingException, IOException
     {
-
         JsonToken current = JsonToken.START_ARRAY;
         String value = "";
         List list = new ArrayList();
