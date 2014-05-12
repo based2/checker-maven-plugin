@@ -103,7 +103,6 @@ org/apache/catalina/connector/CoyoteAdapter.java in Apache Tomcat 6.0.33 through
 http://www.securityfocus.com/bid/51200 Apache Tomcat Hash Collision Denial Of Service Vulnerability CVE-2011-4858
 http://www.cvedetails.com/cve/CVE-2013-2185/ apache tomcat
 
-http://www.securityfocus.com/bid/58073 Apache Commons HttpClient CVE-2012-5783 SSL Certificate Validation Security Bypass Vulnerability
 
 http://markmail.org/search/?q=list%3Aorg.apache.announce/#query:list%3Aorg.apache.announce%2F+page:1+mid:bvdiolcmddjfmx45+state:results vul,cloudstack
 
@@ -129,7 +128,6 @@ http://osvdb.org/show/osvdb/78109 vul,struts
 http://osvdb.org/show/osvdb/78993 vul,struts
 http://osvdb.org/show/osvdb/78990 vul,struts
 http://www.scip.ch/fr/?vuldb.12291 struts CVE-2012-0394
-http://osvdb.org/show/osvdb/95405 CVE-2013-2251 Struts
 http://seclists.org/fulldisclosure/2014/Mar/44 [ANN] Struts 2.3.16.1 GA release available - security fix
 http://seclists.org/fulldisclosure/2014/Apr/250 vul,struts
 
@@ -712,6 +710,22 @@ http://osvdb.org/show/osvdb/106279 jruby
 http://playframework.com/changelog vul,play,Netty WebSocket denial of service vulnerability
 http://netty.io/news/2014/04/30/release-day.html
 
+http://cert.europa.eu/static/SecurityAdvisories/CERT-EU-SA2013-0065.txt jboss soa
+http://sites.univ-provence.fr/wcri/d_serv/d_reseau/d_cert/2013/certmsgVULN280 jboss brmns
+http://seclists.org/oss-sec/2011/q2/188 http client
+https://groups.google.com/forum/#!msg/google-gson/gqxUYdlqTNU/Vx2TRyoOWX4J gson vul
+http://apigee.com/docs/api-services/content/minimize-vulnerabilities-using-jsonthreatprotection
+http://stefanhendriks.wordpress.com/2011/02/16/prevent-cross-site-scripting-when-using-json-objects-using-esapi-and-jackson-framework-1-7-x/
+http://osvdb.org/show/osvdb/106564
+http://osvdb.org/show/osvdb/106572
+https://github.com/FasterXML/jackson-databind/issues/37
+
+On versions: fixes included in upcoming releases:
+    1.9.9 for 1.x series (not backported as previous branches are closed)
+    2.0.5 for 2.0; and 2.1.0 when 2.1 gets released.
+http://www.cvedetails.com/cve/CVE-2014-0941/ ibm ominibus
+http://www.cvedetails.com/cve/CVE-2014-0941/ ibm ominibus
+
 --
 http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Ciphersuite Timing Analysis Plaintext Recovery Cryptanalysis Attack
 
@@ -719,16 +733,16 @@ http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Cipher
 [
  {"name": "CVE-2014-0074",
    "level": "HIGH",
-   "description": "LDAP",
-   "ifs":[{"impact": "org.apache.shiro", "fix": "1.2.3"}],
-   "docs": ["https://issues.apache.org/jira/browse/SHIRO-460","http://seclists.org/fulldisclosure/2014/Mar/22","http://mail-archives.apache.org/mod_mbox/shiro-dev/201403.mbox/%3CCAH9eYVrCp8pGXJiZM2F-9-h2z-hk+gGSk5GkhLs_wf-E_DVQ5Q@mail.gmail.com%3","http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/%3CCALvzYd-mcX-YJsP1N3wK7wWkgGg_i_5%2B-wMq%3D%3DNU2OMK7yKcvA%40mail.gmail.com%3E"]
+   "description": "LDAP authentication succeeds even if the user name and password is not passed",
+   "ifs":[{"impact": "org.apache.shiro:1.0.0-incubating 1.2.2", "fix": "1.2.3"}],
+   "docs": ["https://issues.apache.org/jira/browse/SHIRO-460 Unresolved","http://seclists.org/fulldisclosure/2014/Mar/22","http://mail-archives.apache.org/mod_mbox/shiro-dev/201403.mbox/%3CCAH9eYVrCp8pGXJiZM2F-9-h2z-hk+gGSk5GkhLs_wf-E_DVQ5Q@mail.gmail.com%3","http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/%3CCALvzYd-mcX-YJsP1N3wK7wWkgGg_i_5%2B-wMq%3D%3DNU2OMK7yKcvA%40mail.gmail.com%3E"]
  },
 {"name": "CVE-2014-0050",
   "level": "MEDIUM",
   "description": "It is possible to craft a malformed Content-Type header for a multipart request that causes Apache Commons FileUpload to enter an infinite loop. A malicious user could, therefore, craft a malformed request that triggered a denial of service",
   "ifs":[{"impact": "org.apache.commons.fileupload", "fix": "1.3.1"},
-  {"impact": "org.apache.tomcat:8.x", "fix": "8.0.3"},
-  {"impact": "org.apache.tomcat:7.x", "fix": "7.0.52"}
+  {"impact": "org.apache.tomcat:8.x", "fix": "8.0.3 8.0.5"},
+  {"impact": "org.apache.tomcat:7.x", "fix": "7.0.52 7.0.53"}
   ],
 "docs": ["http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://markmail.org/message/kpfl7ax4el2owb3o","http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://blog.spiderlabs.com/2014/02/cve-2014-0050-exploit-with-boundaries-loops-without-boundaries.html","https://bugs.mageia.org/show_bug.cgi?id=12653","http://lwn.net/Articles/571431/","https://www.jpcert.or.jp/english/at/2014/at140007.html","http://serverfault.com/questions/573821/apache-how-to-limit-content-type-header-length-to-avoid-cve-2014-0050","https://issues.apache.org/jira/browse/TAP5-2295"]
 },
@@ -863,6 +877,18 @@ http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Cipher
 "description": "H2 Database Engine contains a flaw in the TCP server. This issue is due to the application failing to properly enforce client access rights. This may allow a remote attacker to overwrite arbitrary properties.",
 "ifs":[{"impact": "com.h2database", "fix": "1.3.171"}],
 "docs": ["http://osvdb.org/show/osvdb/91463","http://www.securityfocus.com/bid/58536/discuss"]
+},
+{"name": "CVE-2012-5783",
+"level": "MEDIUM",
+"description": "Apache Commons HttpClient 3.x, as used in Amazon Flexible Payments Service (FPS) merchant Java SDK and other products, does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate.",
+"ifs":[{"impact": "commons-httpclient:commons-httpclient: 3.1 EOL", "fix": "Patch in https://issues.apache.org/jira/browse/HTTPCLIENT-1265, org.apache.httpcomponents:httpclient:4.3.3"}],
+"docs": ["http://www.cs.utexas.edu/~shmat/shmat_ccs12.pdf Section7.5","https://issues.apache.org/jira/browse/HTTPCLIENT-1265","http://www.rapid7.com/db/vulnerabilities/linuxrpm-rhsa-2013-0680","http://www.securityfocus.com/bid/58073","http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-5783","https://bugs.mageia.org/show_bug.cgi?id=8933","http://advisories.mageia.org/MGASA-2013-0199.html","http://people.canonical.com/~ubuntu-security/cve/2012/CVE-2012-5783.html","https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=692442","http://www.security-database.com/detail.php?alert=CVE-2012-5783","https://issues.jboss.org/browse/ENTMQ-315","https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=700268"]
+},
+{"name": "CVE-2013-2251",
+"level": "HIGH",
+"description": "Apache Struts 2.0.0 through 2.3.15 allows remote attackers to execute arbitrary OGNL expressions via a parameter with a crafted (1) action:, (2) redirect:, or (3) redirectAction: prefix.",
+"ifs":[{"impact": "org.apache.struts:struts2-core:2.0.0 2.3.15", "fix": "2.3.15.3 2.3.16.3"}],
+"docs": ["http://struts.apache.org/release/2.3.x/docs/version-notes-23153.html","http://osvdb.org/98445"]
 },
 {"name": "CVE-2012-2098",
 "level": "MEDIUM",
@@ -1254,7 +1280,7 @@ http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Cipher
 {"name": "CVE-2007-6721",
 "level": "HIGH",
 "description":"The Legion of the Bouncy Castle Java Cryptography API before release 1.38 (aka 2.5.2), as used in Crypto Provider Package before 1.36, has unknown impact and remote attack vectors related to a Bleichenbacher vulnerability in simple RSA CMS signatures without signed attributes.",
-"ifs": [{"impact": "bouncycastle:bcprov-jdk15:136", "fix": "138" }],
+"ifs": [{"impact": "bouncycastle:bcprov-jdk15:136", "fix": "138 1.50" }],
 "docs": ["http://www.bouncycastle.org/latest_releases.htm","http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2007-6721"]
 },
 {"name": "CVE-2007-6452, CVE-2007-2378, CVE-2007-6542",
@@ -1266,7 +1292,7 @@ http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Cipher
 {"name": "CVE-2007-6306",
 "level": "MEDIUM",
 "description": "Multiple cross-site scripting (XSS) vulnerabilities in the image map feature in JFreeChart 1.0.8 allow remote attackers to inject arbitrary web script or HTML via the (1) chart name or (2) chart tool tip text; or the (3) href, (4) shape, or (5) coords attribute of a chart area.",
-"ifs": [{"impact": "jfreechart:1.0.8", "fix": " " }],
+"ifs": [{"impact": "jfree:jfreechart:1.0.8", "fix": " org.jfree:jfreechart:1.0.17" }],
 "docs": ["http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6306","http://www.securityfocus.com/archive/1/456712"]
 },
 {"name": "CVE-2007-6721",
