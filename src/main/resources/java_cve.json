@@ -25,6 +25,7 @@ https://support.springsource.com/eol
 https://www.owasp.org/index.php/OWASP_Dependency_Check
 https://www.owasp.org/images/7/70/ASDC12-The_Unfortunate_Reality_of_Insecure_Libraries.pdf
 http://www.esecurityplanet.com/trends/article.php/3735216/Feel-Vulnerable-Time-for-Vulnerability-Management-Tools.htm
+ http://seclists.org/fulldisclosure/2014/May/55 vulnerability management
 
 # Tools
 
@@ -262,31 +263,10 @@ http://www.apache.org/dist/tika/CHANGES-1.4.txt Release 0.3 - 03/09/2009
 http://markmail.org/message/xdedidxfyjsf3jkc [SECURITY] CVE-2014-0111 Apache Syncope
 http://mail-archives.apache.org/mod_mbox/www-announce/201404.mbox/%3C534CE273.9020601%40apache.org%3E
 
-http://www.ocert.org/advisories/ocert-2014-002.html
-http://osvdb.org/show/osvdb/104928
-http://osvdb.org/show/osvdb/104942
-http://osvdb.org/show/osvdb/104927
-http://seclists.org/oss-sec/2014/q1/649
-http://www.debian.org/security/2014/dsa-2886
-http://vigilance.fr/vulnerabilite/Xalan-Java-vulnerabilites-de-FEATURE-SECURE-PROCESSING-14468
-https://issues.apache.org/jira/browse/XALANJ-2435
-http://osvdb.org/show/osvdb/104928 Apache Xalan-Java (XalanJ2)
-http://osvdb.org/show/osvdb/104942 Apache Xalan-Java (XalanJ2)
-http://osvdb.org/show/osvdb/104927 Apache Xalan-Java (XalanJ2)
-http://seclists.org/oss-sec/2014/q1/649 oCERT-2014-002
-http://www.ocert.org/advisories/ocert-2014-002.html
-https://issues.apache.org/jira/browse/XALANJ-2435
-
-http://ftp.uni-bayreuth.de/netsoftware/apache/xalan/xalan-j/
-
 http://mail-archives.apache.org/mod_mbox/www-announce/201404.mbox/%3C833AEE81-D6D3-485D-A568-45567BBD48CD%40apache.org%3E archiva
 http://mail-archives.apache.org/mod_mbox/www-announce/201404.mbox/%3CA6832E37-6DF3-4738-B96B-133362F67049%40apache.org%3E
 
-http://vigilance.fr/vulnerabilite/Xalan-Java-vulnerabilites-de-FEATURE-SECURE-PROCESSING-14468
-http://www.debian.org/security/2014/dsa-2886
 https://access.redhat.com/security/cve/CVE-2014-2067 jenkins CVE-2014-2067 Moderate
-
-Netty  -> 7.19
 
 Others-
 
@@ -392,7 +372,6 @@ http://jira.codehaus.org/browse/GROOVY-6210
 http://hal.inria.fr/inria-00322138 osgi
 http://vmkit.llvm.org/publications/osgi_dsn.html
 
-
 - scala
  https://play.lighthouseapp.com/projects/57987/tickets/1353-play-124-vulnerable-to-hash-collision-attack vul,play
  https://groups.google.com/forum/#!msg/spray-user/snR1lojX3vU/--aMyhhmy3wJ spray vulnerability
@@ -493,7 +472,6 @@ http://seclists.org/fulldisclosure/2014/Mar/13 [CVE-2013-6231] Remote Privilege 
 http://seclists.org/fulldisclosure/2014/Mar/15 [CVE-2013-6232] Persistent Cross-Site Scripting (XSS) in SpagoBI v4.0
 http://seclists.org/fulldisclosure/2014/Mar/16 [CVE-2013-6233] Persistent HTML Script Insertion permits offsite-bound forms in SpagoBI v4.0
 http://seclists.org/fulldisclosure/2014/Mar/17 [CVE-2013-6234] XSS File Upload in SpagoBI v4.0
-
 
 Others
 middleware
@@ -669,10 +647,7 @@ http://osvdb.org/show/osvdb/102541  2012-10-07 Grizzly
 http://seclists.org/fulldisclosure/2014/Feb/38
 http://seclists.org/fulldisclosure/2014/Feb/41
 http://seclists.org/fulldisclosure/2014/Feb/71 [DSA 2857-1] libspring-java security update - VE-2013-6429 CVE-2013-6430
-http://seclists.org/fulldisclosure/2014/Feb/54 [DSA 2856-1] libcommons-fileupload-java security update
 
-http://www.securityfocus.com/bid/62584 Apache Struts CVE-2013-4310 Security Bypass Vulnerability
-http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 http://xerces.apache.org/xerces-j/ EOL (Hibernated Projects - http://xerces.apache.org/)
 
 http://osvdb.org/show/osvdb/103603 solr
@@ -690,6 +665,7 @@ http://www.cvedetails.com/cve/CVE-2013-2033/ CloudBees Jenkins
 https://access.redhat.com/security/cve/CVE-2014-2746 Tigase
 
 16 Jan 2014 ... Anecdotally, we have found that this is a vulnerability in finagle servers, that if a client established a connection and then quickly hangs up, that
+https://github.com/twitter/finagle/commit/908ea9bd43c03be5ddf1fca92e9b8317eb371fc7
 
 http://mail.openjdk.java.net/pipermail/lambda-dev/2014-March/011940.html java8
 
@@ -707,30 +683,53 @@ http://blog.fuseyism.com/index.php/2014/04/16/security-icedtea-2-4-7-for-openjdk
 http://blog.fuseyism.com/index.php/2014/04/15/security-icedtea-1-13-3-for-openjdk-6-released/
 http://osvdb.org/show/osvdb/106279 jruby
 
-http://playframework.com/changelog vul,play,Netty WebSocket denial of service vulnerability
-http://netty.io/news/2014/04/30/release-day.html
-
 http://cert.europa.eu/static/SecurityAdvisories/CERT-EU-SA2013-0065.txt jboss soa
 http://sites.univ-provence.fr/wcri/d_serv/d_reseau/d_cert/2013/certmsgVULN280 jboss brmns
 http://seclists.org/oss-sec/2011/q2/188 http client
-https://groups.google.com/forum/#!msg/google-gson/gqxUYdlqTNU/Vx2TRyoOWX4J gson vul
+
 http://apigee.com/docs/api-services/content/minimize-vulnerabilities-using-jsonthreatprotection
 http://stefanhendriks.wordpress.com/2011/02/16/prevent-cross-site-scripting-when-using-json-objects-using-esapi-and-jackson-framework-1-7-x/
 http://osvdb.org/show/osvdb/106564
 http://osvdb.org/show/osvdb/106572
-https://github.com/FasterXML/jackson-databind/issues/37
+h
+http://www.cvedetails.com/cve/CVE-2014-0941/ ibm ominibus
+http://www.cvedetails.com/cve/CVE-2014-0941/ ibm ominibus
 
+http://seclists.org/fulldisclosure/2014/May/19 HB
+http://osvdb.org/show/osvdb/106216 HB
+
+ http://apache-tapestry-mailing-list-archives.1045711.n5.nabble.com/change-session-id-after-login-td3217239.html
+ https://access.redhat.com/security/cve/CVE-2014-2746 java tigase XMPP CVE-2014-2746
+http://osvdb.org/show/osvdb/106579 JSF 2014-03-12
+http://osvdb.org/show/osvdb/103373 Mojarra JSF2 CVE-2013-5855
+   http://h30499.www3.hp.com/t5/HP-Security-Research-Blog/JSF-outputText-tag-the-good-the-bad-and-the-ugly/bc-p/6370209
+
+http://osvdb.org/show/osvdb/105895 lcms -> java,openjdk http://www.debian.org/security/2014/dsa-2923
+ http://osvdb.org/show/osvdb/102880 axis
+
+--
+http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
+http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Ciphersuite Timing Analysis Plaintext Recovery Cryptanalysis Attack
+
+https://groups.google.com/forum/#!msg/google-gson/gqxUYdlqTNU/Vx2TRyoOWX4J gson vul com.google.code.gson:gson 07/05/2012
+ttps://github.com/FasterXML/jackson-databind/issues/37
 On versions: fixes included in upcoming releases:
     1.9.9 for 1.x series (not backported as previous branches are closed)
     2.0.5 for 2.0; and 2.1.0 when 2.1 gets released.
-http://www.cvedetails.com/cve/CVE-2014-0941/ ibm ominibus
-http://www.cvedetails.com/cve/CVE-2014-0941/ ibm ominibus
-
---
-http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Ciphersuite Timing Analysis Plaintext Recovery Cryptanalysis Attack
-
 */
 [
+ {"name": "CVE-2014-0193",
+   "level": "MEDIUM",
+   "description": "WebSocket denial of service vulnerability",
+   "ifs":[{"impact": "io.netty:netty:3.6.0 4.0.18.Final", "fix": "4.0.19.Final"}],
+   "docs": ["CWE-399","https://github.com/netty/netty/issues/2441","http://netty.io/news/2014/04/30/release-day.html","http://playframework.com/changelog","http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0193"]
+ },
+  {"name": "CVE-2014-0107",
+    "level": "HIGH",
+    "description": "The Xalan-Java library is a popular XSLT processor from the Apache Software Foundation.\nThe library implements the Java API for XML Processing (JAXP) which supports a secure processing feature for interpretive and XSLCT processors. The intent of this feature is to limit XSLT/XML processing behaviours to 'make the XSLT processor behave in a secure fashion'.\nIt has been discovered that the secure processing features suffers from several limitations that undermine its purpose. The enabling of the secure processing feature in fact still allows the following processing to take place:\nJava properties, bound to XSLT 1.0 system-property(), are accessible.\noutput properties that allow to load arbitrary classes or resources are allowed (XALANJ-2435).\narbitrary code can be executed if the Bean Scripting Framework (BSF) is in the classpath, as it allows to spawn available JARs with secure processing disabled, effectively bypassing the intended protection.",
+    "ifs":[{"impact": "xalan:xalan 2.7.1", "fix": "2.7.2"}],
+    "docs": ["http://www.ocert.org/advisories/ocert-2014-002.html","https://issues.apache.org/jira/browse/XALANJ-2435","http://mail-archives.apache.org/mod_mbox/xalan-dev/201404.mbox/%3CCACZkXPwvWp3dAn6kx25Pfwq6ba==TM-vCOmOuv4ACRF1hrRuLw@mail.gmail.com%3E","http://www.debian.org/security/2014/dsa-2886","http://vigilance.fr/vulnerabilite/Xalan-Java-vulnerabilites-de-FEATURE-SECURE-PROCESSING-14468","http://osvdb.org/show/osvdb/104928","http://osvdb.org/show/osvdb/104942","http://osvdb.org/show/osvdb/104927","http://seclists.org/oss-sec/2014/q1/649","http://www.cvedetails.com/cve/CVE-2014-0107/","ftp://apache.mirrors.pair.com/xalan/xalan-j/README.txt","https://issues.apache.org/jira/browse/XALANJ-2578"]
+  },
  {"name": "CVE-2014-0074",
    "level": "HIGH",
    "description": "LDAP authentication succeeds even if the user name and password is not passed",
@@ -744,7 +743,7 @@ http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Cipher
   {"impact": "org.apache.tomcat:8.x", "fix": "8.0.3 8.0.5"},
   {"impact": "org.apache.tomcat:7.x", "fix": "7.0.52 7.0.53"}
   ],
-"docs": ["http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://markmail.org/message/kpfl7ax4el2owb3o","http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://blog.spiderlabs.com/2014/02/cve-2014-0050-exploit-with-boundaries-loops-without-boundaries.html","https://bugs.mageia.org/show_bug.cgi?id=12653","http://lwn.net/Articles/571431/","https://www.jpcert.or.jp/english/at/2014/at140007.html","http://serverfault.com/questions/573821/apache-how-to-limit-content-type-header-length-to-avoid-cve-2014-0050","https://issues.apache.org/jira/browse/TAP5-2295"]
+"docs": ["http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://markmail.org/message/kpfl7ax4el2owb3o","http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://blog.spiderlabs.com/2014/02/cve-2014-0050-exploit-with-boundaries-loops-without-boundaries.html","https://bugs.mageia.org/show_bug.cgi?id=12653","http://lwn.net/Articles/571431/","https://www.jpcert.or.jp/english/at/2014/at140007.html","http://serverfault.com/questions/573821/apache-how-to-limit-content-type-header-length-to-avoid-cve-2014-0050","https://issues.apache.org/jira/browse/TAP5-2295","http://seclists.org/fulldisclosure/2014/Feb/54"]
 },
 {"name": "2013-12-22",
 "level": "WARNING",
