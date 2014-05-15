@@ -691,12 +691,9 @@ http://apigee.com/docs/api-services/content/minimize-vulnerabilities-using-jsont
 http://stefanhendriks.wordpress.com/2011/02/16/prevent-cross-site-scripting-when-using-json-objects-using-esapi-and-jackson-framework-1-7-x/
 http://osvdb.org/show/osvdb/106564
 http://osvdb.org/show/osvdb/106572
-h
-http://www.cvedetails.com/cve/CVE-2014-0941/ ibm ominibus
-http://www.cvedetails.com/cve/CVE-2014-0941/ ibm ominibus
 
-http://seclists.org/fulldisclosure/2014/May/19 HB
-http://osvdb.org/show/osvdb/106216 HB
+http://www.cvedetails.com/cve/CVE-2014-0941/ ibm ominibus
+http://www.cvedetails.com/cve/CVE-2014-0941/ ibm ominibus
 
  http://apache-tapestry-mailing-list-archives.1045711.n5.nabble.com/change-session-id-after-login-td3217239.html
  https://access.redhat.com/security/cve/CVE-2014-2746 java tigase XMPP CVE-2014-2746
@@ -706,6 +703,39 @@ http://osvdb.org/show/osvdb/103373 Mojarra JSF2 CVE-2013-5855
 
 http://osvdb.org/show/osvdb/105895 lcms -> java,openjdk http://www.debian.org/security/2014/dsa-2923
  http://osvdb.org/show/osvdb/102880 axis
+
+ https://bugzilla.redhat.com/show_bug.cgi?id=824075 xerces vuln 2.10 CVE-2009-2625
+ https://issues.jboss.org/browse/AS7-4747
+ https://www.owasp.org/index.php/XML_External_Entity_%28XXE%29_Processing
+ http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-2625
+ https://code.google.com/p/owaspantisamy/issues/detail?id=102
+
+ http://www.les7arts.com/DependencyCheck-Report.html ofbiz
+
+ http://sourceforge.net/projects/soapui/files/soapui/5.0.0/ soap ui
+
+ https://issues.liferay.com/secure/ConfigureReleaseNote.jspa?projectId=10952&version=11326
+
+ http://jersey.576304.n2.nabble.com/SAX-Feature-error-in-Jersey-1-1-4-1-td4581700.html jersey
+
+ http://archive.gria.org/docs/services/4.3.1/docs/change-log.html wss4j
+
+ http://rollerweblogger.org/project/entry/apache_roller_5_0_2 CVE-2013-4171 CVE-2013-4212
+ http://rollerweblogger.org/project/entry/apache_roller_5_0_3 CVE-2014-0030
+ http://markmail.org/message/4nefnhawjrcdxpfr
+
+ http://nicklothian.com/blog/2006/12/12/rome-09-released/
+
+ 2008-06-06 - Michael Koch <konqueror@gmx.de> tomcat5.5 (5.5.26-3) unstable; urgency=high * CVE-2008-1947: Fix XSS issue in host-manager web application.
+
+ http://www.openwall.com/lists/oss-security/2013/03/01/2 jenkins
+ http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-2059 hudson jenkins
+ http://seclists.org/oss-sec/2014/q1/421
+
+ http://advisories75.rssing.com/chan-6966477/latest.php
+
+ https://fisheye6.atlassian.com/changelog/commons?cs=1565143 CVE-2014-0050
+ https://fisheye6.atlassian.com/changelog/commons?cs=1453273 CVE-2013-0248
 
 --
 http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
