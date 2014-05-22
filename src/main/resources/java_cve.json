@@ -737,6 +737,41 @@ http://osvdb.org/show/osvdb/105895 lcms -> java,openjdk http://www.debian.org/se
  https://fisheye6.atlassian.com/changelog/commons?cs=1565143 CVE-2014-0050
  https://fisheye6.atlassian.com/changelog/commons?cs=1453273 CVE-2013-0248
 
+ http://wicket.apache.org/2014/02/21/cve-2014-0043.html
+
+ http://vsecurity.com/download/papers/XMLDTDEntityAttacks.pdf xerces
+
+ http://vigilance.fr/vulnerabilite/Oracle-JavaMail-injection-d-entete-SMTP-via-setSubject-14768
+ http://osvdb.org/show/osvdb/107163 JavaMail SMTP Header Injection via method setSubject [CSNC-2014-001]
+
+ http://seclists.org/fulldisclosure/2014/May/93 opencms
+ http://www.cvedetails.com/cve/CVE-2014-2881/ Unspecified vulnerability in the Diffie-Hellman key agreement implementation in the management GUI Java applet in Citrix NetScaler Application Delivery Controller (ADC) and NetScaler Gateway before 9.3-66.5 and 10.x before 10.1-122.17 has unknown impact and vectors.
+ http://www.cvedetails.com/cve/CVE-2014-2881/
+ http://www.cvedetails.com/cve/CVE-2014-2405/ Unspecified vulnerability in OpenJDK 6 before 6b31 on Debian GNU/Linux and Ubuntu 12.04 LTS and 10.04 LTS has unknown impact and attack vectors, a different vulnerability than CVE-2014-0462.
+ http://seclists.org/fulldisclosure/2014/May/76 HB
+ http://www.cvedetails.com/cve/CVE-2014-1812/ The Group Policy implementation in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 does not properly handle distribution of passwords, which allows remote authenticated users to obtain sensitive credential information and consequently gain privileges by leveraging access to the SYSVOL share, as exploited in the wild in May 2014, aka "Group Policy Preferences Password Elevation of Privilege Vulnerability."
+ http://www.cvedetails.com/cve/CVE-2014-0964/ IBM WebSphere Application Server (WAS) 6.1.0.0 through 6.1.0.47 and 6.0.2.0 through 6.0.2.43 allows remote attackers to cause a denial of service via crafted TLS traffic, as demonstrated by traffic from a CVE-2014-0160 vulnerability-assessment tool.
+ http://osvdb.org/show/osvdb/71873 IBM Tivoli Monitoring contains an unspecified flaw related to the bundled version of Java that may allow an attacker to have an unspecified impact. No further details have been provided.
+ http://osvdb.org/show/osvdb/80616 Zend Server contains a flaw related to the Java Bridge component that allows a remote cross-site scripting (XSS) attack. This flaw exists because the application does not validate the 'directives[zend_jbridge.encoding]' parameter upon submission to the program. This may allow a user to create a specially crafted URL that would execute arbitrary script code in a user's browser within the trust relationship between their browser and the server.
+ http://osvdb.org/show/osvdb/99549 OWASP java encoder XSS
+ OWASP Java Encoder contains a flaw that is due to Internet Explorer treating accent grave (`) as a delimiter character. This may allow an attacker to bypass filters and conduct a cross-site scripting attack.
+ http://osvdb.org/show/osvdb/88541 International Components for Unicode for Java (ICU4J) contains a flaw related to the TimeZone.java file. While a cursory review of the code commit does not suggest a security fix, the note with this specifically indicates it fixes a security bug. No further details are available.
+ http://bugs.icu-project.org/trac/changeset/2929
+ http://osvdb.org/show/osvdb/72940 Libvoikko Python / Java Interface NULL Character Handling DoS
+ Upgrade to version 3.2.1 or higher, as it has been reported to fix this vulnerability. An upgrade is required as there are no known workarounds.
+ http://voikko.puimula.org/releases.html
+ http://osvdb.org/show/osvdb/89544 Barracuda SSL VPN contains a flaw that is due to the setSysProp.jsp script allowing unauthenticated users to manipulate Java system properties. With a specially crafted request, a remote attacker can change values for arbitrary Java system properties, which may disable access restrictions for the application programming interface (API). This will allow the attacker to cause a denial of service for the system, change administrator passwords, download configuration files and database dumps, and possibly have other unspecified impacts.
+ http://osvdb.org/show/osvdb/103221 Cisco Unified Communications Manager contains a flaw that may allow carrying out an SQL injection attack. The issue is due to the Java interface not properly sanitizing user-supplied input before using it in SQL queries. This may allow a remote attacker to inject or manipulate SQL queries in the back-end database, allowing for the manipulation or disclosure of arbitrary data.
+ http://osvdb.org/show/osvdb/15644 JavaMail API Content-Disposition Directory Traversal  - Directory traversal vulnerability in the MimeBodyPart.getFileName method in JavaMail 1.3.2 allows remote attackers to write arbitrary files via a .. (dot dot) in the filename in the Content-Disposition header.
+ http://osvdb.org/show/osvdb/102252 xstream
+ http://osvdb.org/show/osvdb/32979 apache james
+ http://osvdb.org/show/osvdb/40548 hsqldb
+ http://osvdb.org/show/osvdb/63874 Tiny Java Web Server (TJWS) Unspecified Traversal Arbitrary Directory / File Access
+ http://osvdb.org/show/osvdb/107028 IBM WebSphere Portal contains a flaw related to unvalidated JSP includes that is triggered when handling a specially crafted URL request. This may allow a remote attacker to gain access to potentially sensitive information, consume memory resources, or control the request dispatcher on the web server.
+ http://www.aspose.com/corporate/purchase/policies/discontinued-products.aspx EOL
+
+ https://issues.apache.org/jira/browse/BEANUTILS-463
+
 --
 http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Ciphersuite Timing Analysis Plaintext Recovery Cryptanalysis Attack
