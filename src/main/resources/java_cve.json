@@ -770,7 +770,24 @@ http://osvdb.org/show/osvdb/105895 lcms -> java,openjdk http://www.debian.org/se
  http://osvdb.org/show/osvdb/107028 IBM WebSphere Portal contains a flaw related to unvalidated JSP includes that is triggered when handling a specially crafted URL request. This may allow a remote attacker to gain access to potentially sensitive information, consume memory resources, or control the request dispatcher on the web server.
  http://www.aspose.com/corporate/purchase/policies/discontinued-products.aspx EOL
 
- https://issues.apache.org/jira/browse/BEANUTILS-463
+https://issues.apache.org/jira/browse/BEANUTILS-463
+http://mail-archives.apache.org/mod_mbox/www-announce/201405.mbox/%3CCALGG8z0JiKbKdat85ssdwQi0NUuKzF5Ma-wNYwWxh6hKPgSZpg%40mail.gmail.com%3E eol
+http://osvdb.org/show/osvdb/107163 mail
+http://osvdb.org/show/osvdb/107246 Perseus' Java Hopper contains a flaw that allows a cross-site scripting (XSS) attack. This flaw exists because the /hopper/morph script does not validate input to the 'l' GET parameter before returning it to users. This may allow a remote attacker to create a specially crafted request that would execute arbitrary script code in a user's browser session within the trust relationship between their browser and the server.
+http://vigilance.fr/vulnerabilite/Apache-Struts-1-execution-de-code-via-ClassLoader-14799
+http://vigilance.fr/vulnerabilite/Apache-Struts-2-multiples-vulnerabilites-14798
+
+http://markmail.org/message/bsdeufp23k6nlka5  tomcat
+http://markmail.org/message/wehqwlcx47psi7pm
+http://markmail.org/message/jzhu4d2sel64lohx
+http://markmail.org/message/diqkagq7wuycbfjz
+http://www.cert.ssi.gouv.fr/site/CERTFR-2014-AVI-243/index.html
+http://seclists.org/fulldisclosure/2014/May/140
+http://seclists.org/fulldisclosure/2014/May/142 castor
+http://osvdb.org/show/osvdb/107454
+http://osvdb.org/show/osvdb/25677
+http://osvdb.org/show/osvdb/104897 alfresco
+http://osvdb.org/show/osvdb/104389 spring
 
 --
 http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
