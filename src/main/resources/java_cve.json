@@ -57,14 +57,16 @@ mvn versions:display-dependency-updates
 http://stackoverflow.com/questions/2687220/maven-check-for-updated-dependencies-in-repository
 https://github.com/jeremylong/DependencyCheck
 
+https://github.com/victims redhat
+
 http://code.google.com/p/six-oval/
 http://juliusdavies.ca/2013/j.emse/bertillonage/
 https://github.com/olukas/pro-grade Java Security Policy with denying rules
-https://github.com/victims
 https://staff.aist.go.jp/nakamura-akihito/six/vuln/index.html
 
 # Version Systems
 
+http://apr.apache.org/versioning.html
 https://github.com/netty/netty/issues/1269
 http://www.javacodegeeks.com/2014/02/version-numbering-scheme-yet-another-approach.html?ModPagespeed=noscript
 
@@ -116,7 +118,9 @@ http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/%3CCALvzYd-mcX
 
 http://osvdb.org/show/osvdb/84231 hadoop > 2.0.1-alpha
 http://osvdb.org/show/osvdb/80981 vul,hadoop
-http://mail-archives.apache.org/mod_mbox/hadoop-general/201308.mbox/%3CCA+4052kX8oqCeWFYeQ46LhrpYunE0vMu5Bmw-OidN9DPQMzzfw@mail.gmail.com%3E CVE-2013-2192: Apache Hadoop Man in the Middle Vulnerability
+http://mail-archives.apache.org/mod_mbox/hadoop-general/201308.mbox/%3CCA+4052kX8oqCeWFYeQ46LhrpYunE0vMu5Bmw-OidN9DPQMzzfw@mail.gmail.com%3E
+CVE-2013-2192: Apache Hadoop Man in the Middle Vulnerability
+
 http://www.cvedetails.com/cve/CVE-2013-2192/ apache hadoop
 
 http://osvdb.org/show/osvdb/78903 vul,cxf
@@ -135,7 +139,7 @@ http://seclists.org/fulldisclosure/2014/Apr/250 vul,struts
 http://packetstormsecurity.com/files/119530/Apache-CouchDB-1.0.3-1.1.1-1.2.0-Information-Disclosure.html
 
 http://lucene.472066.n3.nabble.com/jira-Created-SOLR-74-Cross-site-scripting-vulnerabilities-td508803.htmls
-http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-3821
+
 
 http://lucene.472066.n3.nabble.com/jira-Created-SOLR-74-Cross-site-scripting-vulnerabilities-td508803.htmls
 
@@ -144,27 +148,9 @@ https://groups.google.com/forum/#!topic/ajax-solr/ELR8_M4d-uE
 http://bugs.debian.org/cgi-bin/bugreport.cgi?bug=731113
 
 http://tiles.apache.org/framework/security/security-bulletin-1.html
-http://www.securityfocus.com/bid/34657  CVE-2009-1275
-
-http://support.f5.com/kb/en-us/solutions/public/14000/300/sol14371.html apache axis CVE-2012-5784
-https://issues.apache.org/jira/browse/AXIS-2883
-
-http://osvdb.org/show/osvdb/83682 sling > 2.1.2
-http://www.securityfocus.com/bid/62903 Apache Sling 'deepGetOrCreateNode()' Function Denial Of Service Vulnerability CVE-2013-2254
-
 https://issues.apache.org/jira/browse/SHINDIG-906 vul,shindig
 
- http://osvdb.org/show/osvdb/79002 vul,myface
-    http://osvdb.org/show/osvdb/103373 Mojarra contains a flaw in JavaServer Faces (JSF2) that allows a reflected cross-site scripting (XSS) attack. This flaw exists because the program does not validate input to outputText tags or EL expressions before returning it to users. This may allow a context-dependent attacker to create a specially crafted request that would execute arbitrary script code in a user's browser session within the trust relationship between their browser and the server.
-
-https://bugzilla.redhat.com/show_bug.cgi?format=multiple&id=984057 geronimo CVE-2013-1777
-
-http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/%3C52F373FC.9030907%40apache.org%3E
-https://issues.apache.org/jira/browse/TAP5-1005
-
-
-http://www.securityfocus.com/bid/60846 Apache Santuario XML Security for JAVA XML Signature CVE-2013-2172 Security Bypass Vulnerability
-
+http://osvdb.org/show/osvdb/79002 vul,myface
 
 http://ofbiz.apache.org/download.html#vulnerabilities
 http://osvdb.org/show/osvdb/81196 vul,ofbiz http://mail-archives.apache.org/mod_mbox/ofbiz-dev/201204.mbox/%3CA126EDA0-06A5-4B67-8CDD-FC5F5AABA147@apache.org%3E
@@ -172,7 +158,6 @@ http://osvdb.org/show/osvdb/81196 vul,ofbiz http://mail-archives.apache.org/mod_
 https://blogs.reucon.com/srt/vulnerability-in-apacheds-1-5-10878/ vul,apacheds,ldap
 http://mail-archives.apache.org/mod_mbox/portals-jetspeed-dev/200703.mbox/%3C45E8A22A.3050404@douma.nu%3E jetsepeed,vul
 
-http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-0026 vul,2009,jackrabbit
 http://www.cvedetails.com/cve/CVE-2006-2806/ james,apache
 http://www.cvedetails.com/cve/CVE-2004-2650/
 
@@ -195,64 +180,38 @@ http://secunia.com/community/advisories/10064
 http://cocoon.10839.n7.nabble.com/Fwd-SECURITY-Frame-injection-vulnerability-in-published-Javadoc-td57989.html
 https://issues.apache.org/jira/browse/COCOON-487
 http://www.cirt.net/Apache%20Cocoon%20Path%20Disclosure
-
-https://issues.apache.org/jira/browse/AMQ-4115
-
-CVE-2013-1879 https://issues.apache.org/jira/browse/AMQ-4397
-CVE-2013-3060 https://access.redhat.com/security/cve/CVE-2013-3060 5.8.0
 http://www.cvedetails.com/vulnerability-list/vendor_id-45/product_id-6846/Apache-Derby.html
-http://www.cvedetails.com/cve/CVE-2007-4575/
 
-CVE-2012-6092
 https://issues.apache.org/jira/browse/AMQ-4115
-CVE-2013-1879 https://issues.apache.org/jira/browse/AMQ-4397
-CVE-2013-3060 https://access.redhat.com/security/cve/CVE-2013-3060 5.8.0
 
- http://osvdb.org/92997 common codec  -> 1.4 (https://issues.apache.org/jira/browse/CODEC-70)
+http://osvdb.org/92997 common codec  -> 1.4 (https://issues.apache.org/jira/browse/CODEC-70)
 
- https://www.apache.org/dist/httpcomponents/httpclient/RELEASE_NOTES-4.3.x.txt
+https://www.apache.org/dist/httpcomponents/httpclient/RELEASE_NOTES-4.3.x.txt
 
- https://issues.apache.org/jira/browse/WSS/fixforversion/12325595 wss4j -> 1.6.14
+https://issues.apache.org/jira/browse/WSS/fixforversion/12325595 wss4j -> 1.6.14
 
- http://vigilance.fr/vulnerabilities/Apache-log4j-537000
+http://vigilance.fr/vulnerabilities/Apache-log4j-537000
 
- http://osvdb.org/show/osvdb/102880  2014-01-28 Apache Axis2
- http://osvdb.org/show/osvdb/102786 2014-01-07 Apache Santuario
+http://osvdb.org/show/osvdb/102880 2014-01-28 Apache Axis2
+http://osvdb.org/show/osvdb/102786 2014-01-07 Apache Santuario
 
- http://apache-xml-project.6118.n7.nabble.com/Re-IMPORTANT-Vulnerability-issue-CVE-2009-2625-td2673.html xerces2.10.0
- http://vigilance.fr/vulnerability/Apache-Xerces2-Java-Java-JRE-JDK-OpenJDK-memory-corruption-via-XML-8925
- https://lists.debian.org/debian-security-announce/2010/msg00021.html http://comments.gmane.org/gmane.text.xml.xerces-j.user/5147
- https://bugzilla.redhat.com/show_bug.cgi?id=824075
+http://apache-xml-project.6118.n7.nabble.com/Re-IMPORTANT-Vulnerability-issue-CVE-2009-2625-td2673.html xerces2.10.0
+http://vigilance.fr/vulnerability/Apache-Xerces2-Java-Java-JRE-JDK-OpenJDK-memory-corruption-via-XML-8925
+https://lists.debian.org/debian-security-announce/2010/msg00021.html http://comments.gmane.org/gmane.text.xml.xerces-j.user/5147
+https://bugzilla.redhat.com/show_bug.cgi?id=824075
 
- http://jira.codehaus.org/browse/REDBACK-276 http://archiva.apache.org/redback/
+http://jira.codehaus.org/browse/REDBACK-276 http://archiva.apache.org/redback/
 
- http://apache-tapestry-mailing-list-archives.1045711.n5.nabble.com/Vulnerability-Scanners-td5503278.html
- https://issues.apache.org/jira/browse/TAP5-1057 TAP5-1442
- http://apache-tapestry-mailing-list-archives.1045711.n5.nabble.com/XSS-vulnerability-in-calendar-component-td2433878.html
+http://apache-tapestry-mailing-list-archives.1045711.n5.nabble.com/Vulnerability-Scanners-td5503278.html
+https://issues.apache.org/jira/browse/TAP5-1057 TAP5-1442
+http://apache-tapestry-mailing-list-archives.1045711.n5.nabble.com/XSS-vulnerability-in-calendar-component-td2433878.html
 
 https://issues.apache.org/jira/browse/HBASE-5598
 
 http://attic.apache.org/
 http://commons.apache.org/dormant.html
- http://esme.apache.org/ EOL
+http://esme.apache.org/ EOL
 
- http://hc.apache.org/httpclient-3.x/ EOL
- http://maven.40175.n5.nabble.com/End-of-Life-Apache-Maven-2-x-td5785222.html EOL maven xxxx2.x
-
-https://issues.apache.org/jira/browse/TAP5-2291
-http://apache-tapestry-mailing-list-archives.1045711.n5.nabble.com/Tapestry-with-Jetty-behind-https-frontend-td5725854.html#a5725896 Tomcat 7.0.52(51)      Fix CVE-2014-0050
-
-EOL-2013-06-31  Pivotal announces End-of-Life on Commercial Support for ActiveMQ 5.4
-EOL-2013-01-31 SpringSource announces End Of Life on Commercial Support for Apache ActiveMQ 5.3
-EOL-2011-11-30 SpringSource announces End Of Life on Commercial Support for Apache ActiveMQ 5.2
-EOL-2011-09-31 SpringSource announces End Of Life on Commercial Support for Apache ActiveMQ 5.1
-EOL-2011-06-30 SpringSource announces end of life for Tomcat 4.1.x
-EOL-2009-06-02 Covalent announces end of life support for Tomcat 5.0.x
-EOL-2012-05-31 SpringSource announces End Of Life on Commercial Support for some Apache Projects
-  * Apache Axis, Apache Axis2, Apache Cayenne, Apache Geronimo, Apache James, Apache OpenJPA, Apache Roller
-  * Apache ServiceMix, Apache Struts, Apache Xalan
-
-http://seclists.org/fulldisclosure/2014/Feb/38 CVE-2013-2055 Apache Wicket information disclosure vulnerability
 https://issues.apache.org/jira/secure/BrowseProjects.jspa#10220 retired
 
 http://www.apache.org/dist/tika/CHANGES-1.4.txt Release 0.3 - 03/09/2009
@@ -260,13 +219,10 @@ http://www.apache.org/dist/tika/CHANGES-1.4.txt Release 0.3 - 03/09/2009
      that it parses as input documents. This improves security and avoids
      problems with potentially broken references. (TIKA-185)
 
-http://markmail.org/message/xdedidxfyjsf3jkc [SECURITY] CVE-2014-0111 Apache Syncope
 http://mail-archives.apache.org/mod_mbox/www-announce/201404.mbox/%3C534CE273.9020601%40apache.org%3E
 
 http://mail-archives.apache.org/mod_mbox/www-announce/201404.mbox/%3C833AEE81-D6D3-485D-A568-45567BBD48CD%40apache.org%3E archiva
 http://mail-archives.apache.org/mod_mbox/www-announce/201404.mbox/%3CA6832E37-6DF3-4738-B96B-133362F67049%40apache.org%3E
-
-https://access.redhat.com/security/cve/CVE-2014-2067 jenkins CVE-2014-2067 Moderate
 
 Others-
 
@@ -278,37 +234,15 @@ http://sourceforge.net/mailarchive/forum.php?thread_name=100F37D3A283C749B712FC0
 http://www.securityfocus.com/bid/56408
 http://archives.neohapsis.com/archives/fulldisclosure/current/0011.html spring
 
-CVE-2012-5055 http://support.springsource.com/security/cve-2012-5055
-
 http://seclists.org/fulldisclosure/2013/Nov/14
-http://docs.spring.io/spring/docs/3.2.6.RELEASE/changelog.txt * fixed minor issue with prior fix for CVE 2010-1622 (SPR-11098)
-
-http://www.cvedetails.com/cve/CVE-2013-7315/ spring vul 3.2.4 4.0.0.M2
-http://www.cvedetails.com/cve/CVE-2013-6429/
-
-EOL-2013-07-30 SpringSource announces End Of Life on Commercial Support for Groovy 1.7 and Grails 1.3
-EOL-2013-01-31 SpringSource announces End Of Life on Commercial Support for Spring Roo 1.0
-EOL-2013-01-31 SpringSource announces End Of Life on Commercial Support for some Spring projects
-* Spring Framework 2.5
-* Spring Security 2.0
-* Spring Web Flow 2.0
-* Spring LDAP 1.2
-EOL-2012-06-30 SpringSource announces End Of Life for Spring Web Services 1.5
-EOL-2011-10-31 SpringSource announces End Of Life on Commercial Support for Spring Web Flow 1.0
-EOL-2011-08-31 SpringSource announces End Of Life for Spring Batch 1.1, Spring DM 1.1
-EOL-2011-07-31 SpringSource announces end of life for Spring Batch 1.0, Spring DM 1.0, Spring IDE 2.0, Spring Web Services 1.0
-
 https://jira.springsource.org/browse/SEC-1285 minor vulnerability in BasicProcessingFilter
-
-SEC
 
 http://osvdb.org/show/osvdb/103965 Java OpenID Server (JOIDS) contains a flaw that allows a remote, user-assisted attacker to conduct a session fixation attack via the 'jsessionid' parameter to the /home script. This flaw exists because the application, when establishing a new session, does not invalidate an existing session identifier and assign a new one. With a specially crafted request fixating the session identifier, a context-dependent attacker can ensure a user authenticates with the known session identifier, allowing the session to be subsequently hijacked.
 http://osvdb.org/show/osvdb/103964
 
 http://vigilance.fr/vulnerabilite/TLS-DTLS-obtention-d-information-en-mode-CBC-Lucky-13-12374
 http://vigilance.fr/vulnerabilite/Bouncy-Castle-JCE-timing-attack-9349
-http://www.cvedetails.com/cve/CVE-2014-0626/ The (1) JSAFE and (2) JSSE APIs in EMC RSA BSAFE SSL-J 5.x before 5.1.3 and 6.x before 6.0.2 make it easier for remote attackers to bypass intended cryptographic protection mechanisms by triggering application-data processing during the TLS handshake, a time at which the data is both unencrypted and unauthenticated.
-http://www.cvedetails.com/cve/CVE-2014-0627/ The SSLEngine API implementation in EMC RSA BSAFE SSL-J 5.x before 5.1.3 and 6.x before 6.0.2 allows remote attackers to trigger the selection of a weak cipher suite by using the wrap method during a certain incomplete-handshake state.
+http://vigilance.fr/vulnerabilite/Bouncy-Castle-contournement-de-TLS-Server-client-auth-14610
 https://community.emc.com/thread/168186
 
 http://jira.ow2.org/browse/LEMONLDAP-372
@@ -317,8 +251,6 @@ http://osvdb.org/show/osvdb/78454 opennms,vul
 https://community.oracle.com/thread/2162450 jsch
 
 http://sourceforge.net/p/jsch/mailman/message/32115165/ JSch 0.1.51 2014-03-18 14:23:32
-
-http://www.scip.ch/en/?vuldb.11879 CVE-2014-0422 JNDI -> LDAP?
 
 http://osvdb.org/show/osvdb/98562 Oracle Java JDK / JRE / JRockit Cryptographic Key Classes Private Key Information Disclosure
 http://i8jesus.com/?p=255 antisamy org.owasp.antisamy:antisamy 1.5.3
@@ -333,19 +265,14 @@ https://issues.jasig.org/browse/CAS-1064
 http://jasig.275507.n4.nabble.com/cross-site-scripting-vulnerability-td1570360.html
 http://jasig.275507.n4.nabble.com/CAS-3-5-2-1-and-3-4-12-1-Security-Releases-td4662444.html
 
-http://vigilance.fr/vulnerabilite/Bouncy-Castle-contournement-de-TLS-Server-client-auth-14610
-
-
 Framework, major tools builder
 
 http://jira.codehaus.org/browse/JRUBY-4828 vul,jruby
 http://wouter.coekaerts.be/2011/vaadin-vulnerabilities vaadin
 
 https://jira.terracotta.org/jira/browse/QTZ-43
-http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-3821
 
 http://www.securiteam.com/securitynews/5YP0E15FFQ.html vul,javamail,1.3.2,2005
-http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2007-6059
 
 http://osvdb.org/show/osvdb/79991 freemaker > 2.3.19
 http://freecode.com/projects/freemarker/releases/342158
@@ -357,15 +284,6 @@ http://osvdb.org/95378 2013-06-30 antlr ->4.1
 https://github.com/antlr/antlr4/issues/300
 
 https://github.com/jruby/jruby/issues/732
-
-http://www.securityfocus.com/bid/63224/info xml4j CVE-2013-5372
-https://access.redhat.com/security/cve/CVE-2014-1202 SOAP UI CVE-2014-1202
-
-http://javolution.org/ EOL
-May 6, 2007: Javolution 5.0  => 6.0
-Deprecated release.
-org.javolution</groupId>
-<artifactId>javolution-core-java
 
 http://jira.codehaus.org/browse/GROOVY-6210
 
@@ -387,13 +305,9 @@ http://svn.codehaus.org/xplanner/trunk/leere/ext/jetty-4.2.21/VERSION.TXT
 Jetty-4.1.1 - 30 September 2002
 + Fixed client scripting vulnerability with jasper2.
 
-http://telussecuritylabs.com/threats/show/TSL20120907-03 CVE-2011-4605 JBoss
-http://www.corrspt.com/blog/2014/01/18/tale-vps-hacked/ JBOSS CVE-2013-4810
 http://blog.imperva.com/2013/11/threat-advisory-a-jboss-as-exploit-web-shell-code-injection.html
 
 http://osvdb.org/show/osvdb/106020 jboss
-
-http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-1554
 http://old.nabble.com/Re:--DSECRG--Sun-Glassfish-Multiple-Security-Vulnerabilities-p23002524.html
 
 ttp://osvdb.org/show/osvdb/98243 2013-08-21 Restlet
@@ -425,10 +339,8 @@ https://issues.onehippo.com/browse/HSTTWO-1514 hippo cms,2011,vul
 
 https://jira.exoplatform.org/browse/JCR-403 exo jcr > 1.8 1.9 - 2008 - Access manager vulnerability
 
-
 http://code.google.com/p/gitblit/issues/detail?id=62
-
- Feb 9, 2012
+Feb 9, 2012
 
 From the gitblit forum:
 
@@ -447,31 +359,12 @@ https://bugs.mageia.org/show_bug.cgi?id=8936
 
 http://blog.h3xstream.com/2014/02/jira-path-traversal-explained.html
 
-http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0058 LOW
-The security audit functionality in Red Hat JBoss Enterprise Application Platform (EAP) 6.x before 6.2.1 logs request parameters in plaintext, which might allow local users to obtain passwords by reading the log files.
-
-http://www.securityfocus.com/bid/55309 IBM WebSphere Application Server Administrative Access Security Bypass Vulnerability CVE-2012-3325
-http://www.securityfocus.com/bid/63986 Jahia xCM 'About Me' Field HTML Injection Vulnerability CVE-2013-3920 CVE-2013-4617
-http://www.securityfocus.com/bid/63970 Jetty NTFS Remote Security Bypass Vulnerability Versions prior to Jetty 9.0.6.v20130930 are vulnerable.
-
-http://www.securityfocus.com/bid/64125 JBoss Enterprise Application Platform CVE-2013-2133 Authorization Security Bypass Vulnerability
-http://www.securityfocus.com/bid/63864 Jenkins Subversion Plugin CVE-2013-6372 Credentials Disclosure Vulnerabi
-http://www.securityfocus.com/bid/63863 Jenkins Build Failure Analyzer Plugin CVE-2013-6374 Unspecified HTML Injection Vulnerability
-
 http://www.xwiki.org/xwiki/bin/view/ReleaseNotes/ReleaseNotesXWiki541 upload fix
 
 http://www.onehippo.org/binaries/content/assets/connect/library/about/hippo-cms-7.6-fixed-issues.txt
 HSTTWO-1514] XSS vulnerability in SearchResult class of site-toolkit-core
 
 http://www.scip.ch/fr/?vuldb.12128 java ibm sametime
-
-http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-4580
-Multiple cross-site scripting (XSS) vulnerabilities in Red Hat JBoss Enterprise Portal Platform before 5.2.0 allow remote attackers to inject arbitrary web script or HTML via unspecified vectors.
-
-http://seclists.org/fulldisclosure/2014/Mar/13 [CVE-2013-6231] Remote Privilege Escalation in SpagoBI v4.0
-http://seclists.org/fulldisclosure/2014/Mar/15 [CVE-2013-6232] Persistent Cross-Site Scripting (XSS) in SpagoBI v4.0
-http://seclists.org/fulldisclosure/2014/Mar/16 [CVE-2013-6233] Persistent HTML Script Insertion permits offsite-bound forms in SpagoBI v4.0
-http://seclists.org/fulldisclosure/2014/Mar/17 [CVE-2013-6234] XSS File Upload in SpagoBI v4.0
 
 Others
 middleware
@@ -521,8 +414,6 @@ http://osvdb.org/show/osvdb/89293
 http://cve.mitre.org/cgi-bin/cvename.cgi?name=2012-5641
 
 https://bugzilla.redhat.com/show_bug.cgi?id=783898
-http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-0079
-http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2010-4444
 
 http://cert.europa.eu/static/SecurityAdvisories/CERT-EU-SA2012-0058.txt   - oracle
 
@@ -541,15 +432,11 @@ http://osdir.com/ml/bugtraq.security/2012-04/ vul,source
 
 http://maven.40175.n5.nabble.com/Nexus-2-0-4-Released-td5666139.html vul,xss,nexus
 
-http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-4404
-http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-1322
 http://www.cvedetails.com/vulnerability-list/vendor_id-45/cvssscoremin-7/cvssscoremax-7.99/Apache.html
-http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-1019
 https://jira.kuali.org/browse/KULRICE-2920 kuali rice > rice 1.0 - Fix XSS vulnerability in question framework.d
 
 http://jira.ow2.org/browse/WEBLAB-405?page=com.atlassian.jira.plugin.ext.bamboo%3Abamboo-build-results-tabpanel
 
-http://www.cvedetails.com/cve/CVE-2013-6407/
 http://osvdb.org/show/osvdb/101169
 http://osvdb.org/show/osvdb/101187
 http://osvdb.org/show/osvdb/101114
@@ -562,22 +449,17 @@ http://osvdb.org/show/osvdb/98460
 http://osvdb.org/show/osvdb/98462
 http://osvdb.org/show/osvdb/98524
 
-http://www.cvedetails.com/cve/CVE-2008-1285/ jsf
 https://groups.google.com/forum/#!topic/adf-methodology/S0Rlu3Ad4oQ
 
 https://bugzilla.redhat.com/show_bug.cgi?id=873252
 
 http://www.securityfocus.com/bid/50218 vul, java rhino js
-http://schierlm.users.sourceforge.net/CVE-2011-3544.html
 
 http://osvdb.org/97778
 https://code.google.com/p/javamelody/issues/detail?id=346
 
 https://www.projectforge.org/jira/browse/PF-485
 http://www.projectforge.org/pf-en/News
-http://www.cvedetails.com/cve/CVE-2013-7250/
-http://www.cvedetails.com/cve/CVE-2013-7251/
-http://www.cvedetails.com/cve/CVE-2011-5269/
 https://issues.apache.org/jira/browse/WW-3264
 https://confluence.atlassian.com/display/JIRA/JIRA+Security+Advisory+2012-08-28
 
@@ -585,27 +467,13 @@ http://jira.grails.org/browse/WEBSITE-268
 
 http://www.scip.ch/en/?vuldb.10702
 http://osvdb.org/show/osvdb/98460
-http://www.cvedetails.com/cve/CVE-2013-5816/
 
 https://bugzilla.redhat.com/show_bug.cgi?id=799078
-http://www.cvedetails.com/cve/CVE-2012-0213/
 https://tools.codice.org/jira/browse/DDF-81
-
-https://www.rapid7.com/db/vulnerabilities/jre-vuln-cve-2013-2430
-
-http://osvdb.org/88475 com.ibm.icu:icu4j 3.2 2004-11-19
-http://bugs.icu-project.org/trac/ticket/3825
-ICU4J 4.0 resolve the issue underlying CVE-2008-1036 http://icu-project.org/download/4.0.html
-http://www-01.ibm.com/support/docview.wss?uid=swg1PM53904
 
 https://lists.fedoraproject.org/pipermail/java-sig-commits/2013-March/009353.html
 https://jawr.java.net/security issue => Version 3.2 released
 
-http://www.rapid7.com/db/modules/exploit/multi/browser/java_jre17_jaxws CVE-2012-5076
-https://bugzilla.redhat.com/show_bug.cgi?id=1018972  CVE-2013-5820 OpenJDK: insufficient security checks (JAXWS, 8017505)
-http://www.cvedetails.com/cve/CVE-2011-3553/
-
-http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-2035
 http://www.redhat.com/archives/rhsa-announce/2013-December/msg00004.html
 
 PLEASE NOTE: We changed the MX4JSystemManager to NoopSystemManager
@@ -616,68 +484,41 @@ org.apache.avalon.framework.service.ServiceException: Unable to provide
 implementation for org.apache.avalon.phoenix.interfaces.SystemManager
 (Role='org.apache.avalon.phoenix.interfaces.SystemManager')]
 
-http://community.jaspersoft.com/jasperreports-library/issues/4882 jasper
-CVE-2012-6092
-
 http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html   java 7u51
 http://www.oracle.com/technetwork/topics/security/cpujan2014-1972949.html#AppendixJAVA
 
-http://www.zerodayinitiative.com/advisories/ZDI-13-244/ CVE-2013-5817
 http://www.oracle.com/technetwork/java/javase/jdk7-relnotes-418459.html
 https://code.google.com/p/guava-libraries/issues/detail?id=1635
 
 http://developer.berlios.de/forum/forum.php?forum_id=39216 java vul
-
-EOL-2013-01-31 SpringSource announces End Of Life on Commercial Support for Grails 1.2
 
 https://forum.hibernate.org/viewtopic.php?p=2454336
 https://plus.google.com/+googleguava/posts/ZAhULZfxUhm Guava 16.0.1 released
 https://issues.apache.org/jira/browse/JCLOUDS-427 Upgrading JDK from 1.7.0_45 to 1.7.0_51 causes problems when searching for interface implementations
 
 http://osvdb.org/show/osvdb/102273  2014-01-16 InMobi Ad SDK
-
 http://osvdb.org/show/osvdb/99549
 http://osvdb.org/show/osvdb/97408
-
-http://osvdb.org/show/osvdb/95386 CVE-2013-4112 JGroups
-
 http://osvdb.org/show/osvdb/95502
-http://osvdb.org/show/osvdb/102541  2012-10-07 Grizzly
-
 http://seclists.org/fulldisclosure/2014/Feb/38
 http://seclists.org/fulldisclosure/2014/Feb/41
-http://seclists.org/fulldisclosure/2014/Feb/71 [DSA 2857-1] libspring-java security update - VE-2013-6429 CVE-2013-6430
 
 http://xerces.apache.org/xerces-j/ EOL (Hibernated Projects - http://xerces.apache.org/)
 
 http://osvdb.org/show/osvdb/103603 solr
 http://osvdb.org/show/osvdb/102570 JAMon
-http://www.debian.org/security/2014/dsa-2890 spring CVE-2014-0054 CVE-2014-1904
 
-http://www.cvedetails.com/cve/CVE-2013-1869/
 http://osvdb.org/show/osvdb/105385 drools vul
-http://www.cvedetails.com/cve/CVE-2013-4636/
-http://markmail.org/message/xdedidxfyjsf3jkc [SECURITY] CVE-2014-0111 Apache Syncope
 
-http://www.cvedetails.com/cve/CVE-2014-2858/ pivotal grails
 http://www.cvedetails.com/cve/CVE-2012-0032/ Red Hat JBoss Operations Network (JON)
-http://www.cvedetails.com/cve/CVE-2013-2033/ CloudBees Jenkins
-https://access.redhat.com/security/cve/CVE-2014-2746 Tigase
-
-16 Jan 2014 ... Anecdotally, we have found that this is a vulnerability in finagle servers, that if a client established a connection and then quickly hangs up, that
-https://github.com/twitter/finagle/commit/908ea9bd43c03be5ddf1fca92e9b8317eb371fc7
 
 http://mail.openjdk.java.net/pipermail/lambda-dev/2014-March/011940.html java8
-
 http://www.oracle.com/technetwork/topics/security/cpuapr2014-1972952.html#AppendixJAVA
 
-http://www.cvedetails.com/cve/CVE-2014-0942/
-http://www.cvedetails.com/cve/CVE-2014-0942/
 http://osvdb.org/show/osvdb/106477
 http://vigilance.fr/vulnerabilite/Openfire-Cross-Site-Scripting-de-Admin-Console-14696
-http://markmail.org/message/bl4w4ziixu2t7ea4 [ANN][SECURITY] Struts 1 - CVE-2014-0114 -Mitigation Advice Available, Possible RCE Impact
 http://www.debian.org/security/2014/dsa-2912 openjdk6
-http://struts.apache.org/announce.html
+
 http://www.cert.ssi.gouv.fr/site/CERTFR-2014-ALE-004/index.html
 http://blog.fuseyism.com/index.php/2014/04/16/security-icedtea-2-4-7-for-openjdk-7-released/
 http://blog.fuseyism.com/index.php/2014/04/15/security-icedtea-1-13-3-for-openjdk-6-released/
@@ -692,142 +533,316 @@ http://stefanhendriks.wordpress.com/2011/02/16/prevent-cross-site-scripting-when
 http://osvdb.org/show/osvdb/106564
 http://osvdb.org/show/osvdb/106572
 
-http://www.cvedetails.com/cve/CVE-2014-0941/ ibm ominibus
-http://www.cvedetails.com/cve/CVE-2014-0941/ ibm ominibus
-
- http://apache-tapestry-mailing-list-archives.1045711.n5.nabble.com/change-session-id-after-login-td3217239.html
- https://access.redhat.com/security/cve/CVE-2014-2746 java tigase XMPP CVE-2014-2746
-http://osvdb.org/show/osvdb/106579 JSF 2014-03-12
-http://osvdb.org/show/osvdb/103373 Mojarra JSF2 CVE-2013-5855
-   http://h30499.www3.hp.com/t5/HP-Security-Research-Blog/JSF-outputText-tag-the-good-the-bad-and-the-ugly/bc-p/6370209
+http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/%3C52F373FC.9030907%40apache.org%3E
+https://issues.apache.org/jira/browse/TAP5-1005
+http://apache-tapestry-mailing-list-archives.1045711.n5.nabble.com/change-session-id-after-login-td3217239.html
+https://issues.apache.org/jira/browse/TAP5-2291
+http://apache-tapestry-mailing-list-archives.1045711.n5.nabble.com/Tapestry-with-Jetty-behind-https-frontend-td5725854.html#a5725896 Tomcat 7.0.52(51)
+Fix CVE-2014-0050
 
 http://osvdb.org/show/osvdb/105895 lcms -> java,openjdk http://www.debian.org/security/2014/dsa-2923
- http://osvdb.org/show/osvdb/102880 axis
+http://osvdb.org/show/osvdb/102880 axis
 
- https://bugzilla.redhat.com/show_bug.cgi?id=824075 xerces vuln 2.10 CVE-2009-2625
- https://issues.jboss.org/browse/AS7-4747
- https://www.owasp.org/index.php/XML_External_Entity_%28XXE%29_Processing
- http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-2625
- https://code.google.com/p/owaspantisamy/issues/detail?id=102
+https://issues.jboss.org/browse/AS7-4747
+https://www.owasp.org/index.php/XML_External_Entity_%28XXE%29_Processing
 
- http://www.les7arts.com/DependencyCheck-Report.html ofbiz
+https://code.google.com/p/owaspantisamy/issues/detail?id=102
 
- http://sourceforge.net/projects/soapui/files/soapui/5.0.0/ soap ui
+http://www.les7arts.com/DependencyCheck-Report.html ofbiz
+https://issues.liferay.com/secure/ConfigureReleaseNote.jspa?projectId=10952&version=11326
 
- https://issues.liferay.com/secure/ConfigureReleaseNote.jspa?projectId=10952&version=11326
+http://sourceforge.net/projects/soapui/files/soapui/5.0.0/ soap ui
+http://jersey.576304.n2.nabble.com/SAX-Feature-error-in-Jersey-1-1-4-1-td4581700.html jersey
+http://archive.gria.org/docs/services/4.3.1/docs/change-log.html wss4j
 
- http://jersey.576304.n2.nabble.com/SAX-Feature-error-in-Jersey-1-1-4-1-td4581700.html jersey
+http://markmail.org/message/4nefnhawjrcdxpfr
 
- http://archive.gria.org/docs/services/4.3.1/docs/change-log.html wss4j
+http://nicklothian.com/blog/2006/12/12/rome-09-released/
 
- http://rollerweblogger.org/project/entry/apache_roller_5_0_2 CVE-2013-4171 CVE-2013-4212
- http://rollerweblogger.org/project/entry/apache_roller_5_0_3 CVE-2014-0030
- http://markmail.org/message/4nefnhawjrcdxpfr
+http://advisories75.rssing.com/chan-6966477/latest.php
+http://vsecurity.com/download/papers/XMLDTDEntityAttacks.pdf xerces
+http://seclists.org/fulldisclosure/2014/May/93 opencms
 
- http://nicklothian.com/blog/2006/12/12/rome-09-released/
+http://osvdb.org/show/osvdb/71873 IBM Tivoli Monitoring contains an unspecified flaw related to the bundled version of Java that may allow an attacker to have an unspecified impact. No further details have been provided.
+http://osvdb.org/show/osvdb/80616 Zend Server contains a flaw related to the Java Bridge component that allows a remote cross-site scripting (XSS) attack. This flaw exists because the application does not validate the 'directives[zend_jbridge.encoding]' parameter upon submission to the program. This may allow a user to create a specially crafted URL that would execute arbitrary script code in a user's browser within the trust relationship between their browser and the server.
+http://osvdb.org/show/osvdb/99549 OWASP java encoder XSS
+OWASP Java Encoder contains a flaw that is due to Internet Explorer treating accent grave (`) as a delimiter character. This may allow an attacker to bypass filters and conduct a cross-site scripting attack.
+http://osvdb.org/show/osvdb/88541 International Components for Unicode for Java (ICU4J) contains a flaw related to the TimeZone.java file. While a cursory review of the code commit does not suggest a security fix, the note with this specifically indicates it fixes a security bug. No further details are available.
+http://bugs.icu-project.org/trac/changeset/2929
+http://osvdb.org/show/osvdb/72940 Libvoikko Python / Java Interface NULL Character Handling DoS
+Upgrade to version 3.2.1 or higher, as it has been reported to fix this vulnerability. An upgrade is required as there are no known workarounds.
+http://voikko.puimula.org/releases.html
+http://osvdb.org/show/osvdb/89544 Barracuda SSL VPN contains a flaw that is due to the setSysProp.jsp script allowing unauthenticated users to manipulate Java system properties. With a specially crafted request, a remote attacker can change values for arbitrary Java system properties, which may disable access restrictions for the application programming interface (API). This will allow the attacker to cause a denial of service for the system, change administrator passwords, download configuration files and database dumps, and possibly have other unspecified impacts.
+http://osvdb.org/show/osvdb/103221 Cisco Unified Communications Manager contains a flaw that may allow carrying out an SQL injection attack. The issue is due to the Java interface not properly sanitizing user-supplied input before using it in SQL queries. This may allow a remote attacker to inject or manipulate SQL queries in the back-end database, allowing for the manipulation or disclosure of arbitrary data.
+http://osvdb.org/show/osvdb/15644 JavaMail API Content-Disposition Directory Traversal  - Directory traversal vulnerability in the MimeBodyPart.getFileName method in JavaMail 1.3.2 allows remote attackers to write arbitrary files via a .. (dot dot) in the filename in the Content-Disposition header.
+http://osvdb.org/show/osvdb/102252 xstream
+http://osvdb.org/show/osvdb/32979 apache james
+http://osvdb.org/show/osvdb/40548 hsqldb
+http://osvdb.org/show/osvdb/63874 Tiny Java Web Server (TJWS) Unspecified Traversal Arbitrary Directory / File Access
+http://osvdb.org/show/osvdb/107028 IBM WebSphere Portal contains a flaw related to unvalidated JSP includes that is triggered when handling a specially crafted URL request. This may allow a remote attacker to gain access to potentially sensitive information, consume memory resources, or control the request dispatcher on the web server.
+http://www.aspose.com/corporate/purchase/policies/discontinued-products.aspx EOL
 
- 2008-06-06 - Michael Koch <konqueror@gmx.de> tomcat5.5 (5.5.26-3) unstable; urgency=high * CVE-2008-1947: Fix XSS issue in host-manager web application.
-
- http://www.openwall.com/lists/oss-security/2013/03/01/2 jenkins
- http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-2059 hudson jenkins
- http://seclists.org/oss-sec/2014/q1/421
-
- http://advisories75.rssing.com/chan-6966477/latest.php
-
- https://fisheye6.atlassian.com/changelog/commons?cs=1565143 CVE-2014-0050
- https://fisheye6.atlassian.com/changelog/commons?cs=1453273 CVE-2013-0248
-
- http://wicket.apache.org/2014/02/21/cve-2014-0043.html
-
- http://vsecurity.com/download/papers/XMLDTDEntityAttacks.pdf xerces
-
- http://vigilance.fr/vulnerabilite/Oracle-JavaMail-injection-d-entete-SMTP-via-setSubject-14768
- http://osvdb.org/show/osvdb/107163 JavaMail SMTP Header Injection via method setSubject [CSNC-2014-001]
-
- http://seclists.org/fulldisclosure/2014/May/93 opencms
- http://www.cvedetails.com/cve/CVE-2014-2881/ Unspecified vulnerability in the Diffie-Hellman key agreement implementation in the management GUI Java applet in Citrix NetScaler Application Delivery Controller (ADC) and NetScaler Gateway before 9.3-66.5 and 10.x before 10.1-122.17 has unknown impact and vectors.
- http://www.cvedetails.com/cve/CVE-2014-2881/
- http://www.cvedetails.com/cve/CVE-2014-2405/ Unspecified vulnerability in OpenJDK 6 before 6b31 on Debian GNU/Linux and Ubuntu 12.04 LTS and 10.04 LTS has unknown impact and attack vectors, a different vulnerability than CVE-2014-0462.
- http://seclists.org/fulldisclosure/2014/May/76 HB
- http://www.cvedetails.com/cve/CVE-2014-1812/ The Group Policy implementation in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 does not properly handle distribution of passwords, which allows remote authenticated users to obtain sensitive credential information and consequently gain privileges by leveraging access to the SYSVOL share, as exploited in the wild in May 2014, aka "Group Policy Preferences Password Elevation of Privilege Vulnerability."
- http://www.cvedetails.com/cve/CVE-2014-0964/ IBM WebSphere Application Server (WAS) 6.1.0.0 through 6.1.0.47 and 6.0.2.0 through 6.0.2.43 allows remote attackers to cause a denial of service via crafted TLS traffic, as demonstrated by traffic from a CVE-2014-0160 vulnerability-assessment tool.
- http://osvdb.org/show/osvdb/71873 IBM Tivoli Monitoring contains an unspecified flaw related to the bundled version of Java that may allow an attacker to have an unspecified impact. No further details have been provided.
- http://osvdb.org/show/osvdb/80616 Zend Server contains a flaw related to the Java Bridge component that allows a remote cross-site scripting (XSS) attack. This flaw exists because the application does not validate the 'directives[zend_jbridge.encoding]' parameter upon submission to the program. This may allow a user to create a specially crafted URL that would execute arbitrary script code in a user's browser within the trust relationship between their browser and the server.
- http://osvdb.org/show/osvdb/99549 OWASP java encoder XSS
- OWASP Java Encoder contains a flaw that is due to Internet Explorer treating accent grave (`) as a delimiter character. This may allow an attacker to bypass filters and conduct a cross-site scripting attack.
- http://osvdb.org/show/osvdb/88541 International Components for Unicode for Java (ICU4J) contains a flaw related to the TimeZone.java file. While a cursory review of the code commit does not suggest a security fix, the note with this specifically indicates it fixes a security bug. No further details are available.
- http://bugs.icu-project.org/trac/changeset/2929
- http://osvdb.org/show/osvdb/72940 Libvoikko Python / Java Interface NULL Character Handling DoS
- Upgrade to version 3.2.1 or higher, as it has been reported to fix this vulnerability. An upgrade is required as there are no known workarounds.
- http://voikko.puimula.org/releases.html
- http://osvdb.org/show/osvdb/89544 Barracuda SSL VPN contains a flaw that is due to the setSysProp.jsp script allowing unauthenticated users to manipulate Java system properties. With a specially crafted request, a remote attacker can change values for arbitrary Java system properties, which may disable access restrictions for the application programming interface (API). This will allow the attacker to cause a denial of service for the system, change administrator passwords, download configuration files and database dumps, and possibly have other unspecified impacts.
- http://osvdb.org/show/osvdb/103221 Cisco Unified Communications Manager contains a flaw that may allow carrying out an SQL injection attack. The issue is due to the Java interface not properly sanitizing user-supplied input before using it in SQL queries. This may allow a remote attacker to inject or manipulate SQL queries in the back-end database, allowing for the manipulation or disclosure of arbitrary data.
- http://osvdb.org/show/osvdb/15644 JavaMail API Content-Disposition Directory Traversal  - Directory traversal vulnerability in the MimeBodyPart.getFileName method in JavaMail 1.3.2 allows remote attackers to write arbitrary files via a .. (dot dot) in the filename in the Content-Disposition header.
- http://osvdb.org/show/osvdb/102252 xstream
- http://osvdb.org/show/osvdb/32979 apache james
- http://osvdb.org/show/osvdb/40548 hsqldb
- http://osvdb.org/show/osvdb/63874 Tiny Java Web Server (TJWS) Unspecified Traversal Arbitrary Directory / File Access
- http://osvdb.org/show/osvdb/107028 IBM WebSphere Portal contains a flaw related to unvalidated JSP includes that is triggered when handling a specially crafted URL request. This may allow a remote attacker to gain access to potentially sensitive information, consume memory resources, or control the request dispatcher on the web server.
- http://www.aspose.com/corporate/purchase/policies/discontinued-products.aspx EOL
-
-https://issues.apache.org/jira/browse/BEANUTILS-463
 http://mail-archives.apache.org/mod_mbox/www-announce/201405.mbox/%3CCALGG8z0JiKbKdat85ssdwQi0NUuKzF5Ma-wNYwWxh6hKPgSZpg%40mail.gmail.com%3E eol
-http://osvdb.org/show/osvdb/107163 mail
-http://osvdb.org/show/osvdb/107246 Perseus' Java Hopper contains a flaw that allows a cross-site scripting (XSS) attack. This flaw exists because the /hopper/morph script does not validate input to the 'l' GET parameter before returning it to users. This may allow a remote attacker to create a specially crafted request that would execute arbitrary script code in a user's browser session within the trust relationship between their browser and the server.
+http://osvdb.org/show/osvdb/107246 Perseus Java Hopper contains a flaw that allows a cross-site scripting (XSS) attack. This flaw exists because the /hopper/morph script does not validate input to the 'l' GET parameter before returning it to users. This may allow a remote attacker to create a specially crafted request that would execute arbitrary script code in a user's browser session within the trust relationship between their browser and the server.
 http://vigilance.fr/vulnerabilite/Apache-Struts-1-execution-de-code-via-ClassLoader-14799
-http://vigilance.fr/vulnerabilite/Apache-Struts-2-multiples-vulnerabilites-14798
 
-http://markmail.org/message/bsdeufp23k6nlka5  tomcat
+http://markmail.org/message/bsdeufp23k6nlka5 tomcat
 http://markmail.org/message/wehqwlcx47psi7pm
 http://markmail.org/message/jzhu4d2sel64lohx
 http://markmail.org/message/diqkagq7wuycbfjz
 http://www.cert.ssi.gouv.fr/site/CERTFR-2014-AVI-243/index.html
 http://seclists.org/fulldisclosure/2014/May/140
-http://seclists.org/fulldisclosure/2014/May/142 castor
+
 http://osvdb.org/show/osvdb/107454
 http://osvdb.org/show/osvdb/25677
 http://osvdb.org/show/osvdb/104897 alfresco
 http://osvdb.org/show/osvdb/104389 spring
 
-https://security-tracker.debian.org/tracker/
+http://rpmfind.net/linux/RPM/mandriva/2010.1/x86_64/media/main/updates/eclipse-ecj-3.4.2-0.2.3.1mdv2010.2.x86_64.html
 
---
+https://jira.exoplatform.org/browse/ECMS-5016 exo
+
+http://osvdb.org/show/osvdb/106579 JSF 2014-03-12
+----------------------------------------------------------------------
+http://seclists.org/fulldisclosure/2014/May/76 HB
+http://blog.sei.cmu.edu/post.cfm/heartbleed-q-a
+http://www.zdnet.com/many-sites-reusing-heartbleed-compromised-private-keys-7000029282/ HB
+https://news.ycombinator.com/item?id=7743041
+
+http://www.cvedetails.com/cve/CVE-2014-1812/ The Group Policy implementation in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 does not properly handle distribution of passwords, which allows remote authenticated users to obtain sensitive credential information and consequently gain privileges by leveraging access to the SYSVOL share, as exploited in the wild in May 2014, aka "Group Policy Preferences Password Elevation of Privilege Vulnerability."
 http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Ciphersuite Timing Analysis Plaintext Recovery Cryptanalysis Attack
-
-https://groups.google.com/forum/#!msg/google-gson/gqxUYdlqTNU/Vx2TRyoOWX4J gson vul com.google.code.gson:gson 07/05/2012
-ttps://github.com/FasterXML/jackson-databind/issues/37
-On versions: fixes included in upcoming releases:
-    1.9.9 for 1.x series (not backported as previous branches are closed)
-    2.0.5 for 2.0; and 2.1.0 when 2.1 gets released.
 */
 [
- {"name": "CVE-2014-0193",
-   "level": "MEDIUM",
-   "description": "WebSocket denial of service vulnerability",
-   "ifs":[{"impact": "io.netty:netty:3.6.0 4.0.18.Final", "fix": "4.0.19.Final"}],
-   "docs": ["CWE-399","https://github.com/netty/netty/issues/2441","http://netty.io/news/2014/04/30/release-day.html","http://playframework.com/changelog","http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0193"]
- },
-  {"name": "CVE-2014-0107",
-    "level": "HIGH",
-    "description": "The Xalan-Java library is a popular XSLT processor from the Apache Software Foundation.\nThe library implements the Java API for XML Processing (JAXP) which supports a secure processing feature for interpretive and XSLCT processors. The intent of this feature is to limit XSLT/XML processing behaviours to 'make the XSLT processor behave in a secure fashion'.\nIt has been discovered that the secure processing features suffers from several limitations that undermine its purpose. The enabling of the secure processing feature in fact still allows the following processing to take place:\nJava properties, bound to XSLT 1.0 system-property(), are accessible.\noutput properties that allow to load arbitrary classes or resources are allowed (XALANJ-2435).\narbitrary code can be executed if the Bean Scripting Framework (BSF) is in the classpath, as it allows to spawn available JARs with secure processing disabled, effectively bypassing the intended protection.",
-    "ifs":[{"impact": "xalan:xalan 2.7.1", "fix": "2.7.2"}],
-    "docs": ["http://www.ocert.org/advisories/ocert-2014-002.html","https://issues.apache.org/jira/browse/XALANJ-2435","http://mail-archives.apache.org/mod_mbox/xalan-dev/201404.mbox/%3CCACZkXPwvWp3dAn6kx25Pfwq6ba==TM-vCOmOuv4ACRF1hrRuLw@mail.gmail.com%3E","http://www.debian.org/security/2014/dsa-2886","http://vigilance.fr/vulnerabilite/Xalan-Java-vulnerabilites-de-FEATURE-SECURE-PROCESSING-14468","http://osvdb.org/show/osvdb/104928","http://osvdb.org/show/osvdb/104942","http://osvdb.org/show/osvdb/104927","http://seclists.org/oss-sec/2014/q1/649","http://www.cvedetails.com/cve/CVE-2014-0107/","ftp://apache.mirrors.pair.com/xalan/xalan-j/README.txt","https://issues.apache.org/jira/browse/XALANJ-2578"]
-  },
- {"name": "CVE-2014-0074",
-   "level": "HIGH",
-   "description": "LDAP authentication succeeds even if the user name and password is not passed",
-   "ifs":[{"impact": "org.apache.shiro:1.0.0-incubating 1.2.2", "fix": "1.2.3"}],
-   "docs": ["https://issues.apache.org/jira/browse/SHIRO-460 Unresolved","http://seclists.org/fulldisclosure/2014/Mar/22","http://mail-archives.apache.org/mod_mbox/shiro-dev/201403.mbox/%3CCAH9eYVrCp8pGXJiZM2F-9-h2z-hk+gGSk5GkhLs_wf-E_DVQ5Q@mail.gmail.com%3","http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/%3CCALvzYd-mcX-YJsP1N3wK7wWkgGg_i_5%2B-wMq%3D%3DNU2OMK7yKcvA%40mail.gmail.com%3E"]
- },
+{"name": "",
+"level": "",
+"description": "",
+"ifs":[{"impact": "org.fasterxml.jackson:jackson-databind:1.9.8 2.0.4 2.1", "fix": "1.9.9 2.0.5 2.1.0"}],
+"docs": ["https://github.com/FasterXML/jackson-databind/issues/37"]
+},
+{"name": "",
+"level": "",
+"description": "",
+"ifs":[{"impact": "org.apache.beanutils:beanutils:", "fix": ""}],
+"docs": ["https://issues.apache.org/jira/browse/BEANUTILS-463"]
+},
+{"name": "",
+"level": "",
+"description": "JavaMail SMTP Header Injection via method setSubject [CSNC-2014-001]",
+"ifs":[{"impact": "javax.mail", "fix": ""}],
+"docs": ["http://osvdb.org/show/osvdb/107163"," http://vigilance.fr/vulnerabilite/Oracle-JavaMail-injection-d-entete-SMTP-via-setSubject-14768"]
+},
+{"name": "",
+"level": "",
+"description": "",
+"ifs":[{"impact": "org.apache.castor", "fix": ""}],
+"docs": ["http://seclists.org/fulldisclosure/2014/May/142"]
+},
+{"name": "CVE-2014-2881",
+"level": "",
+"description": "Unspecified vulnerability in the Diffie-Hellman key agreement implementation in the management GUI Java applet in Citrix NetScaler Application Delivery Controller (ADC) and NetScaler Gateway before 9.3-66.5 and 10.x before 10.1-122.17 has unknown impact and vectors.",
+"ifs":[{"impact": "citrix", "fix": ""}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2014-2881/"]
+},
+{"name": "CVE-2014-2858",
+"level": "",
+"description": "pivotal grails",
+"ifs":[{"impact": "org.grails", "fix": ""}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2013-1869/"]
+},
+{"name": "CVE-2014-2746",
+"level": "",
+"description": "",
+"ifs":[{"impact": "redhat tigase XMPP", "fix": ""}],
+"docs": ["https://access.redhat.com/security/cve/CVE-2014-2746"]
+},
+{"name": "CVE-2014-2405",
+"level": "",
+"description": "Unspecified vulnerability in OpenJDK 6 before 6b31 on Debian GNU/Linux and Ubuntu 12.04 LTS and 10.04 LTS has unknown impact and attack vectors, a different vulnerability than CVE-2014-0462.",
+"ifs":[{"impact": "java openjdk 6u31", "fix": ""}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2014-2405/"]
+},
+{"name": "CVE-2014-2067",
+"level": "MEDIUM",
+"description": "",
+"ifs":[{"impact": "jenkins", "fix": ""}],
+"docs": ["https://access.redhat.com/security/cve/CVE-2014-2067"]
+},
+{"name": "CVE-2014-2059",
+"level": "",
+"description": "",
+"ifs":[{"impact": "hudson jenkins", "fix": ""}],
+"docs": ["http://seclists.org/oss-sec/2014/q1/421","http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-2059","http://www.openwall.com/lists/oss-security/2013/03/01/2"]
+},
+{"name": "CVE-2014-1202",
+"level": "",
+"description": "SOAP UI",
+"ifs":[{"impact": "soap ui", "fix": ""}],
+"docs": ["https://access.redhat.com/security/cve/CVE-2014-1202"]
+},
+{"name": "CVE-2014-0964",
+"level": "",
+"description": "IBM WebSphere Application Server (WAS) 6.1.0.0 through 6.1.0.47 and 6.0.2.0 through 6.0.2.43 allows remote attackers to cause a denial of service via crafted TLS traffic, as demonstrated by traffic from a CVE-2014-0160 vulnerability-assessment tool.",
+"ifs":[{"impact": "com.ibm was", "fix": ""}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2014-0964/"]
+},
+{"name": "CVE-2014-0941",
+"level": "",
+"description": "",
+"ifs":[{"impact": "ibm ominibus", "fix": ""}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2014-0941/"]
+},
+{"name": "CVE-2014-0942",
+"level": "",
+"description": "",
+"ifs":[{"impact": "", "fix": ""}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2014-0942/"]
+},
+{"name": "CVE-2014-0627",
+"level": "",
+"description": "WAS The web-server plugin in IBM WebSphere Application Server (WAS) 7.x before 7.0.0.33, 8.x before 8.0.0.9, and 8.5.x before 8.5.5.2, when POST retries are enabled, allows remote attackers to cause a denial of service (daemon crash) via unspecified vectors.",
+"ifs":[{"impact": "", "fix": ""}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2014-0859/"]
+},
+{"name": "CVE-2014-0626",
+"level": "",
+"description":"The SSLEngine API implementation in EMC RSA BSAFE SSL-J 5.x before 5.1.3 and 6.x before 6.0.2 allows remote attackers to trigger the selection of a weak cipher suite by using the wrap method during a certain incomplete-handshake state.",
+"ifs":[{"impact": "", "fix": ""}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2014-0627/"]
+},
+{"name": "CVE-2014-0626",
+"level": "",
+"description":"The (1) JSAFE and (2) JSSE APIs in EMC RSA BSAFE SSL-J 5.x before 5.1.3 and 6.x before 6.0.2 make it easier for remote attackers to bypass intended cryptographic protection mechanisms by triggering application-data processing during the TLS handshake, a time at which the data is both unencrypted and unauthenticated.",
+"ifs":[{"impact": "", "fix": ""}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2014-0626/"]
+},
+{"name": "CVE-2014-0422",
+"level": "",
+"description":"JNDI -> LDAP?",
+"ifs":[{"impact": "", "fix": ""}],
+"docs": ["http://www.scip.ch/en/?vuldb.11879"]
+},
+{"name": "CVE-2014-0193",
+"level": "MEDIUM",
+"description": "WebSocket denial of service vulnerability",
+"ifs":[{"impact": "io.netty:netty:3.6.0 4.0.18.Final", "fix": "4.0.19.Final"}],
+"docs": ["CWE-399","https://github.com/netty/netty/issues/2441","http://netty.io/news/2014/04/30/release-day.html","http://playframework.com/changelog","http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0193"]
+},
+{"name": "CVE-2014-0114",
+"level": "MEDIUM",
+"description": "Struts 1 Possible RCE Impact",
+"ifs":[{"impact": "org.apache.struts:struts", "fix": ""}],
+"docs": ["http://markmail.org/message/bl4w4ziixu2t7ea4","http://struts.apache.org/announce.html"]
+},
+{"name": "CVE-2014-0116 CVE-2014-0113",
+"level": "",
+"description": "in Apache Struts 2.x before 2.3.16.3, when a wildcard cookiesName value is used, does not properly restrict access to the getClass method, which allows remote attackers to 'manipulate' the ClassLoader and modify session state via a crafted request. NOTE: this vulnerability exists because of an incomplete fix for CVE-2014-0113.",
+"ifs":[{"impact": "org.apache.struts2:2.3.16.3", "fix": ""}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2014-0116/","http://vigilance.fr/vulnerabilite/Apache-Struts-2-multiples-vulnerabilites-14798"]
+},
+{"name": "CVE-2014-0111",
+"level": "",
+"description": "",
+"ifs":[{"impact": "org.apache.syncope", "fix": ""}],
+"docs": ["http://markmail.org/message/xdedidxfyjsf3jkc"]
+},
+{"name": "CVE-2014-0110",
+"level": "",
+"description": "Apache CXF before 2.6.14 and 2.7.x before 2.7.11 allows remote attackers to cause a denial of service (/tmp disk consumption) via a large invalid SOAP message.",
+"ifs":[{"impact": "org.apache.cxf:2.6.14 2.7.11", "fix": ""}],
+"docs": ["http://cxf.apache.org/security-advisories.data/CVE-2014-0110.txt.asc?version=1&modificationDate=1398873378628&api=v2","http://www.cvedetails.com/cve/CVE-2014-0110/"]
+},
+{"name": "CVE-2014-0107",
+"level": "HIGH",
+"description": "The Xalan-Java library is a popular XSLT processor from the Apache Software Foundation.\nThe library implements the Java API for XML Processing (JAXP) which supports a secure processing feature for interpretive and XSLCT processors. The intent of this feature is to limit XSLT/XML processing behaviours to 'make the XSLT processor behave in a secure fashion'.\nIt has been discovered that the secure processing features suffers from several limitations that undermine its purpose. The enabling of the secure processing feature in fact still allows the following processing to take place:\nJava properties, bound to XSLT 1.0 system-property(), are accessible.\noutput properties that allow to load arbitrary classes or resources are allowed (XALANJ-2435).\narbitrary code can be executed if the Bean Scripting Framework (BSF) is in the classpath, as it allows to spawn available JARs with secure processing disabled, effectively bypassing the intended protection.",
+"ifs":[{"impact": "xalan:xalan 2.7.1", "fix": "2.7.2"}],
+"docs": ["http://www.ocert.org/advisories/ocert-2014-002.html","https://issues.apache.org/jira/browse/XALANJ-2435","http://mail-archives.apache.org/mod_mbox/xalan-dev/201404.mbox/%3CCACZkXPwvWp3dAn6kx25Pfwq6ba==TM-vCOmOuv4ACRF1hrRuLw@mail.gmail.com%3E","http://www.debian.org/security/2014/dsa-2886","http://vigilance.fr/vulnerabilite/Xalan-Java-vulnerabilites-de-FEATURE-SECURE-PROCESSING-14468","http://osvdb.org/show/osvdb/104928","http://osvdb.org/show/osvdb/104942","http://osvdb.org/show/osvdb/104927","http://seclists.org/oss-sec/2014/q1/649","http://www.cvedetails.com/cve/CVE-2014-0107/","ftp://apache.mirrors.pair.com/xalan/xalan-j/README.txt","https://issues.apache.org/jira/browse/XALANJ-2578"]
+},
+{"name": "CVE-2014-0099",
+"level": "",
+"description":"",
+"ifs":[{"impact": "org.apache.tomcat:", "fix": "6.0.41 7.0.54 8.0.8(beta)"}],
+"docs": ["http://tomcat.apache.org/security-7.html#Fixed_in_Apache_Tomcat_7.0.54","http://vigilance.fr/vulnerabilite/Apache-Tomcat-deni-de-service-via-Chunked-14806","http://vigilance.fr/vulnerabilite/Apache-Tomcat-obtention-d-information-via-Directory-Listing-14807","http://vigilance.fr/vulnerabilite/Apache-Tomcat-injection-d-entete-HTTP-14808","http://vigilance.fr/vulnerabilite/Apache-Tomcat-obtention-d-information-via-XML-Parser-14809"]
+},
+{"name": "CVE-2014-0097",
+"level": "",
+"description":"",
+"ifs":[{"impact": "org.springframework", "fix": ""}],
+"docs": ["http://spring.io/blog/2014/03/11/cve-2014-0097-fixed-in-spring-security-3-2-2-and-3-1-6","http://www.gopivotal.com/security/cve-2014-0097"]
+},
+{"name": "CVE-2014-0074",
+"level": "HIGH",
+"description": "LDAP authentication succeeds even if the user name and password is not passed",
+"ifs":[{"impact": "org.apache.shiro:1.0.0-incubating 1.2.2", "fix": "1.2.3"}],
+"docs": ["https://issues.apache.org/jira/browse/SHIRO-460 Unresolved","http://seclists.org/fulldisclosure/2014/Mar/22","http://mail-archives.apache.org/mod_mbox/shiro-dev/201403.mbox/%3CCAH9eYVrCp8pGXJiZM2F-9-h2z-hk+gGSk5GkhLs_wf-E_DVQ5Q@mail.gmail.com%3","http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/%3CCALvzYd-mcX-YJsP1N3wK7wWkgGg_i_5%2B-wMq%3D%3DNU2OMK7yKcvA%40mail.gmail.com%3E"]
+},
+{"name": "CVE-2014-0058",
+"level": "LOW",
+"description": "The security audit functionality in Red Hat JBoss Enterprise Application Platform (EAP) 6.x before 6.2.1 logs request parameters in plaintext, which might allow local users to obtain passwords by reading the log files.",
+"ifs":[{"impact": "redhat jboss", "fix": ""}],
+"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0058"]
+},
+{"name": "CVE-2014-0054 CVE-2014-1904",
+"level": "",
+"description": "",
+"ifs":[{"impact": "org.springframework", "fix": ""}],
+"docs": ["http://www.debian.org/security/2014/dsa-2890"]
+},
 {"name": "CVE-2014-0050",
-  "level": "MEDIUM",
-  "description": "It is possible to craft a malformed Content-Type header for a multipart request that causes Apache Commons FileUpload to enter an infinite loop. A malicious user could, therefore, craft a malformed request that triggered a denial of service",
-  "ifs":[{"impact": "org.apache.commons.fileupload", "fix": "1.3.1"},
-  {"impact": "org.apache.tomcat:8.x", "fix": "8.0.3 8.0.5"},
-  {"impact": "org.apache.tomcat:7.x", "fix": "7.0.52 7.0.53"}
-  ],
-"docs": ["http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://markmail.org/message/kpfl7ax4el2owb3o","http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://blog.spiderlabs.com/2014/02/cve-2014-0050-exploit-with-boundaries-loops-without-boundaries.html","https://bugs.mageia.org/show_bug.cgi?id=12653","http://lwn.net/Articles/571431/","https://www.jpcert.or.jp/english/at/2014/at140007.html","http://serverfault.com/questions/573821/apache-how-to-limit-content-type-header-length-to-avoid-cve-2014-0050","https://issues.apache.org/jira/browse/TAP5-2295","http://seclists.org/fulldisclosure/2014/Feb/54"]
+"level": "MEDIUM",
+"description": "It is possible to craft a malformed Content-Type header for a multipart request that causes Apache Commons FileUpload to enter an infinite loop. A malicious user could, therefore, craft a malformed request that triggered a denial of service",
+"ifs":[{"impact": "org.apache.commons.fileupload", "fix": "1.3.1"},
+{"impact": "org.apache.tomcat:8.x", "fix": "8.0.3 8.0.5"},
+{"impact": "org.apache.tomcat:7.x", "fix": "7.0.52 7.0.53"}],
+"docs": ["http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://markmail.org/message/kpfl7ax4el2owb3o","http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/browser","http://blog.spiderlabs.com/2014/02/cve-2014-0050-exploit-with-boundaries-loops-without-boundaries.html","https://bugs.mageia.org/show_bug.cgi?id=12653","http://lwn.net/Articles/571431/","https://www.jpcert.or.jp/english/at/2014/at140007.html","http://serverfault.com/questions/573821/apache-how-to-limit-content-type-header-length-to-avoid-cve-2014-0050","https://issues.apache.org/jira/browse/TAP5-2295","http://seclists.org/fulldisclosure/2014/Feb/54","https://fisheye6.atlassian.com/changelog/commons?cs=1565143"]
+},
+{"name": "CVE-2014-0043",
+"level": "",
+"description":"",
+"ifs":[{"impact": "org.apache.wicket:wicket:", "fix": ""}],
+"docs": ["http://wicket.apache.org/2014/02/21/cve-2014-0043.html"]
+},
+{"name": "CVE-2014-0030",
+"level": "",
+"description":"",
+"ifs":[{"impact": "org.apache.roller:roller:", "fix": "5.0.3"}],
+"docs": ["http://rollerweblogger.org/project/entry/apache_roller_5_0_3"]
+},
+{"name": "2014-01-16",
+"level": "",
+"description":"Anecdotally, we have found that this is a vulnerability in finagle servers, that if a client established a connection and then quickly hangs up, that",
+"ifs":[{"impact": "org.twitter.finagle", "fix": ""}],
+"docs": ["https://github.com/twitter/finagle/commit/908ea9bd43c03be5ddf1fca92e9b8317eb371fc7"]
+},
+{"name": "CVE-2013-7315",
+"level": "",
+"description":"3.2.4 4.0.0.M2",
+"ifs":[{"impact": "org.springframework", "fix": " "}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2013-7315/"]
+},
+{"name": "CVE-2013-7251 CVE-2013-7250",
+"level": "",
+"description":"",
+"ifs":[{"impact": "jboss", "fix": " "}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2013-7251/","http://www.cvedetails.com/cve/CVE-2013-7250/"]
+},
+{"name": "CVE-2013-6430",
+"level": "",
+"description": "[DSA 2857-1] libspring-java security update - VE-2013-6429",
+"ifs":[{"impact": "org.springframework", "fix": ""}],
+"docs": ["http://seclists.org/fulldisclosure/2014/Feb/71"]
+},
+{"name": "CVE-2013-6429",
+"level": "",
+"description": "",
+"ifs":[{"impact": "", "fix": ""}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2013-6429/"]
+},
+{"name": "CVE-2013-6407",
+"level": "",
+"description":"",
+"ifs":[{"impact": "", "fix": " "}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2013-6407/"]
 },
 {"name": "2013-12-22",
 "level": "WARNING",
@@ -841,6 +856,18 @@ On versions: fixes included in upcoming releases:
 "ifs":[{"impact": "org.apache.solr", "fix": ""}],
 "docs": ["https://bugzilla.redhat.com/show_bug.cgi?id=1035062","http://www.agarri.fr/kom/archives/2013/11/27/compromising_an_unreachable_solr_server_with_cve-2013-6397/index.html"]
 },
+{"name": "CVE-2013-6372 CVE-2013-6374",
+"level": "",
+"description": "Jenkins Subversion Plugin Credentials Disclosure Vulnerabity, Jenkins Build Failure Analyzer Plugin Unspecified HTML Injection Vulnerability",
+"ifs":[{"impact": "", "fix": ""}],
+"docs": ["http://www.securityfocus.com/bid/63864","http://www.securityfocus.com/bid/63863"]
+},
+{"name": "CVE-2013-6231 CVE-2013-6232 CVE-2013-6233 CVE-2013-6234",
+"level": "",
+"description": "Remote Privilege Escalation in SpagoBI v4.0,Persistent Cross-Site Scripting (XSS) in SpagoBI v4.0,Persistent HTML Script Insertion permits offsite-bound forms in SpagoBI v4.0,XSS File Upload in SpagoBI v4.0",
+"ifs":[{"impact": "spagobi 4.0", "fix": ""}],
+"docs": ["http://seclists.org/fulldisclosure/2014/Mar/13","http://seclists.org/fulldisclosure/2014/Mar/15","http://seclists.org/fulldisclosure/2014/Mar/16","http://seclists.org/fulldisclosure/2014/Mar/17"]
+},
 {"name": "2013-11-13-tiles TILES-351",
 "level": "HIGH",
 "description": "EL expressions in JSP using some Tiles JSP tags are evaluated twice. Remote server context exposure.",
@@ -853,11 +880,110 @@ On versions: fixes included in upcoming releases:
 "ifs":[{"impact": "org.apache.tomcat", "fix": "5.5.26 -> EOL-2012-0930 Tomcat 6/7"}],
 "docs": ["http://www.webapp-security.com/wp-content/uploads/2013/11/Apache-Tomcat-5.5.25-CSRF-Vulnerabilities.txt","http://osvdb.org/show/osvdb/99375"]
 },
+{"name": "CVE-2013-5855",
+"level": "",
+"description": "Mojarra JSF2",
+"ifs":[{"impact": "org.apache.mojarra", "fix": ""}],
+"docs": ["http://osvdb.org/show/osvdb/103373","http://h30499.www3.hp.com/t5/HP-Security-Research-Blog/JSF-outputText-tag-the-good-the-bad-and-the-ugly/bc-p/6370209"]
+},
+{"name": "CVE-2013-5820",
+"level": "",
+"description": "OpenJDK: insufficient security checks (JAXWS, 8017505)",
+"ifs":[{"impact": "java openjdk", "fix": ""}],
+"docs": ["https://bugzilla.redhat.com/show_bug.cgi?id=1018972"]
+},
+{"name": "EOL-2013-07-30",
+"level": "EOL",
+"description": "SpringSource announces End Of Life on Commercial Support for Groovy 1.7 and Grails 1.3",
+"ifs":[{"impact": "org.groovy:1.7", "fix": "1.8"},
+{"impact": "org.groovy.grails:1.3", "fix": "1.4"}],
+"docs": [""]
+},
+{"name": "EOL-2013-01-31",
+"level": "EOL",
+"description": "SpringSource announces End Of Life on Commercial Support for Spring Roo 1.0",
+"ifs":[{"impact": "org.groovy.roo:1.0", "fix": "1.1"}],
+"docs": [""]
+},
+{"name": "EOL-2013-01-31",
+"level": "EOL",
+"description": "SpringSource announces End Of Life on Commercial Support for some Spring projects",
+"ifs":[{"impact": "org.springframework:spring:2.5", "fix": ""},
+{"impact": "org.springframework:security:2.0", "fix": ""},
+{"impact": "org.springframework:webflow:2.0", "fix": ""},
+{"impact": "org.springframework:ldap:1.2", "fix": ""}],
+"docs": [""]
+},
+{"name": "EOL-2012-06-30",
+"level": "EOL",
+"description": "SpringSource announces End Of Life for Spring Web Services 1.5",
+"ifs":[{"impact": "org.springframework:webservices:1.5", "fix": ""}],
+"docs": [""]
+},
+{"name": "EOL-2011-10-31",
+"level": "EOL",
+"description": "SpringSource announces End Of Life on Commercial Support for Spring Web Flow 1.0",
+"ifs":[{"impact": "org.springframework:webflow:1.0", "fix": ""}],
+"docs": [""]
+},
+{"name": "EOL-2011-08-31",
+"level": "EOL",
+"description": "SpringSource announces End Of Life for Spring Batch 1.1, Spring DM 1.1",
+"ifs":[{"impact": "org.springframework:batch:1.1", "fix": ""},
+{"impact": "org.springframework:dm:1.1", "fix": ""}],
+"docs": [""]
+},
+{"name": "EOL-2011-07-31",
+"level": "EOL",
+"description": "SpringSource announces end of life for Spring Batch 1.0, Spring DM 1.0, Spring IDE 2.0, Spring Web Services 1.0",
+"ifs":[{"impact": "org.springframework:batch:1.0", "fix": ""},
+{"impact": "org.springframework:dm:1.0", "fix": ""},
+{"impact": "org.springframework:dm:1.0", "fix": ""},
+{"impact": "org.springframework:ide:2.0", "fix": ""},
+{"impact": "org.springframework:webservices:1.0", "fix": ""}],
+"docs": [""]
+},
+{"name": "CVE-2013-5817",
+"level": "",
+"description": "",
+"ifs":[{"impact": "", "fix": ""}],
+"docs": ["http://www.zerodayinitiative.com/advisories/ZDI-13-244/"]
+},
+{"name": "CVE-2013-5816",
+"level": "",
+"description": "",
+"ifs":[{"impact": "", "fix": ""}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2013-5816/"]
+},
 {"name": "CVE-2013-5679",
 "level": "HIGH",
 "description": "MAC Bypass in ESAPI Symmetric Encryption",
 "ifs":[{"impact": "", "fix": "2013-09-02 in ESAPI 2.1.0 (cryptographic version 20130830)"}],
 "docs": ["http://lists.owasp.org/pipermail/esapi-dev/2013-August/002285.html","http://code.google.com/p/owasp-esapi-java/issues/detail?id=306","http://seclists.org/fulldisclosure/2013/Sep/99"]
+},
+{"name": "CVE-2013-4810",
+"level": "",
+"description": "",
+"ifs":[{"impact": "jboss", "fix": ""}],
+"docs": ["http://www.corrspt.com/blog/2014/01/18/tale-vps-hacked/"]
+},
+{"name": "CVE-2013-4617 CVE-2013-3920",
+"level": "",
+"description": "Jahia xCM 'About Me' Field HTML Injection Vulnerability",
+"ifs":[{"impact": "jahia", "fix": ""}],
+"docs": ["http://www.securityfocus.com/bid/63986"]
+},
+{"name": "CVE-2013-5372",
+"level": "",
+"description": "",
+"ifs":[{"impact": "xml4j", "fix": ""}],
+"docs": ["http://www.securityfocus.com/bid/63224/info"]
+},
+{"name": "CVE-2013-4636",
+"level": "",
+"description": "",
+"ifs":[{"impact": "", "fix": ""}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2013-4636/"]
 },
 {"name": "CVE-2013-4330",
 "level": "MEDIUM",
@@ -881,11 +1007,23 @@ On versions: fixes included in upcoming releases:
 "ifs":[{"impact": "org.restlet", "fix": "2.1.4"}],
 "docs": ["http://www.cvedetails.com/cve/CVE-2013-4221/","https://bugzilla.redhat.com/show_bug.cgi?id=995275"]
 },
+{"name": "CVE-2013-4171 CVE-2013-4212",
+"level": "",
+"description": "",
+"ifs":[{"impact": "org.apache.roller:roller:", "fix": "5.0.2 5.0.3"}],
+"docs": ["http://rollerweblogger.org/project/entry/apache_roller_5_0_2"]
+},
 {"name": "CVE-2013-4152",
 "level": "MEDIUM",
 "description": "Multiple XML External Entity Injection Vulnerabilities",
 "ifs":[{"impact": "Spring OXM, Spring MVC", "fix": "3.0.6.RELEASE-10"}],
 "docs": ["http://seclists.org/fulldisclosure/2014/Jan/59","http://www.debian.org/security/2014/dsa-2842","http://www.securityfocus.com/bid/61951","http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-0033"]
+},
+{"name": "CVE-2013-4112",
+"level": "",
+"description":"",
+"ifs":[{"impact": "jgroups", "fix": ""}],
+"docs": ["http://osvdb.org/show/osvdb/95386"]
 },
 {"name": "CVE-2013-4002",
 "level": "HIGH",
@@ -898,6 +1036,72 @@ On versions: fixes included in upcoming releases:
 "description": "scala json/JsonParser.scala in Lift before 2.5",
 "ifs":[{"impact": "lift", "fix": "2.0.7"}],
 "docs": ["http://osvdb.org/show/osvdb/95694","http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-3300","http://www.cvedetails.com/cve/CVE-2013-3300/"]
+},
+{"name": "CVE-2013-2055",
+"level": "",
+"description": "Apache Wicket information disclosure vulnerability",
+"ifs":[{"impact": "org.apache.wicket", "fix": ""}],
+"docs": ["http://seclists.org/fulldisclosure/2014/Feb/38"]
+},
+{"name": "EOL-HTTPCLIENT3- tofix",
+"level": "EOL",
+"description": "",
+"ifs":[{"impact": "org.apache. httpclient :3.x", "fix": ""}],
+"docs": ["http://hc.apache.org/httpclient-3.x/"]
+},
+{"name": "EOL-MAVEN2- tofix",
+"level": "EOL",
+"description": "",
+"ifs":[{"impact": "org.apache.maven:2.x", "fix": ""}],
+"docs": ["http://maven.40175.n5.nabble.com/End-of-Life-Apache-Maven-2-x-td5785222.html"]
+},
+{"name": "EOL-AMQ-2013-06-31",
+"level": "EOL",
+"description": "Pivotal announces End-of-Life on Commercial Support for ActiveMQ 5.4",
+"ifs":[{"impact": "org.apache.amq:5.4", "fix": ""}],
+"docs": [""]
+},
+{"name": "EOL-AMQ-2013-01-31",
+"level": "EOL",
+"description": "SpringSource announces End-of-Life on Commercial Support for ActiveMQ 5.3",
+"ifs":[{"impact": "org.apache.amq:5.3", "fix": ""}],
+"docs": [""]
+},
+{"name": "EOL-AMQ-2011-11-30",
+"level": "EOL",
+"description": "SpringSource announces End-of-Life on Commercial Support for ActiveMQ 5.2",
+"ifs":[{"impact": "org.apache.amq:5.2", "fix": ""}],
+"docs": [""]
+},
+{"name": "EOL-TOMCAT4-2011-11-30",
+"level": "EOL",
+"description": "SpringSource announces end of life for Tomcat 4.1.x",
+"ifs":[{"impact": "org.apache.tomcat:4.1", "fix": ""}],
+"docs": [""]
+},
+{"name": "EOL-AMQ-2011-09-31",
+"level": "",
+"description": "SpringSource announces End-of-Life on Commercial Support for ActiveMQ 5.1",
+"ifs":[{"impact": "org.apache.amq:5.1", "fix": ""}],
+"docs": [""]
+},
+{"name": "EOL-TOMCAT5-2009-06-02",
+"level": "EOL",
+"description": "SpringSource announces End-of-Life on Commercial Support for Tomcat 5.0.x",
+"ifs":[{"impact": "org.apache.tomcat:5.0", "fix": "6.0.41 7.0.54"}],
+"docs": [""]
+},
+{"name": "EOL-APACHE-2012-05-31",
+"level": "EOL",
+"description": "SpringSource announces End Of Life on Commercial Support for some Apache Projects",
+"ifs":[{"impact": "Apache Axis, Apache Axis2, Apache Cayenne, Apache Geronimo, Apache James, Apache OpenJPA, Apache Roller, Apache ServiceMix, Apache Struts, Apache Xalan", "fix": ""}],
+"docs": [""]
+},
+{"name": "CVE-2013-3060",
+"level": "",
+"description": "",
+"ifs":[{"impact": "org.apache.amq", "fix": "5.8.0"}],
+"docs": ["https://access.redhat.com/security/cve/CVE-2013-3060"]
 },
 {"name": "2013-09-21-Play!",
 "level": "HIGH",
@@ -918,11 +1122,71 @@ On versions: fixes included in upcoming releases:
 "ifs":[{"impact": "org.jasypt:jasypt", "fix": "1.9.1"}],
 "docs": ["http://sourceforge.net/p/jasypt/bugs/23/"]
 },
+{"name": "CVE-2013-2430",
+"level": "",
+"description":"",
+"ifs":[{"impact": "", "fix": ""}],
+"docs": [""]
+},
+{"name": "CVE-2013-2254",
+"level": "",
+"description":"",
+"ifs":[{"impact": "", "fix": ""}],
+"docs": ["https://www.rapid7.com/db/vulnerabilities/jre-vuln-cve-2013-2430"]
+},
+{"name": "CVE-2013-2251",
+"level": "HIGH",
+"description": "Apache Struts 2.0.0 through 2.3.15 allows remote attackers to execute arbitrary OGNL expressions via a parameter with a crafted (1) action:, (2) redirect:, or (3) redirectAction: prefix.",
+"ifs":[{"impact": "org.apache.struts:struts2-core:2.0.0 2.3.15", "fix": "2.3.15.3 2.3.16.3"}],
+"docs": ["http://struts.apache.org/release/2.3.x/docs/version-notes-23153.html","http://osvdb.org/98445"]
+},
 {"name": "CVE-2013-2186",
-  "level": "HIGH",
-  "description": "The DiskFileItem class in Apache Commons FileUpload, as used in Red Hat JBoss BRMS 5.3.1; JBoss Portal 4.3 CP07, 5.2.2, and 6.0.0; and Red Hat JBoss Web Server 1.0.2 allows remote attackers to write to arbitrary files via a NULL byte in a file name in a serialized instance.",
-  "ifs":[{"impact": "org.apache.commons.fileupload", "fix": "1.3.1"}],
+"level": "HIGH",
+"description": "The DiskFileItem class in Apache Commons FileUpload, as used in Red Hat JBoss BRMS 5.3.1; JBoss Portal 4.3 CP07, 5.2.2, and 6.0.0; and Red Hat JBoss Web Server 1.0.2 allows remote attackers to write to arbitrary files via a NULL byte in a file name in a serialized instance.",
+"ifs":[{"impact": "org.apache.commons.fileupload", "fix": "1.3.1"}],
 "docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-2186","http://xforce.iss.net/xforce/xfdb/88133"]
+},
+{"name": "CVE-2013-2172",
+"level": "HIGH",
+"description": "Apache Santuario XML Security for JAVA XML Signature Security Bypass Vulnerability",
+"ifs":[{"impact": "org.apache.santuario", "fix": ""}],
+"docs": ["http://www.securityfocus.com/bid/60846"]
+},
+{"name": "CVE-2013-2035",
+"level": "",
+"description": "",
+"ifs":[{"impact": "", "fix": ""}],
+"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-2035"]
+},
+{"name": "CVE-2013-2033",
+"level": "",
+"description": "CloudBees Jenkins",
+"ifs":[{"impact": "jenkins", "fix": ""}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2013-2033/"]
+},
+{"name": "CVE-2013-1879",
+"level": "",
+"description": "",
+"ifs":[{"impact": "org.apache.amq", "fix": ""}],
+"docs": ["https://issues.apache.org/jira/browse/AMQ-4397"]
+},
+{"name": "CVE-2013-213",
+"level": "",
+"description": "JBoss Enterprise Application Platform Authorization Security Bypass Vulnerability",
+"ifs":[{"impact": "jboss", "fix": ""}],
+"docs": ["http://www.securityfocus.com/bid/64125"]
+},
+{"name": "CVE-2013-",
+"level": "",
+"description":"",
+"ifs":[{"impact": "org.apache.geronimo", "fix": ""}],
+"docs": ["https://bugzilla.redhat.com/show_bug.cgi?format=multiple&id=984057"]
+},
+{"name": "2013-09-30",
+"level": "",
+"description":"NTFS Remote Security Bypass Vulnerability Versions prior to Jetty 9.0.6.v20130930 are vulnerable.",
+"ifs":[{"impact": "org.eclipse jetty", "fix": "9.0.6.v20130930"}],
+"docs": ["http://www.securityfocus.com/bid/63970"]
 },
 {"name": "CVE-2013-1768",
 "level": "HIGH",
@@ -953,7 +1217,13 @@ On versions: fixes included in upcoming releases:
 "level": "LOW",
 "description": "Commons FileUpload provides file upload capability for Servlets and web applications. During the upload process, FileUpload may (depending on configuration) save the uploaded file temporarily on disk. By default this will be in the system wide tmp directory. Because the temporary files have predictable file names and are stored in a publicly writeable location they are vulnerable to a TOCTOU attack.",
 "ifs":[{"impact": "commons-fileupload:commons-fileupload", "fix": "1.3"}],
-"docs": ["http://seclists.org/fulldisclosure/2013/Mar/76","http://markmail.org/message/xwbtukcaqikfjb32","http://www.ubuntu.com/usn/usn-2029-1/"]
+"docs": ["http://seclists.org/fulldisclosure/2013/Mar/76","http://markmail.org/message/xwbtukcaqikfjb32","http://www.ubuntu.com/usn/usn-2029-1/","https://fisheye6.atlassian.com/changelog/commons?cs=1453273"]
+},
+{"name": "EOL-2013-01-31",
+"level": "EOL",
+"description":"SpringSource announces End Of Life on Commercial Support for Grails 1.2",
+"ifs":[{"impact": "org.grails", "fix": "1.3"}],
+"docs": [""]
 },
 {"name": "2013-03-17-h2",
 "level": "MEDIUM",
@@ -961,17 +1231,47 @@ On versions: fixes included in upcoming releases:
 "ifs":[{"impact": "com.h2database", "fix": "1.3.171"}],
 "docs": ["http://osvdb.org/show/osvdb/91463","http://www.securityfocus.com/bid/58536/discuss"]
 },
+{"name": "CVE-2012-6092",
+"level": "",
+"description": "",
+"ifs":[{"impact": "jasper", "fix": ""}],
+"docs": ["http://community.jaspersoft.com/jasperreports-library/issues/4882"]
+},
+{"name": "CVE-2012-5784",
+"level": "",
+"description": "xml axis",
+"ifs":[{"impact": "axis", "fix": ""}],
+"docs": ["https://issues.apache.org/jira/browse/AXIS-2883","http://support.f5.com/kb/en-us/solutions/public/14000/300/sol14371.html"]
+},
 {"name": "CVE-2012-5783",
 "level": "MEDIUM",
 "description": "Apache Commons HttpClient 3.x, as used in Amazon Flexible Payments Service (FPS) merchant Java SDK and other products, does not verify that the server hostname matches a domain name in the subject's Common Name (CN) or subjectAltName field of the X.509 certificate, which allows man-in-the-middle attackers to spoof SSL servers via an arbitrary valid certificate.",
 "ifs":[{"impact": "commons-httpclient:commons-httpclient: 3.1 EOL", "fix": "Patch in https://issues.apache.org/jira/browse/HTTPCLIENT-1265, org.apache.httpcomponents:httpclient:4.3.3"}],
 "docs": ["http://www.cs.utexas.edu/~shmat/shmat_ccs12.pdf Section7.5","https://issues.apache.org/jira/browse/HTTPCLIENT-1265","http://www.rapid7.com/db/vulnerabilities/linuxrpm-rhsa-2013-0680","http://www.securityfocus.com/bid/58073","http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-5783","https://bugs.mageia.org/show_bug.cgi?id=8933","http://advisories.mageia.org/MGASA-2013-0199.html","http://people.canonical.com/~ubuntu-security/cve/2012/CVE-2012-5783.html","https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=692442","http://www.security-database.com/detail.php?alert=CVE-2012-5783","https://issues.jboss.org/browse/ENTMQ-315","https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=700268"]
 },
-{"name": "CVE-2013-2251",
-"level": "HIGH",
-"description": "Apache Struts 2.0.0 through 2.3.15 allows remote attackers to execute arbitrary OGNL expressions via a parameter with a crafted (1) action:, (2) redirect:, or (3) redirectAction: prefix.",
-"ifs":[{"impact": "org.apache.struts:struts2-core:2.0.0 2.3.15", "fix": "2.3.15.3 2.3.16.3"}],
-"docs": ["http://struts.apache.org/release/2.3.x/docs/version-notes-23153.html","http://osvdb.org/98445"]
+{"name": "CVE-2012-5076",
+"level": "",
+"description":"",
+"ifs":[{"impact": "java jaxws", "fix": ""}],
+"docs": ["http://www.rapid7.com/db/modules/exploit/multi/browser/java_jre17_jaxws"]
+},
+{"name": "CVE-2012-5055",
+"level": "",
+"description":"",
+"ifs":[{"impact": "org.springframework", "fix": ""}],
+"docs": ["http://support.springsource.com/security/cve-2012-5055"]
+},
+{"name": "CVE-2012-3325",
+"level": "",
+"description":"IBM WebSphere Application Server Administrative Access Security Bypass Vulnerability",
+"ifs":[{"impact": "com.ibm was", "fix": ""}],
+"docs": ["http://www.securityfocus.com/bid/55309"]
+},
+{"name": "GSON-2012-07-05",
+"level": "",
+"description": "json hash ddos",
+"ifs":[{"impact": "com.google.code.gson:gson", "fix": ""}],
+"docs": ["https://groups.google.com/forum/#!msg/google-gson/gqxUYdlqTNU/Vx2TRyoOWX4J"]
 },
 {"name": "CVE-2012-2098",
 "level": "MEDIUM",
@@ -984,7 +1284,7 @@ On versions: fixes included in upcoming releases:
 {"name": "2012-02-02-tapestry TAP5-1779",
 "level": "MEDIUM",
 "description": "Tapestry allows directory listing of assets via client browser",
-"ifs":[{"impact": "org.apache.tapestry", "fix": "5.4"}],
+"ifs":[{"impact": "org.apache.tapestry", "fix": "workarounds on assets service or 5.4"}],
 "docs": ["https://issues.apache.org/jira/browse/TAP5-1779","http://code.google.com/p/flowlogix/source/browse/tapestry-services/src/main/java/com/flowlogix/web/services/SecurityModule.java"]
 },
 {"name": "CVE-2012-03-05",
@@ -1028,16 +1328,22 @@ On versions: fixes included in upcoming releases:
 },
 {"name": "CVE-2012-1484",
 "level": "HIGH",
-"description": "Unspecified vulnerability in the WaliSMS CN (cn.com.wali.walisms) application 2.9.2 and 3.7.0 for Android has unknown impact and attack vectors.",
+"description":"Unspecified vulnerability in the WaliSMS CN (cn.com.wali.walisms) application 2.9.2 and 3.7.0 for Android has unknown impact and attack vectors.",
 "ifs":[{"impact": "cn.com.wali.walisms:2.9.2", "fix": "", "os": "android"},
 {"impact": "cn.com.wali.walisms:3.7.0", "fix":"", "os": "android"}],
 "docs": ["http://www.cvedetails.com/cve/CVE-2012-1484/","http://www4.comp.polyu.edu.hk/~appsec/bugs/CVE-2012-1484-vulnerability-in-WaliSMSCN.html"]
 },
 {"name": "CVE-2012-1483",
 "level": "HIGH",
-"description": "Unspecified vulnerability in the Message Forwarder (com.gmail.zbnetium) application 1.12.20110409.1 for Android has unknown impact and attack vectors.",
+"description":"Unspecified vulnerability in the Message Forwarder (com.gmail.zbnetium) application 1.12.20110409.1 for Android has unknown impact and attack vectors.",
 "ifs":[{"impact": "com.gmail.zbnetium:1.12.20110409.1", "fix": " ", "os":"android"}],
 "docs": ["http://www.cvedetails.com/cve/CVE-2012-1483/","http://www4.comp.polyu.edu.hk/~appsec/bugs/CVE-2012-1483-vulnerability-in-MessageForwarder.html"]
+},
+{"name": "CVE-2012-1019",
+"level": "",
+"description":"",
+"ifs":[{"impact": "", "fix": " "}],
+"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-1019"]
 },
 {"name": "EOL-2012-0930",
 "level": "HIGH",
@@ -1052,7 +1358,7 @@ On versions: fixes included in upcoming releases:
 {"impact": "org.apache.cxf:?:[2.5.1]", "fix": "2.5.2"}],
 "docs": ["https://access.redhat.com/security/cve/CVE-2012-0803","http://osdir.com/ml/users-cxf-apache/2012-02/msg00175.html","http://marc.info/?l=bugtraq&m=130583021727954"]
 },
-{"name": "CVE-2012-0803",
+{"name": "CVE-2012-0803 tofix",
 "level": "HIGH",
 "description": "CXF does not validate a WS-Security UsernameToken received as part of the security header of a SOAP request against a WS-SP UsernameToken policy.",
 "ifs":[{"impact": "org.apache.cxf:?:2.4.5", "fix": "2.4.6"},
@@ -1090,12 +1396,24 @@ On versions: fixes included in upcoming releases:
 "level": "HIGH",
 "description": "The UnhandledDataStructure function in hwpf/model/UnhandledDataStructure.java in Apache POI 3.8 and earlier allows remote attackers to cause a denial of service (OutOfMemoryError exception and possibly JVM destabilization) via a crafted length value in a Channel Definition Format (CDF) or Compound File Binary Format (CFBF) document.",
 "ifs":[{"impact": "org.apache.poi:poi:=<3.8", "fix": "3.9"}],
-"docs": ["https://bugzilla.redhat.com/show_bug.cgi?id=799078","http://www.debian.org/security/2012/dsa-2468","https://bugs.mageia.org/show_bug.cgi?id=6011"]
+"docs": ["https://bugzilla.redhat.com/show_bug.cgi?id=799078","http://www.debian.org/security/2012/dsa-2468","https://bugs.mageia.org/show_bug.cgi?id=6011","http://www.cvedetails.com/cve/CVE-2012-0213/"]
+},
+{"name": "2012-10-07",
+"level": "",
+"description":"",
+"ifs":[{"impact": "org.groovy grizzly", "fix": ""}],
+"docs": ["http://osvdb.org/show/osvdb/102541"]
+},
+{"name": "CVE-2012-0079",
+"level": "HIGH",
+"description": "",
+"ifs":[{"impact": "", "fix":""}],
+"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2012-0079"]
 },
 {"name": "CVE-2012-0022",
 "level": "HIGH",
 "description": "",
-"ifs":[{"impact": "org.apache.tomcat:catalina:5.5.x", "fix":"5.5.35 EOL-2012-0930_Tomcat_5.5"}],
+"ifs":[{"impact": "org.apache.tomcat:catalina:5.5.x", "fix":"5.5.35 EOL-2012-0930_Tomcat_5.5 > 6.0.41"}],
 "docs": ["http://tomcat.apache.org/security-5.html#Fixed_in_Apache_Tomcat_5.5.35","http://support.novell.com/security/cve/CVE-2012-0022.html"]
 },
 {"name": "2012-01-19-openms",
@@ -1128,17 +1446,17 @@ On versions: fixes included in upcoming releases:
 "ifs":[{"impact": "com.google.gwt:?::?:2.3.0", "fix": " "}],
 "docs": ["http://code.google.com/p/google-web-toolkit/issues/detail?id=3637"]
 },
-{"name": "CVE-2011-4461 CVE-2011-5034",
+{"name": "CVE-2011-5269",
+"level": "",
+"description":"",
+"ifs":[{"impact": "", "fix": " "}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2011-5269/"]
+},
+{"name": "CVE-2011-5034",
 "level": "HIGH",
 "description": "Apache Geronimo 2.2.1 and earlier computes hash values for form parameters without restricting the ability to trigger hash collisions predictably, which allows remote attackers to cause a denial of service (CPU consumption) by sending many crafted parameters.",
-"ifs":[{"impact":    "org.apache.geronimo:?:2.2.1", "fix": " "}],
+"ifs":[{"impact": "org.apache.geronimo:?:2.2.1", "fix": " "}],
 "docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-5034,http://geronimo.apache.org/security-reports.html,http://mail-archives.apache.org/mod_mbox/servicemix-users/201202.mbox/%3CCAJUL34MNyiS8PqLyLQ2Z2+Am9E-tQu6_L=ATKEgqvc6a4KebhQ@mail.gmail.com%3E"]
-},
-{"name": "CVE-2011-4461",
-"level": "HIGH",
-"description": "Jetty 8.1.0.RC2 and earlier computes hash values for form parameters without restricting the ability to trigger hash collisions predictably, which allows remote attackers to cause a denial of service (CPU consumption) by sending many crafted parameters.",
-"ifs":[{"impact": "org.mortbay.jetty:?:8.1.0.RC2", "fix": "8.1.0.RC4"}],
-"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-5034,http://geronimo.apache.org/security-reports.html,http://mail-archives.apache.org/mod_mbox/servicemix-users/201202.mbox/%3CCAJUL34MNyiS8PqLyLQ2Z2+Am9E-tQu6_L=ATKEgqvc6a4KebhQ@mail.gmail.com%3E","http://servicemix.396122.n5.nabble.com/Servicemix-3-x-Geronimo-Dependency-CVE-2011-5034-td5443711.html"]
 },
 {"name": "CVE-2011-4905",
 "level": "HIGH",
@@ -1152,6 +1470,30 @@ On versions: fixes included in upcoming releases:
 "ifs":[{"impact": "org.apache.tomcat:?:.x", "fix": "5.5.35"},
 {"impact": "org.apache.tomcat:?:7.x", "fix": "7.0.23"}],
 "docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-4858"]
+},
+{"name": "CVE-2011-4605",
+"level": "",
+"description":"",
+"ifs":[{"impact": "jboss", "fix": " "}],
+"docs": ["http://telussecuritylabs.com/threats/show/TSL20120907-03"]
+},
+{"name": "CVE-2011-4580",
+"level": "",
+"description": "Multiple cross-site scripting (XSS) vulnerabilities in Red Hat JBoss Enterprise Portal Platform before 5.2.0 allow remote attackers to inject arbitrary web script or HTML via unspecified vectors.",
+"ifs":[{"impact": "redhat jboss", "fix": " "}],
+"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-4580"]
+},
+{"name": "CVE-2011-4461",
+"level": "HIGH",
+"description": "Jetty 8.1.0.RC2 and earlier computes hash values for form parameters without restricting the ability to trigger hash collisions predictably, which allows remote attackers to cause a denial of service (CPU consumption) by sending many crafted parameters.",
+"ifs":[{"impact": "org.mortbay.jetty:?:8.1.0.RC2", "fix": "8.1.0.RC4"}],
+"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-5034,http://geronimo.apache.org/security-reports.html,http://mail-archives.apache.org/mod_mbox/servicemix-users/201202.mbox/%3CCAJUL34MNyiS8PqLyLQ2Z2+Am9E-tQu6_L=ATKEgqvc6a4KebhQ@mail.gmail.com%3E","http://servicemix.396122.n5.nabble.com/Servicemix-3-x-Geronimo-Dependency-CVE-2011-5034-td5443711.html"]
+},
+{"name": "CVE-2011-4404",
+"level": "",
+"description":"",
+"ifs":[{"impact": "", "fix": " "}],
+"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-4404"]
 },
 {"name": "CVE-2011-4367",
 "level": "HIGH",
@@ -1169,10 +1511,20 @@ On versions: fixes included in upcoming releases:
 {"name": "CVE-2011-4084",
 "level": "MEDIUM",
 "description": "Apache Tomcat before 5.5.35, 6.x before 6.0.35, and 7.x before 7.0.23 does not properly handle a large number of form parameters, which might allow remote attackers to cause a denial of service (CPU consumption) via a request that triggers storage of many parameters in a hash table.",
-"ifs":[{"impact":"org.apache.tomcat:","fix":"5.5.35"},
-{"impact":"org.apache.tomcat:6.x","fix":"6.0.35"},
-{"impact":"org.apache.tomcat:7.x","fix":"7.0.23"}],
+"ifs":[{"impact":"org.apache.tomcat:5.5 6 7","fix":"5.5.35 6.0.35 7.0.23 > EOL 6.0.41 7.0.54"}],
 "docs": ["http://osvdb.org/show/osvdb/73737","http://groups.google.com/group/openid4java/browse_thread/thread/6eb98a9169c9c36"]
+},
+{"name": "CVE-2011-3544",
+"level": "",
+"description": "",
+"ifs":[{"impact":"","fix":""}],
+"docs": ["http://schierlm.users.sourceforge.net/CVE-2011-3544.html"]
+},
+{"name": "CVE-2011-3553",
+"level": "",
+"description": "",
+"ifs":[{"impact":"","fix":""}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2011-3553/"]
 },
 {"name": "CVE-2011-3190, CVE-2011-3190",
 "level": "HIGH",
@@ -1189,6 +1541,12 @@ On versions: fixes included in upcoming releases:
 {"impact": "org.springframework:spring-security:2.0.x", "fix": "DL 2.0.7.RELEASE"}],
 "docs": ["http://www.springsource.com/security/cve-2011-2894","http://www.springsource.com/security/spring-framework","http://www.cvedetails.com/cve/CVE-2011-2894/", "http://static.springsource.org/spring-security/site/downloads.html", "http://wouter.coekaerts.be/2011/spring-vulnerabilities", "http://news.ycombinator.com/item?id=5081852","http://www.h-online.com/open/news/item/The-ghost-of-a-Spring-Framework-bug-haunts-old-code-1786850.html"]
 },
+{"name": "CVE-2011-2526",
+"level": "MEDIUM",
+"description":"Apache Tomcat 5.5.x before 5.5.34, 6.x before 6.0.33, and 7.x before 7.0.19, when sendfile is enabled for the HTTP APR or HTTP NIO connector, does not validate certain request attributes, which allows local users to bypass intended file access restrictions or cause a denial of service (infinite loop or JVM crash) by leveraging an untrusted web application.",
+"ifs": [{"impact": "org.apache.tomcat:5.5 6 7", "fix": "5.5.34 6.0.33 7.0.19"}],
+"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-2526"]
+},
 {"name": "CVE-2011-2712 CVE-2012-1089",
 "level": "MEDIUM",
 "description": "Cross-site scripting (XSS) vulnerability in Apache Wicket 1.4.x before 1.4.20 allows remote attackers to inject arbitrary web script or HTML via the wicket:pageMapName parameter.",
@@ -1201,6 +1559,12 @@ On versions: fixes included in upcoming releases:
 "ifs":[{"impact": "commons-daemon:commons-daemon:1.0.x", "fix": "1.0.7" }],
 "docs": ["http://mail-archives.apache.org/mod_mbox/www-announce/201108.mbox/%3C4E451C01.6000007@apache.org%3E"]
 },
+{"name": "CVE-2011-2514",
+"level": "",
+"description":"The Java Network Launching Protocol (JNLP) implementation in IcedTea6 1.9.x before 1.9.9 and before 1.8.9, and IcedTea-Web 1.1.x before 1.1.1 and before 1.0.4, allows remote attackers to trick victims into granting access to local files by modifying the content of the Java Web Start Security Warning dialog box to represent a different filename than the file for which access will be granted.",
+"ifs":[{"impact": "java jnlp", "fix": "" }],
+"docs": ["http://www.cvedetails.com/cve/CVE-2011-2514/"]
+},
 {"name": "CVE-2011-1942",
 "level": "MEDIUM",
 "description": "Spring Web Services Information Disclosure Vulnerability",
@@ -1210,6 +1574,7 @@ On versions: fixes included in upcoming releases:
 {"impact": "org.springframework:spring-web::2.x", "fix": "2.0.2" }],
 "docs": ["http://www.springsource.com/security/cve-2011-1942"]
 },
+
 {"name": "CVE-2011-1498",
 "level": "MEDIUM",
 "description": "Apache HttpClient 4.x before 4.1.1 in Apache HttpComponents, when used with an authenticating proxy server, sends the Proxy-Authorization header to the origin server, which allows remote web servers to obtain sensitive information by logging this header.",
@@ -1223,6 +1588,12 @@ On versions: fixes included in upcoming releases:
 {"impact": "org.opensaml:opensaml:2.5.x", "fix": "2.5.1" },
 {"impact": "org.opensaml:idP?", "fix": "2.3.2" }],
 "docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-1411","http://www.debian.org/security/2011/dsa-2284","http://shibboleth.1660669.n2.nabble.com/CVE-2011-1411-OpenSAML-library-vulnerable-to-XML-Signature-wrapping-attacks-td6618773.html"]
+},
+{"name": "CVE-2011-1322",
+"level": "",
+"description":"",
+"ifs":[{"impact": "", "fix": "" }],
+"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-1322"]
 },
 {"name": "CVE-2011-0533, CVE-2011-1077, CVE-2011-1026",
 "level": "MEDIUM",
@@ -1248,6 +1619,12 @@ On versions: fixes included in upcoming releases:
 "description": "Upgrade to latest Spring Security release which fixes security vulnerability.",
 "ifs": [{"impact": "org.jasig.cas:?:3.4.3", "fix":"3.4.3.1" }],
 "docs": ["https://issues.jasig.org/browse/CAS-917"]
+},
+{"name": "CVE-2010-4444",
+"level": "",
+"description": "",
+"ifs": [{"impact": "", "fix":"" }],
+"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2010-4444"]
 },
 {"name": "CVE-2010-3863",
 "level": "HIGH",
@@ -1295,7 +1672,7 @@ On versions: fixes included in upcoming releases:
 "ifs": [{"impact": "org.springframework:spring|spring-beans:2.5.x", "fix": "2.5.6.SEC03"},
 {"impact": "org.springframework:spring|spring-beans:2.5.7", "fix": "2.5.7.SR01"},
 {"impact": "org.springframework:spring|spring-beans:3.0.x", "fix": "3.0.6.RELEASE"}],
-"docs": ["http://www.springsource.com/security/cve-2010-1622","http://forum.springsource.org/showthread.php?91522-CVE-2010-1622-Spring-Framework-execution-of-arbitrary-code"]
+"docs": ["http://www.springsource.com/security/cve-2010-1622","http://forum.springsource.org/showthread.php?91522-CVE-2010-1622-Spring-Framework-execution-of-arbitrary-code","http://docs.spring.io/spring/docs/3.2.6.RELEASE/changelog.txt"]
 },
 {"name": "EOL-2010-0901",
 "level": "HIGH",
@@ -1325,21 +1702,37 @@ On versions: fixes included in upcoming releases:
 "level": "MEDIUM",
 "description":"XMLScanner.java in Apache Xerces2 Java, as used in Sun Java Runtime Environment (JRE) in JDK and JRE 6 before Update 15 and JDK and JRE 5.0 before Update 20, and in other products, allows remote attackers to cause a denial of service (infinite loop and application hang) via malformed XML input, as demonstrated by the Codenomicon XML fuzzing framework.",
 "ifs": [{"impact": "xerces:xercesImpl:2.9.1", "fix": "2.10.0"}],
-"docs": ["http://www.cvedetails.com/cve/CVE-2009-2625/","http://xerces.apache.org/xerces2-j/install.html","https://issues.apache.org/jira/browse/XERCESJ-1412"]
+"docs": ["http://www.cvedetails.com/cve/CVE-2009-2625/","http://xerces.apache.org/xerces2-j/install.html","https://issues.apache.org/jira/browse/XERCESJ-1412","https://bugzilla.redhat.com/show_bug.cgi?id=824075","http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-2625"]
 },
-{"name": "CVE-2011-2526",
-"level": "MEDIUM",
-"description":"Apache Tomcat 5.5.x before 5.5.34, 6.x before 6.0.33, and 7.x before 7.0.19, when sendfile is enabled for the HTTP APR or HTTP NIO connector, does not validate certain request attributes, which allows local users to bypass intended file access restrictions or cause a denial of service (infinite loop or JVM crash) by leveraging an untrusted web application.",
-"ifs": [{"impact": "org.apache.tomcat:5.5", "fix": "5.5.34"},
-{"impact": "org.apache.tomcat:6", "fix": "6.0.33"},
-{"impact": "org.apache.tomcat:7", "fix": "7.0.19"}],
-"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-2526"]
+{"name": "CVE-2009-3821",
+"level": "",
+"description":"",
+"ifs": [{"impact": "", "fix": ""}],
+"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-3821"]
+},
+{"name": "CVE-2009-1554",
+"level": "",
+"description":"",
+"ifs": [{"impact": "", "fix": ""}],
+"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-1554"]
+},
+{"name": "CVE-2009-1275",
+"level": "",
+"description":"",
+"ifs": [{"impact": "", "fix": ""}],
+"docs": ["http://www.securityfocus.com/bid/34657"]
 },
 {"name": "EOL-2009-10",
-"level": "WARNING",
+"level": "EOL",
 "description":"J2SE 5.0 entered its end-of-life on April 8, 2008 and is no longer freely supported by Oracle as of November 3, 2009.",
-"ifs": [{"impact": "JAVA com.oracle:jre:5.x", "fix": "java6 java7"}],
+"ifs": [{"impact": "JAVA com.oracle:jre:5.x", "fix": "java7 java8"}],
 "docs": ["https://forums.oracle.com/forums/thread.jspa?threadID=2347738","http://www.oracle.com/technetwork/java/javase/index-jsp-135232.html","http://en.wikipedia.org/wiki/Java_version_history#J2SE_5.0_.28September_30.2C_2004.29"]
+},
+{"name": "CVE-2009-0026",
+"level": "",
+"description":"jackrabbit",
+"ifs": [{"impact": "org.apache.jackrabbit", "fix": ""}],
+"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2009-0026"]
 },
 {"name": "CVE-2008-7227",
 "level": "HIGH",
@@ -1354,11 +1747,35 @@ On versions: fixes included in upcoming releases:
 "ifs": [{"impact": "gnu:classpath:0.97.2", "fix": "0.99"}],
 "docs": ["https://bugzilla.redhat.com/show_bug.cgi?id=477212","http://www.gnu.org/software/classpath/","http://lists.gnu.org/archive/html/info-gnu/2012-03/msg00012.html", "http://blog.fuseyism.com/index.php/2012/03/16/gnu-classpath-0-99-released/"]
 },
+{"name": "CVE-2008-1947",
+"level": "HIGH",
+"description": "Fix XSS issue in host-manager web application. (2008-06-06)",
+"ifs": [{"impact": " tomcat5.5 (5.5.26-3)", "fix": "EOL 6.0.41 7.0.54" }],
+"docs": [""]
+},
+{"name": "CVE-2008-1285",
+"level": "",
+"description": "jsf",
+"ifs": [{"impact": "jsf", "fix": "" }],
+"docs": ["http://www.cvedetails.com/cve/CVE-2008-1285/"]
+},
+{"name": "CVE-2008-1036",
+"level": "",
+"description": "unicode",
+"ifs": [{"impact": "com.ibm.icu:icu4j 3", "fix": "4.0" }],
+"docs": ["http://bugs.icu-project.org/trac/ticket/3825","http://icu-project.org/download/4.0.html","http://www-01.ibm.com/support/docview.wss?uid=swg1PM53904"]
+},
 {"name": "EOL-2008-10",
 "level": "WARNING",
 "description": "",
 "ifs": [{"impact": "JAVA com.sun:jre:1.4.x", "fix": "java6 java7"}],
 "docs": ["http://stackoverflow.com/questions/7248383/security-vulnerability-with-using-eol-version-java","http://en.wikipedia.org/wiki/Java_version_history#J2SE_1.4_.28February_6.2C_2002.29", "http://www.oracle.com/technetwork/java/eol-135779.html"]
+},
+{"name": "JAVAOLUTION-2007-05-06",
+"level": "EOL",
+"description":"javolution EOL",
+"ifs": [{"impact": "org.javolution:javolution-core-java:5", "fix": "6" }],
+"docs": ["http://javolution.org/"]
 },
 {"name": "CVE-2007-6721",
 "level": "HIGH",
@@ -1378,17 +1795,35 @@ On versions: fixes included in upcoming releases:
 "ifs": [{"impact": "jfree:jfreechart:1.0.8", "fix": " org.jfree:jfreechart:1.0.17" }],
 "docs": ["http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2007-6306","http://www.securityfocus.com/archive/1/456712"]
 },
-{"name": "CVE-2007-6721",
+{"name": "CVE-2007-6721 tofix",
 "level": "MEDIUM",
 "description":"ChainKey Java Code Protection allows attackers to decompile Java class files via a Java class loader with a modified defineClass method that saves the bytecode to a file before it is passed to the JVM.",
 "ifs": [{"impact": "sun:chainkey", "fix": " " }],
 "docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2007-0014"]
 },
+{"name": "CVE-2007-6059",
+"level": "",
+"description":"",
+"ifs": [{"impact": "", "fix": " " }],
+"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2007-6059"]
+},
+{"name": "CVE-2007-4575",
+"level": "",
+"description":"",
+"ifs": [{"impact": "", "fix": " " }],
+"docs": ["http://www.cvedetails.com/cve/CVE-2007-4575/"]
+},
 {"name": "CVE-2004-1470",
 "level": "MEDIUM",
 "description":"CRLF injection vulnerability in SnipSnap 0.5.2a, and other versions before 1.0b1, allows remote attackers to perform HTTP Response Splitting attacks to modify expected HTML content from the server.",
-"ifs": [{"impact": "snipsnap", "fix": "1.0b2" }],
+"ifs": [{"impact": "snipsnap", "fix": "1.0b2 EOL" }],
 "docs": ["http://www.cvedetails.com/vulnerability-list/vendor_id-2375/product_id-4143/year-2004/Snipsnap-Snipsnap.html"]
+},
+{"name": "ICU-2004-11-19",
+"level": "",
+"description":"unicode",
+"ifs": [{"impact": "com.ibm.icu:icu4j 3.2", "fix": "" }],
+"docs": ["http://osvdb.org/88475"]
 },
 {"name": "BEANSHELL",
 "level": "INFO",

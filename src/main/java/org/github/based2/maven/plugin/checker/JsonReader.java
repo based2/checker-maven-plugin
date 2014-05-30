@@ -51,7 +51,7 @@ public class JsonReader
         isExitOnError = isExitOnError;
     }
 
-    public JsonToken next() throws JsonParseException, IOException
+    public JsonToken next() throws IOException
     {
         if (isDebug) {
             token = nextTokenDebug();
@@ -106,14 +106,13 @@ public class JsonReader
      * set current token value to the attribute of the current ContextObject (setContextObject)
      *
      * @param attribute
-     * @throws JsonParseException
      * @throws IOException
      * @throws SecurityException
      * @throws NoSuchFieldException
      * @throws IllegalArgumentException
      * @throws IllegalAccessException
      */
-    void set(final String attribute) throws JsonParseException, IOException,
+    void set(final String attribute) throws IOException,
             SecurityException, NoSuchFieldException, IllegalArgumentException,
             IllegalAccessException
     {
@@ -158,14 +157,14 @@ public class JsonReader
      * @throws IllegalArgumentException
      * @throws IllegalAccessException
      */
-    void setArray(final String attribute) throws JsonParseException, IOException,
+    void setArray(final String attribute) throws IOException,
             SecurityException, NoSuchFieldException, IllegalArgumentException,
             IllegalAccessException
     {
-        List<String> list = new ArrayList<String>();
+        List<String> list = new ArrayList();
 
-        JsonToken current = JsonToken.START_ARRAY;
-        current = jp.nextToken();
+        //JsonToken current = JsonToken.START_ARRAY;
+        JsonToken current = jp.nextToken();
 
         if (!attribute.equals(jp.getCurrentName())) {
             LOG.error("Missing mandatory array '" + attribute + "', "
@@ -202,8 +201,7 @@ public class JsonReader
     }
 
     // http://www.ngdata.com/site/blog/63-ng.html
-    List setRecordsArray(Class clazz, final String attribute, String[] recordColumn) throws JsonParseException,
-            JsonProcessingException, IOException
+    List setRecordsArray(Class clazz, final String attribute, String[] recordColumn) throws IOException
     {
         JsonToken current = JsonToken.START_ARRAY;
         String value = "";
@@ -211,33 +209,41 @@ public class JsonReader
         jp.nextToken();
 
         String fieldName = jp.getCurrentName();
-        if (fieldName.equals(attribute)) {
+
+        if (fieldName.equals(attribute))
+        {
             jp.nextToken();
-            while (current != JsonToken.END_ARRAY) {
+
+            while (current != JsonToken.END_ARRAY)
+            {
                 jp.nextToken();
-                if (current == JsonToken.END_ARRAY)
-                    break;
-                try {
+
+                if (current == JsonToken.END_ARRAY) break;
+
+                try
+                {
                     Class<?> c = Class.forName(clazz.getCanonicalName());
                     Object o = c.newInstance(); // InstantiationException
-                    for (int i = 0; i < recordColumn.length; i++) {
-                        if (fieldName == null)
-                            break;
+                    for (int i = 0; i < recordColumn.length; i++)
+                    {
+                        if (fieldName == null) break;
+
                         fieldName = jp.getCurrentName();
                         value = jp.nextTextValue();
                         LOG.debug("RecordsArray attribute: " + attribute + "/"
                                 + recordColumn[i] + " fieldName:" + fieldName + " value:"
                                 + value + " i:" + i);
+
                         setValue(o, recordColumn[i], value);
                         current = jp.nextToken();
-                        if (current == JsonToken.END_ARRAY)
-                            break;
+
+                        if (current == JsonToken.END_ARRAY) break;
                     }
                     list.add(o);
                     current = jp.nextToken();
-                    if (current == JsonToken.END_ARRAY)
-                        break;
-                    // Production code should handle these exceptions more gracefully
+
+                    if (current == JsonToken.END_ARRAY) break;
+
                 } catch (ClassNotFoundException x) {
                     LOG.error("", x);
                 } catch (InstantiationException x) {
@@ -246,7 +252,8 @@ public class JsonReader
                     LOG.error("", x);
                 }
             }
-        } else {
+        } else
+        {
             LOG.error("Unprocessed property: " + fieldName + " " + attribute + ", "
                     + _contextMessage + _contextValue);
         }
@@ -266,7 +273,7 @@ public class JsonReader
         }
     }
 
-    private JsonToken nextTokenDebug() throws JsonParseException, IOException
+    private JsonToken nextTokenDebug() throws IOException
     {
         if (jp == null) {
             LOG.error("NULL JP");

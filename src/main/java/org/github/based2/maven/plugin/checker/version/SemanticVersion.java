@@ -29,6 +29,7 @@ public class SemanticVersion
     private String minorString = null;
     private int micro = -1;
     private String microString = null;
+
     private int qualifier = -1;
     private String qualifierString = null;
 
@@ -145,12 +146,7 @@ public class SemanticVersion
         }
     } */
 
-    public int indexOf(String str, String[] flagOrder) {
-        for(int i = 0; i < flagOrder.length ; i++){
-           if (str.equals(flagOrder[i])) return i;
-        }
-        return -1;
-    }
+
 
     public boolean isTrue(int tag){
         if (tag==TRUE) return true;
@@ -158,20 +154,22 @@ public class SemanticVersion
     }
 
     public int isInferiorOrEqual(String str1, String str2, String[] flagOrder) {
-        if (StringUtils.isBlank(str1)) {
-            if (StringUtils.isBlank(str2)) return EQUALS;
-            return FALSE;
-        } else {
-            if (StringUtils.isBlank(str2)) return TRUE;
-        }
-        if (str1.equals(str2)) return TRUE;
-        int index1 = indexOf(str1, flagOrder);
-        int index2 = indexOf(str2, flagOrder);
-
-        if (index1 < index2) return TRUE;
-        if (index1 == index2) return EQUALS; // todo for -1
+    if (StringUtils.isBlank(str1)) {
+        if (StringUtils.isBlank(str2)) return EQUALS;
         return FALSE;
+    } else {
+        if (StringUtils.isBlank(str2)) return TRUE;
     }
+    if (str1.equals(str2)) return TRUE;
+    int index1 = indexOf(str1, flagOrder);
+    int index2 = indexOf(str2, flagOrder);
+
+    if (index1 < index2) return TRUE;
+    if (index1 == index2) return EQUALS; // todo for -1
+    return FALSE;
+}
+
+
 
     public void set(int target, int value) {
         switch (target){
@@ -194,21 +192,78 @@ public class SemanticVersion
     }
 
     public boolean isInferiorOrEqual(SemanticVersion version) {
-        int qualifierLevel = EQUALS;
-        if (this.qualifier<version.qualifier) qualifierLevel = TRUE;
-        if (this.qualifier==version.qualifier) qualifierLevel = isInferiorOrEqual(this.qualifierString, version.qualifierString, FLAGS_ORDER);
+        return Comparison.isInferiorOrEqual(compare(version));
+    }
 
-        if ((this.timestamp<version.timestamp) && isTrue(qualifierLevel)) qualifierLevel = TRUE;
+    public int indexOf(String str, String[] flagOrder) {
+        for(int i = 0; i < flagOrder.length ; i++){
+            if (str.equals(flagOrder[i])) return i;
+        }
+        return -1;
+    }
 
-        if (this.major<version.major) return true;
-        if (this.major==version.major) return isTrue(isInferiorOrEqual(this.majorString, version.majorString, FLAGS_ORDER));
+    public Comparison compare(String str1, String str2, String[] flagOrder) {
+        if (StringUtils.isBlank(str1)) return Comparison.NOT_COMPARABLE;
+        if (StringUtils.isBlank(str2)) return Comparison.NOT_COMPARABLE;
+        if (str1.equals(str2)) return Comparison.EQUALS;
+        int index1 = indexOf(str1, flagOrder);
+        int index2 = indexOf(str2, flagOrder);
 
-        if (this.major<version.major) return true;
-        if (this.major==version.major) return isTrue(isInferiorOrEqual(this.majorString, version.majorString, FLAGS_ORDER));
+        if (index1 == index2) return Comparison.EQUALS; // todo for -1
+        if (index1 < index2) return Comparison.INFERIOR;
+        return Comparison.SUPERIOR;
+    }
 
-        if (this.major<version.major) return true;
-        if (this.major==version.major) return isTrue(isInferiorOrEqual(this.majorString, version.majorString, FLAGS_ORDER));
-        return false;
+    public Comparison compare(int v, String vs, int vv, String vvs)
+    {
+        if (v > vv) return Comparison.SUPERIOR;
+        if (v < vv) return Comparison.INFERIOR;
+        // v == vv
+        Comparison comparison = compare(vs, vvs, FLAGS_ORDER);
+        if (comparison==Comparison.NOT_COMPARABLE) return Comparison.EQUALS;
+        return comparison;
+    }
+
+    public boolean isTimestamp(int timestamp){
+        if (timestamp==-1) return false;
+        // todo better check
+        return true;
+    }
+
+    public Comparison compareTimestamp(int timestamp){
+        if (!isTimestamp(this.timestamp)) return Comparison.NOT_COMPARABLE;
+        if (!isTimestamp(timestamp)) return Comparison.NOT_COMPARABLE;
+        if (this.timestamp > timestamp) return Comparison.SUPERIOR;
+        if (this.timestamp < timestamp) return Comparison.INFERIOR;
+        return Comparison.EQUALS;
+    }
+
+    /**
+     * Check current version against the version in parameter
+     *
+     * @param version
+     * @return
+     */
+    public Comparison compare(SemanticVersion version) {
+        LOG.debug("timestamp:"+timestamp+ "/"+ version.timestamp);
+        Comparison comparison = compareTimestamp(version.timestamp);
+        if ((comparison!=Comparison.NOT_COMPARABLE) && (Comparison.EQUALS!=comparison)) return comparison;
+
+        LOG.debug("major:"+major+ "/"+ version.major + " " + majorString + "/" + version.majorString);
+        comparison = compare(this.major, this.majorString, version.major, version.majorString);
+        if (Comparison.EQUALS!=comparison) return comparison;
+
+        LOG.debug("minor:"+minor+ "/"+ version.minor + " " + minorString + "/" + version.minorString);
+        comparison = compare(this.minor, this.minorString, version.minor, version.minorString);
+        if (Comparison.EQUALS!=comparison) return comparison;
+
+        LOG.debug("micro:"+micro+ "/"+ version.micro + " " + microString + "/" + version.microString);
+        comparison = compare(this.micro, this.microString, version.micro, version.microString);
+        if (Comparison.EQUALS!=comparison) return comparison;
+
+        LOG.debug("q:"+qualifier+ "/"+ version.qualifier + " " + qualifierString + "/" + version.qualifierString);
+        return compare(this.qualifier, this.qualifierString, version.qualifier, version.qualifierString);
+
     }
 
 }

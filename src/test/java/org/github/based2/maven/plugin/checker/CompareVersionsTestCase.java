@@ -17,7 +17,7 @@ import static junit.framework.TestCase.assertEquals;
 public class CompareVersionsTestCase {
     //private static Logger logger = LoggerFactory.getLogger(CompareVersionsTest.class);
 
-    @Parameterized.Parameters(name = "{index}: test({0} ? =< {1}) expected={2}")
+    @Parameterized.Parameters(name = "{index}: test({0} =< {1}) expected={2}")
     public static Iterable<Object[]> data() {
         return Arrays.asList(new Object[][]{
                 { "1", "1", true },
@@ -84,7 +84,8 @@ public class CompareVersionsTestCase {
     @Test
     public void testReleaseIsInferiorOrEqual() {
 
-        assertEquals(expected, SemanticVersionComparator.compare(v1, v2));
+        System.out.println(SemanticVersionComparator.compare(v1, v2)+" "+ expected);
+        assertEquals(SemanticVersionComparator.compare(v1, v2), expected);
        // assertEquals(expected, versionComparator.releaseIsInferiorOrEqual(v1, v2));
     }
 
