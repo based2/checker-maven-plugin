@@ -58,6 +58,7 @@ http://stackoverflow.com/questions/2687220/maven-check-for-updated-dependencies-
 https://github.com/jeremylong/DependencyCheck
 
 https://github.com/victims redhat
+http://vimeo.com/93186243
 
 http://code.google.com/p/six-oval/
 http://juliusdavies.ca/2013/j.emse/bertillonage/
@@ -70,10 +71,19 @@ http://apr.apache.org/versioning.html
 https://github.com/netty/netty/issues/1269
 http://www.javacodegeeks.com/2014/02/version-numbering-scheme-yet-another-approach.html?ModPagespeed=noscript
 
+# Analyser
+https://developers.google.com/java-dev-tools/codepro/doc/?hl=fr
+http://findbugs.sourceforge.net/
+http://pmd.sourceforge.net/
+
+--
+http://codegolf.stackexchange.com/questions/28786/write-a-program-that-makes-2-2-5
+
 # Others open source Java security tools
 
 https://github.com/simmel/SecurerString
 http://tersesystems.com/2014/03/02/monkeypatching-java-classes/
+
 
 # Questions/Answers
 http://stackoverflow.com/questions/10675804/are-hibernate-queries-vulnerable-to-sql-injection
@@ -87,6 +97,7 @@ To organise
 Apache
 
 http://vigilance.fr/vulnerabilities/Apache-log4j-537000
+https://issues.apache.org/bugzilla/show_bug.cgi?id=50323
 http://apache-logging.6191.n7.nabble.com/DO-NOT-REPLY-Bug-50323-New-Vulnerability-in-NTEventLogAppender-td15519.html
 
 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2067  Apache Tomcat
@@ -603,6 +614,17 @@ http://rpmfind.net/linux/RPM/mandriva/2010.1/x86_64/media/main/updates/eclipse-e
 https://jira.exoplatform.org/browse/ECMS-5016 exo
 
 http://osvdb.org/show/osvdb/106579 JSF 2014-03-12
+
+https://jira.atlassian.com/browse/CONF-33729
+https://jira.atlassian.com/browse/CONF-33515 struts
+https://jira.atlassian.com/browse/CONF-30240
+https://confluence.atlassian.com/display/DOC/Confluence+Security+Advisory+2014-05-21
+
+http://collab.sakaiproject.org/pipermail/sakai-dev/2010-August/008735.html
+
+http://www.apereo.org/content/cve-2010-4476-cas-affecting-tomcat-header-parsedouble-dos-vulnerability-advisory java
+
+
 ----------------------------------------------------------------------
 http://seclists.org/fulldisclosure/2014/May/76 HB
 http://blog.sei.cmu.edu/post.cfm/heartbleed-q-a
@@ -620,16 +642,16 @@ http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Cipher
 "ifs":[{"impact": "org.fasterxml.jackson:jackson-databind:1.9.8 2.0.4 2.1", "fix": "1.9.9 2.0.5 2.1.0"}],
 "docs": ["https://github.com/FasterXML/jackson-databind/issues/37"]
 },
-{"name": "",
+{"name": "2014-05-BEANUTILS-463",
 "level": "",
 "description": "",
-"ifs":[{"impact": "org.apache.beanutils:beanutils:", "fix": ""}],
-"docs": ["https://issues.apache.org/jira/browse/BEANUTILS-463"]
+"ifs":[{"impact": "org.apache.beanutils:beanutils:", "fix": "1.9.2 workaround with BeanUtilsBean bub = new BeanUtilsBean();bub.getPropertyUtils().addBeanIntrospector(SuppressPropertiesBeanIntrospector.SUPPRESS_CLASS);"}],
+"docs": ["https://issues.apache.org/jira/browse/BEANUTILS-463","http://www.apache.org/dist/commons/beanutils/RELEASE-NOTES.txt"]
 },
-{"name": "",
+{"name": "2014-JAVAMAIL",
 "level": "",
 "description": "JavaMail SMTP Header Injection via method setSubject [CSNC-2014-001]",
-"ifs":[{"impact": "javax.mail", "fix": ""}],
+"ifs":[{"impact": "javax.mail:mail", "fix": "? 15 July 2014"}],
 "docs": ["http://osvdb.org/show/osvdb/107163"," http://vigilance.fr/vulnerabilite/Oracle-JavaMail-injection-d-entete-SMTP-via-setSubject-14768"]
 },
 {"name": "",

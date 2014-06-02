@@ -2,8 +2,9 @@
 
  Analyzes your Java Maven Project dependencies for security issues and technical debts (CVE/EOL/+).
 
-* [Crowdsourcing Security Brief of Sonatype](http://www.sonatype.com/people/2012/03/todays-security-brief-application-security-is-widely-neglected-by-some-surprising-companies/)
 * [Current JavaTM CVE/EOL JSON list](https://github.com/based2/checker-maven-plugin/blob/master/src/main/resources/java_cve.json)
+* [redhat victims](https://securityblog.redhat.com/2014/02/05/embedded-vulnerability-detection-command-line-tool/)
+* [Crowdsourcing Security Brief of Sonatype](http://www.sonatype.com/people/2012/03/todays-security-brief-application-security-is-widely-neglected-by-some-surprising-companies/)
 
 ## Sources: Net and ...
 
