@@ -25,7 +25,8 @@ https://support.springsource.com/eol
 https://www.owasp.org/index.php/OWASP_Dependency_Check
 https://www.owasp.org/images/7/70/ASDC12-The_Unfortunate_Reality_of_Insecure_Libraries.pdf
 http://www.esecurityplanet.com/trends/article.php/3735216/Feel-Vulnerable-Time-for-Vulnerability-Management-Tools.htm
- http://seclists.org/fulldisclosure/2014/May/55 vulnerability management
+http://seclists.org/fulldisclosure/2014/May/55 vulnerability management
+http://blog.corsaire.com/2014/06/02/why-infrastructure-vulnerability-assessments-are-important/
 
 # Tools
 
@@ -75,6 +76,8 @@ http://www.javacodegeeks.com/2014/02/version-numbering-scheme-yet-another-approa
 https://developers.google.com/java-dev-tools/codepro/doc/?hl=fr
 http://findbugs.sourceforge.net/
 http://pmd.sourceforge.net/
+
+https://github.com/selesse/jxlint java static analysis
 
 --
 http://codegolf.stackexchange.com/questions/28786/write-a-program-that-makes-2-2-5
@@ -624,16 +627,48 @@ http://collab.sakaiproject.org/pipermail/sakai-dev/2010-August/008735.html
 
 http://www.apereo.org/content/cve-2010-4476-cas-affecting-tomcat-header-parsedouble-dos-vulnerability-advisory java
 
+http://osvdb.org/show/osvdb/58743 WICKET 2007-02-07 https://issues.apache.org/jira/browse/WICKET-260
+http://osvdb.org/show/osvdb/107634 2014-05-30  Apache Traffic Server
+http://osvdb.org/show/osvdb/107409 2014-05-20 solr
+http://osvdb.org/show/osvdb/105923 2014-04-14 zookeeper
+
+https://java.net/jira/browse/JERSEY-2231 sun.net.http.allowRestrictedHeaders=true should be on by default
+http://stackoverflow.com/questions/6056125/why-does-content-length-http-header-field-use-a-value-other-than-the-one-given-i
+
+http://www.cvedetails.com/cve/CVE-2011-1322/ saaj ibm
+https://issues.apache.org/jira/browse/VELOCITY-849
+
+http://www.cvedetails.com/cve/CVE-2014-3960/ openms
+
+http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20140605-openssl
+http://www.debian.org/security/2014/dsa-2950
+https://rhn.redhat.com/errata/RHSA-2014-0625.html
+https://lists.fedoraproject.org/pipermail/announce/2014-June/003216.html
+http://vigilance.fr/vulnerabilite/OpenSSL-man-in-the-middle-via-ChangeCipherSpec-14844
+http://vigilance.fr/vulnerabilite/OpenSSL-deni-de-service-via-DTLS-Recursion-14845
+http://vigilance.fr/vulnerabilite/OpenSSL-deni-de-service-via-ECDH-14847
+http://osvdb.org/show/osvdb/107732
+http://osvdb.org/show/osvdb/107730
+http://osvdb.org/show/osvdb/107731
+http://osvdb.org/show/osvdb/107729
+http://jvn.jp/en/jp/JVN61247051/index.html
+https://www.imperialviolet.org/2014/06/05/earlyccs.html google
+https://securityblog.redhat.com/2014/06/05/openssl-mitm-ccs-injection-attack-cve-2014-0224/
+http://seclists.org/fulldisclosure/2014/Jun/25
+
+Mojarra 2.2.7 released https://java.net/jira/secure/ReleaseNote.jspa?projectId=10204&version=16868
+https://java.net/jira/browse/JAVASERVERFACES-3204
+
+http://mail-archives.apache.org/mod_mbox/shiro-dev/201405.mbox/%3CJIRA.12465307.1274733244761.367826.1400244868942@arcas%3E
+http://mail-archives.apache.org/mod_mbox/shiro-dev/201404.mbox/%3CJIRA.12711468.1398866754726.206682.1398868395337@arcas%3E
+
+http://jacquesmattheij.com/the-several-million-dollar-bug http async
 
 ----------------------------------------------------------------------
-http://seclists.org/fulldisclosure/2014/May/76 HB
-http://blog.sei.cmu.edu/post.cfm/heartbleed-q-a
-http://www.zdnet.com/many-sites-reusing-heartbleed-compromised-private-keys-7000029282/ HB
-https://news.ycombinator.com/item?id=7743041
+
 
 http://www.cvedetails.com/cve/CVE-2014-1812/ The Group Policy implementation in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 does not properly handle distribution of passwords, which allows remote authenticated users to obtain sensitive credential information and consequently gain privileges by leveraging access to the SYSVOL share, as exploited in the wild in May 2014, aka "Group Policy Preferences Password Elevation of Privilege Vulnerability."
 http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
-http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Ciphersuite Timing Analysis Plaintext Recovery Cryptanalysis Attack
 */
 [
 {"name": "",
@@ -652,7 +687,7 @@ http://osvdb.org/show/osvdb/89848 2013-02-04 TLS / DTLS Protocol CBC-mode Cipher
 "level": "",
 "description": "JavaMail SMTP Header Injection via method setSubject [CSNC-2014-001]",
 "ifs":[{"impact": "javax.mail:mail", "fix": "? 15 July 2014"}],
-"docs": ["http://osvdb.org/show/osvdb/107163"," http://vigilance.fr/vulnerabilite/Oracle-JavaMail-injection-d-entete-SMTP-via-setSubject-14768"]
+"docs": ["https://issues.apache.org/jira/browse/EMAIL-124","http://osvdb.org/show/osvdb/107163"," http://vigilance.fr/vulnerabilite/Oracle-JavaMail-injection-d-entete-SMTP-via-setSubject-14768"]
 },
 {"name": "",
 "level": "",

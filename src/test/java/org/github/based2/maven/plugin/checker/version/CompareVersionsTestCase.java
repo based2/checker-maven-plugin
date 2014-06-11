@@ -1,7 +1,5 @@
-package org.github.based2.maven.plugin.checker;
+package org.github.based2.maven.plugin.checker.version;
 
-import org.github.based2.maven.plugin.checker.version.SemanticVersionComparator;
-import org.github.based2.maven.plugin.checker.version.VersionComparator;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
