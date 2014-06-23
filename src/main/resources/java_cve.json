@@ -21,6 +21,8 @@ http://vigilance.fr/?action=1135154048&langue=1
 https://support.springsource.com/security_alerts
 https://support.springsource.com/eol
 
+https://github.com/victims/victims-cve-db
+
 # Articles
 https://www.owasp.org/index.php/OWASP_Dependency_Check
 https://www.owasp.org/images/7/70/ASDC12-The_Unfortunate_Reality_of_Insecure_Libraries.pdf
@@ -672,7 +674,25 @@ http://www.debian.org/security/2014/dsa-2963 solr
 
 http://jacquesmattheij.com/the-several-million-dollar-bug http async
 
+http://www.cvedetails.com/cve/CVE-2014-4193/ The TLS implementation in EMC RSA BSAFE-Java Toolkits (aka Share for Java) supports the Extended Random extension during use of the Dual_EC_DRBG algorithm, which makes it easier for remote attackers to obtain plaintext from TLS sessions by requesting long nonces from a server, a different issue than CVE-2007-6755.
+http://www.cvedetails.com/cve/CVE-2014-4161/ sap
+http://www.cvedetails.com/cve/CVE-2014-2609/ HP Executive Scorecard java glassfish
+
+http://osvdb.org/show/osvdb/108269 JClouds
+http://osvdb.org/show/osvdb/108077 Hive
+http://osvdb.org/show/osvdb/107634 Apache Traffic Server
+
+https://java.net/jira/browse/SERVLET_SPEC-70
+http://www.baeldung.com/servlet-session-timeout
+
+http://shiro-developer.582600.n2.nabble.com/Issue-contribution-discussion-review-commit-td7578178.html shiro ldap integration
+
+http://ofbiz.apache.org/ sec
+http://svn.apache.org/repos/asf/shiro/board/2014-03.txt
+
+
 ----------------------------------------------------------------------
+http://www.securityfocus.com/bid/67899 osl
 
 
 http://www.cvedetails.com/cve/CVE-2014-1812/ The Group Policy implementation in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 does not properly handle distribution of passwords, which allows remote authenticated users to obtain sensitive credential information and consequently gain privileges by leveraging access to the SYSVOL share, as exploited in the wild in May 2014, aka "Group Policy Preferences Password Elevation of Privilege Vulnerability."
@@ -702,6 +722,12 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 "description": "",
 "ifs":[{"impact": "org.apache.castor", "fix": ""}],
 "docs": ["http://seclists.org/fulldisclosure/2014/May/142"]
+},
+{"name": "CVE-2014-3488",
+"level": "HIGH",
+"description": "Netty: DoS by CPU exhaustion when using malicious SSL packets. It was discovered that when handling specifically crafted SSL packets, the SslHandler implementation in Netty entered an infinite loop. An unauthenticated remote attacker could use this flaw to trigger a denial of service by CPU exhaustion.",
+"ifs":[{"impact": "io.netty:netty:", "fix": "3.9.1.Final"}],
+"docs": ["http://netty.io/news/2014/06/11/3.html","https://github.com/netty/netty/issues/2562","https://bugzilla.redhat.com/CVE-2014-3488","https://github.com/victims/victims-cve-db/blob/master/database/java/2014/3488.yaml"]
 },
 {"name": "CVE-2014-2881",
 "level": "",
@@ -739,11 +765,17 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 "ifs":[{"impact": "hudson jenkins", "fix": ""}],
 "docs": ["http://seclists.org/oss-sec/2014/q1/421","http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-2059","http://www.openwall.com/lists/oss-security/2013/03/01/2"]
 },
+ {"name": "CVE-2014-1904",
+ "level": "MEDIUM",
+ "description": "Cross-site scripting flaw when using Spring MVC",
+ "ifs":[{"impact": "org.springframework:spring-webmvc:3.2.7.RELEASE 4.0.1.RELEASE", "fix": "3.2.8.RELEASE 4.0.2.RELEASE"}],
+ "docs": ["http://www.gopivotal.com/security/cve-2014-1904","https://bugzilla.redhat.com/CVE-2014-1904","https://github.com/victims/victims-cve-db/blob/master/database/java/2014/1904.yaml"]
+ },
 {"name": "CVE-2014-1202",
-"level": "",
-"description": "SOAP UI",
-"ifs":[{"impact": "soap ui", "fix": ""}],
-"docs": ["https://access.redhat.com/security/cve/CVE-2014-1202"]
+"level": "HIGH",
+"description": "SoapUI: remote code execution when processing WSDL. It was found that SoapUI would expand properties in WSDL files. A remote attacker, able to supply a WSDL file that would be processed by SoapUI, could supply arbitrary Groovy code in the property of a WSDL element. This property would be expanded, and the Groovy code executed, when the SoapUI client processed the WSDL.",
+"ifs":[{"impact": "com.smartbear.soapui:soapui-project:2.5-4.6.3", "fix": "4.6.4"}],
+"docs": ["https://access.redhat.com/security/cve/CVE-2014-1202","https://github.com/SmartBear/soapui/commit/6373165649ad74257493c69dbc0569caa7e6b4a6","http://baraktawily.blogspot.com/2014/01/soapui-code-execution-vulnerability-cve.html","https://github.com/victims/victims-cve-db/blob/master/database/java/2014/1202.yaml"]
 },
 {"name": "CVE-2014-0964",
 "level": "",
@@ -786,6 +818,12 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 "description":"JNDI -> LDAP?",
 "ifs":[{"impact": "", "fix": ""}],
 "docs": ["http://www.scip.ch/en/?vuldb.11879"]
+},
+{"name": "CVE-2014-0225",
+"level": "MEDIUM",
+"description":"Information disclosure via SSRF",
+"ifs":[{"impact": "org.springframewor:spring-web|spring-oxm:3.2.8.RELEASE 4.0.4.RELEASE", "fix": "3.2.9.RELEASE 4.0.5.RELEASE"}],
+"docs": ["http://www.gopivotal.com/security/cve-2014-0225","https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2014-0225","https://github.com/victims/victims-cve-db/blob/master/database/java/2014/0225.yaml"]
 },
 {"name": "CVE-2014-0193",
 "level": "MEDIUM",
@@ -830,10 +868,16 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 "docs": ["http://tomcat.apache.org/security-7.html#Fixed_in_Apache_Tomcat_7.0.54","http://vigilance.fr/vulnerabilite/Apache-Tomcat-deni-de-service-via-Chunked-14806","http://vigilance.fr/vulnerabilite/Apache-Tomcat-obtention-d-information-via-Directory-Listing-14807","http://vigilance.fr/vulnerabilite/Apache-Tomcat-injection-d-entete-HTTP-14808","http://vigilance.fr/vulnerabilite/Apache-Tomcat-obtention-d-information-via-XML-Parser-14809"]
 },
 {"name": "CVE-2014-0097",
-"level": "",
-"description":"",
-"ifs":[{"impact": "org.springframework", "fix": ""}],
-"docs": ["http://spring.io/blog/2014/03/11/cve-2014-0097-fixed-in-spring-security-3-2-2-and-3-1-6","http://www.gopivotal.com/security/cve-2014-0097"]
+"level": "HIGH",
+"description":"Empty passwords may bypass authentication",
+"ifs":[{"impact": "org.springframework.security:spring-security-core|spring-security-ldap:3.1.5.RELEASE 3.2.1.RELEASE", "fix": "3.1.6.RELEASE 3.2.2.RELEASE"}],
+"docs": ["http://spring.io/blog/2014/03/11/cve-2014-0097-fixed-in-spring-security-3-2-2-and-3-1-6","http://www.gopivotal.com/security/cve-2014-0097","https://bugzilla.redhat.com/CVE-2014-0097","https://github.com/victims/victims-cve-db/blob/master/database/java/2014/0097.yaml"]
+},
+{"name": "CVE-2014-0086",
+"level": "HIGH",
+"description":"JBoss RichFaces: remote denial of service via memory exhaustion. It was found that certain malformed requests caused RichFaces to leak memory. A remote, unauthenticated attacker could use this flaw to send a large number of malformed requests to a RichFaces application that uses the Atmosphere framework, leading to a denial of service (excessive memory consumption) on the application server.",
+"ifs":[{"impact": "org.richfaces.core:richfaces-core-impl:4.3.5.Final 5.0.0.Alpha3", "fix:"4.3.6.Final 5.0.0.Alpha4" }],
+"docs": ["https://issues.jboss.org/browse/RF-13250","https://bugzilla.redhat.com/CVE-2014-0086","https://github.com/victims/victims-cve-db/blob/master/database/java/2014/0086.yaml"],
 },
 {"name": "CVE-2014-0074",
 "level": "HIGH",
@@ -879,11 +923,18 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 "ifs":[{"impact": "org.twitter.finagle", "fix": ""}],
 "docs": ["https://github.com/twitter/finagle/commit/908ea9bd43c03be5ddf1fca92e9b8317eb371fc7"]
 },
+{"name": "CVE-2013-7285",
+"level": "HIGH",
+"description":"XStream: remote code execution due to insecure XML deserialization",
+"ifs":[{"impact": "xstream:xstream:1.2.2", "fix": ""},
+{"impact": "com.thoughtworks.xstream:xstream:1.4.6", "fix": "1.4.7"}],
+"docs": ["https://fisheye.codehaus.org/changelog/xstream?cs=2210","http://blog.diniscruz.com/2013/12/xstream-remote-code-execution-exploit.html","https://bugzilla.redhat.com/CVE-2013-7285","https://github.com/victims/victims-cve-db/blob/master/database/java/2013/7285.yaml"]
+},
 {"name": "CVE-2013-7315",
-"level": "",
-"description":"3.2.4 4.0.0.M2",
-"ifs":[{"impact": "org.springframework", "fix": " "}],
-"docs": ["http://www.cvedetails.com/cve/CVE-2013-7315/"]
+"level": "MEDIUM",
+"description":"XML External Entity (XXE) injection in Spring Framework",
+"ifs":[{"impact": "org.springframework:spring-web:3.2.3.RELEASE 4.0.0.M3", "fix": "3.2.4.RELEASE 4.0.0.RC1"}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2013-7315/","https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-7315","http://www.gopivotal.com/security/cve-2013-4152","https://github.com/victims/victims-cve-db/blob/master/database/java/2013/7315.yaml"]
 },
 {"name": "CVE-2013-7251 CVE-2013-7250",
 "level": "",
@@ -891,23 +942,29 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 "ifs":[{"impact": "jboss", "fix": " "}],
 "docs": ["http://www.cvedetails.com/cve/CVE-2013-7251/","http://www.cvedetails.com/cve/CVE-2013-7250/"]
 },
+{"name": "CVE-2013-6440",
+"level": "MEDIUM",
+"description":"XMLTooling-J: XML eXternal Entity (XXE) flaw in ParserPool and Decrypter",
+"ifs":[{"impact": "org.opensaml:xmltooling:1.4.0", "fix": "1.4.1"}],
+"docs": ["https://bugzilla.redhat.com/CVE-2013-6440","https://github.com/victims/victims-cve-db/blob/master/database/java/2013/6440.yaml"]
+},
 {"name": "CVE-2013-6430",
-"level": "",
-"description": "[DSA 2857-1] libspring-java security update - VE-2013-6429",
-"ifs":[{"impact": "org.springframework", "fix": ""}],
-"docs": ["http://seclists.org/fulldisclosure/2014/Feb/71"]
+"level": "LOW",
+"description": "Possible XSS when using Spring MVC",
+"ifs":[{"impact": "org.springframework:spring-web:3.2.1.RELEASE", "fix": "3.2.2.RELEASE"}],
+"docs": ["http://seclists.org/fulldisclosure/2014/Feb/71","https://bugzilla.redhat.com/CVE-2013-6430","http://www.gopivotal.com/security/cve-2013-6430","https://github.com/victims/victims-cve-db/blob/master/database/java/2013/6430.yaml"]
 },
 {"name": "CVE-2013-6429",
-"level": "",
-"description": "",
-"ifs":[{"impact": "", "fix": ""}],
-"docs": ["http://www.cvedetails.com/cve/CVE-2013-6429/"]
+"level": "MEDIUM",
+"description": "XML External Entity (XXE) injection in Spring Framework",
+"ifs":[{"impact": "org.springframework:spring-web:3.2.4.RELEASE 4.0.0.M3", "fix": "3.2.5.RELEASE 4.0.0.RC2"}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2013-6429/","http://www.gopivotal.com/security/cve-2013-6429","https://bugzilla.redhat.com/CVE-2013-6429","https://github.com/victims/victims-cve-db/blob/master/database/java/2013/6429.yaml"]
 },
-{"name": "CVE-2013-6407",
-"level": "",
-"description":"",
-"ifs":[{"impact": "", "fix": " "}],
-"docs": ["http://www.cvedetails.com/cve/CVE-2013-6407/"]
+{"name": "CVE-2013-6408 CVE-2013-6407",
+"level": "MEDIUM",
+"description":"Apache Solr: XML eXternal Entity (XXE) flaw in DocumentAnalysisRequestHandler/ XML eXternal Entity (XXE) flaw in XML and XSLT UpdateRequestHandler. It was found that the DocumentAnalysisRequestHandler class in Apache Solr would resolve external entities, permitting XXE attacks. A remote attacker could use this flaw to read files accessible to the user running the application server, and potentially perform other more advanced XXE attacks.",
+"ifs":[{"impact": "org.apache.solr:solr-core:4.5.1", "fix": "3.6.3 4.6.0 5.0.0"}],
+"docs": ["https://issues.apache.org/jira/browse/SOLR-5520","https://bugzilla.redhat.com/CVE-2013-6408","https://issues.apache.org/jira/browse/SOLR-5520"]
 },
 {"name": "2013-12-22",
 "level": "WARNING",
@@ -918,7 +975,7 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 {"name": "CVE-2013-6397",
 "level": "HIGH",
 "description": "Directory traversal when loading XSL stylesheets and Velocity templates",
-"ifs":[{"impact": "org.apache.solr", "fix": ""}],
+"ifs":[{"impact": "org.apache.solr:solr-core|solr-velocity:4.5.1", "fix": "3.6.3 4.6.0 5.0.0"}],
 "docs": ["https://bugzilla.redhat.com/show_bug.cgi?id=1035062","http://www.agarri.fr/kom/archives/2013/11/27/compromising_an_unreachable_solr_server_with_cve-2013-6397/index.html"]
 },
 {"name": "CVE-2013-6372 CVE-2013-6374",
@@ -926,6 +983,12 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 "description": "Jenkins Subversion Plugin Credentials Disclosure Vulnerabity, Jenkins Build Failure Analyzer Plugin Unspecified HTML Injection Vulnerability",
 "ifs":[{"impact": "", "fix": ""}],
 "docs": ["http://www.securityfocus.com/bid/63864","http://www.securityfocus.com/bid/63863"]
+},
+{"name": "CVE-2013-6348",
+"level": "HIGH",
+"description": "Apache Struts2: XSS via malicious action parameter. Multiple cross-site scripting (XSS) vulnerabilities in Apache Struts2 allow remote attackers to inject arbitrary web script or HTML via the namespace parameter to actionNames.action and showConfig.action in config-browser",
+"ifs":[{"impact": "org.apache.struts:struts2-config-browser-plugin:2.3.15.3", "fix": ""}],
+"docs": ["https://issues.apache.org/jira/browse/WW-4213","https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-6348","https://github.com/victims/victims-cve-db/blob/master/database/java/2013/6348.yaml"]
 },
 {"name": "CVE-2013-6231 CVE-2013-6232 CVE-2013-6233 CVE-2013-6234",
 "level": "",
