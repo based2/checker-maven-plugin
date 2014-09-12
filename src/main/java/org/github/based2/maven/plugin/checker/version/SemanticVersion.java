@@ -203,8 +203,6 @@ public class SemanticVersion
         return matcher.find() ? matcher.start() : -1;
     }
 
-    call:
-
     int index = indexOf(Pattern.compile("(?<!a)bc"), "abc xbc");
 
     // http://stackoverflow.com/questions/8938498/get-the-index-of-a-pattern-in-a-string-using-regex
@@ -222,7 +220,7 @@ public class SemanticVersion
     // CharSequence cs = "string";
     private int nextIntPos(String str)
     {
-        CharSequence cs = new CharSequence(str)
+      /*  CharSequence cs = new CharSequence(str)
         {
             @Override
             public int length()
@@ -247,8 +245,8 @@ public class SemanticVersion
             {
                 return null;
             }
-        };
-
+        };  */
+        return 0;
     }
 
     private int intLength(int i)

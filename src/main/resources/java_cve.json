@@ -690,6 +690,76 @@ http://shiro-developer.582600.n2.nabble.com/Issue-contribution-discussion-review
 http://ofbiz.apache.org/ sec
 http://svn.apache.org/repos/asf/shiro/board/2014-03.txt
 
+https://rhn.redhat.com/errata/RHSA-2008-0158.html
+
+https://issues.apache.org/jira/browse/SMXCOMP-611
+http://tools.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-20140709-struts2?vs_f=Cisco%20Security%20Advisory&vs_cat=Security%20Intelligence&vs_type=RSS&vs_p=Apache%20Struts%202%20Command%20Execution%20Vulnerability%20in%20Multiple%20Cisco%20Products&vs_k=1
+
+http://vigilance.fr/vulnerability/Apache-Tomcat-denial-of-service-via-Chunked-14806
+http://www.securityfocus.com/bid/68678 apache
+
+http://www.securityfocus.com/bid/50211/references
+http://www.securityfocus.com/bid/66908/info
+http://seclists.org/fulldisclosure/2014/Aug/80 java hive
+
+http://www.securityfocus.com/bid/68678/info
+http://httpd.apache.org/security/vulnerabilities_24.html
+http://seclists.org/fulldisclosure/2014/Jul/114
+https://community.qualys.com/thread/13504
+
+http://osvdb.org/show/osvdb/110377 Not-Yet-Commons-SSL
+http://osvdb.org/show/osvdb/110257
+
+http://osvdb.org/show/osvdb/110349 SAP Java
+http://osvdb.org/show/osvdb/110350
+
+http://www.securityfocus.com/bid/67121 struts
+
+http://osvdb.org/show/osvdb/11041 Java 2 Micro Edition (J2ME)
+http://osvdb.org/show/osvdb/110473 uPortal
+
+http://www.debian.org/security/2014/dsa-2940 struts2
+https://marc.info/?l=oss-security&m=140843709911151&w=2
+https://marc.info/?l=oss-security&m=140837842125695&w=2
+https://marc.info/?l=oss-security&m=140670420127765&w=2
+https://marc.info/?l=oss-security&m=140478607419928&w=2
+https://marc.info/?l=oss-security&m=140473086930695&w=2
+https://marc.info/?l=oss-security&m=140230546422929&w=2
+
+https://marc.info/?l=oss-security&m=140237318614479&w=2
+
+http://kb.juniper.net/InfoCenter/index?page=content&id=JSA10642 java jsse updates
+http://kb.juniper.net/InfoCenter/index?page=content&id=JSA10643 java jsse updates
+
+http://www.cert.ssi.gouv.fr/site/CERTFR-2014-AVI-365/index.html jboss
+
+https://bugs.openjdk.java.net/browse/JDK-8051012
+
+http://www.theregister.co.uk/2014/08/05/java_8u11_breaks_dev_tools/
+
+http://seclists.org/fulldisclosure/2014/Aug/48
+
+http://secpod.org/blog/?p=342 activemq
+http://osvdb.org/show/osvdb/92976
+https://issues.apache.org/jira/browse/AMQ-4397
+http://osvdb.org/show/osvdb/102253 xstream
+http://osvdb.org/show/osvdb/102252
+
+http://ofbiz.apache.org/download.html#vulnerabilities
+http://vigilance.fr/vulnerabilite/IBM-WebSphere-8-5-multiples-vulnerabilites-15205
+
+http://seclists.org/fulldisclosure/2014/Sep/33 jre update vsphere
+
+http://markmail.org/message/wb2w7sjpk25wj43t [SECURITY] CVE-2013-4444 Remote Code Execution in Apache Tomcat
+
+http://blog.ivanristic.com/2014/09/sha1-deprecation-what-you-need-to-know.html
+
+https://www.hkcert.org/my_url/en/alert/14091101
+http://securitytracker.com/id/1030834
+
+https://www.cert-bund.de/advisoryshort/CB-K14-1131
+
+selenium hudsuck.exe
 
 ----------------------------------------------------------------------
 http://www.securityfocus.com/bid/67899 osl
@@ -705,6 +775,12 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 "ifs":[{"impact": "org.fasterxml.jackson:jackson-databind:1.9.8 2.0.4 2.1", "fix": "1.9.9 2.0.5 2.1.0"}],
 "docs": ["https://github.com/FasterXML/jackson-databind/issues/37"]
 },
+{"name": "",
+"level": "",
+"description": "",
+"ifs":[{"impact": "org.apache.commons.httpclient", "fix": "jakarta-commons-httpclient-3.1-15.fc20"}],
+"docs": ["https://lists.fedoraproject.org/pipermail/package-announce/2014-August/137032.html"]
+},
 {"name": "2014-05-BEANUTILS-463",
 "level": "",
 "description": "",
@@ -717,10 +793,28 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 "ifs":[{"impact": "javax.mail:mail", "fix": "? 15 July 2014"}],
 "docs": ["https://issues.apache.org/jira/browse/EMAIL-124","http://osvdb.org/show/osvdb/107163"," http://vigilance.fr/vulnerabilite/Oracle-JavaMail-injection-d-entete-SMTP-via-setSubject-14768"]
 },
-{"name": "",
+{"name": "CVE-2014-4172",
+"level": "",
+"description": "",
+"ifs":[{"impact": "jasig cas", "fix": ""}],
+"docs": ["http://www.apereo.org/uportal-news/CVE-2014-4172","http://vigilance.fr/vulnerabilite/Jasig-CAS-contournement-du-controle-d-acces-15147","http://www.jasig.org/news/uportal-security-release","http://osdir.com/ml/java-jasig-cas-user/2009-04/msg00240.html"]
+},
+{"name": "CVE-2014-3574 CVE-2014-352",
+"level": "",
+"description": "",
+"ifs":[{"impact": "", "fix": ""}],
+"docs": ["http://markmail.org/message/lqxzume4vluwpthj","http://vigilance.fr/vulnerabilite/Apache-HttpComponents-HttpClient-validation-incorrecte-de-certificat-15198"]
+},
+{"name": "CVE-2014-3577",
 "level": "",
 "description": "",
 "ifs":[{"impact": "org.apache.castor", "fix": ""}],
+"docs": ["http://markmail.org/message/jf7xoa4tsig66auh","http://www.securityfocus.com/bid/69258"]
+},
+{"name": "",
+"level": "",
+"description": "",
+"ifs":[{"impact": "", "fix": ""}],
 "docs": ["http://seclists.org/fulldisclosure/2014/May/142"]
 },
 {"name": "CVE-2014-3488",
@@ -763,7 +857,7 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 "level": "",
 "description": "",
 "ifs":[{"impact": "hudson jenkins", "fix": ""}],
-"docs": ["http://seclists.org/oss-sec/2014/q1/421","http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-2059","http://www.openwall.com/lists/oss-security/2013/03/01/2"]
+"docs": ["http://seclists.org/oss-sec/2014/q1/421","http://www.cvedetails.com/cve/CVE-2014-2059/","http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-2059","http://www.openwall.com/lists/oss-security/2013/03/01/2"]
 },
  {"name": "CVE-2014-1904",
  "level": "MEDIUM",
@@ -819,6 +913,12 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 "ifs":[{"impact": "", "fix": ""}],
 "docs": ["http://www.scip.ch/en/?vuldb.11879"]
 },
+{"name": "CVE-2014-0226",
+"level": "",
+"description": "",
+"ifs":[{"impact": "", "fix": ""}],
+"docs": ["https://access.redhat.com/security/cve/CVE-2014-0226"]
+},
 {"name": "CVE-2014-0225",
 "level": "MEDIUM",
 "description":"Information disclosure via SSRF",
@@ -859,7 +959,7 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 "level": "HIGH",
 "description": "The Xalan-Java library is a popular XSLT processor from the Apache Software Foundation.\nThe library implements the Java API for XML Processing (JAXP) which supports a secure processing feature for interpretive and XSLCT processors. The intent of this feature is to limit XSLT/XML processing behaviours to 'make the XSLT processor behave in a secure fashion'.\nIt has been discovered that the secure processing features suffers from several limitations that undermine its purpose. The enabling of the secure processing feature in fact still allows the following processing to take place:\nJava properties, bound to XSLT 1.0 system-property(), are accessible.\noutput properties that allow to load arbitrary classes or resources are allowed (XALANJ-2435).\narbitrary code can be executed if the Bean Scripting Framework (BSF) is in the classpath, as it allows to spawn available JARs with secure processing disabled, effectively bypassing the intended protection.",
 "ifs":[{"impact": "xalan:xalan 2.7.1", "fix": "2.7.2"}],
-"docs": ["http://www.ocert.org/advisories/ocert-2014-002.html","https://issues.apache.org/jira/browse/XALANJ-2435","http://mail-archives.apache.org/mod_mbox/xalan-dev/201404.mbox/%3CCACZkXPwvWp3dAn6kx25Pfwq6ba==TM-vCOmOuv4ACRF1hrRuLw@mail.gmail.com%3E","http://www.debian.org/security/2014/dsa-2886","http://vigilance.fr/vulnerabilite/Xalan-Java-vulnerabilites-de-FEATURE-SECURE-PROCESSING-14468","http://osvdb.org/show/osvdb/104928","http://osvdb.org/show/osvdb/104942","http://osvdb.org/show/osvdb/104927","http://seclists.org/oss-sec/2014/q1/649","http://www.cvedetails.com/cve/CVE-2014-0107/","ftp://apache.mirrors.pair.com/xalan/xalan-j/README.txt","https://issues.apache.org/jira/browse/XALANJ-2578"]
+"docs": ["http://www.ocert.org/advisories/ocert-2014-002.html","https://issues.apache.org/jira/browse/XALANJ-2435","http://mail-archives.apache.org/mod_mbox/xalan-dev/201404.mbox/%3CCACZkXPwvWp3dAn6kx25Pfwq6ba==TM-vCOmOuv4ACRF1hrRuLw@mail.gmail.com%3E","http://www.debian.org/security/2014/dsa-2886","http://vigilance.fr/vulnerabilite/Xalan-Java-vulnerabilites-de-FEATURE-SECURE-PROCESSING-14468","http://osvdb.org/show/osvdb/104928","http://osvdb.org/show/osvdb/104942","http://osvdb.org/show/osvdb/104927","http://seclists.org/oss-sec/2014/q1/649","http://www.cvedetails.com/cve/CVE-2014-0107/","ftp://apache.mirrors.pair.com/xalan/xalan-j/README.txt","https://issues.apache.org/jira/browse/XALANJ-2578","https://rhn.redhat.com/errata/RHSA-2014-1059.html"]
 },
 {"name": "CVE-2014-0099",
 "level": "",
@@ -876,8 +976,8 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 {"name": "CVE-2014-0086",
 "level": "HIGH",
 "description":"JBoss RichFaces: remote denial of service via memory exhaustion. It was found that certain malformed requests caused RichFaces to leak memory. A remote, unauthenticated attacker could use this flaw to send a large number of malformed requests to a RichFaces application that uses the Atmosphere framework, leading to a denial of service (excessive memory consumption) on the application server.",
-"ifs":[{"impact": "org.richfaces.core:richfaces-core-impl:4.3.5.Final 5.0.0.Alpha3", "fix:"4.3.6.Final 5.0.0.Alpha4" }],
-"docs": ["https://issues.jboss.org/browse/RF-13250","https://bugzilla.redhat.com/CVE-2014-0086","https://github.com/victims/victims-cve-db/blob/master/database/java/2014/0086.yaml"],
+"ifs":[{"impact": "org.richfaces.core:richfaces-core-impl:4.3.5.Final 5.0.0.Alpha3", "fix": "4.3.6.Final 5.0.0.Alpha4" }],
+"docs": ["https://issues.jboss.org/browse/RF-13250","https://bugzilla.redhat.com/CVE-2014-0086","https://github.com/victims/victims-cve-db/blob/master/database/java/2014/0086.yaml"]
 },
 {"name": "CVE-2014-0074",
 "level": "HIGH",
@@ -1359,6 +1459,12 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 "ifs":[{"impact": "com.h2database", "fix": "1.3.171"}],
 "docs": ["http://osvdb.org/show/osvdb/91463","http://www.securityfocus.com/bid/58536/discuss"]
 },
+{"name": "CVE-2012-6153",
+"level": "",
+"description": "",
+"ifs":[{"impact": "", "fix": ""}],
+"docs": ["http://www.securityfocus.com/bid/69257"]
+},
 {"name": "CVE-2012-6092",
 "level": "",
 "description": "",
@@ -1775,11 +1881,23 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
  {"impact": "org.apache.cxf:?:2.2.x", "fix": "2.2.9" }],
 "docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2010-2076","http://geronimo.apache.org/geronimo-21x-cve-2010-1632-patch-instructions.html"]
 },
+{"name": "CVE-2010-2057",
+"level": "",
+"description": "",
+"ifs":[{"impact": "org.apache.activemq", "fix": ""}],
+"docs": ["http://www.cvedetails.com/cve/CVE-2010-2057/","http://activemq.2283324.n4.nabble.com/clarification-over-AMQ-3294-bug-denial-of-service-vulnerability-td4675084.html"]
+},
 {"name": "CVE-2010-1871",
 "level": "HIGH",
 "description": "JBoss Seam 2 (jboss-seam2), as used in JBoss Enterprise Application Platform 4.3.0 for Red Hat Linux, does not properly sanitize inputs for JBoss Expression Language (EL) expressions, which allows remote attackers to execute arbitrary code via a crafted URL. NOTE: this is only a vulnerability when the Java Security Manager is not properly configured.",
 "ifs": [{"impact": "org.jboss.seam:jboss-seam:2.x", "fix":"2.2.1.GA"}],
 "docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2010-1871","http://blog.o0o.nu/2010/07/cve-2010-1871-jboss-seam-framework.html", "https://community.jboss.org/thread/192660"]
+},
+{"name": "CVE-2010-1870",
+"level": "",
+"description": "",
+"ifs":[{"impact": "xworks", "fix": ""}],
+"docs": ["http://www.securityfocus.com/bid/41592"]
 },
 {"name": "CVE-2010-1632",
 "level": "HIGH",
