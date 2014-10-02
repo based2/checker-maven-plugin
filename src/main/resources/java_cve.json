@@ -68,6 +68,8 @@ http://juliusdavies.ca/2013/j.emse/bertillonage/
 https://github.com/olukas/pro-grade Java Security Policy with denying rules
 https://staff.aist.go.jp/nakamura-akihito/six/vuln/index.html
 
+https://code.google.com/p/forbidden-apis/wiki/MavenUsage
+
 # Version Systems
 
 http://apr.apache.org/versioning.html
@@ -765,6 +767,10 @@ http://vigilance.fr/vulnerabilite/Apache-Tomcat-upload-de-fichier-via-JSP-15327
 http://osvdb.org/show/osvdb/111266
 http://osvdb.org/show/osvdb/109394
 http://osvdb.org/show/osvdb/110910
+
+http://osvdb.org/show/osvdb/110910 openkm
+http://osvdb.org/show/osvdb/108515 glassfish
+http://osvdb.org/show/osvdb/103373 mojarra
 
 ----------------------------------------------------------------------
 http://www.securityfocus.com/bid/67899 osl
