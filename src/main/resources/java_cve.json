@@ -30,6 +30,8 @@ http://www.esecurityplanet.com/trends/article.php/3735216/Feel-Vulnerable-Time-f
 http://seclists.org/fulldisclosure/2014/May/55 vulnerability management
 http://blog.corsaire.com/2014/06/02/why-infrastructure-vulnerability-assessments-are-important/
 
+https://www.securecoding.cert.org/confluence/display/jg/Java+Coding+Guidelines
+
 # Tools
 
 http://jeremylong.github.io/DependencyCheck/dependency-check-maven/usage.html
@@ -70,6 +72,8 @@ https://staff.aist.go.jp/nakamura-akihito/six/vuln/index.html
 
 https://code.google.com/p/forbidden-apis/wiki/MavenUsage
 
+http://vongosling.github.io/dependency-mediator/
+
 # Version Systems
 
 http://apr.apache.org/versioning.html
@@ -82,6 +86,8 @@ http://findbugs.sourceforge.net/
 http://pmd.sourceforge.net/
 
 https://github.com/selesse/jxlint java static analysis
+
+http://apache-tapestry-mailing-list-archives.1045711.n5.nabble.com/OT-Any-static-code-analysis-tool-td5728699.html
 
 --
 http://codegolf.stackexchange.com/questions/28786/write-a-program-that-makes-2-2-5
@@ -772,6 +778,12 @@ http://osvdb.org/show/osvdb/110910 openkm
 http://osvdb.org/show/osvdb/108515 glassfish
 http://osvdb.org/show/osvdb/103373 mojarra
 
+http://vigilance.fr/vulnerabilite/IBM-WebSphere-MQ-non-filtrage-de-CHLAUTH-15458
+
+http://osvdb.org/show/osvdb/112483 SpagoBI contains a flaw that is due to the missing FEATURE_SECURE_PROCESSING setting. The issue is triggered when handling an XSL document. With a specially crafted XSL document with embedded Java code, a remote attacker can execute arbitrary Java code.
+
+http://jetty.4.x6.nabble.com/jetty-announce-Announcing-Jetty-7-and-Jetty-8-End-of-Life-td4963167.html
+
 ----------------------------------------------------------------------
 http://www.securityfocus.com/bid/67899 osl
 
@@ -994,7 +1006,7 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 "level": "HIGH",
 "description": "LDAP authentication succeeds even if the user name and password is not passed",
 "ifs":[{"impact": "org.apache.shiro:1.0.0-incubating 1.2.2", "fix": "1.2.3"}],
-"docs": ["https://issues.apache.org/jira/browse/SHIRO-460 Unresolved","http://seclists.org/fulldisclosure/2014/Mar/22","http://mail-archives.apache.org/mod_mbox/shiro-dev/201403.mbox/%3CCAH9eYVrCp8pGXJiZM2F-9-h2z-hk+gGSk5GkhLs_wf-E_DVQ5Q@mail.gmail.com%3","http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/%3CCALvzYd-mcX-YJsP1N3wK7wWkgGg_i_5%2B-wMq%3D%3DNU2OMK7yKcvA%40mail.gmail.com%3E"]
+"docs": ["https://issues.apache.org/jira/browse/SHIRO-460 Unresolved","http://seclists.org/fulldisclosure/2014/Mar/22","http://mail-archives.apache.org/mod_mbox/shiro-dev/201403.mbox/%3CCAH9eYVrCp8pGXJiZM2F-9-h2z-hk+gGSk5GkhLs_wf-E_DVQ5Q@mail.gmail.com%3","http://mail-archives.apache.org/mod_mbox/www-announce/201402.mbox/%3CCALvzYd-mcX-YJsP1N3wK7wWkgGg_i_5%2B-wMq%3D%3DNU2OMK7yKcvA%40mail.gmail.com%3E","http://www.cvedetails.com/cve/CVE-2014-0074/"]
 },
 {"name": "CVE-2014-0058",
 "level": "LOW",
