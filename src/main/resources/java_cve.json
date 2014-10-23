@@ -808,6 +808,38 @@ http://www.cvedetails.com/cve/CVE-2014-4289/ Unspecified vulnerability in the JD
 
 http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2014-6544 Unspecified vulnerability in the JDBC component in Oracle Database Server 11.1.0.7, 11.2.0.3, 11.2.0.4, 12.1.0.1, and 12.1.0.2 allows remote authenticated users to affect confidentiality and integrity via unknown vectors, a different vulnerability than CVE-2014-4289.
 
+http://osvdb.org/show/osvdb/113630 VMware vSphere Data Protection contains a flaw related to unspecified Java API calls
+http://osvdb.org/show/osvdb/113581 JBoss Keycloak
+http://osvdb.org/show/osvdb/113597 GitBlit
+http://osvdb.org/show/osvdb/112482 Android contains a flaw related to the addJavascriptInterface() method and the 'accessibility' and 'accessibilityTraversal' objects
+http://osvdb.org/show/osvdb/113561 Jersey contains a flaw that is triggered as sensitive information stored in form query parameters may be logged when transferring said parameters
+http://osvdb.org/show/osvdb/113139 VT Ldap and Ldaptive contain a flaw in DefaultHostnameVerifier.java
+http://osvdb.org/show/osvdb/110203 OpenSAML contains a flaw in the Java and Identity providers in the HttpResource and FileBackedHttpResource implementations
+http://osvdb.org/show/osvdb/107849 Cisco Unified Communications Manager (CUCM) contains a flaw that may allow carrying out an SQL injection attack
+https://access.redhat.com/security/cve/CVE-2014-6558 It was discovered that the CipherInputStream class implementation in OpenJDK did not properly handle certain exceptions. This could possibly allow an attacker to affect the integrity of an encrypted stream handled by this class.
+
+http://stackoverflow.com/questions/5894994/how-to-disable-calls-to-certain-java-packages-from-jython
+
+http://www.cvedetails.com/cve/CVE-2014-8316/ XML External Entity (XXE) vulnerability in polestar_xml.jsp in SAP BusinessObjects Explorer 14.0.5 build 882 allows remote attackers to read arbitrary files via the xmlParameter parameter in an explorationSpaceUpdate request.
+https://access.redhat.com/security/cve/CVE-2014-7169 openjdk jsse
+
+https://access.redhat.com/security/cve/CVE-2014-6517 openjdk
+https://access.redhat.com/security/cve/CVE-2014-6457 openjdk jsse triple handshake
+https://access.redhat.com/security/cve/CVE-2014-0005 It was identified that PicketBox/JBossSX allowed any deployed application to alter or read the underlying application server configuration and state without any authorization checks. An attacker able to deploy applications could use this flaw to circumvent security constraints applied to other applications deployed on the same system, disclose privileged information, and in certain cases allow arbitrary code execution.
+http://vigilance.fr/vulnerabilite/Mulesoft-Mule-ESB-execution-de-code-15527
+
+https://access.redhat.com/security/cve/CVE-2014-3596 It was discovered that Axis incorrectly extracted the host name from an X.509 certificate subject's Common Name (CN) field. A man-in-the-middle attacker could use this flaw to spoof an SSL server using a specially crafted X.509 certificate.
+
+http://www.cvedetails.com/cve/CVE-2014-6562/ Unspecified vulnerability in Oracle Java SE 8u20 allows remote attackers to affect confidentiality, integrity, and availability via unknown vectors related to Libraries.
+http://www.cvedetails.com/cve/CVE-2014-6512/ Unspecified vulnerability in Oracle Java SE 5.0u71, 6u81, 7u67, and 8u20; Java SE Embedded 7u60; and JRockit R27.8.3 and R28.3.3 allows remote attackers to affect integrity via unknown vectors related to Libraries.
+http://www.cvedetails.com/cve/CVE-2014-4822/ IBM WebSphere MQ classes for Java libraries 8.0 before 8.0.0.1 and Websphere MQ Explorer 7.5 before 7.5.0.5 and 8.0 before 8.0.0.2 allow local users to discover preconfigured cleartext passwords via an unspecified trace operation.
+http://www.cvedetails.com/cve/CVE-2014-4761/ IBM WebSphere Portal 6.1.0 through 6.1.0.6 CF27, 6.1.5 through 6.1.5.3 CF27, 7.0 through 7.0.0.2 CF28, 8.0 before 8.0.0.1 CF14, and 8.5.0 through 8.5.0.0 CF02 allows remote authenticated users to discover credentials by reading HTML source code.
+http://www.cvedetails.com/cve/CVE-2014-4289/ Unspecified vulnerability in the JDBC component in Oracle Database Server 11.1.0.7, 11.2.0.3, 11.2.0.4, 12.1.0.1, and 12.1.0.2 allows remote authenticated users to affect confidentiality and integrity via unknown vectors, a different vulnerability than CVE-2014-6544.
+http://www.cvedetails.com/cve/CVE-2014-3680/ CloudBees Jenkins before 1.583 and LTS before 1.565.3 allows remote authenticated users with the Job/READ permission to obtain the default value for the password field of a parameterized job by reading the DOM.
+http://www.cvedetails.com/cve/CVE-2014-3681/ Cross-site scripting (XSS) vulnerability in CloudBees Jenkins before 1.583 and LTS before 1.565.3 allows remote attackers to inject arbitrary web script or HTML via unspecified vectors.
+http://www.cvedetails.com/cve/CVE-2014-3679/ The Monitoring plugin before 1.53.0 for CloudBees Jenkins allows remote attackers to obtain sensitive information by accessing unspecified pages.
+
+http://www.cvedetails.com/cve/CVE-2014-7284/ The net_get_random_once implementation in net/core/utils.c in the Linux kernel 3.13.x and 3.14.x before 3.14.5 on certain Intel processors does not perform the intended slow-path operation to initialize random seeds, which makes it easier for remote attackers to spoof or disrupt IP communication by leveraging the predictability of TCP sequence numbers, TCP and UDP port numbers, and IP ID values.
 ----------------------------------------------------------------------
 http://www.securityfocus.com/bid/67899 osl
 
