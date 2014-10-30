@@ -80,6 +80,8 @@ http://apr.apache.org/versioning.html
 https://github.com/netty/netty/issues/1269
 http://www.javacodegeeks.com/2014/02/version-numbering-scheme-yet-another-approach.html?ModPagespeed=noscript
 
+http://mvnrepository.com/popular
+
 # Analyser
 https://developers.google.com/java-dev-tools/codepro/doc/?hl=fr
 http://findbugs.sourceforge.net/
@@ -840,6 +842,25 @@ http://www.cvedetails.com/cve/CVE-2014-3681/ Cross-site scripting (XSS) vulnerab
 http://www.cvedetails.com/cve/CVE-2014-3679/ The Monitoring plugin before 1.53.0 for CloudBees Jenkins allows remote attackers to obtain sensitive information by accessing unspecified pages.
 
 http://www.cvedetails.com/cve/CVE-2014-7284/ The net_get_random_once implementation in net/core/utils.c in the Linux kernel 3.13.x and 3.14.x before 3.14.5 on certain Intel processors does not perform the intended slow-path operation to initialize random seeds, which makes it easier for remote attackers to spoof or disrupt IP communication by leveraging the predictability of TCP sequence numbers, TCP and UDP port numbers, and IP ID values.
+
+http://cxsecurity.com/cveshow/CVE-2014-6037/ Directory traversal vulnerability in the agentUpload servlet in ZOHO ManageEngine EventLog Analyzer 9.0
+http://cxsecurity.com/cveshow/CVE-2014-8071/ openmrs
+http://cxsecurity.com/cveshow/CVE-2014-8073/
+
+https://www.mail-archive.com/h2-database@googlegroups.com/msg02887.html
+http://osvdb.org/show/osvdb/113630 VMware vSphere Data Protection contains a flaw related to unspecified Java API calls.
+http://osvdb.org/show/osvdb/113708 SAP NetWeaver AS Java contains an XXE (Xml eXternal Entity) injection flaw that is triggered during the parsing of XML data
+
+http://seclists.org/fulldisclosure/2014/Oct/126 confluence
+https://confluence.atlassian.com/display/DOC/Confluence+Security+Overview+and+Advisories
+https://confluence.atlassian.com/display/DOC/Confluence+Security+Advisory+2014-05-21
+https://confluence.atlassian.com/display/DOC/Confluence+Security+Advisory+2012-05-17
+https://confluence.atlassian.com/display/JIRA/JIRA+Security+Advisory+2013-02-21
+
+http://serverfault.com/questions/637649/how-do-i-disable-sslv3-support-in-apache-tomca
+http://blog.akquinet.de/2014/10/17/fight-the-poodle-in-jboss-4-and-5-jon-3-and-more/
+http://stackoverflow.com/questions/26429751/java-http-clients-and-poodle
+
 ----------------------------------------------------------------------
 http://www.securityfocus.com/bid/67899 osl
 
