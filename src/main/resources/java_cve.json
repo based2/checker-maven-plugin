@@ -857,9 +857,31 @@ https://confluence.atlassian.com/display/DOC/Confluence+Security+Advisory+2014-0
 https://confluence.atlassian.com/display/DOC/Confluence+Security+Advisory+2012-05-17
 https://confluence.atlassian.com/display/JIRA/JIRA+Security+Advisory+2013-02-21
 
+http://dev.eclipse.org/mhonarc/lists/jetty-announce/msg00026.html EOL jetty 6 - 2012-01-26
+http://lucene.472066.n3.nabble.com/Why-is-Solr-still-shipped-with-Jetty-6-switching-to-Jetty-8-td3986123.html
+
 http://serverfault.com/questions/637649/how-do-i-disable-sslv3-support-in-apache-tomca
 http://blog.akquinet.de/2014/10/17/fight-the-poodle-in-jboss-4-and-5-jon-3-and-more/
 http://stackoverflow.com/questions/26429751/java-http-clients-and-poodle
+
+
+http://seclists.org/fulldisclosure/2014/Nov/61 CVE-2014-8349 LIFERAY Portal Stored XSS
+
+http://seclists.org/bugtraq/2014/Nov/52 apache qpid
+http://seclists.org/bugtraq/2014/Nov/36 java xml - Apache Santuario XML CVE-2013-2172
+http://seclists.org/bugtraq/2014/Oct/14 java xerces-j2 CVE-2013-4002
+http://seclists.org/bugtraq/2014/Oct/18 elastic search
+http://seclists.org/bugtraq/2014/Sep/181 common upload/tomcat
+http://seclists.org/bugtraq/2014/Oct/125 tomcat
+http://seclists.org/bugtraq/2014/Sep/59 tomcat
+http://seclists.org/bugtraq/2014/Sep/74 tomcat
+http://seclists.org/bugtraq/2014/Oct/182 struts
+http://seclists.org/bugtraq/2014/Sep/31 jakarta-commons-httpclient
+http://seclists.org/bugtraq/2014/Oct/202
+http://osvdb.org/show/osvdb/114771 java openkm
+https://shibboleth.net/community/news/20141104.html 4 November 2014 Shibboleth Identity Provider V2.4.3, Security Advisory Issued
+https://access.redhat.com/security/cve/CVE-2014-7816 undertow
+http://markmail.org/message/3ocq7o6zyevduv6q xalan
 
 ----------------------------------------------------------------------
 http://www.securityfocus.com/bid/67899 osl
