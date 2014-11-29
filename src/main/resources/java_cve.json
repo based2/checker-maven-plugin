@@ -883,11 +883,26 @@ https://shibboleth.net/community/news/20141104.html 4 November 2014 Shibboleth I
 https://access.redhat.com/security/cve/CVE-2014-7816 undertow
 http://markmail.org/message/3ocq7o6zyevduv6q xalan
 
+http://osvdb.org/show/osvdb/114915 liferay
+http://osvdb.org/show/osvdb/114955 eclipse Hudson irc
+http://osvdb.org/show/osvdb/114960 ManageEngine OpUtils
+http://osvdb.org/show/osvdb/113063 DrayTek VigorACS SI
+http://osvdb.org/show/osvdb/112126 Google Caja
+http://osvdb.org/show/osvdb/110163 Spring Security
+http://osvdb.org/show/osvdb/110559 Aerohive HiveManager
+http://osvdb.org/show/osvdb/115000 websphere
+http://osvdb.org/show/osvdb/115070 RESTEasy contains an XXE (Xml eXternal Entity)
+http://osvdb.org/show/osvdb/115076 undertow
+http://osvdb.org/show/osvdb/107676 Rocket Servergraph
+
 ----------------------------------------------------------------------
 http://www.securityfocus.com/bid/67899 osl
 
+http://osvdb.org/show/osvdb/114953 systemd
+http://osvdb.org/show/osvdb/114907 asus: asp & router
+http://osvdb.org/show/osvdb/114999 angular js
+http://osvdb.org/show/osvdb/115028 gitlab
 
-http://www.cvedetails.com/cve/CVE-2014-1812/ The Group Policy implementation in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, and Windows Server 2012 Gold and R2 does not properly handle distribution of passwords, which allows remote authenticated users to obtain sensitive credential information and consequently gain privileges by leveraging access to the SYSVOL share, as exploited in the wild in May 2014, aka "Group Policy Preferences Password Elevation of Privilege Vulnerability."
 http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 */
 [
