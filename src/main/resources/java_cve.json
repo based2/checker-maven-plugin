@@ -928,6 +928,10 @@ http://www.cvedetails.com/cve/CVE-2014-7816/ undertow
 (http://bugs.java.com/view_bug.do?bug_id=6366924)
 http://bugs.java.com/view_bug.do;?bug_id=6202721 java5 urandom
 
+GWT 2.5.1 XSS - http://www.gwtproject.org/release-notes.html#Release_Notes_2_7_0
+http://seclists.org/fulldisclosure/2014/Dec/26 [SE-2014-02] Google App Engine Java security sandbox bypasses (project pending completion / action from Google)
+https://news.ycombinator.com/item?id=8709610
+
 ----------------------------------------------------------------------
 http://www.securityfocus.com/bid/67899 osl
 https://access.redhat.com/security/cve/CVE-2014-9278 openssh kerberos
