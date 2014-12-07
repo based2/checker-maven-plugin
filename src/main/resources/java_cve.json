@@ -787,7 +787,7 @@ http://vigilance.fr/vulnerabilite/IBM-WebSphere-MQ-non-filtrage-de-CHLAUTH-15458
 
 http://osvdb.org/show/osvdb/112483 SpagoBI contains a flaw that is due to the missing FEATURE_SECURE_PROCESSING setting. The issue is triggered when handling an XSL document. With a specially crafted XSL document with embedded Java code, a remote attacker can execute arbitrary Java code.
 
-http://jetty.4.x6.nabble.com/jetty-announce-Announcing-Jetty-7-and-Jetty-8-End-of-Life-td4963167.html
+
 
 http://seclists.org/fulldisclosure/2014/Oct/71 Oracle ADF JSF
 http://vigilance.fr/vulnerabilite/IBM-WebSphere-AS-7-0-multiples-vulnerabilites-15465
@@ -901,19 +901,53 @@ http://seclists.org/fulldisclosure/2014/Dec/3
 http://apache-wicket.1842946.n4.nabble.com/CVE-2014-3526-td4667610.html
 http://www.debian.org/security/2014/dsa-3077 openjdk-6
 https://www.debian.org/security/2014/dsa-3080 openjdk-7
+https://bonita.atlassian.net/browse/BBPMC-189 Bonita Open Solution v5 has reached its end of life
+https://confluence.atlassian.com/display/JIRA/End+of+Support+Announcements+for+JIRA
+https://confluence.atlassian.com/display/FISHEYE/End+of+Support+Announcements+for+FishEye
+http://www.cls-solutions.com/blog/?p=626 Java CAPS EOL
+https://code.google.com/p/jeeunit/ EOL
 
+Struts2 2.3.20 (CVE-2014-7809)
+https://cwiki.apache.org/confluence/display/WW/Version+Notes+2.3.20
+https://cwiki.apache.org/confluence/display/WW/S2-023
+
+http://www.cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2981 IBM Directory traversal vulnerability in the Web Console in IBM Data Studio 3.1.0 and 3.1.1
+https://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2013-2165 ResourceBuilderImpl.java in the RichFaces 3.x through 5.x implementation in Red Hat JBoss Web Framework Kit before 2.3.0, Red Hat JBoss Web Platform through 5.2.0
+
+http://marxsoftware.blogspot.be/2011/11/apache-harmony-retiring-to-attic.html
+
+http://www.auscert.org.au/render.html?it=21352 [HP-UX] Java7: Multiple vulnerabilities
+http://seclists.org/fulldisclosure/2014/Dec/23 VMWare Java update 1.6 81
+https://access.redhat.com/security/cve/CVE-2014-9087 Integer underflow in the ksba_oid_to_str function in Libksba before 1.3.2, as used in GnuPG, allows remote attackers to cause a denial of service (crash) via a crafted OID in a (1) S/MIME message or (2) ECC based OpenPGP data, which triggers a buffer overflow.
+
+https://lists.wisc.edu/read/messages?id=33836937
+http://shiro-developer.582600.n2.nabble.com/Security-update-td7578464.html shiro CAS
+https://issues.apache.org/jira/browse/SHIRO-518
+http://www.cvedetails.com/cve/CVE-2014-7816/ undertow
+
+(http://bugs.java.com/view_bug.do?bug_id=6366924)
+http://bugs.java.com/view_bug.do;?bug_id=6202721 java5 urandom
 
 ----------------------------------------------------------------------
 http://www.securityfocus.com/bid/67899 osl
-
+https://access.redhat.com/security/cve/CVE-2014-9278 openssh kerberos
 http://osvdb.org/show/osvdb/114953 systemd
 http://osvdb.org/show/osvdb/114907 asus: asp & router
 http://osvdb.org/show/osvdb/114999 angular js
 http://osvdb.org/show/osvdb/115028 gitlab
 
+https://www.mozilla.org/en-US/security/advisories/mfsa2014-90/ Apple CoreGraphics framework on OS X 10.10 logging input data to /tmp directory - jemalloc
+https://news.ycombinator.com/item?id=8704279
+
 http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 */
 [
+{"name": "EOL-JETTY78-2014-09-25",
+"level": "EOL",
+"description": "",
+"ifs":[{"impact": "org.eclipse.jetty:7 8", "fix": "org.eclipse.jetty:9"}],
+"docs": ["http://jetty.4.x6.nabble.com/jetty-announce-Announcing-Jetty-7-and-Jetty-8-End-of-Life-td4963167.html","https://webtide.com/jetty-7-and-jetty-8-end-of-life/"]
+},
 {"name": "",
 "level": "",
 "description": "",
@@ -2169,7 +2203,7 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 "ifs": [{"impact": "JAVA com.sun:jre:1.4.x", "fix": "java6 java7"}],
 "docs": ["http://stackoverflow.com/questions/7248383/security-vulnerability-with-using-eol-version-java","http://en.wikipedia.org/wiki/Java_version_history#J2SE_1.4_.28February_6.2C_2002.29", "http://www.oracle.com/technetwork/java/eol-135779.html"]
 },
-{"name": "EOL-JAVAOLUTION5-2007-05-06",
+{"name": "EOL-JAVOLUTION5-2007-05-06",
 "level": "EOL",
 "description":"javolution EOL",
 "ifs": [{"impact": "org.javolution:javolution-core-java:5", "fix": "6" }],
