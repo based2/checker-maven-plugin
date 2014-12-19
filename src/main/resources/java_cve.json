@@ -931,22 +931,22 @@ http://bugs.java.com/view_bug.do;?bug_id=6202721 java5 urandom
 GWT 2.5.1 XSS - http://www.gwtproject.org/release-notes.html#Release_Notes_2_7_0
 http://seclists.org/fulldisclosure/2014/Dec/26 [SE-2014-02] Google App Engine Java security sandbox bypasses (project pending completion / action from Google)
 https://news.ycombinator.com/item?id=8709610
+http://seclists.org/fulldisclosure/2014/Dec/59
 
 http://www.cvedetails.com/cve/CVE-2014-7868/ zoho
 http://www.cvedetails.com/cve/CVE-2014-6034/ zoho
 
 http://www.cvedetails.com/cve/CVE-2014-3627/ hadoop yarn kerberos
 
-----------------------------------------------------------------------
-http://www.securityfocus.com/bid/67899 osl
-https://access.redhat.com/security/cve/CVE-2014-9278 openssh kerberos
-http://osvdb.org/show/osvdb/114953 systemd
-http://osvdb.org/show/osvdb/114907 asus: asp & router
-http://osvdb.org/show/osvdb/114999 angular js
-http://osvdb.org/show/osvdb/115028 gitlab
+http://osdir.com/ml/user-struts.apache.org/2011-12/msg00084.html struts 2.0.4 EOL
+http://www.reddit.com/r/netsec/comments/2pj5dn/predicting_struts_csrf_token_cve20147809/
+http://blog.h3xstream.com/2014/12/predicting-struts-csrf-token-cve-2014.html
 
-https://www.mozilla.org/en-US/security/advisories/mfsa2014-90/ Apple CoreGraphics framework on OS X 10.10 logging input data to /tmp directory - jemalloc
-https://news.ycombinator.com/item?id=8704279
+http://osvdb.org/show/osvdb/115997 Thermostat contains a flaw when the system is configured in a certain unspecified manner.
+http://osvdb.org/show/osvdb/114603 F5 BIG-IP contains a flaw that allows traversing outside of a restricted path.
+
+----------------------------------------------------------------------
+http://osvdb.org/show/osvdb/116015 mediawiki
 
 http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 */
