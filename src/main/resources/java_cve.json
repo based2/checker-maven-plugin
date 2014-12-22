@@ -945,6 +945,10 @@ http://blog.h3xstream.com/2014/12/predicting-struts-csrf-token-cve-2014.html
 http://osvdb.org/show/osvdb/115997 Thermostat contains a flaw when the system is configured in a certain unspecified manner.
 http://osvdb.org/show/osvdb/114603 F5 BIG-IP contains a flaw that allows traversing outside of a restricted path.
 
+http://seclists.org/fulldisclosure/2014/Dec/71 java cms jease
+
+http://netty.io/news/2014/12/17/3-9-6-Final-and-3-10-0-Final.html poodle
+
 ----------------------------------------------------------------------
 http://osvdb.org/show/osvdb/116015 mediawiki
 
