@@ -949,10 +949,15 @@ http://seclists.org/fulldisclosure/2014/Dec/71 java cms jease
 
 http://netty.io/news/2014/12/17/3-9-6-Final-and-3-10-0-Final.html poodle
 
-http://shiro-user.582556.n2.nabble.com/Has-anyone-tried-the-Shiro-2-0-branch-td7580195.html
+http://osvdb.org/show/osvdb/116364 IBM WebSphere Service Registry and Repository (WSRR) contains an unspecified flaw related to access control checks during a retrieve to depth 0
+http://osvdb.org/show/osvdb/116268 nexus
+http://osvdb.org/show/osvdb/116427 maven
 
 ----------------------------------------------------------------------
-http://osvdb.org/show/osvdb/116015 mediawiki
+http://osvdb.org/show/osvdb/116200 notepad++
+http://osvdb.org/show/osvdb/116215 synology
+http://osvdb.org/show/osvdb/116222 mcafee
+http://osvdb.org/show/osvdb/116507 projectsend
 
 http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 */
