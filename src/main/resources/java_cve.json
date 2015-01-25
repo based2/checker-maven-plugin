@@ -953,6 +953,11 @@ http://osvdb.org/show/osvdb/116364 IBM WebSphere Service Registry and Repository
 http://osvdb.org/show/osvdb/116268 nexus
 http://osvdb.org/show/osvdb/116427 maven
 
+http://www.cvedetails.com/cve/CVE-2014-9527/ HSLFSlideShow in Apache POI before 3.11 allows remote attackers to cause a denial of service
+http://www.cvedetails.com/cve/CVE-2014-9494/ RabbitMQ before 3.4.0 allows remote attackers to bypass the loopback_users restriction via a crafted X-Forwareded-For header.
+http://www.cvedetails.com/cve/CVE-2014-8152/ Apache Santuario XML Security for Java 2.0.x before 2.0.3 allows remote attackers to bypass the streaming XML signature protection mechanism via a crafted XML document.
+http://www.cvedetails.com/cve/CVE-2014-0171/ XML external entity (XXE) vulnerability in StaxXMLFactoryProvider2 in Odata4j, as used in Red Hat JBoss Data Virtualization before 6.0.0 patch 4, allows remote attackers to read arbitrary files via a crafted request to a REST endpoint.
+
 ----------------------------------------------------------------------
 http://osvdb.org/show/osvdb/116200 notepad++
 http://osvdb.org/show/osvdb/116215 synology
@@ -1872,7 +1877,7 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 "level": "EOL",
 "description": "J2SE 6.0 will enter its end-of-life on November, 2012.",
 "ifs":[{"impact": "JAVA com.oracle:jre:6u.x", "fix":   "java7"}],
-"docs": ["https://forums.oracle.com/forums/thread.jspa?threadID=2347738","http://www.oracle.com/technetwork/java/javase/index-jsp-135232.html","http://en.wikipedia.org/wiki/Java_version_history#J2SE_5.0_.28September_30.2C_2004.29"]
+"docs": ["https://forums.oracle.com/forums/thread.jspa?threadID=2347738","http://www.oracle.com/technetwork/java/javase/index-jsp-135232.html","http://en.wikipedia.org/wiki/Java_version_history#J2SE_5.0_.28September_30.2C_2004.29","http://www.tomcatexpert.com/blog/2013/01/31/java-6-end-life-impact-apache-tomcat-users","http://en.wikipedia.org/wiki/Java_version_history#Java_SE_6_.28December_11.2C_2006.29"]
 },
 {"name": "2011-17-jun",
 "level": "MEDIUM",
@@ -2178,7 +2183,7 @@ http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 "level": "EOL",
 "description":"J2SE 5.0 entered its end-of-life on April 8, 2008 and is no longer freely supported by Oracle as of November 3, 2009.",
 "ifs": [{"impact": "JAVA com.oracle:jre:5.x", "fix": "java7 java8"}],
-"docs": ["https://forums.oracle.com/forums/thread.jspa?threadID=2347738","http://www.oracle.com/technetwork/java/javase/index-jsp-135232.html","http://en.wikipedia.org/wiki/Java_version_history#J2SE_5.0_.28September_30.2C_2004.29"]
+"docs": ["https://forums.oracle.com/forums/thread.jspa?threadID=2347738","http://www.oracle.com/technetwork/java/javase/index-jsp-135232.html","http://en.wikipedia.org/wiki/Java_version_history#J2SE_5.0_.28September_30.2C_2004.29","http://www.oracle.com/technetwork/java/javase/releasenotes-142123.html"]
 },
 {"name": "CVE-2009-0026",
 "level": "",
