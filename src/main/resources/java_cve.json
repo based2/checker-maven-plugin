@@ -982,6 +982,16 @@ http://www.cvedetails.com/cve/CVE-2015-0225/  Apache Cassandra
 http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1768 openjp
 http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
 https://jordan-wright.github.io/blog/2015/03/08/elasticsearch-rce-vulnerability-cve-2015-1427/
+
+https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2013-4112 jgroup
+libopensaml2-java: CVE-2015-1796
+
+wss4j: CVE-2015-0226 CVE-2015-0227
+https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2015-0226
+https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2015-0227
+CVE-2014-3577 Apache HttpComponents hostname verification bypass
+http://netty.io/news/2015/05/08/3-9-8-Final-and-3.html
+
 */
 [
 {"name": "EOL-JETTY78-2014-09-25",
