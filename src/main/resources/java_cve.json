@@ -964,7 +964,24 @@ http://osvdb.org/show/osvdb/116215 synology
 http://osvdb.org/show/osvdb/116222 mcafee
 http://osvdb.org/show/osvdb/116507 projectsend
 
+http://www.cvedetails.com/cve/CVE-2015-2944/ sling
+http://www.cvedetails.com/cve/CVE-2015-2994/
+http://www.cvedetails.com/cve/CVE-2015-0779/
+http://www.cvedetails.com/cve/CVE-2015-0263/ camel
+http://www.cvedetails.com/cve/CVE-2015-0112/
+http://www.cvedetails.com/cve/CVE-2010-5323/
+http://www.cvedetails.com/cve/CVE-2014-0230/ tomcat
+http://www.cvedetails.com/cve/CVE-2015-2282/ netweaver SAP
+Apache POI 3.10.1 released CVE-2014-3529 CVE-2014-3574
+
+https://mail-archives.apache.org/mod_mbox/www-announce/201506.mbox/%3C556ECB68.2080804%40apache.org%3E End of life for Apache Tomcat 6.0.
+ttps://rhn.redhat.com/errata/RHSA-2013-0666.html
+http://www.reddit.com/r/java/comments/39hzwa/why_is_executing_java_code_in_comments_allowed/
+http://stackoverflow.com/questions/30727515/why-is-executing-java-code-in-comments-allowed
+http://www.cvedetails.com/cve/CVE-2015-0225/  Apache Cassandra
+http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-1768 openjp
 http://www.certa.ssi.gouv.fr/site/CERTA-2005-INF-003/index.html
+https://jordan-wright.github.io/blog/2015/03/08/elasticsearch-rce-vulnerability-cve-2015-1427/
 */
 [
 {"name": "EOL-JETTY78-2014-09-25",
