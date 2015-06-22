@@ -91,6 +91,11 @@ http://pmd.sourceforge.net/
 
 https://github.com/selesse/jxlint java static analysis
 
+http://fbinfer.com/
+
+http://sable.github.io/soot/
+http://wala.sourceforge.net/wiki/index.php/Main_Page
+
 http://apache-tapestry-mailing-list-archives.1045711.n5.nabble.com/OT-Any-static-code-analysis-tool-td5728699.html
 
 --
@@ -109,6 +114,7 @@ http://stackoverflow.com/questions/19119751/java-keytool-the-security-of-generat
 http://www.javacodegeeks.com/2013/08/getting-application-security-vulnerabilities-fixed.html?ModPagespeed=noscript
 http://security.stackexchange.com/questions/20095/vulnerable-java-applications
 https://www.owasp.org/index.php/Securing_tomcat
+http://h3xstream.github.io/find-sec-bugs/bugs.htm
 
 =======================================================================
 Todo
@@ -993,6 +999,42 @@ CVE-2014-3577 Apache HttpComponents hostname verification bypass
 http://netty.io/news/2015/05/08/3-9-8-Final-and-3.html
 
 http://www.cvedetails.com/cve/CVE-2015-4091/
+
+http://osvdb.org/show/osvdb/120665
+
+http://osvdb.org/show/osvdb/120712  jces
+http://osvdb.org/show/osvdb/120057 jsses
+http://osvdb.org/show/osvdb/117238 jsse
+http://osvdb.org/show/osvdb/119411 jerse
+
+https://shibboleth.net/community/news/20150505.html EOL
+http://shibboleth.net/pipermail/announce/2015-May/000112.html
+https://wiki.shibboleth.net/confluence/display/DEV/SecurityAdvisories
+http://osvdb.org/show/osvdb/118782
+
+http://osvdb.org/show/osvdb/121102 AP Web Dynpro Java (BC-WD-JAV) contains an unspecified flaw related to a misconfigured virus scanner
+http://osvdb.org/show/osvdb/119424 EMC Secure Remote Services contains a flaw in the ESRS VE Gateway Provisioning service
+http://osvdb.org/show/osvdb/120367 CA Spectrum contains a flaw that is triggered as data
+http://osvdb.org/show/osvdb/119972 richface
+
+http://osvdb.org/show/osvdb/119287
+http://osvdb.org/show/osvdb/118267 OpenID4Java
+
+http://osvdb.org/show/osvdb/117427 ultiple Atlassian products contain an OGNL double evaluation flaw
+
+http://osvdb.org/show/osvdb/117226 Oracle Java SE contains a flaw in the java.lang.ClassLoader getParent()
+http://osvdb.org/show/osvdb/117227 Oracle Java SE contains a flaw in the RMI component's transport implementation
+http://osvdb.org/show/osvdb/119082 Eclipse Java EE IDE for Web Developers contains an XXE (Xml eXternal Entity) injection flaw
+
+http://osvdb.org/show/osvdb/122108 WSO2 Identity Server contains a flaw that allows a reflected cross-site scripting (XSS) attack
+
+http://osvdb.org/show/osvdb/119559 olarwinds Firewall Security Manager contains a flaw in the userlogin.jsp
+
+http://osvdb.org/show/osvdb/121762 BM JDK Java Virtual Machine contains an unspecified flaw that may allow a context-dependent attacker to execute untrusted code
+
+http://osvdb.org/show/osvdb/121704 egion of the Bouncy Castle contains a flaw that is due to the CTR DRBG
+
+
 
 */
 [
