@@ -1042,7 +1042,26 @@ http://www.cvedetails.com/cve/CVE-2013-7397/ async http client apache
 
 http://www.cvedetails.com/cve/CVE-2010-5323/ Directory traversal vulnerability in UploadServlet in the Remote Management component in Novell ZENworks
 
-
+http://www.cvedetails.com/cve/CVE-2015-0263/ Apache Camel xxe
+http://cxsecurity.com/cveshow/CVE-2015-0263/
+http://seclists.org/fulldisclosure/2015/Mar/142  CVE-2015-0250 batik
+http://seclists.org/bugtraq/2015/Jul/101 logstash
+http://seclists.org/bugtraq/2015/Jul/86
+http://seclists.org/bugtraq/2015/Jul/83 elasticsearch
+http://seclists.org/bugtraq/2015/Jul/82
+http://seclists.org/bugtraq/2015/Apr/188
+http://seclists.org/bugtraq/2015/Jul/78 groovy
+http://seclists.org/bugtraq/2015/Jul/71 ofbiz
+http://seclists.org/bugtraq/2015/Jul/5 magento
+http://seclists.org/bugtraq/2015/Jul/1 jackrabbit security update
+http://seclists.org/bugtraq/2015/Jun/19 libapache-mod-jk security update
+http://seclists.org/bugtraq/2015/May/94 CVE-2014-7810: Apache Tomcat Security Manager Bypass
+http://seclists.org/bugtraq/2015/Apr/0 cassandra
+http://seclists.org/bugtraq/2015/Apr/175 openjdk-6 security update
+http://seclists.org/bugtraq/2015/Apr/176 openjdk-7 security update
+http://seclists.org/bugtraq/2015/Apr/191 java-1.7.0-openjdk
+https://ws.apache.org/wss4j/advisories/CVE-2015-0226.txt.asc
+https://ws.apache.org/wss4j/advisories/CVE-2015-0227.txt.asc
 
 */
 [
