@@ -92,6 +92,8 @@ http://pmd.sourceforge.net/
 https://github.com/selesse/jxlint java static analysis
 
 http://fbinfer.com/
+https://github.com/facebook/infer/tree/master/infer/src/backend ocaml/python
+http://stackoverflow.com/questions/27291969/mapping-my-code-from-ocaml-f-to-scala-some-questions
 
 http://sable.github.io/soot/
 http://wala.sourceforge.net/wiki/index.php/Main_Page
@@ -1062,6 +1064,26 @@ http://seclists.org/bugtraq/2015/Apr/176 openjdk-7 security update
 http://seclists.org/bugtraq/2015/Apr/191 java-1.7.0-openjdk
 https://ws.apache.org/wss4j/advisories/CVE-2015-0226.txt.asc
 https://ws.apache.org/wss4j/advisories/CVE-2015-0227.txt.asc
+https://ws.apache.org/wss4j/security_advisories.html
+
+http://apache-xml-project.6118.n7.nabble.com/Hello-and-XXE-td41747.html
+https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=620560
+
+https://blogs.apache.org/foundation/entry/apache_logging_services_project_announces EOL
+http://dev.eclipse.org/mhonarc/lists/jetty-announce/msg00084.html sec
+http://dev.eclipse.org/mhonarc/lists/jetty-announce/msg00085.html sec
+http://www.cvedetails.com/cve/CVE-2015-4936/
+https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12310950&version=12329682 shiro 1.2.4
+
+https://www.globalsecuritymag.com/Vigil-nce-JDOM-two-vulnerabilities,20150305,51307.html
+https://github.com/hunterhacker/jdom/issues/134
+https://bugzilla.redhat.com/show_bug.cgi?id=922925
+https://java.net/projects/rome/lists/dev/archive/2006-08/message/39
+http://jdom-interest.jdom.narkive.com/crw8QK4w/it-s-just-xml-what-could-probably-go-wrong
+https://twitter.com/r_netsec/status/454917490447876096
+http://www.reddit.com/r/netsec/comments/22u7o4/its_just_xml_what_could_probably_go_wrong/
+http://jira.xwiki.org/browse/XCOMMONS-760
+http://x-stream.github.io/news.html  CVE-2013-7285,
 
 */
 [
