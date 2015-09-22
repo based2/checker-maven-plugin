@@ -7,7 +7,7 @@ Copyright (C)  2012-2014  Basile Chandesris.
     A copy of the license is included in the section entitled
     "GNU Free Documentation License".
 
-# Lists
+# LISTS
 
 http://www.cvedetails.com/vulnerability-list/cvssscoremin-9/cvssscoremax-10/vulnerabilities.html
 http://cert.europa.eu/cert/newsletter/en/latest_Security%20Bulletins_.html
@@ -23,7 +23,7 @@ https://support.springsource.com/eol
 
 https://github.com/victims/victims-cve-db
 
-# Articles
+# ARTICLES
 https://www.owasp.org/index.php/OWASP_Dependency_Check
 https://www.owasp.org/images/7/70/ASDC12-The_Unfortunate_Reality_of_Insecure_Libraries.pdf
 http://www.esecurityplanet.com/trends/article.php/3735216/Feel-Vulnerable-Time-for-Vulnerability-Management-Tools.htm
@@ -34,7 +34,7 @@ https://www.securecoding.cert.org/confluence/display/jg/Java+Coding+Guidelines
 
 http://stackoverflow.com/questions/17671899/when-is-java-6-end-of-life-in-the-context-of-writing-developer-tools
 
-# Tools
+# TOOLS
 
 http://jeremylong.github.io/DependencyCheck/dependency-check-maven/usage.html
 https://groups.google.com/forum/?fromgroups#!forum/dependency-check
@@ -76,15 +76,16 @@ https://code.google.com/p/forbidden-apis/wiki/MavenUsage
 
 http://vongosling.github.io/dependency-mediator/
 
-# Version Systems
+# VERSION SYSTEMS
 
 http://apr.apache.org/versioning.html
 https://github.com/netty/netty/issues/1269
 http://www.javacodegeeks.com/2014/02/version-numbering-scheme-yet-another-approach.html?ModPagespeed=noscript
+https://gist.github.com/laughinghan/009e300626f328792815
 
 http://mvnrepository.com/popular
 
-# Analyser
+# ANALIZERS
 https://developers.google.com/java-dev-tools/codepro/doc/?hl=fr
 http://findbugs.sourceforge.net/
 http://pmd.sourceforge.net/
@@ -103,13 +104,13 @@ http://apache-tapestry-mailing-list-archives.1045711.n5.nabble.com/OT-Any-static
 --
 http://codegolf.stackexchange.com/questions/28786/write-a-program-that-makes-2-2-5
 
-# Others open source Java security tools
+# OTHERS OPEN JAVA SECURITY TOOLS
 
 https://github.com/simmel/SecurerString
 http://tersesystems.com/2014/03/02/monkeypatching-java-classes/
 
 
-# Questions/Answers
+# QUESTIONS/ANSWERS
 http://stackoverflow.com/questions/10675804/are-hibernate-queries-vulnerable-to-sql-injection
 http://stackoverflow.com/questions/398179/findbugs-not-finding-potential-sql-injection-vulnerability
 http://stackoverflow.com/questions/19119751/java-keytool-the-security-of-generated-keys-with-java-in-general
@@ -119,9 +120,9 @@ https://www.owasp.org/index.php/Securing_tomcat
 http://h3xstream.github.io/find-sec-bugs/bugs.htm
 
 =======================================================================
-Todo
+TODO Classification backlog ongoing...
 
-Apache
+Apache Foundation
 
 http://vigilance.fr/vulnerabilities/Apache-log4j-537000
 https://issues.apache.org/bugzilla/show_bug.cgi?id=50323
@@ -140,8 +141,6 @@ http://mail-archives.apache.org/mod_mbox/tomcat-announce/201109.mbox/%3C4E805D2E
 http://www.securityfocus.com/bid/26070 Apache Tomcat WebDav Remote Information Disclosure Vulnerability
 http://www.securityfocus.com/bid/46164 Apache Tomcat NIO Connector Denial of Service Vulnerability
 org/apache/catalina/connector/CoyoteAdapter.java in Apache Tomcat 6.0.33 through 6.0.37 does not consider the disableURLRewriting setting when handling a session ID in a URL, which allows remote attackers to conduct session fixation attacks via a crafted URL.
-
-http://www.securityfocus.com/bid/51200 Apache Tomcat Hash Collision Denial Of Service Vulnerability CVE-2011-4858
 
 
 http://markmail.org/search/?q=list%3Aorg.apache.announce/#query:list%3Aorg.apache.announce%2F+page:1+mid:bvdiolcmddjfmx45+state:results vul,cloudstack
@@ -174,9 +173,6 @@ http://seclists.org/fulldisclosure/2014/Mar/44 [ANN] Struts 2.3.16.1 GA release 
 http://seclists.org/fulldisclosure/2014/Apr/250 vul,struts
 
 http://packetstormsecurity.com/files/119530/Apache-CouchDB-1.0.3-1.1.1-1.2.0-Information-Disclosure.html
-
-http://lucene.472066.n3.nabble.com/jira-Created-SOLR-74-Cross-site-scripting-vulnerabilities-td508803.htmls
-
 
 http://lucene.472066.n3.nabble.com/jira-Created-SOLR-74-Cross-site-scripting-vulnerabilities-td508803.htmls
 
@@ -771,8 +767,6 @@ http://vigilance.fr/vulnerabilite/IBM-WebSphere-8-5-multiples-vulnerabilites-152
 
 http://seclists.org/fulldisclosure/2014/Sep/33 jre update vsphere
 
-http://markmail.org/message/wb2w7sjpk25wj43t [SECURITY] CVE-2013-4444 Remote Code Execution in Apache Tomcat
-
 http://blog.ivanristic.com/2014/09/sha1-deprecation-what-you-need-to-know.html
 
 https://www.hkcert.org/my_url/en/alert/14091101
@@ -794,8 +788,6 @@ http://osvdb.org/show/osvdb/103373 mojarra
 http://vigilance.fr/vulnerabilite/IBM-WebSphere-MQ-non-filtrage-de-CHLAUTH-15458
 
 http://osvdb.org/show/osvdb/112483 SpagoBI contains a flaw that is due to the missing FEATURE_SECURE_PROCESSING setting. The issue is triggered when handling an XSL document. With a specially crafted XSL document with embedded Java code, a remote attacker can execute arbitrary Java code.
-
-
 
 http://seclists.org/fulldisclosure/2014/Oct/71 Oracle ADF JSF
 http://vigilance.fr/vulnerabilite/IBM-WebSphere-AS-7-0-multiples-vulnerabilites-15465
@@ -873,7 +865,6 @@ http://lucene.472066.n3.nabble.com/Why-is-Solr-still-shipped-with-Jetty-6-switch
 http://serverfault.com/questions/637649/how-do-i-disable-sslv3-support-in-apache-tomca
 http://blog.akquinet.de/2014/10/17/fight-the-poodle-in-jboss-4-and-5-jon-3-and-more/
 http://stackoverflow.com/questions/26429751/java-http-clients-and-poodle
-
 
 http://seclists.org/fulldisclosure/2014/Nov/61 CVE-2014-8349 LIFERAY Portal Stored XSS
 
@@ -954,8 +945,6 @@ http://osvdb.org/show/osvdb/115997 Thermostat contains a flaw when the system is
 http://osvdb.org/show/osvdb/114603 F5 BIG-IP contains a flaw that allows traversing outside of a restricted path.
 
 http://seclists.org/fulldisclosure/2014/Dec/71 java cms jease
-
-http://netty.io/news/2014/12/17/3-9-6-Final-and-3-10-0-Final.html poodle
 
 http://osvdb.org/show/osvdb/116364 IBM WebSphere Service Registry and Repository (WSRR) contains an unspecified flaw related to access control checks during a retrieve to depth 0
 http://osvdb.org/show/osvdb/116268 nexus
@@ -1057,7 +1046,7 @@ http://seclists.org/bugtraq/2015/Jul/71 ofbiz
 http://seclists.org/bugtraq/2015/Jul/5 magento
 http://seclists.org/bugtraq/2015/Jul/1 jackrabbit security update
 http://seclists.org/bugtraq/2015/Jun/19 libapache-mod-jk security update
-http://seclists.org/bugtraq/2015/May/94 CVE-2014-7810: Apache Tomcat Security Manager Bypass
+
 http://seclists.org/bugtraq/2015/Apr/0 cassandra
 http://seclists.org/bugtraq/2015/Apr/175 openjdk-6 security update
 http://seclists.org/bugtraq/2015/Apr/176 openjdk-7 security update
@@ -1069,7 +1058,6 @@ https://ws.apache.org/wss4j/security_advisories.html
 http://apache-xml-project.6118.n7.nabble.com/Hello-and-XXE-td41747.html
 https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=620560
 
-https://blogs.apache.org/foundation/entry/apache_logging_services_project_announces EOL
 http://dev.eclipse.org/mhonarc/lists/jetty-announce/msg00084.html sec
 http://dev.eclipse.org/mhonarc/lists/jetty-announce/msg00085.html sec
 http://www.cvedetails.com/cve/CVE-2015-4936/
@@ -1083,10 +1071,17 @@ http://jdom-interest.jdom.narkive.com/crw8QK4w/it-s-just-xml-what-could-probably
 https://twitter.com/r_netsec/status/454917490447876096
 http://www.reddit.com/r/netsec/comments/22u7o4/its_just_xml_what_could_probably_go_wrong/
 http://jira.xwiki.org/browse/XCOMMONS-760
-http://x-stream.github.io/news.html  CVE-2013-7285,
+http://x-stream.github.io/news.html  CVE-2013-7285
+
+http://www.cvedetails.com/cve/CVE-2015-1169/ jasig cas
 
 */
-[
+[{"name": "EOL-APACHE-LOG4J-",
+  "level": "EOL",
+  "description": "",
+  "ifs":[{"impact": "org.apache.log4j:log4j", "fix": "org.apache.log4j2 or sl4j"}],
+  "docs": ["https://blogs.apache.org/foundation/entry/apache_logging_services_project_announces EOL"]
+},
 {"name": "EOL-JETTY78-2014-09-25",
 "level": "EOL",
 "description": "",
@@ -1099,6 +1094,12 @@ http://x-stream.github.io/news.html  CVE-2013-7285,
 "ifs":[{"impact": "org.fasterxml.jackson:jackson-databind:1.9.8 2.0.4 2.1", "fix": "1.9.9 2.0.5 2.1.0"}],
 "docs": ["https://github.com/FasterXML/jackson-databind/issues/37"]
 },
+{"name": "2014-12-17-TWITTER-NETTY",
+  "level": "",
+  "description": "Fix SSL POODLE",
+  "ifs":[{"impact": "io.netty", "fix": "3.9.6 Final 3.10.0 Final"}],
+  "docs": ["http://netty.io/news/2014/12/17/3-9-6-Final-and-3-10-0-Final.html"]
+},
 {"name": "2014-05-BEANUTILS-463",
 "level": "",
 "description": "",
@@ -1110,6 +1111,12 @@ http://x-stream.github.io/news.html  CVE-2013-7285,
 "description": "JavaMail SMTP Header Injection via method setSubject [CSNC-2014-001]",
 "ifs":[{"impact": "javax.mail:mail", "fix": "? 15 July 2014"}],
 "docs": ["https://issues.apache.org/jira/browse/EMAIL-124","http://osvdb.org/show/osvdb/107163"," http://vigilance.fr/vulnerabilite/Oracle-JavaMail-injection-d-entete-SMTP-via-setSubject-14768"]
+},
+{"name": "CVE-2014-7810",
+  "level": "",
+  "description": "Apache Tomcat Security Manager Bypass",
+  "ifs":[{"impact": "org.apache.tomcat", "fix": ""}],
+  "docs": ["http://seclists.org/bugtraq/2015/May/94"]
 },
 {"name": "CVE-2014-4172",
 "level": "",
@@ -1542,7 +1549,7 @@ http://x-stream.github.io/news.html  CVE-2013-7285,
 "level": "HIGH",
 "description": "In very limited circumstances, it was possible for an attacker to upload a malicious JSP to a Tomcat server and then trigger the execution of that JSP. While Remote Code Execution would normally be viewed as a critical vulnerability, the circumstances under which this is possible are, in the view of the Tomcat security team, sufficiently limited that this vulnerability is viewed as important.",
 "ifs":[{"impact": "org.apache.tomcat", "fix": "7.0.40"}],
-"docs": ["http://tomcat.apache.org/security-7.html","http://www.cvedetails.com/cve/CVE-2013-2185/","http://vigilance.fr/vulnerabilite/Apache-Tomcat-upload-de-fichier-via-JSP-15327"]
+"docs": ["http://tomcat.apache.org/security-7.html","http://www.cvedetails.com/cve/CVE-2013-2185/","http://vigilance.fr/vulnerabilite/Apache-Tomcat-upload-de-fichier-via-JSP-15327","http://markmail.org/message/wb2w7sjpk25wj43t"]
 },
 {"name": "CVE-2013-4330",
 "level": "MEDIUM",
@@ -1966,7 +1973,7 @@ http://x-stream.github.io/news.html  CVE-2013-7285,
 {"name": "2012-10-07",
 "level": "",
 "description":"",
-"ifs":[{"impact": "org.groovy grizzly", "fix": ""}],
+"ifs":[{"impact": "org.groovy:grizzly", "fix": ""}],
 "docs": ["http://osvdb.org/show/osvdb/102541"]
 },
 {"name": "CVE-2012-0079",
@@ -2034,7 +2041,7 @@ http://x-stream.github.io/news.html  CVE-2013-7285,
 "description": "Apache Tomcat before 5.5.35, 6.x before 6.0.35, and 7.x before 7.0.23 computes hash values for form parameters without restricting the ability to trigger hash collisions predictably, which allows remote attackers to cause a denial of service (CPU consumption) by sending many crafted parameters.",
 "ifs":[{"impact": "org.apache.tomcat:?:.x", "fix": "5.5.35"},
 {"impact": "org.apache.tomcat:?:7.x", "fix": "7.0.23"}],
-"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-4858"]
+"docs": ["http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2011-4858","http://www.securityfocus.com/bid/51200 Apache Tomcat Hash Collision Denial Of Service Vulnerability"]
 },
 {"name": "CVE-2011-4605",
 "level": "",
