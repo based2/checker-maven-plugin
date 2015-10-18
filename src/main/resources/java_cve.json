@@ -1085,6 +1085,33 @@ http://www.reddit.com/r/netsec/comments/22u7o4/its_just_xml_what_could_probably_
 http://jira.xwiki.org/browse/XCOMMONS-760
 http://x-stream.github.io/news.html  CVE-2013-7285,
 
+http://www.cvedetails.com/cve/CVE-2015-1169/ jasig cas
+http://seclists.org/fulldisclosure/2015/Jan/87
+http://seclists.org/bugtraq/2015/Sep/88
+
+http://seclists.org/bugtraq/2015/Aug/161 Jenkins 1.626 - Cross Site Request Forgery / Code Execution
+http://seclists.org/bugtraq/2015/Aug/132 Logstash vulnerability CVE-2015-5619
+
+http://seclists.org/bugtraq/2015/Aug/97 Re: [ERPSCAN-15-013] SAP NetWeaver AS Java CIM UPLOAD �?? XXE
+
+http://seclists.org/bugtraq/2015/Sep/4 CVE-2015-5603: JIRA and the HipChat For JIRA plugin - Velocity Template Injection
+
+http://seclists.org/bugtraq/2015/Sep/69 [CVE-2015-6940] Pentaho GA PDI & GA BA - Improper authentication allows unauthenticated access to configuration files
+
+http://seclists.org/bugtraq/2015/Sep/64 Openfire 3.10.2 CSRF Vulnerabilities
+
+http://seclists.org/bugtraq/2015/Jul/1 [SECURITY] [DSA 3298-1] jackrabbit security update
+
+http://seclists.org/bugtraq/2015/Jul/123 [SECURITY] [DSA 3316-1] openjdk-7 security updatevvvv
+
+http://vigilance.fr/vulnerabilite/Red-Hat-JBoss-Enterprise-Application-Platform-trois-vulnerabilites-18116
+https://rhn.redhat.com/errata/RHSA-2015-1907.html
+
+http://spring.io/blog/2015/10/15/spring-framework-4-2-2-4-1-8-and-3-2-15-available-now sec CVE-2015-5211
+http://pivotal.io/security/cve-2015-5211
+
+http://camel.apache.org/2015/10/09/apache-camel-2160-released.html +600 fixes
+
 */
 [
 {"name": "EOL-JETTY78-2014-09-25",
