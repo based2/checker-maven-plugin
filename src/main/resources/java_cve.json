@@ -1092,6 +1092,25 @@ http://seclists.org/bugtraq/2015/Jul/1 [SECURITY] [DSA 3298-1] jackrabbit securi
 
 http://seclists.org/bugtraq/2015/Jul/123 [SECURITY] [DSA 3316-1] openjdk-7 security updatevvvv
 
+http://vigilance.fr/vulnerabilite/Red-Hat-JBoss-Enterprise-Application-Platform-trois-vulnerabilites-18116
+https://rhn.redhat.com/errata/RHSA-2015-1907.html
+
+http://spring.io/blog/2015/10/15/spring-framework-4-2-2-4-1-8-and-3-2-15-available-now sec CVE-2015-5211
+http://pivotal.io/security/cve-2015-5211
+
+http://camel.apache.org/2015/10/09/apache-camel-2160-released.html +600 fixes
+
+http://benmmurphy.github.io/blog/2015/10/21/zdi-13-075-2013-java-1-dot-7-0-09-sandbox-bypass/
+
+http://vigilance.fr/vulnerabilite/Bouncy-Castle-Oracle-Java-obtention-de-cle-privee-de-courbes-elliptiques-18168
+
+https://webtide.com/jetty-7-and-jetty-8-end-of-life/
+http://www.eclipse.org/jetty/documentation/current/security-reports.html
+
+http://benmmurphy.github.io/blog/2015/10/23/zdi-13-246-2013-java-1-dot-7-0-15-sandbox-bypass-via-objectoutputstream/index.html
+
+spring-jms -> 3.2.14.RELEASE
+http://blog.geoserver.org/2015/10/20/remote-execution-vulnerability/
 */
 [{"name": "EOL-APACHE-LOG4J-",
   "level": "EOL",
