@@ -89,6 +89,7 @@ http://mvnrepository.com/popular
 https://developers.google.com/java-dev-tools/codepro/doc/?hl=fr
 http://findbugs.sourceforge.net/
 http://pmd.sourceforge.net/
+http://h3xstream.github.io/find-sec-bugs/
 
 https://github.com/selesse/jxlint java static analysis
 
@@ -108,7 +109,7 @@ http://codegolf.stackexchange.com/questions/28786/write-a-program-that-makes-2-2
 
 https://github.com/simmel/SecurerString
 http://tersesystems.com/2014/03/02/monkeypatching-java-classes/
-
+http://www.aspectsecurity.com/tools/javasnoop
 
 # QUESTIONS/ANSWERS
 http://stackoverflow.com/questions/10675804/are-hibernate-queries-vulnerable-to-sql-injection
