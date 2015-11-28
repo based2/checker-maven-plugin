@@ -119,6 +119,8 @@ http://security.stackexchange.com/questions/20095/vulnerable-java-applications
 https://www.owasp.org/index.php/Securing_tomcat
 http://h3xstream.github.io/find-sec-bugs/bugs.htm
 
+http://benmmurphy.github.io/blog/2015/10/21/zdi-13-075-2013-java-1-dot-7-0-09-sandbox-bypass/
+
 =======================================================================
 TODO Classification backlog ongoing...
 
@@ -1112,10 +1114,70 @@ http://benmmurphy.github.io/blog/2015/10/23/zdi-13-246-2013-java-1-dot-7-0-15-sa
 spring-jms -> 3.2.14.RELEASE
 http://blog.geoserver.org/2015/10/20/remote-execution-vulnerability/
 
+https://blogs.apache.org/foundation/entry/apache_commons_statement_to_widespread
 http://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/
 https://news.ycombinator.com/item?id=10521381
 http://mail-archives.apache.org/mod_mbox/commons-dev/201511.mbox/%3C20151106222553.00002c57.ecki%40zusammenkunft.net%3E
 https://www.reddit.com/r/netsec/comments/3rrr9z/what_do_weblogic_websphere_jboss_jenkins_opennms/
+https://www.owasp.org/index.php/Information_leak_through_serialization
+https://issues.apache.org/jira/browse/COLLECTIONS-580
+https://blogs.oracle.com/security/entry/security_alert_cve_2015_4852
+https://github.com/Contrast-Security-OSS/contrast-rO0
+https://www.reddit.com/r/netsec/comments/3sogvp/contrastro0_a_better_fix_for_the_java/
+http://www.adventuresinoss.com/2015/11/09/opennms-rmi-exploit/
+https://github.com/kantega/notsoserial
+https://www.directdefense.com/superserial-java-deserialization-burp-extension/
+https://issues.apache.org/jira/browse/SHIRO-550
+http://mail-archives.apache.org/mod_mbox/www-announce/201511.mbox/browser
+> http://mail-archives.apache.org/mod_mbox/www-announce/201511.mbox/%3C5649061A.1050703%40apache.org%3E
+
+https://blog.srcclr.com/spring-social-core-vulnerability-disclosure/
+
+http://jenkins-ci.361315.n4.nabble.com/remotely-executing-commands-td3476417.html
+http://cve.circl.lu/cve/CVE-2015-8103
+http://cve.circl.lu/cve/CVE-2015-5326
+
+http://cve.circl.lu/cve/CVE-2015-7913
+http://cve.circl.lu/cve/CVE-2015-7912
+
+http://cve.circl.lu/cve/CVE-2015-5253 SAML Web SSO module in Apache CXF
+
+http://cve.circl.lu/cve/CVE-2015-4852 WLS Security component in Oracle WebLogic Server 10.3.6.0, 12.1.2.0
+
+http://cve.circl.lu/cve/CVE-2015-7419 IBM WebSphere Portal 8.0.0.1 before CF19 and 8.5.0
+http://cve.circl.lu/cve/CVE-2015-4997
+http://cve.circl.lu/cve/CVE-2014-8912
+
+http://cve.circl.lu/cve/CVE-2015-6555
+
+http://cve.circl.lu/cve/CVE-2015-7940 Bouncy Castle Java library before 1.51 does not validate a point is withing the elliptic curve, which makes it easier for remote attackers to obtain private keys via a series of crafted elliptic curve Diffie Hellman (ECDH) key exchanges, aka an "invalid curve attack."
+
+http://cve.circl.lu/cve/CVE-2015-4940
+http://cve.circl.lu/cve/CVE-2015-4928
+http://cve.circl.lu/cve/CVE-2015-3270
+http://cve.circl.lu/cve/CVE-2015-3186
+http://cve.circl.lu/cve/CVE-2015-3186
+http://cve.circl.lu/cve/CVE-2015-1775
+
+http://cve.circl.lu/cve/CVE-2015-2017 CRLF injection vulnerability in IBM WebSphere Application Server (WAS) 6.1
+
+http://cve.circl.lu/cve/CVE-2015-5262 http/conn/ssl/SSLConnectionSocketFactory.java in Apache HttpComponents HttpClient before 4.3.6 ignores the http.socket.timeout configuration setting during an SSL handshake, which allows remote attackers to cause a denial of service (HTTPS call hang) via unspecified vectors.
+
+https://jenkins-ci.org/content/mitigating-unauthenticated-remote-code-execution-0-day-jenkins-cli
+https://jenkins-ci.org/content/new-jenkins-releases-important-security-fixes
+
+http://cve.circl.lu/cve/CVE-2015-5220 Web Console in Red Hat Enterprise Application Platform (EAP) before 6.4.4 and WildFly (formerly JBoss Application Server) allows remote attackers to cause a denial of service
+http://cve.circl.lu/cve/CVE-2015-5188
+http://cve.circl.lu/cve/CVE-2015-5178
+
+http://cve.circl.lu/cve/CVE-2015-5240
+
+http://cve.circl.lu/cve/CVE-2015-4916
+
+--
+http://cve.circl.lu/cve/CVE-2015-5289 postgresql json
+
+
 */
 [{"name": "EOL-APACHE-LOG4J-",
   "level": "EOL",
