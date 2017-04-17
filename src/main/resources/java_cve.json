@@ -1,5 +1,5 @@
 /* http://www.gnu.org/licenses/fdl.html
-Copyright (C)  2012-2014  Basile Chandesris.
+Copyright (C)  2012-2017  Basile Chandesris.
     Permission is granted to copy, distribute and/or modify this document
     under the terms of the GNU Free Documentation License, Version 1.3
     or any later version published by the Free Software Foundation;
@@ -11,12 +11,11 @@ Copyright (C)  2012-2014  Basile Chandesris.
 
 http://www.cvedetails.com/vulnerability-list/cvssscoremin-9/cvssscoremax-10/vulnerabilities.html
 http://cert.europa.eu/cert/newsletter/en/latest_Security%20Bulletins_.html
-http://osvdb.org/browse/by_disclosure_date
 http://www.sonarsource.org/sonar-to-identify-security-vulnerabilities/
 https://www.owasp.org/index.php/Top_10_2010-Main owasp,netsec,webapp,risks,W
 http://osdir.com/ml/bugtraq.security/2012-04/ vul,source
 https://cassandra.cerias.purdue.edu/CVE_changes/
-http://vigilance.fr/?action=1135154048&langue=1
+https://vigilance.fr/
 
 https://support.springsource.com/security_alerts
 https://support.springsource.com/eol
@@ -36,6 +35,8 @@ http://stackoverflow.com/questions/17671899/when-is-java-6-end-of-life-in-the-co
 
 # TOOLS
 
+https://www.owasp.org/index.php/OWASP_Dependency_Check
+https://github.com/OSSIndex/ossindex-maven-plugin
 http://jeremylong.github.io/DependencyCheck/dependency-check-maven/usage.html
 https://groups.google.com/forum/?fromgroups#!forum/dependency-check
 http://jeremylong.github.io/DependencyCheck/suppression.html
@@ -76,12 +77,15 @@ https://code.google.com/p/forbidden-apis/wiki/MavenUsage
 
 http://vongosling.github.io/dependency-mediator/
 
+https://github.com/timgifford/maven-buildtime-extension
+
 # VERSION SYSTEMS
 
 http://apr.apache.org/versioning.html
 https://github.com/netty/netty/issues/1269
 http://www.javacodegeeks.com/2014/02/version-numbering-scheme-yet-another-approach.html?ModPagespeed=noscript
 https://gist.github.com/laughinghan/009e300626f328792815
+http://bnd.bndtools.org/chapters/170-versioning.html osgi
 
 http://mvnrepository.com/popular
 
@@ -89,6 +93,10 @@ http://mvnrepository.com/popular
 https://developers.google.com/java-dev-tools/codepro/doc/?hl=fr
 http://findbugs.sourceforge.net/
 http://pmd.sourceforge.net/
+http://h3xstream.github.io/find-sec-bugs/
+https://github.com/SonarQubeCommunity/sonar-findbugs
+
+https://github.com/amaembo/huntbugs
 
 https://github.com/selesse/jxlint java static analysis
 
@@ -101,6 +109,9 @@ http://wala.sourceforge.net/wiki/index.php/Main_Page
 
 http://apache-tapestry-mailing-list-archives.1045711.n5.nabble.com/OT-Any-static-code-analysis-tool-td5728699.html
 
+https://github.com/google/error-prone JDK 8
+http://errorprone.info/bugpatterns
+
 --
 http://codegolf.stackexchange.com/questions/28786/write-a-program-that-makes-2-2-5
 
@@ -108,7 +119,8 @@ http://codegolf.stackexchange.com/questions/28786/write-a-program-that-makes-2-2
 
 https://github.com/simmel/SecurerString
 http://tersesystems.com/2014/03/02/monkeypatching-java-classes/
-
+http://www.aspectsecurity.com/tools/javasnoop
+https://github.com/coverity/coverity-security-library/tree/develop/coverity-escapers html escape
 
 # QUESTIONS/ANSWERS
 http://stackoverflow.com/questions/10675804/are-hibernate-queries-vulnerable-to-sql-injection
@@ -366,6 +378,7 @@ http://jforum.net/ http://osvdb.org/show/osvdb/101438 vul,java
 http://jira.pentaho.com/browse/BISERVER-6244 pentaho,vul,201106
 
 http://www.cvedetails.com/vulnerability-list/vendor_id-2114/product_id-12592/Liferay-Portal.html
+http://seclists.org/fulldisclosure/2015/Oct/13
 
 https://bugs.mageia.org/show_bug.cgi?id=6011
 
@@ -1114,6 +1127,8 @@ http://benmmurphy.github.io/blog/2015/10/23/zdi-13-246-2013-java-1-dot-7-0-15-sa
 spring-jms -> 3.2.14.RELEASE
 http://blog.geoserver.org/2015/10/20/remote-execution-vulnerability/
 
+http://seclists.org/fulldisclosure/2015/Oct/83
+
 https://blogs.apache.org/foundation/entry/apache_commons_statement_to_widespread
 http://foxglovesecurity.com/2015/11/06/what-do-weblogic-websphere-jboss-jenkins-opennms-and-your-application-have-in-common-this-vulnerability/
 https://news.ycombinator.com/item?id=10521381
@@ -1130,6 +1145,9 @@ https://www.directdefense.com/superserial-java-deserialization-burp-extension/
 https://issues.apache.org/jira/browse/SHIRO-550
 http://mail-archives.apache.org/mod_mbox/www-announce/201511.mbox/browser
 > http://mail-archives.apache.org/mod_mbox/www-announce/201511.mbox/%3C5649061A.1050703%40apache.org%3E
+http://seclists.org/bugtraq/2015/Nov/122
+http://blog.h3xstream.com/2016/01/deserialization-vulnerability.html
+http://activemq.apache.org/security-advisories.data/CVE-2015-5254-announcement.txt
 
 https://blog.srcclr.com/spring-social-core-vulnerability-disclosure/
 
@@ -1174,8 +1192,39 @@ http://cve.circl.lu/cve/CVE-2015-5240
 
 http://cve.circl.lu/cve/CVE-2015-4916
 
+http://seclists.org/bugtraq/2015/Nov/5
+
+http://seclists.org/bugtraq/2015/Jul/82
+http://seclists.org/bugtraq/2015/Jul/83
+http://seclists.org/bugtraq/2015/Jun/53
+http://seclists.org/bugtraq/2015/Nov/6 eol elasticsearch debian
+
+http://seclists.org/bugtraq/2015/Jul/1 jackrabbit webdav
+http://seclists.org/bugtraq/2015/Jul/78 apache groovy
+
+http://seclists.org/bugtraq/2015/Jul/86 Oracle E-Business Suite Servlet URL Redirection Vulnerability
+
+http://fr.slideshare.net/0ang3el/orm2pwn-exploiting-injections-in-hibernate-orm
+
+http://seclists.org/fulldisclosure/2016/Jun/11 XML External Entity XXE vulnerability in OpenID component of Liferay
+https://vigilance.fr/vulnerabilite/IBM-WebSphere-MQ-quatre-vulnerabilites-19709
+CVE-2016-2175
+CVE-2016-3088
+http://dev.eclipse.org/mhonarc/lists/jetty-announce/msg00091.html highly recommended that all jetty 9.3.x users upgrade to 9.3.9
+https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=797275 CVE-2015-6748: XSS vulnerability in jsoup related to incomplete tags at EOF
+https://vigilance.fr/vulnerabilite/Apache-Struts-deni-de-service-via-le-cache-de-OGNL-19750
+http://mail-archives.apache.org/mod_mbox/tapestry-users/201605.mbox/%3CCA%2B%3DEWnCh%3DUf9sNTu5ZD6B4KAOe5q1b4uDQXjtduyiVTWkkHiLw%40mail.gmail.com%3E
+https://portals.apache.org/jetspeed-2/security-reports.html
+http://mail-archives.apache.org/mod_mbox/www-announce/201605.mbox/%3CCAM4V2B5_BezTgt%2BviiLJn8RVQVFhHVSeh%3DA47jhDfynWVe00RA%40mail.gmail.com%3E
+
+https://issues.apache.org/jira/browse/VELTOOLS-169
+
+http://mail-archives.apache.org/mod_mbox/www-announce/201701.mbox/%3CCADRx3PMZ2hBCGDTY35zYXFGaDnjAs0tc5-upaVs6QN2sYUejyA%40mail.gmail.com%3E groovy
+
 --
 http://cve.circl.lu/cve/CVE-2015-5289 postgresql json
+
+
 
 
 */
