@@ -1230,10 +1230,6 @@ http://mail-archives.apache.org/mod_mbox/www-announce/201607.mbox/%3CCAFitrpQuqh
 http://mail-archives.apache.org/mod_mbox/www-announce/201606.mbox/%3C45A20804-ABFF-4FED-A297-69AC95AB9A3F%40apache.org%3E
 --
 http://cve.circl.lu/cve/CVE-2015-5289 postgresql json
-
-
-
-
 */
 [{"name": "EOL-APACHE-LOG4J-",
   "level": "EOL",

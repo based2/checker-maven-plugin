@@ -128,7 +128,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
           <artifactId>slf4j-api</artifactId>
           <version>${slf4j-release-version}</version>
       </dependency>
-
       <dependency>
           <groupId>org.slf4j</groupId>
           <artifactId>slf4j-log4j12</artifactId>
@@ -181,10 +180,10 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
          <scope>test</scope>
      </dependency>
      <dependency>
-             <groupId>org.mockito</groupId>
-             <artifactId>mockito-core</artifactId>
-             <version>1.9.0</version>
-             <scope>test</scope>
+         <groupId>org.mockito</groupId>
+         <artifactId>mockito-core</artifactId>
+         <version>1.9.0</version>
+         <scope>test</scope>
      </dependency>
      <dependency>
 	    <groupId>org.hamcrest</groupId>
@@ -204,10 +203,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
       <repository>
        <id>maven</id>
        <url>http://repo2.maven.org/maven2/</url>
-      </repository>
-      <repository>
-       <id>maven UK</id>
-       <url>http://uk.maven.org/maven2/</url>
       </repository>
       <repository>
             <id>mojo-executor-repository</id>
