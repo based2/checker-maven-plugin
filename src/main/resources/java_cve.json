@@ -337,7 +337,15 @@ http://jira.codehaus.org/browse/GROOVY-6210
 http://hal.inria.fr/inria-00322138 osgi
 http://vmkit.llvm.org/publications/osgi_dsn.html
 
-- scala
+- Jenkins
+CVE-2019-10321/22/23/24 =< Jenkins Artifactory Plugin 3.2.2
+CVE-2019-10325/26i =< Jenkins Warnings NG Plugin 5.0.0
+CVE-2019-10327 =< XXE Jenkins Pipeline Maven Integration Plugin 1.7.0
+CVE-2019-10328 =< Jenkins Pipeline Remote Loader Plugin 1.4
+CVE-2019-10329 =< Jenkins InfluxDB Plugin 1.21
+CVE-2019-10330 =< Jenkins Gitea Plugin 1.1.1
+
+- Scala
  https://play.lighthouseapp.com/projects/57987/tickets/1353-play-124-vulnerable-to-hash-collision-attack vul,play
  https://groups.google.com/forum/#!msg/spray-user/snR1lojX3vU/--aMyhhmy3wJ spray vulnerability
  http://www.playframework.com/security/vulnerability/20130806-SessionInjection
