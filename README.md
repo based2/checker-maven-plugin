@@ -1,4 +1,4 @@
-# You, now should be using
+# Use now
 * (https://www.owasp.org/index.php/OWASP_Dependency_Check) (https://search.maven.org/artifact/org.owasp/dependency-check-maven/5.2.1/maven-plugin)
 * (https://spotbugs.github.io/) (https://find-sec-bugs.github.io/)
 ** (https://errorprone.info/ https://github.com/google/error-prone)
