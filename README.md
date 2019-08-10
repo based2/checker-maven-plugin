@@ -1,3 +1,12 @@
+# You, now should be using
+* (https://www.owasp.org/index.php/OWASP_Dependency_Check) (https://search.maven.org/artifact/org.owasp/dependency-check-maven/5.2.1/maven-plugin)
+* (https://spotbugs.github.io/) (https://find-sec-bugs.github.io/)
+** (https://errorprone.info/ https://github.com/google/error-prone)
+* if github: (https://github.com/marketplace/dependabot-preview)  - Maven is in beta
+* (https://github.com/meitar/awesome-cybersecurity-blueteam)
+* (https://github.com/STAMP-project/dspot)
+* (http://mvnrepository.com/)
+
 # Maven Security checker plugin for Java Maven dependencies
 
  Analyzes your Java Maven Project dependencies for security issues and technical debts (CVE/EOL/+).
@@ -6,19 +15,28 @@
 * [redhat victims](https://securityblog.redhat.com/2014/02/05/embedded-vulnerability-detection-command-line-tool/)
 * [Crowdsourcing Security Brief of Sonatype](http://www.sonatype.com/people/2012/03/todays-security-brief-application-security-is-widely-neglected-by-some-surprising-companies/)
 
-## Sources: Net and ...
+## Sources
 
+* (https://access.redhat.com/security/security-updates/#/)
+* (https://aws.amazon.com/fr/security/security-bulletins/)
+* (https://www.microsoft.com/en-us/msrc/technical-security-notifications)
+* (http://www.oracle.com/technetwork/topics/security/alerts-086861.html)
+* (https://blogs.oracle.com/sunsecurity/)
+* (https://security-tracker.debian.org/tracker/)
+* (https://support.apple.com/en-us/HT201222)
 
-* (https://cassandra.cerias.purdue.edu/CVE_changes/)
-* (http://osvdb.org/browse/by_disclosure_date)
-** (http://osvdb.org/search?page=2&search[text_type]=alltext&search[vuln_title]=Java)
+* (https://www.cvedetails.com/)
+* (https://www.talosintelligence.com/vulnerability_info)
+* (https://googleprojectzero.blogspot.com/)
+
+* (https://vigilance.fr/)
+
+* (http://cert.europa.eu/cert/newsletter/en/latest_Security%20Bulletins_.html)
+** (http://cert.europa.eu/cert/filteredition/en/CERT-LatestNews.html)
 * (http://osdir.com/ml/bugtraq.security/)
-* (https://cassandra.cerias.purdue.edu/CVE_changes/)
 * (https://www.us-cert.gov/cas/bulletins/)
 * (http://www.cert.org.cn/publish/english/115/index.html)
 * (http://www.jpcert.or.jp/english/)
-* (http://cert.europa.eu/cert/newsletter/en/latest_Security%20Bulletins_.html)
-** (http://cert.europa.eu/cert/filteredition/en/CERT-LatestNews.html)
 * (https://www.buerger-cert.de/archive)
 * (http://www.certa.ssi.gouv.fr/)
 * (https://www.cert.be/pro/advisories/software/java)
@@ -30,14 +48,13 @@
 * (http://www.cert.fi/en/reports.html)
 * (http://www.securitepublique.gc.ca/cnt/rsrcs/cybr-ctr/index-fra.aspx)
 * (https://www.cert.fi/en/reports.html)
+* (https://cassandra.cerias.purdue.edu/CVE_changes/)
 
 
 
-* (http://www.oracle.com/technetwork/topics/security/alerts-086861.html)
-* (https://blogs.oracle.com/sunsecurity/)
-* (https://security-tracker.debian.org/tracker/)
 
-* (http://mvnrepository.com/)
+
+
 
 Notes:
 http://maven.apache.org/plugins/maven-project-info-reports-plugin/xref/index.html
