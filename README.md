@@ -4,7 +4,7 @@
 (https://search.maven.org/artifact/org.owasp/dependency-check-maven/5.2.1/maven-plugin)
 * (https://spotbugs.github.io/) (https://find-sec-bugs.github.io/)
 * * (https://errorprone.info/ https://github.com/google/error-prone)
-* if github: (https://github.com/marketplace/dependabot-preview)  - Maven is in beta
+* if github: (https://dependabot.com/) https://github.com/dependabot
 * (https://github.com/meitar/awesome-cybersecurity-blueteam)
 * (https://github.com/STAMP-project/dspot)
 * (http://mvnrepository.com/)
